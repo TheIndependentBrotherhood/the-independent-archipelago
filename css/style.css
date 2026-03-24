@@ -117,17 +117,27 @@ header p {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  min-height: 40px;
+}
+
+.user-group-todo {
+  flex: 1;
+}
+
+.user-group-completed {
+  flex-shrink: 0;
 }
 
 .user-bubble {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   padding: 10px 12px;
   border-radius: 20px;
   cursor: pointer;
   transition: opacity 0.2s, transform 0.2s;
   font-size: 1rem;
+  width: fit-content;
 }
 
 .user-bubble:hover {
@@ -155,7 +165,16 @@ header p {
 .avatars-inline {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: -2px;
+  margin-left: -2px;
+}
+
+.avatars-inline .user-emoji {
+  margin-left: -4px;
+}
+
+.avatars-inline .user-emoji:first-child {
+  margin-left: 0;
 }
 
 .user-emoji {

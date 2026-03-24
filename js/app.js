@@ -58,15 +58,19 @@ function createGameCard(game) {
       <p>${game.description}</p>
       <div class="game-meta">
         <div class="status-line">
-          ${game.todo.length > 0 ? `<div class="user-bubble todo-bubble" onclick="showUsers('todo-${game.id}')">
-            <i class="fas fa-list-check"></i>
-            <div class="avatars-inline">${todoBadges}${todoExtra > 0 ? `<span class="extra-count">+${todoExtra}</span>` : ''}</div>
-          </div>` : ''}
+          <div class="user-group-todo">
+            ${game.todo.length > 0 ? `<div class="user-bubble todo-bubble" onclick="showUsers('todo-${game.id}')">
+              <i class="fas fa-list-check"></i>
+              <div class="avatars-inline">${todoBadges}${todoExtra > 0 ? `<span class="extra-count">+${todoExtra}</span>` : ''}</div>
+            </div>` : ''}
+          </div>
           
-          ${game.completed.length > 0 ? `<div class="user-bubble completed-bubble" onclick="showUsers('completed-${game.id}')">
-            <i class="fas fa-check-circle"></i>
-            <div class="avatars-inline">${completedBadges}${completedExtra > 0 ? `<span class="extra-count">+${completedExtra}</span>` : ''}</div>
-          </div>` : ''}
+          <div class="user-group-completed">
+            ${game.completed.length > 0 ? `<div class="user-bubble completed-bubble" onclick="showUsers('completed-${game.id}')">
+              <i class="fas fa-check-circle"></i>
+              <div class="avatars-inline">${completedBadges}${completedExtra > 0 ? `<span class="extra-count">+${completedExtra}</span>` : ''}</div>
+            </div>` : ''}
+          </div>
         </div>
       </div>
       <a href="${game.url}" target="_blank" class="game-link">View Details</a>
