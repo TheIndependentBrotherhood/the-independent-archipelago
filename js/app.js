@@ -1,6 +1,17 @@
 // Load games data and render
+let usersMap = {};
+
 async function loadGames() {
   try {
+    // Load users first
+    const usersResponse = await fetch('data/users.json');
+    const usersData = await usersResponse.json();
+    usersMap = {};
+    usersData.users.forEach(user => {
+      usersMap[user.id] = user;
+    });
+
+    // Load games
     const response = await fetch('data/games.json');
     const data = await response.json();
     renderGames(data.games);
@@ -26,16 +37,23 @@ function renderGames(games) {
 
 // Create a game card HTML
 function createGameCard(game) {
-  const difficultyClass = `difficulty-${game.difficulty.toLowerCase().replace(/\s+/g, '-')}`;
-  
+  const completedUsers = game.completed.map(userId => {
+    const user = usersMap[userId];
+    return `<span class="user-badge completed" title="${user?.pseudo || userId}">${user?.emoji || '👤'}</span>`;
+  }).join('');
+
+  const todoUsers = game.todo.map(userId => {
+    const user = usersMap[userId];
+    return `<span class="user-badge todo" title="${user?.pseudo || userId}">${user?.emoji || '👤'}</span>`;
+  }).join('');
+
   return `
     <div class="game-card">
       <h3>${game.name}</h3>
       <p>${game.description}</p>
       <div class="game-meta">
-        <span class="tag ${difficultyClass}">${game.difficulty}</span>
-        <span class="tag">${game.genre}</span>
-        <span class="tag">${game.players}</span>
+        ${game.completed.length > 0 ? `<div class="status-group"><strong>Completed:</strong> ${completedUsers}</div>` : ''}
+        ${game.todo.length > 0 ? `<div class="status-group"><strong>To Do:</strong> ${todoUsers}</div>` : ''}
       </div>
       <a href="${game.url}" target="_blank" class="game-link">View Details</a>
     </div>
@@ -51,8 +69,7 @@ document.getElementById('searchInput').addEventListener('input', async (e) => {
   
   const filtered = data.games.filter(game => 
     game.name.toLowerCase().includes(query) ||
-    game.description.toLowerCase().includes(query) ||
-    game.genre.toLowerCase().includes(query)
+    game.description.toLowerCase().includes(query)
   );
   
   renderGames(filtered);

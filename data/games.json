@@ -5,60 +5,48 @@
       "name": "Elden Ring",
       "url": "https://archipelago.gg/games/Elden%20Ring/info/en",
       "description": "A masterpiece of action RPG gameplay. Explore the Lands Between with randomized bosses and loot.",
-      "difficulty": "Hard",
-      "players": "1",
-      "genre": "Action RPG",
-      "status": "Active"
+      "completed": ["pomme"],
+      "todo": ["user2"]
     },
     {
       "id": "ocarina-of-time",
       "name": "The Legend of Zelda: Ocarina of Time",
       "url": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
       "description": "Classic N64 Zelda adventure with randomized dungeons and items.",
-      "difficulty": "Medium",
-      "players": "1",
-      "genre": "Adventure RPG",
-      "status": "Active"
+      "completed": [],
+      "todo": ["pomme"]
     },
     {
       "id": "super-metroid",
       "name": "Super Metroid",
       "url": "https://archipelago.gg/games/Super%20Metroid/info/en",
       "description": "Space exploration action-adventure with randomized power-ups and routes.",
-      "difficulty": "Medium",
-      "players": "1",
-      "genre": "Metroidvania",
-      "status": "Active"
+      "completed": ["pomme"],
+      "todo": []
     },
     {
       "id": "minecraft",
       "name": "Minecraft",
       "url": "https://archipelago.gg/games/Minecraft/info/en",
       "description": "Sandbox adventure with randomized progression and linked worlds.",
-      "difficulty": "Easy",
-      "players": "Multiplayer",
-      "genre": "Sandbox",
-      "status": "Active"
+      "completed": [],
+      "todo": ["pomme", "user2"]
     },
     {
       "id": "stardew-valley",
       "name": "Stardew Valley",
       "url": "https://archipelago.gg/games/Stardew%20Valley/info/en",
       "description": "Farming life simulation with randomized relationships and objectives.",
-      "difficulty": "Easy",
-      "players": "1",
-      "genre": "Simulation",
-      "status": "Active"
+      "completed": ["pomme"],
+      "todo": []
     },
     {
       "id": "dark-souls-3",
       "name": "Dark Souls III",
       "url": "https://archipelago.gg/games/Dark%20Souls%20III/info/en",
       "description": "Challenging action RPG with randomized bosses and loot progression.",
-      "difficulty": "Very Hard",
-      "players": "1",
-      "genre": "Action RPG",
-      "status": "Active"
+      "completed": [],
+      "todo": ["user2"]
     }
   ]
 }

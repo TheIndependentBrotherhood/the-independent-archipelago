@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "pomme",
+      "pseudo": "Pomme",
+      "emoji": "🍎"
+    },
+    {
+      "id": "user2",
+      "pseudo": "User2",
+      "emoji": "🎮"
+    }
+  ]
+}
