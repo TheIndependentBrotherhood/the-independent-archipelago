@@ -84,6 +84,7 @@ header p {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .game-card:hover {
@@ -111,50 +112,111 @@ header p {
   margin-bottom: 15px;
 }
 
-.status-group {
+.status-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-bubble {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.9rem;
+  padding: 10px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+  font-size: 1rem;
 }
 
-.status-group i {
-  font-size: 1.1rem;
+.user-bubble:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.user-bubble i {
+  font-size: 1rem;
   flex-shrink: 0;
 }
 
-.status-group i.fa-check-circle {
-  color: #28a745;
-}
-
-.status-group i.fa-list-check {
-  color: #ffc107;
-}
-
-.user-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  font-size: 1.2rem;
-  cursor: help;
-  transition: transform 0.2s;
-}
-
-.user-badge:hover {
-  transform: scale(1.2);
-}
-
-.user-badge.completed {
-  background-color: #d4edda;
-  border: 2px solid #28a745;
-}
-
-.user-badge.todo {
+.todo-bubble {
   background-color: #fff3cd;
   border: 2px solid #ffc107;
+  color: #856404;
+}
+
+.completed-bubble {
+  background-color: #d4edda;
+  border: 2px solid #28a745;
+  color: #155724;
+}
+
+.avatars-inline {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.user-emoji {
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.extra-count {
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+/* Modal */
+.modal {
+  position: absolute;
+  bottom: -220px;
+  left: 0;
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  min-width: 200px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content h4 {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.modal-content h4 i {
+  font-size: 0.9rem;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.user-item {
+  font-size: 0.9rem;
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .game-link {

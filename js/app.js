@@ -37,14 +37,19 @@ function renderGames(games) {
 
 // Create a game card HTML
 function createGameCard(game) {
-  const completedUsers = game.completed.map(userId => {
+  const allCompleted = game.completed.slice(0, 3);
+  const allTodo = game.todo.slice(0, 3);
+  const completedExtra = Math.max(0, game.completed.length - 3);
+  const todoExtra = Math.max(0, game.todo.length - 3);
+
+  const completedBadges = allCompleted.map(userId => {
     const user = usersMap[userId];
-    return `<span class="user-badge completed" title="${user?.pseudo || userId}">${user?.emoji || '👤'}</span>`;
+    return `<span class="user-emoji" title="${user?.pseudo || userId}">${user?.emoji || '👤'}</span>`;
   }).join('');
 
-  const todoUsers = game.todo.map(userId => {
+  const todoBadges = allTodo.map(userId => {
     const user = usersMap[userId];
-    return `<span class="user-badge todo" title="${user?.pseudo || userId}">${user?.emoji || '👤'}</span>`;
+    return `<span class="user-emoji" title="${user?.pseudo || userId}">${user?.emoji || '👤'}</span>`;
   }).join('');
 
   return `
@@ -52,12 +57,55 @@ function createGameCard(game) {
       <h3>${game.name}</h3>
       <p>${game.description}</p>
       <div class="game-meta">
-        ${game.completed.length > 0 ? `<div class="status-group"><i class="fas fa-check-circle" title="Completed"></i> ${completedUsers}</div>` : ''}
-        ${game.todo.length > 0 ? `<div class="status-group"><i class="fas fa-list-check" title="To Do"></i> ${todoUsers}</div>` : ''}
+        <div class="status-line">
+          ${game.todo.length > 0 ? `<div class="user-bubble todo-bubble" onclick="showUsers('todo-${game.id}')">
+            <i class="fas fa-list-check"></i>
+            <div class="avatars-inline">${todoBadges}${todoExtra > 0 ? `<span class="extra-count">+${todoExtra}</span>` : ''}</div>
+          </div>` : ''}
+          
+          ${game.completed.length > 0 ? `<div class="user-bubble completed-bubble" onclick="showUsers('completed-${game.id}')">
+            <i class="fas fa-check-circle"></i>
+            <div class="avatars-inline">${completedBadges}${completedExtra > 0 ? `<span class="extra-count">+${completedExtra}</span>` : ''}</div>
+          </div>` : ''}
+        </div>
       </div>
       <a href="${game.url}" target="_blank" class="game-link">View Details</a>
+      
+      ${game.todo.length > 0 ? `<div id="todo-${game.id}" class="modal hidden">
+        <div class="modal-content">
+          <h4><i class="fas fa-list-check"></i> To Do</h4>
+          <div class="users-list">
+            ${game.todo.map(userId => {
+              const user = usersMap[userId];
+              return `<div class="user-item">${user?.emoji || '👤'} ${user?.pseudo || userId}</div>`;
+            }).join('')}
+          </div>
+        </div>
+      </div>` : ''}
+      
+      ${game.completed.length > 0 ? `<div id="completed-${game.id}" class="modal hidden">
+        <div class="modal-content">
+          <h4><i class="fas fa-check-circle"></i> Completed</h4>
+          <div class="users-list">
+            ${game.completed.map(userId => {
+              const user = usersMap[userId];
+              return `<div class="user-item">${user?.emoji || '👤'} ${user?.pseudo || userId}</div>`;
+            }).join('')}
+          </div>
+        </div>
+      </div>` : ''}
     </div>
   `;
+}
+
+// Show users modal
+function showUsers(modalId) {
+  const modal = document.getElementById(modalId);
+  if (modal.classList.contains('hidden')) {
+    modal.classList.remove('hidden');
+  } else {
+    modal.classList.add('hidden');
+  }
 }
 
 // Search functionality
@@ -88,3 +136,12 @@ function updateLastUpdated() {
 
 // Load games when page loads
 document.addEventListener('DOMContentLoaded', loadGames);
+
+// Close modals when clicking outside
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.user-group') && !e.target.closest('.modal')) {
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.classList.add('hidden');
+    });
+  }
+});
