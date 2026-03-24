@@ -52,8 +52,8 @@ function createGameCard(game) {
       <h3>${game.name}</h3>
       <p>${game.description}</p>
       <div class="game-meta">
-        ${game.completed.length > 0 ? `<div class="status-group"><strong>Completed:</strong> ${completedUsers}</div>` : ''}
-        ${game.todo.length > 0 ? `<div class="status-group"><strong>To Do:</strong> ${todoUsers}</div>` : ''}
+        ${game.completed.length > 0 ? `<div class="status-group"><i class="fas fa-check-circle" title="Completed"></i> ${completedUsers}</div>` : ''}
+        ${game.todo.length > 0 ? `<div class="status-group"><i class="fas fa-list-check" title="To Do"></i> ${todoUsers}</div>` : ''}
       </div>
       <a href="${game.url}" target="_blank" class="game-link">View Details</a>
     </div>
