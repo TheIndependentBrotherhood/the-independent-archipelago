@@ -1,14 +1,44 @@
 {
   "users": [
     {
-      "id": "pomme",
-      "pseudo": "Pomme",
+      "id": "minipomme",
+      "pseudo": "Pom'",
       "emoji": "🍎"
     },
     {
-      "id": "user2",
-      "pseudo": "User2",
-      "emoji": "🎮"
+      "id": "moonmoon",
+      "pseudo": "Moon Moon",
+      "emoji": "🐺"
+    },
+    {
+      "id": "miniviruce",
+      "pseudo": "Mini Viruce",
+      "emoji": "👽"
+    },
+    {
+      "id": "lifestomper",
+      "pseudo": "Life",
+      "emoji": "🌱"
+    },
+    {
+      "id": "matwands",
+      "pseudo": "Math",
+      "emoji": "🪄"
+    },
+    {
+      "id": "todiun",
+      "pseudo": "Todiun",
+      "emoji": "🤏"
+    },
+    {
+      "id": "sid",
+      "pseudo": "Sid",
+      "emoji": "🧊"
+    },
+    {
+      "id": "falclone",
+      "pseudo": "Falclone",
+      "emoji": "🦅"
     }
   ]
 }
