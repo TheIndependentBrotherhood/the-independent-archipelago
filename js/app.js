@@ -1,5 +1,8 @@
 // Load games data and render
 let usersMap = {};
+let allGames = [];
+let selectedTodoFilter = null;
+let selectedCompletedFilter = null;
 
 async function loadGames() {
   try {
@@ -14,6 +17,11 @@ async function loadGames() {
     // Load games
     const response = await fetch('data/games.json');
     const data = await response.json();
+    allGames = data.games;
+    
+    // Initialize filters
+    initializeFilters(data.games);
+    
     renderGames(data.games);
     updateLastUpdated();
   } catch (error) {
@@ -21,6 +29,79 @@ async function loadGames() {
     document.getElementById('gamesContainer').innerHTML = 
       '<div class="no-results">Error loading games. Please try again later.</div>';
   }
+}
+
+function initializeFilters(games) {
+  // Get all unique users in todo and completed
+  const todoUsers = new Set();
+  const completedUsers = new Set();
+  
+  games.forEach(game => {
+    game.todo.forEach(userId => todoUsers.add(userId));
+    game.completed.forEach(userId => completedUsers.add(userId));
+  });
+  
+  // Create filter buttons for todo
+  const todoFilterContainer = document.getElementById('todoUserFilter');
+  todoFilterContainer.innerHTML = '';
+  todoUsers.forEach(userId => {
+    const user = usersMap[userId];
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.textContent = `${user.emoji} ${user.pseudo}`;
+    btn.addEventListener('click', () => toggleTodoFilter(userId, btn));
+    todoFilterContainer.appendChild(btn);
+  });
+  
+  // Create filter buttons for completed
+  const completedFilterContainer = document.getElementById('completedUserFilter');
+  completedFilterContainer.innerHTML = '';
+  completedUsers.forEach(userId => {
+    const user = usersMap[userId];
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn';
+    btn.textContent = `${user.emoji} ${user.pseudo}`;
+    btn.addEventListener('click', () => toggleCompletedFilter(userId, btn));
+    completedFilterContainer.appendChild(btn);
+  });
+}
+
+function toggleTodoFilter(userId, btn) {
+  if (selectedTodoFilter === userId) {
+    selectedTodoFilter = null;
+    btn.classList.remove('active');
+  } else {
+    document.querySelectorAll('#todoUserFilter .filter-btn.active').forEach(b => b.classList.remove('active'));
+    selectedTodoFilter = userId;
+    btn.classList.add('active');
+  }
+  applyFilters();
+}
+
+function toggleCompletedFilter(userId, btn) {
+  if (selectedCompletedFilter === userId) {
+    selectedCompletedFilter = null;
+    btn.classList.remove('active');
+  } else {
+    document.querySelectorAll('#completedUserFilter .filter-btn.active').forEach(b => b.classList.remove('active'));
+    selectedCompletedFilter = userId;
+    btn.classList.add('active');
+  }
+  applyFilters();
+}
+
+function applyFilters() {
+  let filtered = allGames;
+  
+  if (selectedTodoFilter) {
+    filtered = filtered.filter(game => game.todo.includes(selectedTodoFilter));
+  }
+  
+  if (selectedCompletedFilter) {
+    filtered = filtered.filter(game => game.completed.includes(selectedCompletedFilter));
+  }
+  
+  renderGames(filtered);
 }
 
 // Render games to the DOM
@@ -116,13 +197,22 @@ function showUsers(modalId) {
 document.getElementById('searchInput').addEventListener('input', async (e) => {
   const query = e.target.value.toLowerCase();
   
-  const response = await fetch('data/games.json');
-  const data = await response.json();
+  let filtered = allGames;
   
-  const filtered = data.games.filter(game => 
-    game.name.toLowerCase().includes(query) ||
-    game.description.toLowerCase().includes(query)
-  );
+  if (query) {
+    filtered = filtered.filter(game => 
+      game.name.toLowerCase().includes(query) ||
+      game.description.toLowerCase().includes(query)
+    );
+  }
+  
+  if (selectedTodoFilter) {
+    filtered = filtered.filter(game => game.todo.includes(selectedTodoFilter));
+  }
+  
+  if (selectedCompletedFilter) {
+    filtered = filtered.filter(game => game.completed.includes(selectedCompletedFilter));
+  }
   
   renderGames(filtered);
 });
