@@ -5,8 +5,8 @@
       "name": "Elden Ring",
       "url": "https://archipelago.gg/games/Elden%20Ring/info/en",
       "description": "A masterpiece of action RPG gameplay. Explore the Lands Between with randomized bosses and loot.",
-      "completed": ["pomme"],
-      "todo": ["user2"]
+      "completed": ["minipomme"],
+      "todo": []
     },
     {
       "id": "ocarina-of-time",
@@ -14,14 +14,14 @@
       "url": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
       "description": "Classic N64 Zelda adventure with randomized dungeons and items.",
       "completed": [],
-      "todo": ["pomme"]
+      "todo": ["minipomme"]
     },
     {
       "id": "super-metroid",
       "name": "Super Metroid",
       "url": "https://archipelago.gg/games/Super%20Metroid/info/en",
       "description": "Space exploration action-adventure with randomized power-ups and routes.",
-      "completed": ["pomme"],
+      "completed": ["minipomme"],
       "todo": []
     },
     {
@@ -30,14 +30,14 @@
       "url": "https://archipelago.gg/games/Minecraft/info/en",
       "description": "Sandbox adventure with randomized progression and linked worlds.",
       "completed": [],
-      "todo": ["pomme", "user2"]
+      "todo": ["minipomme", "todiun"]
     },
     {
       "id": "stardew-valley",
       "name": "Stardew Valley",
       "url": "https://archipelago.gg/games/Stardew%20Valley/info/en",
       "description": "Farming life simulation with randomized relationships and objectives.",
-      "completed": ["pomme"],
+      "completed": ["minipomme"],
       "todo": []
     },
     {
@@ -46,7 +46,7 @@
       "url": "https://archipelago.gg/games/Dark%20Souls%20III/info/en",
       "description": "Challenging action RPG with randomized bosses and loot progression.",
       "completed": [],
-      "todo": ["user2"]
+      "todo": ["todiun"]
     }
   ]
 }
