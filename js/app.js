@@ -319,7 +319,6 @@ function createGameCard(game) {
   return `
     <div class="game-card">
       <h3>${game.name}</h3>
-      <p>${game.description}</p>
       <div class="game-meta">
         <div class="status-line">
           <div class="user-group-todo status-left">

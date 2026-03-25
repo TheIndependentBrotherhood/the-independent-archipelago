@@ -148,7 +148,7 @@ header p {
 
 .games-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -157,14 +157,31 @@ header p {
   background: var(--card-bg);
   border: 1px solid var(--border-color);
   border-radius: 12px;
-  padding: 20px;
+  padding: 15px;
   transition:
     transform 0.2s,
     box-shadow 0.2s;
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: relative;
+  overflow: hidden;
+  aspect-ratio: 9 / 16;
+  max-height: 360px;
+}
+
+.game-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../assets/archipelago.png);
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
 }
 
 .game-card:hover {
@@ -173,50 +190,47 @@ header p {
 }
 
 .game-card h3 {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: var(--primary-color);
-  font-size: 1.3rem;
-}
-
-.game-card p {
-  font-size: 0.95rem;
-  color: #666;
-  margin-bottom: 15px;
-  flex-grow: 1;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1;
 }
 
 .game-meta {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 15px;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  justify-content: center;
 }
 
 .status-line {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  min-height: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
   width: 100%;
 }
 
 .user-group-todo {
-  flex: 0 1 auto;
+  flex: none;
   display: flex;
   justify-content: flex-start;
 }
 
 .user-group-inprogress {
-  flex: 1;
+  flex: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .user-group-completed {
-  flex: 0 1 auto;
+  flex: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .status-left {
@@ -377,6 +391,8 @@ header p {
   display: flex;
   gap: 8px;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .btn-icon {
