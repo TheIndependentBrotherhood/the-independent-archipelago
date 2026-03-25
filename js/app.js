@@ -1,7 +1,6 @@
 // Load games data and render
 let usersMap = {};
 let allGames = [];
-let twitchMapping = {};
 let selectedTodoFilters = new Set();
 let selectedInProgressFilters = new Set();
 let selectedCompletedFilters = new Set();
@@ -16,15 +15,6 @@ async function loadGames() {
     usersData.users.forEach((user) => {
       usersMap[user.id] = user;
     });
-
-    // Load Twitch games mapping
-    try {
-      const twitchResponse = await fetch("data/twitch_games_mapping.json");
-      twitchMapping = await twitchResponse.json();
-    } catch (error) {
-      console.warn("Could not load Twitch games mapping:", error);
-      twitchMapping = {};
-    }
 
     // Load games
     const response = await fetch("data/games.json");
@@ -294,6 +284,9 @@ function renderGames(games) {
 
   resultsCount.textContent = `${games.length} game${games.length !== 1 ? "s" : ""} found`;
   container.innerHTML = games.map((game) => createGameCard(game)).join("");
+
+  // Validate Twitch images after rendering
+  validateTwitchImages();
 }
 
 // Create a game card HTML
@@ -326,14 +319,17 @@ function createGameCard(game) {
     })
     .join("");
 
-  const twitchId = twitchMapping[game.name];
+  const twitchId = game.twitchId;
   const backgroundStyle = twitchId
-    ? `style="background-image: url('https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}_IGDB-144x192.jpg');"`
+    ? `style="background-image: url('https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}-144x192.jpg');"`
     : "";
   const twitchClass = twitchId ? "has-twitch-image" : "";
 
+  // Generate unique ID for this card to handle image loading
+  const cardId = `card-${game.id}`;
+
   return `
-    <div class="game-card ${twitchClass}" ${backgroundStyle}>
+    <div class="game-card ${twitchClass}" id="${cardId}" ${backgroundStyle}>
       <h3>${game.name}</h3>
       <div class="game-meta">
         <div class="status-line">
@@ -447,6 +443,53 @@ function showUsers(modalId) {
     modal.classList.remove("hidden");
   } else {
     modal.classList.add("hidden");
+  }
+}
+
+// Validate Twitch images and fallback if they fail to load
+function validateTwitchImages() {
+  document.querySelectorAll(".game-card.has-twitch-image").forEach((card) => {
+    const twitchId = card.style.backgroundImage.match(/\/(\d+)/)?.[1];
+    if (twitchId) {
+      // Try without _IGDB first
+      const urlWithoutIGDB = `https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}-144x192.jpg`;
+      const urlWithIGDB = `https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}_IGDB-144x192.jpg`;
+
+      tryLoadImage(card, urlWithoutIGDB, urlWithIGDB);
+    }
+  });
+}
+
+// Try to load image with fallback chain
+async function tryLoadImage(card, urlWithoutIGDB, urlWithIGDB) {
+  // Check first URL
+  if (await isValidImageUrl(urlWithoutIGDB)) {
+    card.style.backgroundImage = `url('${urlWithoutIGDB}')`;
+    return;
+  }
+
+  // Check second URL with _IGDB
+  if (await isValidImageUrl(urlWithIGDB)) {
+    card.style.backgroundImage = `url('${urlWithIGDB}')`;
+    return;
+  }
+
+  // Both failed, show fallback (remove class to show Archipelago logo)
+  card.classList.remove("has-twitch-image");
+  card.style.backgroundImage = "none";
+}
+
+// Check if an image URL is valid (no 302 redirect to 404)
+async function isValidImageUrl(url) {
+  try {
+    const response = await fetch(url, { method: "HEAD" });
+    // Check if it's a valid response and not redirected to 404
+    if (response.ok && !response.url.includes("404_boxart")) {
+      return true;
+    }
+    return false;
+  } catch (error) {
+    return false;
   }
 }
 
