@@ -339,24 +339,31 @@ function initializeAlphabetNav(games) {
 
 // Scroll to first game starting with letter
 function scrollToLetter(letter, games) {
-  let targetGame;
+  // Get all visible game cards in the DOM
+  const visibleCards = Array.from(document.querySelectorAll(".game-card"));
 
-  if (letter === "#") {
-    // Find first game starting with a number
-    targetGame = games.find((game) => /^\d/.test(game.name));
-  } else {
-    // Find first game starting with the letter
-    targetGame = games.find((game) =>
-      game.name.toUpperCase().startsWith(letter),
-    );
+  if (visibleCards.length === 0) {
+    return; // No cards visible
   }
 
-  if (targetGame) {
-    const cardId = `card-${targetGame.id}`;
-    const card = document.getElementById(cardId);
-    if (card) {
-      card.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+  let targetCard;
+
+  if (letter === "#") {
+    // Find first card starting with a number
+    targetCard = visibleCards.find((card) => {
+      const title = card.querySelector("h3")?.textContent;
+      return title && /^\d/.test(title);
+    });
+  } else {
+    // Find first card starting with the letter
+    targetCard = visibleCards.find((card) => {
+      const title = card.querySelector("h3")?.textContent;
+      return title && title.toUpperCase().startsWith(letter);
+    });
+  }
+
+  if (targetCard) {
+    targetCard.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
 
