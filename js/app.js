@@ -24,6 +24,9 @@ async function loadGames() {
     // Initialize filters
     initializeFilters(data.games);
 
+    // Initialize alphabet navigation
+    initializeAlphabetNav(data.games);
+
     renderGames(data.games);
     updateLastUpdated();
   } catch (error) {
@@ -287,6 +290,74 @@ function renderGames(games) {
 
   // Validate Twitch images after rendering
   validateTwitchImages();
+}
+
+// Initialize alphabet navigation
+function initializeAlphabetNav(games) {
+  const alphabetContainer = document.getElementById("alphabetLetters");
+  alphabetContainer.innerHTML = "";
+
+  // Create buttons for each letter
+  const letters = [
+    "#",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+  ];
+
+  letters.forEach((letter) => {
+    const btn = document.createElement("button");
+    btn.className = "alphabet-btn";
+    btn.textContent = letter;
+    btn.addEventListener("click", () => scrollToLetter(letter, games));
+    alphabetContainer.appendChild(btn);
+  });
+}
+
+// Scroll to first game starting with letter
+function scrollToLetter(letter, games) {
+  let targetGame;
+
+  if (letter === "#") {
+    // Find first game starting with a number
+    targetGame = games.find((game) => /^\d/.test(game.name));
+  } else {
+    // Find first game starting with the letter
+    targetGame = games.find((game) =>
+      game.name.toUpperCase().startsWith(letter),
+    );
+  }
+
+  if (targetGame) {
+    const cardId = `card-${targetGame.id}`;
+    const card = document.getElementById(cardId);
+    if (card) {
+      card.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
 }
 
 // Create a game card HTML
@@ -561,6 +632,14 @@ function updateLastUpdated() {
     day: "numeric",
   });
   document.getElementById("lastUpdated").textContent = formatted;
+}
+
+// Scroll to top button
+const scrollTopBtn = document.getElementById("scrollTopBtn");
+if (scrollTopBtn) {
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 }
 
 // Load games when page loads
