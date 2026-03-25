@@ -1,6 +1,7 @@
 // Load games data and render
 let usersMap = {};
 let allGames = [];
+let twitchMapping = {};
 let selectedTodoFilters = new Set();
 let selectedInProgressFilters = new Set();
 let selectedCompletedFilters = new Set();
@@ -15,6 +16,15 @@ async function loadGames() {
     usersData.users.forEach((user) => {
       usersMap[user.id] = user;
     });
+
+    // Load Twitch games mapping
+    try {
+      const twitchResponse = await fetch("data/twitch_games_mapping.json");
+      twitchMapping = await twitchResponse.json();
+    } catch (error) {
+      console.warn("Could not load Twitch games mapping:", error);
+      twitchMapping = {};
+    }
 
     // Load games
     const response = await fetch("data/games.json");
@@ -316,8 +326,13 @@ function createGameCard(game) {
     })
     .join("");
 
+  const twitchId = twitchMapping[game.name];
+  const backgroundStyle = twitchId
+    ? `style="background-image: url('https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}_IGDB-144x192.jpg');"`
+    : "";
+
   return `
-    <div class="game-card">
+    <div class="game-card" ${backgroundStyle}>
       <h3>${game.name}</h3>
       <div class="game-meta">
         <div class="status-line">

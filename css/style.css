@@ -155,6 +155,9 @@ header p {
 
 .game-card {
   background: var(--card-bg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 15px;
@@ -167,7 +170,7 @@ header p {
   justify-content: space-between;
   position: relative;
   overflow: hidden;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 3 / 4;
   max-height: 360px;
 }
 
@@ -179,9 +182,22 @@ header p {
   background-size: 40%;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.08;
+  opacity: 0.35;
   pointer-events: none;
   z-index: 0;
+}
+
+.game-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.75) 0%,
+    rgba(255, 255, 255, 0.65) 100%
+  );
+  pointer-events: none;
+  z-index: 1;
 }
 
 .game-card:hover {
@@ -194,7 +210,7 @@ header p {
   color: var(--primary-color);
   font-size: 1.1rem;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .game-meta {
@@ -202,7 +218,7 @@ header p {
   flex-direction: column;
   gap: 12px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   flex: 1;
   justify-content: center;
 }
@@ -392,7 +408,7 @@ header p {
   gap: 8px;
   justify-content: center;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .btn-icon {
