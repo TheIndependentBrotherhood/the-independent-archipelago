@@ -191,6 +191,13 @@ function createGameCard(game) {
         </a>`
             : ""
         }
+        ${
+          game.githubUrl
+            ? `<a href="${game.githubUrl}" target="_blank" class="btn-icon" title="View on GitHub">
+          <i class="fab fa-github"></i>
+        </a>`
+            : ""
+        }
       </div>
       
       ${

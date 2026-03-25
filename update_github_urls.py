@@ -1,4 +1,14 @@
-A Dance of Fire and Ice (PC): https://github.com/ClaudeChibout/ADOFAI_AP-Mod/releases
+import json
+import re
+
+# Read the existing games.json
+with open('data/games.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+games_by_id = {game['id']: game for game in data['games']}
+
+# Parse GitHub URLs
+github_data = """A Dance of Fire and Ice (PC): https://github.com/ClaudeChibout/ADOFAI_AP-Mod/releases
 A Difficult Game About Climbing (PC): https://github.com/BlastSlimey/GrabbingChecks/releases
 ActRaiser (SNES): https://github.com/Happyhappyism/Archipelago/releases
 Against the Storm (PC): https://github.com/Ryguy-9999/ArchipelagoATS/releases
@@ -302,4 +312,52 @@ Yoku's Island Express (PC): https://git.makuluni.com/Archipelago/YokuAPWorld/rel
 Yooka-Laylee (PC): https://github.com/Awareqwx/Archipelago/releases
 Yu-Gi-Oh! Dungeon Dice Monsters (GBA): https://github.com/JustinMarshall98/Archipelago/releases
 Yu-Gi-Oh! Forbidden Memories (PSX): https://github.com/sg4e/Archipelago/releases
-Zork: Grand Inquisitor (PC): https://github.com/SerpentAI/Archipelago/releases?q=zork&expanded=true
+Zork: Grand Inquisitor (PC): https://github.com/SerpentAI/Archipelago/releases?q=zork&expanded=true"""
+
+new_games_count = 0
+updated_games_count = 0
+
+for line in github_data.strip().split('\n'):
+    if not line.strip():
+        continue
+
+    # Parser: "Name (Platform): URL"
+    match = re.match(r'^(.+?)\s+\(([^)]+)\):\s+(.+)$', line.strip())
+    if match:
+        name = match.group(1).strip()
+        platform = match.group(2).strip()
+        github_url = match.group(3).strip()
+
+        # Create game ID
+        game_id = name.lower().replace(' ', '-').replace(':', '').replace("'",
+                                                                          '').replace('!', '').replace('&', 'and').replace('/', '-')
+
+        if game_id in games_by_id:
+            # Update existing game
+            games_by_id[game_id]['githubUrl'] = github_url
+            updated_games_count += 1
+        else:
+            # Add new game
+            game = {
+                "id": game_id,
+                "name": name,
+                "platform": platform,
+                "url": f"https://archipelago.gg/games/{name.replace(' ', '%20')}/info/en",
+                "description": f"Archipelago randomizer for {name} ({platform})",
+                "githubUrl": github_url,
+                "completed": [],
+                "todo": []
+            }
+            games_by_id[game_id] = game
+            new_games_count += 1
+
+# Convert back to list and save
+updated_games = list(games_by_id.values())
+result = {"games": updated_games}
+
+with open('data/games.json', 'w', encoding='utf-8') as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)
+
+print(f"Updated {updated_games_count} games with GitHub URLs")
+print(f"Added {new_games_count} new games")
+print(f"Total games: {len(updated_games)}")
