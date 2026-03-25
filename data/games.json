@@ -394,7 +394,7 @@
     {
       "id": "backlog-expedition",
       "name": "Backlog Expedition",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Backlog_Expedition",
       "description": "Archipelago randomizer for Backlog Expedition",
       "githubUrl": null,
@@ -418,7 +418,7 @@
     {
       "id": "baldurs-gate-3",
       "name": "Baldur's Gate 3",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Baldur%27s_Gate_3",
       "description": "Archipelago randomizer for Baldur's Gate 3",
       "githubUrl": null,
@@ -442,7 +442,7 @@
     {
       "id": "batboy",
       "name": "BatBoy",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/BatBoy",
       "description": "Archipelago randomizer for BatBoy",
       "githubUrl": null,
@@ -454,7 +454,7 @@
     {
       "id": "beat-saber",
       "name": "Beat Saber",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Beat_Saber",
       "description": "Archipelago randomizer for Beat Saber",
       "githubUrl": null,
@@ -466,7 +466,7 @@
     {
       "id": "bits-and-bops",
       "name": "Bits & Bops",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Bits_%26_Bops",
       "description": "Archipelago randomizer for Bits & Bops",
       "githubUrl": null,
@@ -478,7 +478,7 @@
     {
       "id": "bk-simulator",
       "name": "BK Simulator",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/BK_Simulator",
       "description": "Archipelago randomizer for BK Simulator",
       "githubUrl": null,
@@ -490,7 +490,7 @@
     {
       "id": "black-market-of-bulletphilia-~-100th-black-market",
       "name": "Black Market of Bulletphilia ~ 100th Black Market",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Black_Market_of_Bulletphilia_~_100th_Black_Market",
       "description": "Archipelago randomizer for Black Market of Bulletphilia ~ 100th Black Market",
       "githubUrl": null,
@@ -502,7 +502,7 @@
     {
       "id": "black-ops-3-zombies",
       "name": "Black Ops 3 - Zombies",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Black_Ops_3_-_Zombies",
       "description": "Archipelago randomizer for Black Ops 3 - Zombies",
       "githubUrl": null,
@@ -536,7 +536,7 @@
     {
       "id": "blockupelago",
       "name": "Blockupelago",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Blockupelago",
       "description": "Archipelago randomizer for Blockupelago",
       "githubUrl": null,
@@ -560,7 +560,7 @@
     {
       "id": "blue-sphere",
       "name": "Blue Sphere",
-      "platform": "Unknown",
+      "platform": "GEN",
       "url": "https://archipelago.miraheze.org/wiki/Blue_Sphere",
       "description": "Archipelago randomizer for Blue Sphere",
       "githubUrl": null,
@@ -630,7 +630,7 @@
     {
       "id": "bomberman-the-second-attack",
       "name": "Bomberman The Second Attack",
-      "platform": "Unknown",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/Bomberman_The_Second_Attack",
       "description": "Archipelago randomizer for Bomberman The Second Attack",
       "githubUrl": null,
@@ -642,7 +642,7 @@
     {
       "id": "borderlands-2",
       "name": "Borderlands 2",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Borderlands_2",
       "description": "Archipelago randomizer for Borderlands 2",
       "githubUrl": null,
@@ -701,7 +701,7 @@
     {
       "id": "burnout-3-takedown",
       "name": "Burnout 3: Takedown",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Burnout_3:_Takedown",
       "description": "Archipelago randomizer for Burnout 3: Takedown",
       "githubUrl": null,
@@ -725,7 +725,7 @@
     {
       "id": "cash-cleaner-simulator",
       "name": "Cash Cleaner Simulator",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cash_Cleaner_Simulator",
       "description": "Archipelago randomizer for Cash Cleaner Simulator",
       "githubUrl": null,
@@ -737,7 +737,7 @@
     {
       "id": "cassette-beasts",
       "name": "Cassette Beasts",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cassette_Beasts",
       "description": "Archipelago randomizer for Cassette Beasts",
       "githubUrl": null,
@@ -819,7 +819,7 @@
     {
       "id": "casualties-unknown",
       "name": "Casualties: Unknown",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Casualties:_Unknown",
       "description": "Archipelago randomizer for Casualties: Unknown",
       "githubUrl": null,
@@ -867,7 +867,7 @@
     {
       "id": "caves-of-qud",
       "name": "Caves of Qud",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Caves_of_Qud",
       "description": "Archipelago randomizer for Caves of Qud",
       "githubUrl": null,
@@ -958,7 +958,7 @@
     {
       "id": "christmasdelivery",
       "name": "ChristmasDelivery",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/ChristmasDelivery",
       "description": "Archipelago randomizer for ChristmasDelivery",
       "githubUrl": null,
@@ -982,7 +982,7 @@
     {
       "id": "chrono-trigger-jets-of-time",
       "name": "Chrono Trigger Jets of Time",
-      "platform": "Unknown",
+      "platform": "SNES",
       "url": "https://archipelago.miraheze.org/wiki/Chrono_Trigger_Jets_of_Time",
       "description": "Archipelago randomizer for Chrono Trigger Jets of Time",
       "githubUrl": null,
@@ -994,7 +994,7 @@
     {
       "id": "civilization-v",
       "name": "Civilization V",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Civilization_V",
       "description": "Archipelago randomizer for Civilization V",
       "githubUrl": null,
@@ -1006,7 +1006,7 @@
     {
       "id": "clair-obscur-expedition-33",
       "name": "Clair Obscur Expedition 33",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Clair_Obscur_Expedition_33",
       "description": "Archipelago randomizer for Clair Obscur Expedition 33",
       "githubUrl": null,
@@ -1030,7 +1030,7 @@
     {
       "id": "cloverpit",
       "name": "CloverPit",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/CloverPit",
       "description": "Archipelago randomizer for CloverPit",
       "githubUrl": null,
@@ -1066,7 +1066,7 @@
     {
       "id": "codeforces",
       "name": "Codeforces",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Codeforces",
       "description": "Archipelago randomizer for Codeforces",
       "githubUrl": null,
@@ -1078,7 +1078,7 @@
     {
       "id": "commander-keen",
       "name": "Commander Keen",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Commander_Keen",
       "description": "Archipelago randomizer for Commander Keen",
       "githubUrl": null,
@@ -1090,7 +1090,7 @@
     {
       "id": "conbunn-cardboard",
       "name": "Conbunn Cardboard",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Conbunn_Cardboard",
       "description": "Archipelago randomizer for Conbunn Cardboard",
       "githubUrl": null,
@@ -1102,7 +1102,7 @@
     {
       "id": "cookie-clicker",
       "name": "Cookie Clicker",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cookie_Clicker",
       "description": "Archipelago randomizer for Cookie Clicker",
       "githubUrl": null,
@@ -1126,7 +1126,7 @@
     {
       "id": "corruobserver",
       "name": "CorruObserver",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/CorruObserver",
       "description": "Archipelago randomizer for CorruObserver",
       "githubUrl": null,
@@ -1138,7 +1138,7 @@
     {
       "id": "crash2",
       "name": "Crash2",
-      "platform": "Unknown",
+      "platform": "PS1",
       "url": "https://archipelago.miraheze.org/wiki/Crash2",
       "description": "Archipelago randomizer for Crash2",
       "githubUrl": null,
@@ -1222,7 +1222,7 @@
     {
       "id": "custom-robo",
       "name": "Custom Robo",
-      "platform": "Unknown",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Custom_Robo",
       "description": "Archipelago randomizer for Custom Robo",
       "githubUrl": null,
@@ -1234,7 +1234,7 @@
     {
       "id": "cyberpunk-2077",
       "name": "Cyberpunk 2077",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cyberpunk_2077",
       "description": "Archipelago randomizer for Cyberpunk 2077",
       "githubUrl": null,
@@ -1246,7 +1246,7 @@
     {
       "id": "dark-cloud-1",
       "name": "Dark Cloud 1",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Dark_Cloud_1",
       "description": "Archipelago randomizer for Dark Cloud 1",
       "githubUrl": null,
@@ -1258,7 +1258,7 @@
     {
       "id": "dark-cloud-2",
       "name": "Dark Cloud 2",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Dark_Cloud_2",
       "description": "Archipelago randomizer for Dark Cloud 2",
       "githubUrl": null,
@@ -1305,7 +1305,7 @@
     {
       "id": "dawnsbury-days",
       "name": "Dawnsbury Days",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Dawnsbury_Days",
       "description": "Archipelago randomizer for Dawnsbury Days",
       "githubUrl": null,
@@ -1317,7 +1317,7 @@
     {
       "id": "dead-cells",
       "name": "Dead Cells",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Dead_Cells",
       "description": "Archipelago randomizer for Dead Cells",
       "githubUrl": null,
@@ -1329,7 +1329,7 @@
     {
       "id": "dead-rising-deluxe-remaster",
       "name": "Dead Rising Deluxe Remaster",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Dead_Rising_Deluxe_Remaster",
       "description": "Archipelago randomizer for Dead Rising Deluxe Remaster",
       "githubUrl": null,
@@ -1353,7 +1353,7 @@
     {
       "id": "death-road-to-canada",
       "name": "Death Road to Canada",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Death_Road_to_Canada",
       "description": "Archipelago randomizer for Death Road to Canada",
       "githubUrl": null,
@@ -1377,7 +1377,7 @@
     {
       "id": "deathlinkipelago",
       "name": "DeathLinkipelago",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/DeathLinkipelago",
       "description": "Archipelago randomizer for DeathLinkipelago",
       "githubUrl": null,
@@ -1612,7 +1612,7 @@
     {
       "id": "dragon-warrior",
       "name": "Dragon Warrior",
-      "platform": "Unknown",
+      "platform": "NES",
       "url": "https://archipelago.miraheze.org/wiki/Dragon_Warrior",
       "description": "Archipelago randomizer for Dragon Warrior",
       "githubUrl": null,
@@ -1636,7 +1636,7 @@
     {
       "id": "dream-dazia",
       "name": "Dream Dazia",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Dream_Dazia",
       "description": "Archipelago randomizer for Dream Dazia",
       "githubUrl": null,
@@ -1660,7 +1660,7 @@
     {
       "id": "duck-life-4",
       "name": "Duck Life 4",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Duck_Life_4",
       "description": "Archipelago randomizer for Duck Life 4",
       "githubUrl": null,
@@ -1672,7 +1672,7 @@
     {
       "id": "duke-nukem-3d",
       "name": "Duke Nukem 3D",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Duke_Nukem_3D",
       "description": "Archipelago randomizer for Duke Nukem 3D",
       "githubUrl": null,
@@ -1708,7 +1708,7 @@
     {
       "id": "dyson-sphere-program",
       "name": "Dyson Sphere Program",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Dyson_Sphere_Program",
       "description": "Archipelago randomizer for Dyson Sphere Program",
       "githubUrl": null,
@@ -1732,7 +1732,7 @@
     {
       "id": "easy-delivery-co",
       "name": "Easy Delivery Co.",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Easy_Delivery_Co.",
       "description": "Archipelago randomizer for Easy Delivery Co.",
       "githubUrl": null,
@@ -1744,7 +1744,7 @@
     {
       "id": "elder-scrolls-online",
       "name": "Elder Scrolls Online",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Elder_Scrolls_Online",
       "description": "Archipelago randomizer for Elder Scrolls Online",
       "githubUrl": null,
@@ -1756,7 +1756,7 @@
     {
       "id": "elementipelago",
       "name": "Elementipelago",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Elementipelago",
       "description": "Archipelago randomizer for Elementipelago",
       "githubUrl": null,
@@ -1804,7 +1804,7 @@
     {
       "id": "evolve",
       "name": "Evolve",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Evolve",
       "description": "Archipelago randomizer for Evolve",
       "githubUrl": null,
@@ -1827,7 +1827,7 @@
     {
       "id": "factorio-bobs",
       "name": "Factorio Bob's",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Factorio_Bob%27s",
       "description": "Archipelago randomizer for Factorio Bob's",
       "githubUrl": null,
@@ -1850,7 +1850,7 @@
     {
       "id": "factorio-space-age",
       "name": "Factorio: Space Age",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Factorio:_Space_Age",
       "description": "Archipelago randomizer for Factorio: Space Age",
       "githubUrl": null,
@@ -1885,7 +1885,7 @@
     {
       "id": "fez",
       "name": "Fez",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Fez",
       "description": "Archipelago randomizer for Fez",
       "githubUrl": null,
@@ -1908,7 +1908,7 @@
     {
       "id": "final-fantasy-12-open-world",
       "name": "Final Fantasy 12 Open World",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_12_Open_World",
       "description": "Archipelago randomizer for Final Fantasy 12 Open World",
       "githubUrl": null,
@@ -1920,7 +1920,7 @@
     {
       "id": "final-fantasy-6-worlds-collide",
       "name": "Final Fantasy 6 Worlds Collide",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_6_Worlds_Collide",
       "description": "Archipelago randomizer for Final Fantasy 6 Worlds Collide",
       "githubUrl": null,
@@ -1944,7 +1944,7 @@
     {
       "id": "final-fantasy-iv-free-enterprise",
       "name": "Final Fantasy IV Free Enterprise",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_IV_Free_Enterprise",
       "description": "Archipelago randomizer for Final Fantasy IV Free Enterprise",
       "githubUrl": null,
@@ -2004,7 +2004,7 @@
     {
       "id": "final-fantasy-v-pr",
       "name": "Final Fantasy V PR",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_V_PR",
       "description": "Archipelago randomizer for Final Fantasy V PR",
       "githubUrl": null,
@@ -2028,7 +2028,7 @@
     {
       "id": "final-fantasy-x",
       "name": "Final Fantasy X",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_X",
       "description": "Archipelago randomizer for Final Fantasy X",
       "githubUrl": null,
@@ -2099,7 +2099,7 @@
     {
       "id": "flipwitch-forbidden-sex-hex",
       "name": "Flipwitch Forbidden Sex Hex",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Flipwitch_Forbidden_Sex_Hex",
       "description": "Archipelago randomizer for Flipwitch Forbidden Sex Hex",
       "githubUrl": null,
@@ -2122,7 +2122,7 @@
     {
       "id": "forged-curse",
       "name": "Forged Curse",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Forged_Curse",
       "description": "Archipelago randomizer for Forged Curse",
       "githubUrl": null,
@@ -2241,7 +2241,7 @@
     {
       "id": "glover",
       "name": "Glover",
-      "platform": "Unknown",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/Glover",
       "description": "Archipelago randomizer for Glover",
       "githubUrl": null,
@@ -2277,7 +2277,7 @@
     {
       "id": "grapple-dog",
       "name": "Grapple Dog",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Grapple_Dog",
       "description": "Archipelago randomizer for Grapple Dog",
       "githubUrl": null,
@@ -2325,7 +2325,7 @@
     {
       "id": "hacknet",
       "name": "Hacknet",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hacknet",
       "description": "Archipelago randomizer for Hacknet",
       "githubUrl": null,
@@ -2361,7 +2361,7 @@
     {
       "id": "hangman",
       "name": "Hangman",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hangman",
       "description": "Archipelago randomizer for Hangman",
       "githubUrl": null,
@@ -2373,7 +2373,7 @@
     {
       "id": "haste",
       "name": "Haste",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Haste",
       "description": "Archipelago randomizer for Haste",
       "githubUrl": null,
@@ -2480,7 +2480,7 @@
     {
       "id": "hitman-world-of-assassination",
       "name": "HITMAN World of Assassination",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/HITMAN_World_of_Assassination",
       "description": "Archipelago randomizer for HITMAN World of Assassination",
       "githubUrl": null,
@@ -2527,7 +2527,7 @@
     {
       "id": "hunie-cam-studio",
       "name": "Hunie Cam Studio",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hunie_Cam_Studio",
       "description": "Archipelago randomizer for Hunie Cam Studio",
       "githubUrl": null,
@@ -2539,7 +2539,7 @@
     {
       "id": "hunie-pop",
       "name": "Hunie Pop",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hunie_Pop",
       "description": "Archipelago randomizer for Hunie Pop",
       "githubUrl": null,
@@ -2551,7 +2551,7 @@
     {
       "id": "hunie-pop-2",
       "name": "Hunie Pop 2",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hunie_Pop_2",
       "description": "Archipelago randomizer for Hunie Pop 2",
       "githubUrl": null,
@@ -2574,7 +2574,7 @@
     {
       "id": "hyperrogue",
       "name": "HyperRogue",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/HyperRogue",
       "description": "Archipelago randomizer for HyperRogue",
       "githubUrl": null,
@@ -2586,7 +2586,7 @@
     {
       "id": "i-hate-you-please-suffer",
       "name": "I Hate You, Please Suffer",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/I_Hate_You,_Please_Suffer",
       "description": "Archipelago randomizer for I Hate You, Please Suffer",
       "githubUrl": null,
@@ -2598,7 +2598,7 @@
     {
       "id": "i-was-a-teenage-exocolonist",
       "name": "I Was a Teenage Exocolonist",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/I_Was_a_Teenage_Exocolonist",
       "description": "Archipelago randomizer for I Was a Teenage Exocolonist",
       "githubUrl": null,
@@ -2692,7 +2692,7 @@
     {
       "id": "jak-ii",
       "name": "Jak II",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Jak_II",
       "description": "Archipelago randomizer for Jak II",
       "githubUrl": null,
@@ -2739,7 +2739,7 @@
     {
       "id": "junko",
       "name": "Junko",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Junko",
       "description": "Archipelago randomizer for Junko",
       "githubUrl": null,
@@ -2751,7 +2751,7 @@
     {
       "id": "jurassic-park",
       "name": "Jurassic Park",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Jurassic_Park",
       "description": "Archipelago randomizer for Jurassic Park",
       "githubUrl": null,
@@ -2809,7 +2809,7 @@
     {
       "id": "keywe",
       "name": "KeyWe",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/KeyWe",
       "description": "Archipelago randomizer for KeyWe",
       "githubUrl": null,
@@ -2821,7 +2821,7 @@
     {
       "id": "kindergarten-2",
       "name": "Kindergarten 2",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Kindergarten_2",
       "description": "Archipelago randomizer for Kindergarten 2",
       "githubUrl": null,
@@ -2857,7 +2857,7 @@
     {
       "id": "kingdom-hearts-dream-drop-distance",
       "name": "Kingdom Hearts Dream Drop Distance",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Kingdom_Hearts_Dream_Drop_Distance",
       "description": "Archipelago randomizer for Kingdom Hearts Dream Drop Distance",
       "githubUrl": null,
@@ -2973,7 +2973,7 @@
     {
       "id": "left-4-dead-2",
       "name": "Left 4 Dead 2",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Left_4_Dead_2",
       "description": "Archipelago randomizer for Left 4 Dead 2",
       "githubUrl": null,
@@ -3033,7 +3033,7 @@
     {
       "id": "library-of-ruina",
       "name": "Library of Ruina",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Library_of_Ruina",
       "description": "Archipelago randomizer for Library of Ruina",
       "githubUrl": null,
@@ -3045,7 +3045,7 @@
     {
       "id": "lies-of-p",
       "name": "Lies Of P",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Lies_Of_P",
       "description": "Archipelago randomizer for Lies Of P",
       "githubUrl": null,
@@ -3057,7 +3057,7 @@
     {
       "id": "lightning-returns-final-fantasy-xiii",
       "name": "Lightning Returns: Final Fantasy XIII",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Lightning_Returns:_Final_Fantasy_XIII",
       "description": "Archipelago randomizer for Lightning Returns: Final Fantasy XIII",
       "githubUrl": null,
@@ -3116,7 +3116,7 @@
     {
       "id": "lobotomy-corporation",
       "name": "Lobotomy Corporation",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Lobotomy_Corporation",
       "description": "Archipelago randomizer for Lobotomy Corporation",
       "githubUrl": null,
@@ -3140,7 +3140,7 @@
     {
       "id": "luanti-citadel",
       "name": "Luanti Citadel",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Luanti_Citadel",
       "description": "Archipelago randomizer for Luanti Citadel",
       "githubUrl": null,
@@ -3246,7 +3246,7 @@
     {
       "id": "mario-party-3",
       "name": "Mario Party 3",
-      "platform": "Unknown",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/Mario_Party_3",
       "description": "Archipelago randomizer for Mario Party 3",
       "githubUrl": null,
@@ -3258,7 +3258,7 @@
     {
       "id": "mario-party-advance",
       "name": "Mario Party Advance",
-      "platform": "Unknown",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Mario_Party_Advance",
       "description": "Archipelago randomizer for Mario Party Advance",
       "githubUrl": null,
@@ -3294,7 +3294,7 @@
     {
       "id": "medievil-2",
       "name": "Medievil 2",
-      "platform": "Unknown",
+      "platform": "PS1",
       "url": "https://archipelago.miraheze.org/wiki/Medievil_2",
       "description": "Archipelago randomizer for Medievil 2",
       "githubUrl": null,
@@ -3306,7 +3306,7 @@
     {
       "id": "mega-man",
       "name": "Mega Man",
-      "platform": "Unknown",
+      "platform": "NES",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man",
       "description": "Archipelago randomizer for Mega Man",
       "githubUrl": null,
@@ -3352,7 +3352,7 @@
     {
       "id": "mega-man-battle-network-6",
       "name": "Mega Man Battle Network 6",
-      "platform": "Unknown",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_Battle_Network_6",
       "description": "Archipelago randomizer for Mega Man Battle Network 6",
       "githubUrl": null,
@@ -3364,7 +3364,7 @@
     {
       "id": "mega-man-legends",
       "name": "Mega Man Legends",
-      "platform": "Unknown",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_Legends",
       "description": "Archipelago randomizer for Mega Man Legends",
       "githubUrl": null,
@@ -3388,7 +3388,7 @@
     {
       "id": "mega-man-x-command-mission",
       "name": "Mega Man X Command Mission",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_X_Command_Mission",
       "description": "Archipelago randomizer for Mega Man X Command Mission",
       "githubUrl": null,
@@ -3424,7 +3424,7 @@
     {
       "id": "mega-man-x4",
       "name": "Mega Man X4",
-      "platform": "Unknown",
+      "platform": "PS1",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_X4",
       "description": "Archipelago randomizer for Mega Man X4",
       "githubUrl": null,
@@ -3436,7 +3436,7 @@
     {
       "id": "mega-man-zero-3",
       "name": "Mega Man Zero 3",
-      "platform": "Unknown",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_Zero_3",
       "description": "Archipelago randomizer for Mega Man Zero 3",
       "githubUrl": null,
@@ -3448,7 +3448,7 @@
     {
       "id": "melatonin",
       "name": "Melatonin",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Melatonin",
       "description": "Archipelago randomizer for Melatonin",
       "githubUrl": null,
@@ -3460,7 +3460,7 @@
     {
       "id": "mercenaries",
       "name": "Mercenaries",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Mercenaries",
       "description": "Archipelago randomizer for Mercenaries",
       "githubUrl": null,
@@ -3483,7 +3483,7 @@
     {
       "id": "metal-gear-solid",
       "name": "Metal Gear Solid",
-      "platform": "Unknown",
+      "platform": "PS1",
       "url": "https://archipelago.miraheze.org/wiki/Metal_Gear_Solid",
       "description": "Archipelago randomizer for Metal Gear Solid",
       "githubUrl": null,
@@ -3589,7 +3589,7 @@
     {
       "id": "minecraft-fabric",
       "name": "Minecraft Fabric",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Minecraft_Fabric",
       "description": "Archipelago randomizer for Minecraft Fabric",
       "githubUrl": null,
@@ -3625,7 +3625,7 @@
     {
       "id": "modded-minecraft",
       "name": "Modded Minecraft",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Modded_Minecraft",
       "description": "Archipelago randomizer for Modded Minecraft",
       "githubUrl": null,
@@ -3637,7 +3637,7 @@
     {
       "id": "momodora-4-reverie-under-the-moonlight",
       "name": "Momodora 4 - Reverie Under the Moonlight",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Momodora_4_-_Reverie_Under_the_Moonlight",
       "description": "Archipelago randomizer for Momodora 4 - Reverie Under the Moonlight",
       "githubUrl": null,
@@ -3661,7 +3661,7 @@
     {
       "id": "monster-hunter-world",
       "name": "Monster Hunter World",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Monster_Hunter_World",
       "description": "Archipelago randomizer for Monster Hunter World",
       "githubUrl": null,
@@ -3696,7 +3696,7 @@
     {
       "id": "musipelago",
       "name": "Musipelago",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Musipelago",
       "description": "Archipelago randomizer for Musipelago",
       "githubUrl": null,
@@ -3720,7 +3720,7 @@
     {
       "id": "naruto-clash-of-ninja-2",
       "name": "Naruto Clash of Ninja 2",
-      "platform": "Unknown",
+      "platform": "GCN",
       "url": "https://archipelago.miraheze.org/wiki/Naruto_Clash_of_Ninja_2",
       "description": "Archipelago randomizer for Naruto Clash of Ninja 2",
       "githubUrl": null,
@@ -3744,7 +3744,7 @@
     {
       "id": "no-rest-for-the-wicked",
       "name": "No Rest For The Wicked",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/No_Rest_For_The_Wicked",
       "description": "Archipelago randomizer for No Rest For The Wicked",
       "githubUrl": null,
@@ -3779,7 +3779,7 @@
     {
       "id": "noita-killsanity",
       "name": "Noita-Killsanity",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Noita-Killsanity",
       "description": "Archipelago randomizer for Noita-Killsanity",
       "githubUrl": null,
@@ -3803,7 +3803,7 @@
     {
       "id": "nonopelagram",
       "name": "Nonopelagram",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Nonopelagram",
       "description": "Archipelago randomizer for Nonopelagram",
       "githubUrl": null,
@@ -3815,7 +3815,7 @@
     {
       "id": "nsmbw",
       "name": "NSMBW",
-      "platform": "Unknown",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/NSMBW",
       "description": "Archipelago randomizer for NSMBW",
       "githubUrl": null,
@@ -3827,7 +3827,7 @@
     {
       "id": "oblivion-remastered",
       "name": "Oblivion Remastered",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Oblivion_Remastered",
       "description": "Archipelago randomizer for Oblivion Remastered",
       "githubUrl": null,
@@ -3850,7 +3850,7 @@
     {
       "id": "once-upon-a-katamari",
       "name": "Once Upon a Katamari",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Once_Upon_a_Katamari",
       "description": "Archipelago randomizer for Once Upon a Katamari",
       "githubUrl": null,
@@ -3886,7 +3886,7 @@
     {
       "id": "openttd-cargolock",
       "name": "OpenTTD Cargolock",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/OpenTTD_Cargolock",
       "description": "Archipelago randomizer for OpenTTD Cargolock",
       "githubUrl": null,
@@ -3898,7 +3898,7 @@
     {
       "id": "operation-octo",
       "name": "Operation Octo",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Operation_Octo",
       "description": "Archipelago randomizer for Operation Octo",
       "githubUrl": null,
@@ -3970,7 +3970,7 @@
     {
       "id": "outward-definitive-edition",
       "name": "Outward: Definitive Edition",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Outward:_Definitive_Edition",
       "description": "Archipelago randomizer for Outward: Definitive Edition",
       "githubUrl": null,
@@ -4053,7 +4053,7 @@
     {
       "id": "path-of-exile",
       "name": "Path of Exile",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Path_of_Exile",
       "description": "Archipelago randomizer for Path of Exile",
       "githubUrl": null,
@@ -4065,7 +4065,7 @@
     {
       "id": "peak",
       "name": "PEAK",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/PEAK",
       "description": "Archipelago randomizer for PEAK",
       "githubUrl": null,
@@ -4112,7 +4112,7 @@
     {
       "id": "persona-5-royal",
       "name": "Persona 5 Royal",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Persona_5_Royal",
       "description": "Archipelago randomizer for Persona 5 Royal",
       "githubUrl": null,
@@ -4124,7 +4124,7 @@
     {
       "id": "phantasy-star-ii",
       "name": "Phantasy Star II",
-      "platform": "Unknown",
+      "platform": "GEN",
       "url": "https://archipelago.miraheze.org/wiki/Phantasy_Star_II",
       "description": "Archipelago randomizer for Phantasy Star II",
       "githubUrl": null,
@@ -4136,7 +4136,7 @@
     {
       "id": "phoenotopia-awakening",
       "name": "Phoenotopia: Awakening",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Phoenotopia:_Awakening",
       "description": "Archipelago randomizer for Phoenotopia: Awakening",
       "githubUrl": null,
@@ -4148,7 +4148,7 @@
     {
       "id": "pikmin",
       "name": "Pikmin",
-      "platform": "Unknown",
+      "platform": "GCN",
       "url": "https://archipelago.miraheze.org/wiki/Pikmin",
       "description": "Archipelago randomizer for Pikmin",
       "githubUrl": null,
@@ -4184,7 +4184,7 @@
     {
       "id": "piranesi-restoration-project",
       "name": "Piranesi Restoration Project",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Piranesi_Restoration_Project",
       "description": "Archipelago randomizer for Piranesi Restoration Project",
       "githubUrl": null,
@@ -4268,7 +4268,7 @@
     {
       "id": "poco",
       "name": "Poco",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Poco",
       "description": "Archipelago randomizer for Poco",
       "githubUrl": null,
@@ -4386,7 +4386,7 @@
     {
       "id": "pokémon-stadium",
       "name": "Pokémon Stadium",
-      "platform": "Unknown",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Stadium",
       "description": "Archipelago randomizer for Pokémon Stadium",
       "githubUrl": null,
@@ -4398,7 +4398,7 @@
     {
       "id": "poképark",
       "name": "PokéPark",
-      "platform": "Unknown",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9Park",
       "description": "Archipelago randomizer for PokéPark",
       "githubUrl": null,
@@ -4434,7 +4434,7 @@
     {
       "id": "portal-2",
       "name": "Portal 2",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Portal_2",
       "description": "Archipelago randomizer for Portal 2",
       "githubUrl": null,
@@ -4494,7 +4494,7 @@
     {
       "id": "pâquerette-down-the-bunburrows",
       "name": "Pâquerette Down The Bunburrows",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/P%C3%A2querette_Down_The_Bunburrows",
       "description": "Archipelago randomizer for Pâquerette Down The Bunburrows",
       "githubUrl": null,
@@ -4506,7 +4506,7 @@
     {
       "id": "quake-1",
       "name": "Quake 1",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Quake_1",
       "description": "Archipelago randomizer for Quake 1",
       "githubUrl": null,
@@ -4530,7 +4530,7 @@
     {
       "id": "rabbit-and-steel",
       "name": "Rabbit and Steel",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Rabbit_and_Steel",
       "description": "Archipelago randomizer for Rabbit and Steel",
       "githubUrl": null,
@@ -4647,7 +4647,7 @@
     {
       "id": "resident-evil-2-remake",
       "name": "Resident Evil 2 Remake",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Resident_Evil_2_Remake",
       "description": "Archipelago randomizer for Resident Evil 2 Remake",
       "githubUrl": null,
@@ -4659,7 +4659,7 @@
     {
       "id": "resident-evil-3-remake",
       "name": "Resident Evil 3 Remake",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Resident_Evil_3_Remake",
       "description": "Archipelago randomizer for Resident Evil 3 Remake",
       "githubUrl": null,
@@ -4671,7 +4671,7 @@
     {
       "id": "resident-evil-7",
       "name": "Resident Evil 7",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Resident_Evil_7",
       "description": "Archipelago randomizer for Resident Evil 7",
       "githubUrl": null,
@@ -4683,7 +4683,7 @@
     {
       "id": "return-of-the-obra-dinn",
       "name": "Return of the Obra Dinn",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Return_of_the_Obra_Dinn",
       "description": "Archipelago randomizer for Return of the Obra Dinn",
       "githubUrl": null,
@@ -4731,7 +4731,7 @@
     {
       "id": "rimworld",
       "name": "Rimworld",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Rimworld",
       "description": "Archipelago randomizer for Rimworld",
       "githubUrl": null,
@@ -4801,7 +4801,7 @@
     {
       "id": "salt-and-sanctuary",
       "name": "Salt and Sanctuary",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Salt_and_Sanctuary",
       "description": "Archipelago randomizer for Salt and Sanctuary",
       "githubUrl": null,
@@ -4813,7 +4813,7 @@
     {
       "id": "santa",
       "name": "Santa",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Santa",
       "description": "Archipelago randomizer for Santa",
       "githubUrl": null,
@@ -4848,7 +4848,7 @@
     {
       "id": "sburbelago",
       "name": "SBURBelago",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/SBURBelago",
       "description": "Archipelago randomizer for SBURBelago",
       "githubUrl": null,
@@ -4860,7 +4860,7 @@
     {
       "id": "schedule-i",
       "name": "Schedule I",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Schedule_I",
       "description": "Archipelago randomizer for Schedule I",
       "githubUrl": null,
@@ -4907,7 +4907,7 @@
     {
       "id": "seedling",
       "name": "Seedling",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Seedling",
       "description": "Archipelago randomizer for Seedling",
       "githubUrl": null,
@@ -4919,7 +4919,7 @@
     {
       "id": "sekiro-shadows-die-twice",
       "name": "Sekiro: Shadows Die Twice",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Sekiro:_Shadows_Die_Twice",
       "description": "Archipelago randomizer for Sekiro: Shadows Die Twice",
       "githubUrl": null,
@@ -4943,7 +4943,7 @@
     {
       "id": "settlersheritageofkings",
       "name": "SettlersHeritageOfKings",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/SettlersHeritageOfKings",
       "description": "Archipelago randomizer for SettlersHeritageOfKings",
       "githubUrl": null,
@@ -4991,7 +4991,7 @@
     {
       "id": "shahrazad",
       "name": "Shahrazad",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Shahrazad",
       "description": "Archipelago randomizer for Shahrazad",
       "githubUrl": null,
@@ -5027,7 +5027,7 @@
     {
       "id": "shining-in-the-darkness",
       "name": "Shining in the Darkness",
-      "platform": "Unknown",
+      "platform": "GEN",
       "url": "https://archipelago.miraheze.org/wiki/Shining_in_the_Darkness",
       "description": "Archipelago randomizer for Shining in the Darkness",
       "githubUrl": null,
@@ -5039,7 +5039,7 @@
     {
       "id": "ship-of-harkinian",
       "name": "Ship of Harkinian",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Ship_of_Harkinian",
       "description": "Archipelago randomizer for Ship of Harkinian",
       "githubUrl": null,
@@ -5062,7 +5062,7 @@
     {
       "id": "shovel-knight-pocket-dungeon",
       "name": "Shovel Knight Pocket Dungeon",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Shovel_Knight_Pocket_Dungeon",
       "description": "Archipelago randomizer for Shovel Knight Pocket Dungeon",
       "githubUrl": null,
@@ -5097,7 +5097,7 @@
     {
       "id": "signalis",
       "name": "Signalis",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Signalis",
       "description": "Archipelago randomizer for Signalis",
       "githubUrl": null,
@@ -5109,7 +5109,7 @@
     {
       "id": "silver-daze",
       "name": "Silver Daze",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Silver_Daze",
       "description": "Archipelago randomizer for Silver Daze",
       "githubUrl": null,
@@ -5145,7 +5145,7 @@
     {
       "id": "slay-the-spire-ii",
       "name": "Slay the Spire II",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Slay_the_Spire_II",
       "description": "Archipelago randomizer for Slay the Spire II",
       "githubUrl": null,
@@ -5169,7 +5169,7 @@
     {
       "id": "slotlock",
       "name": "SlotLock",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/SlotLock",
       "description": "Archipelago randomizer for SlotLock",
       "githubUrl": null,
@@ -5193,7 +5193,7 @@
     {
       "id": "sly-3-honor-among-thieves",
       "name": "Sly 3: Honor Among Thieves",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Sly_3:_Honor_Among_Thieves",
       "description": "Archipelago randomizer for Sly 3: Honor Among Thieves",
       "githubUrl": null,
@@ -5252,7 +5252,7 @@
     {
       "id": "sonic-advance-2",
       "name": "Sonic Advance 2",
-      "platform": "Unknown",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Sonic_Advance_2",
       "description": "Archipelago randomizer for Sonic Advance 2",
       "githubUrl": null,
@@ -5287,7 +5287,7 @@
     {
       "id": "sonic-battle",
       "name": "Sonic Battle",
-      "platform": "Unknown",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Sonic_Battle",
       "description": "Archipelago randomizer for Sonic Battle",
       "githubUrl": null,
@@ -5299,7 +5299,7 @@
     {
       "id": "sonic-frontiers",
       "name": "Sonic Frontiers",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Sonic_Frontiers",
       "description": "Archipelago randomizer for Sonic Frontiers",
       "githubUrl": null,
@@ -5416,7 +5416,7 @@
     {
       "id": "spirit-island",
       "name": "Spirit Island",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Spirit_Island",
       "description": "Archipelago randomizer for Spirit Island",
       "githubUrl": null,
@@ -5428,7 +5428,7 @@
     {
       "id": "spirit-valley",
       "name": "Spirit Valley",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Spirit_Valley",
       "description": "Archipelago randomizer for Spirit Valley",
       "githubUrl": null,
@@ -5476,7 +5476,7 @@
     {
       "id": "spyro-the-dragon",
       "name": "Spyro the Dragon",
-      "platform": "Unknown",
+      "platform": "PS1",
       "url": "https://archipelago.miraheze.org/wiki/Spyro_the_Dragon",
       "description": "Archipelago randomizer for Spyro the Dragon",
       "githubUrl": null,
@@ -5488,7 +5488,7 @@
     {
       "id": "spyro-a-heros-tail",
       "name": "Spyro: A Hero's Tail",
-      "platform": "Unknown",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Spyro:_A_Hero%27s_Tail",
       "description": "Archipelago randomizer for Spyro: A Hero's Tail",
       "githubUrl": null,
@@ -5512,7 +5512,7 @@
     {
       "id": "star-fox-64",
       "name": "Star Fox 64",
-      "platform": "Unknown",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/Star_Fox_64",
       "description": "Archipelago randomizer for Star Fox 64",
       "githubUrl": null,
@@ -5524,7 +5524,7 @@
     {
       "id": "star-fox-adventures",
       "name": "Star Fox Adventures",
-      "platform": "Unknown",
+      "platform": "GCN",
       "url": "https://archipelago.miraheze.org/wiki/Star_Fox_Adventures",
       "description": "Archipelago randomizer for Star Fox Adventures",
       "githubUrl": null,
@@ -5861,7 +5861,7 @@
     {
       "id": "the-guardian-legend",
       "name": "The Guardian Legend",
-      "platform": "Unknown",
+      "platform": "NES",
       "url": "https://archipelago.miraheze.org/wiki/The_Guardian_Legend",
       "description": "Archipelago randomizer for The Guardian Legend",
       "githubUrl": null,
@@ -5873,7 +5873,7 @@
     {
       "id": "the-legend-of-dragoon",
       "name": "The Legend of Dragoon",
-      "platform": "Unknown",
+      "platform": "PS1",
       "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Dragoon",
       "description": "Archipelago randomizer for The Legend of Dragoon",
       "githubUrl": null,
@@ -6107,7 +6107,7 @@
     {
       "id": "the-password-game",
       "name": "The Password Game",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/The_Password_Game",
       "description": "Archipelago randomizer for The Password Game",
       "githubUrl": null,
@@ -6119,7 +6119,7 @@
     {
       "id": "the-planet-crafter",
       "name": "The Planet Crafter",
-      "platform": "Unknown",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/The_Planet_Crafter",
       "description": "Archipelago randomizer for The Planet Crafter",
       "githubUrl": null,
