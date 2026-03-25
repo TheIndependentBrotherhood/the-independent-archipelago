@@ -2,7 +2,9 @@
 function initDarkMode() {
   // Check if user has a stored preference
   const storedTheme = localStorage.getItem("theme");
-  const prefersDark = globalThis.matchMedia("(prefers-color-scheme: dark)").matches;
+  const prefersDark = globalThis.matchMedia(
+    "(prefers-color-scheme: dark)",
+  ).matches;
 
   // Set theme based on stored preference or system preference
   if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
@@ -567,6 +569,14 @@ function createGameCard(game) {
 
 // Show users modal
 function showUsers(modalId) {
+  // Close all other modals first
+  document.querySelectorAll(".modal").forEach((modal) => {
+    if (modal.id !== modalId) {
+      modal.classList.add("hidden");
+    }
+  });
+
+  // Toggle the target modal
   const modal = document.getElementById(modalId);
   if (modal.classList.contains("hidden")) {
     modal.classList.remove("hidden");
@@ -719,7 +729,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Close modals when clicking outside
 document.addEventListener("click", (e) => {
-  if (!e.target.closest(".user-group") && !e.target.closest(".modal")) {
+  if (!e.target.closest(".user-bubble") && !e.target.closest(".modal")) {
     document.querySelectorAll(".modal").forEach((modal) => {
       modal.classList.add("hidden");
     });

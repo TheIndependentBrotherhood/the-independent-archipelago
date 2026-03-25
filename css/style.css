@@ -331,7 +331,6 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  overflow: hidden;
   aspect-ratio: 3 / 4;
   max-height: 360px;
 }
@@ -439,6 +438,7 @@ header p {
     transform 0.2s;
   font-size: 1rem;
   width: fit-content;
+  position: relative;
 }
 
 .user-bubble:hover {
@@ -506,17 +506,20 @@ header p {
 /* Modal */
 .modal {
   position: absolute;
-  bottom: -220px;
-  left: 0;
-  background: white;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--card-bg);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  z-index: 100;
+  z-index: 10000;
   min-width: 200px;
   max-height: 200px;
   overflow-y: auto;
+  margin-bottom: 8px;
+  white-space: nowrap;
 }
 
 .modal.hidden {

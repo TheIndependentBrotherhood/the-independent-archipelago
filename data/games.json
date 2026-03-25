@@ -1191,7 +1191,7 @@
     {
       "id": "crash2",
       "name": "Crash2",
-      "platform": "PS1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Crash2",
       "description": "Archipelago randomizer for Crash2",
       "githubUrl": null,
@@ -3107,7 +3107,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["sid"],
       "inProgress": [],
       "twitchId": "24193"
     },
@@ -3447,7 +3447,7 @@
     {
       "id": "medievil-2",
       "name": "Medievil 2",
-      "platform": "PS1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Medievil_2",
       "description": "Archipelago randomizer for Medievil 2",
       "githubUrl": null,
@@ -3586,7 +3586,7 @@
     {
       "id": "mega-man-x4",
       "name": "Mega Man X4",
-      "platform": "PS1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_X4",
       "description": "Archipelago randomizer for Mega Man X4",
       "githubUrl": null,
@@ -3650,7 +3650,7 @@
     {
       "id": "metal-gear-solid",
       "name": "Metal Gear Solid",
-      "platform": "PS1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Metal_Gear_Solid",
       "description": "Archipelago randomizer for Metal Gear Solid",
       "githubUrl": null,
@@ -5777,7 +5777,7 @@
     {
       "id": "spyro-the-dragon",
       "name": "Spyro the Dragon",
-      "platform": "PS1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Spyro_the_Dragon",
       "description": "Archipelago randomizer for Spyro the Dragon",
       "githubUrl": null,
@@ -6190,7 +6190,7 @@
     {
       "id": "the-legend-of-dragoon",
       "name": "The Legend of Dragoon",
-      "platform": "PS1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Dragoon",
       "description": "Archipelago randomizer for The Legend of Dragoon",
       "githubUrl": null,
