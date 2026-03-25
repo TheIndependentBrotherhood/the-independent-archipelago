@@ -187,6 +187,10 @@ header p {
   z-index: 0;
 }
 
+.game-card.has-twitch-image::before {
+  opacity: 0;
+}
+
 .game-card::after {
   content: "";
   position: absolute;

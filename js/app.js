@@ -330,9 +330,10 @@ function createGameCard(game) {
   const backgroundStyle = twitchId
     ? `style="background-image: url('https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}_IGDB-144x192.jpg');"`
     : "";
+  const twitchClass = twitchId ? "has-twitch-image" : "";
 
   return `
-    <div class="game-card" ${backgroundStyle}>
+    <div class="game-card ${twitchClass}" ${backgroundStyle}>
       <h3>${game.name}</h3>
       <div class="game-meta">
         <div class="status-line">
