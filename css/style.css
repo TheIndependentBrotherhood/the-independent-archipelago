@@ -333,6 +333,7 @@ header p {
   position: relative;
   aspect-ratio: 3 / 4;
   max-height: 360px;
+  z-index: 100;
 }
 
 .game-card::before {
