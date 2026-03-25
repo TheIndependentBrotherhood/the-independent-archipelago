@@ -202,12 +202,16 @@ function applyFilters() {
 // Render games to the DOM
 function renderGames(games) {
   const container = document.getElementById("gamesContainer");
+  const resultsCount = document.getElementById("resultsCount");
 
+  // Update results count
   if (games.length === 0) {
+    resultsCount.textContent = "No games found";
     container.innerHTML = '<div class="no-results">No games found.</div>';
     return;
   }
 
+  resultsCount.textContent = `${games.length} game${games.length !== 1 ? "s" : ""} found`;
   container.innerHTML = games.map((game) => createGameCard(game)).join("");
 }
 
