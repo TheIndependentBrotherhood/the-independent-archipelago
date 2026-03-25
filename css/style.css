@@ -6,6 +6,31 @@
   --bg-color: #f5f5f5;
   --card-bg: #ffffff;
   --border-color: #e0e0e0;
+  --overlay-light: rgba(255, 255, 255, 0.75);
+  --overlay-light-more: rgba(255, 255, 255, 0.65);
+  --btn-bg: #f0f0f0;
+  --btn-bg-hover: #e8e8e8;
+  --text-muted: #999;
+  --text-error: #d32f2f;
+  --text-secondary: #666;
+}
+
+/* Dark mode theme */
+:root.dark-mode {
+  --primary-color: #2d7a4a;
+  --secondary-color: #1a472a;
+  --accent-color: #5eb37f;
+  --text-color: #e0e0e0;
+  --bg-color: #121212;
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --overlay-light: rgba(18, 18, 18, 0.85);
+  --overlay-light-more: rgba(18, 18, 18, 0.75);
+  --btn-bg: #2a2a2a;
+  --btn-bg-hover: #3a3a3a;
+  --text-muted: #999;
+  --text-error: #ff6b6b;
+  --text-secondary: #aaa;
 }
 
 * {
@@ -21,6 +46,9 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* Alphabet navigation */
@@ -117,6 +145,31 @@ header {
   );
   color: white;
   margin-bottom: 40px;
+  position: relative;
+}
+
+header .dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+header .dark-mode-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
 }
 
 header h1 {
@@ -180,17 +233,18 @@ header p {
 
 .filter-btn {
   padding: 6px 12px;
-  background-color: #f0f0f0;
+  background-color: var(--btn-bg);
   border: 2px solid var(--border-color);
   border-radius: 20px;
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.2s;
   white-space: nowrap;
+  color: var(--text-color);
 }
 
 .filter-btn:hover {
-  background-color: #e8e8e8;
+  background-color: var(--btn-bg-hover);
   border-color: var(--accent-color);
 }
 
@@ -203,7 +257,7 @@ header p {
 .clear-filter-btn {
   background: none;
   border: none;
-  color: #999;
+  color: var(--text-muted);
   cursor: pointer;
   font-size: 0.9rem;
   padding: 0 6px;
@@ -213,12 +267,12 @@ header p {
 }
 
 .clear-filter-btn:hover {
-  color: #d32f2f;
+  color: var(--text-error);
 }
 
 .results-count {
   font-size: 0.95rem;
-  color: #666;
+  color: var(--text-secondary);
   margin-bottom: 20px;
   padding: 10px 0;
   border-bottom: 2px solid var(--border-color);
@@ -275,8 +329,8 @@ header p {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(255, 255, 255, 0.65) 100%
+    var(--overlay-light) 0%,
+    var(--overlay-light-more) 100%
   );
   pointer-events: none;
   z-index: 1;
@@ -386,9 +440,9 @@ header p {
 }
 
 .user-bubble.empty {
-  background-color: #f0f0f0;
-  border: 2px solid #ddd;
-  color: #999;
+  background-color: var(--btn-bg);
+  border: 2px solid var(--border-color);
+  color: var(--text-muted);
   opacity: 0.5;
 }
 
@@ -524,7 +578,7 @@ header p {
   grid-column: 1 / -1;
   text-align: center;
   padding: 40px 20px;
-  color: #999;
+  color: var(--text-muted);
   font-size: 1.1rem;
 }
 

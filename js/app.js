@@ -1,3 +1,54 @@
+// Dark mode management
+function initDarkMode() {
+  // Check if user has a stored preference
+  const storedTheme = localStorage.getItem("theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  // Set theme based on stored preference or system preference
+  if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
+    document.documentElement.classList.add("dark-mode");
+    updateDarkModeIcon();
+  }
+
+  // Listen for system theme changes
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", (e) => {
+      if (!localStorage.getItem("theme")) {
+        if (e.matches) {
+          document.documentElement.classList.add("dark-mode");
+        } else {
+          document.documentElement.classList.remove("dark-mode");
+        }
+        updateDarkModeIcon();
+      }
+    });
+}
+
+function toggleDarkMode() {
+  document.documentElement.classList.toggle("dark-mode");
+  const isDarkMode = document.documentElement.classList.contains("dark-mode");
+  localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+  updateDarkModeIcon();
+}
+
+function updateDarkModeIcon() {
+  const button = document.getElementById("darkModeToggle");
+  const isDarkMode = document.documentElement.classList.contains("dark-mode");
+  if (button) {
+    const icon = button.querySelector("i");
+    if (isDarkMode) {
+      icon.classList.remove("fa-moon");
+      icon.classList.add("fa-sun");
+      button.title = "Switch to light mode";
+    } else {
+      icon.classList.remove("fa-sun");
+      icon.classList.add("fa-moon");
+      button.title = "Switch to dark mode";
+    }
+  }
+}
+
 // Load games data and render
 let usersMap = {};
 let allGames = [];
@@ -654,7 +705,17 @@ if (scrollTopBtn) {
 }
 
 // Load games when page loads
-document.addEventListener("DOMContentLoaded", loadGames);
+document.addEventListener("DOMContentLoaded", () => {
+  initDarkMode();
+
+  // Set up dark mode toggle button
+  const darkModeToggle = document.getElementById("darkModeToggle");
+  if (darkModeToggle) {
+    darkModeToggle.addEventListener("click", toggleDarkMode);
+  }
+
+  loadGames();
+});
 
 // Close modals when clicking outside
 document.addEventListener("click", (e) => {
