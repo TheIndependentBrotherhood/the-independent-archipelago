@@ -1,9 +1,9 @@
 // Load games data and render
 let usersMap = {};
 let allGames = [];
-let selectedTodoFilter = null;
-let selectedInProgressFilter = null;
-let selectedCompletedFilter = null;
+let selectedTodoFilters = new Set();
+let selectedInProgressFilters = new Set();
+let selectedCompletedFilters = new Set();
 
 async function loadGames() {
   try {
@@ -45,107 +45,141 @@ function initializeFilters(games) {
   });
 
   // Create filter buttons for todo
-  const todoFilterContainer = document.getElementById("todoUserFilter");
-  todoFilterContainer.innerHTML = "";
-  todoUsers.forEach((userId) => {
-    const user = usersMap[userId];
-    const btn = document.createElement("button");
-    btn.className = "filter-btn";
-    btn.textContent = `${user.emoji} ${user.pseudo}`;
-    btn.addEventListener("click", () => toggleTodoFilter(userId, btn));
-    todoFilterContainer.appendChild(btn);
-  });
+  createFilterGroup(
+    "Todo",
+    "todoUserFilter",
+    todoUsers,
+    toggleTodoFilter,
+    clearTodoFilters,
+  );
 
   // Create filter buttons for inProgress
-  const inProgressFilterContainer = document.getElementById(
+  createFilterGroup(
+    "In Progress",
     "inProgressUserFilter",
+    inProgressUsers,
+    toggleInProgressFilter,
+    clearInProgressFilters,
   );
-  inProgressFilterContainer.innerHTML = "";
-  inProgressUsers.forEach((userId) => {
-    const user = usersMap[userId];
-    const btn = document.createElement("button");
-    btn.className = "filter-btn";
-    btn.textContent = `${user.emoji} ${user.pseudo}`;
-    btn.addEventListener("click", () => toggleInProgressFilter(userId, btn));
-    inProgressFilterContainer.appendChild(btn);
-  });
 
   // Create filter buttons for completed
-  const completedFilterContainer = document.getElementById(
+  createFilterGroup(
+    "Completed",
     "completedUserFilter",
+    completedUsers,
+    toggleCompletedFilter,
+    clearCompletedFilters,
   );
-  completedFilterContainer.innerHTML = "";
-  completedUsers.forEach((userId) => {
+}
+
+function createFilterGroup(
+  title,
+  containerId,
+  users,
+  toggleFunction,
+  clearFunction,
+) {
+  const filterGroup = document.querySelector(`#${containerId}`).parentElement;
+
+  // Update title with clear button
+  const titleElement = filterGroup.querySelector("h3");
+  titleElement.innerHTML = `${title} <button class="clear-filter-btn" title="Clear filter"><i class="fas fa-times"></i></button>`;
+  titleElement
+    .querySelector(".clear-filter-btn")
+    .addEventListener("click", clearFunction);
+
+  // Create filter buttons
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+
+  users.forEach((userId) => {
     const user = usersMap[userId];
     const btn = document.createElement("button");
     btn.className = "filter-btn";
     btn.textContent = `${user.emoji} ${user.pseudo}`;
-    btn.addEventListener("click", () => toggleCompletedFilter(userId, btn));
-    completedFilterContainer.appendChild(btn);
+    btn.addEventListener("click", () => toggleFunction(userId, btn));
+    container.appendChild(btn);
   });
 }
 
 function toggleTodoFilter(userId, btn) {
-  if (selectedTodoFilter === userId) {
-    selectedTodoFilter = null;
+  if (selectedTodoFilters.has(userId)) {
+    selectedTodoFilters.delete(userId);
     btn.classList.remove("active");
   } else {
-    document
-      .querySelectorAll("#todoUserFilter .filter-btn.active")
-      .forEach((b) => b.classList.remove("active"));
-    selectedTodoFilter = userId;
+    selectedTodoFilters.add(userId);
     btn.classList.add("active");
   }
+  applyFilters();
+}
+
+function clearTodoFilters() {
+  selectedTodoFilters.clear();
+  document
+    .querySelectorAll("#todoUserFilter .filter-btn.active")
+    .forEach((b) => b.classList.remove("active"));
   applyFilters();
 }
 
 function toggleInProgressFilter(userId, btn) {
-  if (selectedInProgressFilter === userId) {
-    selectedInProgressFilter = null;
+  if (selectedInProgressFilters.has(userId)) {
+    selectedInProgressFilters.delete(userId);
     btn.classList.remove("active");
   } else {
-    document
-      .querySelectorAll("#inProgressUserFilter .filter-btn.active")
-      .forEach((b) => b.classList.remove("active"));
-    selectedInProgressFilter = userId;
+    selectedInProgressFilters.add(userId);
     btn.classList.add("active");
   }
   applyFilters();
 }
 
+function clearInProgressFilters() {
+  selectedInProgressFilters.clear();
+  document
+    .querySelectorAll("#inProgressUserFilter .filter-btn.active")
+    .forEach((b) => b.classList.remove("active"));
+  applyFilters();
+}
+
 function toggleCompletedFilter(userId, btn) {
-  if (selectedCompletedFilter === userId) {
-    selectedCompletedFilter = null;
+  if (selectedCompletedFilters.has(userId)) {
+    selectedCompletedFilters.delete(userId);
     btn.classList.remove("active");
   } else {
-    document
-      .querySelectorAll("#completedUserFilter .filter-btn.active")
-      .forEach((b) => b.classList.remove("active"));
-    selectedCompletedFilter = userId;
+    selectedCompletedFilters.add(userId);
     btn.classList.add("active");
   }
+  applyFilters();
+}
+
+function clearCompletedFilters() {
+  selectedCompletedFilters.clear();
+  document
+    .querySelectorAll("#completedUserFilter .filter-btn.active")
+    .forEach((b) => b.classList.remove("active"));
   applyFilters();
 }
 
 function applyFilters() {
   let filtered = allGames;
 
-  if (selectedTodoFilter) {
-    filtered = filtered.filter((game) =>
-      game.todo.includes(selectedTodoFilter),
-    );
-  }
-
-  if (selectedInProgressFilter) {
-    filtered = filtered.filter((game) =>
-      game.inProgress.includes(selectedInProgressFilter),
-    );
-  }
-
-  if (selectedCompletedFilter) {
-    filtered = filtered.filter((game) =>
-      game.completed.includes(selectedCompletedFilter),
-    );
+  // Apply status filters with OR logic between categories
+  if (
+    selectedTodoFilters.size > 0 ||
+    selectedInProgressFilters.size > 0 ||
+    selectedCompletedFilters.size > 0
+  ) {
+    filtered = filtered.filter((game) => {
+      const matchesTodo =
+        selectedTodoFilters.size === 0 ||
+        game.todo.some((userId) => selectedTodoFilters.has(userId));
+      const matchesInProgress =
+        selectedInProgressFilters.size === 0 ||
+        game.inProgress.some((userId) => selectedInProgressFilters.has(userId));
+      const matchesCompleted =
+        selectedCompletedFilters.size === 0 ||
+        game.completed.some((userId) => selectedCompletedFilters.has(userId));
+      return matchesTodo || matchesInProgress || matchesCompleted;
+    });
   }
 
   renderGames(filtered);
@@ -326,22 +360,23 @@ document.getElementById("searchInput").addEventListener("input", async (e) => {
     );
   }
 
-  if (selectedTodoFilter) {
-    filtered = filtered.filter((game) =>
-      game.todo.includes(selectedTodoFilter),
-    );
-  }
-
-  if (selectedInProgressFilter) {
-    filtered = filtered.filter((game) =>
-      game.inProgress.includes(selectedInProgressFilter),
-    );
-  }
-
-  if (selectedCompletedFilter) {
-    filtered = filtered.filter((game) =>
-      game.completed.includes(selectedCompletedFilter),
-    );
+  // Apply status filters with OR logic between categories
+  if (
+    selectedTodoFilter ||
+    selectedInProgressFilter ||
+    selectedCompletedFilter
+  ) {
+    filtered = filtered.filter((game) => {
+      const matchesTodo =
+        !selectedTodoFilter || game.todo.includes(selectedTodoFilter);
+      const matchesInProgress =
+        !selectedInProgressFilter ||
+        game.inProgress.includes(selectedInProgressFilter);
+      const matchesCompleted =
+        !selectedCompletedFilter ||
+        game.completed.includes(selectedCompletedFilter);
+      return matchesTodo || matchesInProgress || matchesCompleted;
+    });
   }
 
   renderGames(filtered);

@@ -122,6 +122,22 @@ header p {
   color: white;
 }
 
+.clear-filter-btn {
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0 6px;
+  margin-left: 8px;
+  transition: color 0.2s;
+  vertical-align: middle;
+}
+
+.clear-filter-btn:hover {
+  color: #d32f2f;
+}
+
 .games-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
