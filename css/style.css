@@ -94,7 +94,7 @@ body {
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 8px 6px;
-  z-index: 100;
+  z-index: 101;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
