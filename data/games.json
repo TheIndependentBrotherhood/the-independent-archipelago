@@ -1046,19 +1046,6 @@
       "twitchId": "8489"
     },
     {
-      "id": "civilization-v",
-      "name": "Civilization V",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/Civilization_V",
-      "description": "Archipelago randomizer for Civilization V",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "27103"
-    },
-    {
       "id": "clair-obscur-expedition-33",
       "name": "Clair Obscur Expedition 33",
       "platform": "PC",
@@ -1916,7 +1903,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "110761"
+      "twitchId": null
     },
     {
       "id": "factorio",
@@ -2064,7 +2051,7 @@
       "description": "Archipelago randomizer for Final Fantasy Tactics A2: Grimoire of the Rift (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1296095764518277143",
       "completed": [],
-      "todo": [],
+      "todo": ["minipomme"],
       "githubUrl": "https://github.com/Rurusachi/Archipelago/releases",
       "inProgress": [],
       "twitchId": "19410"
@@ -2077,7 +2064,7 @@
       "description": "Archipelago randomizer for Final Fantasy Tactics Advance (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1100823015819837449",
       "completed": [],
-      "todo": [],
+      "todo": ["minipomme"],
       "githubUrl": "https://github.com/spicynun/Archipelago/releases",
       "inProgress": [],
       "twitchId": "7994"
@@ -2799,18 +2786,6 @@
       "twitchId": "429561860"
     },
     {
-      "id": "jak-2",
-      "name": "Jak 2",
-      "platform": "PC",
-      "description": "Archipelago randomizer for Jak 2 (PC)",
-      "discordUrl": "https://discord.com/channels/731205301247803413/1369067607290024056",
-      "completed": [],
-      "todo": [],
-      "githubUrl": "https://github.com/narramoment/Archipelago/releases",
-      "inProgress": [],
-      "twitchId": "9531"
-    },
-    {
       "id": "jak-and-daxter-the-precursor-legacy",
       "name": "Jak and Daxter: The Precursor Legacy",
       "platform": "PS2",
@@ -2828,10 +2803,10 @@
       "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Jak_II",
       "description": "Archipelago randomizer for Jak II",
-      "githubUrl": null,
-      "discordUrl": null,
       "completed": [],
       "todo": [],
+      "discordUrl": "https://discord.com/channels/731205301247803413/1369067607290024056",
+      "githubUrl": "https://github.com/narramoment/Archipelago/releases",
       "inProgress": [],
       "twitchId": "9531"
     },
@@ -5028,7 +5003,7 @@
       "url": "https://archipelago.miraheze.org/wiki/Risk_of_Rain",
       "description": "Archipelago randomizer for Risk of Rain (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
-      "completed": ["miniviruce"],
+      "completed": [],
       "todo": ["falclone"],
       "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
       "inProgress": [],
@@ -5053,7 +5028,7 @@
       "description": "Archipelago randomizer for Risk of Rain Returns (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1172336306890747984",
       "completed": ["miniviruce"],
-      "todo": ["falclone"],
+      "todo": [],
       "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
       "inProgress": [],
       "twitchId": "1023625360"
@@ -5382,6 +5357,7 @@
       "name": "Sid Meier's Civilization V",
       "platform": "PC",
       "description": "Archipelago randomizer for Sid Meier's Civilization V (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Civilization_V",
       "discordUrl": "https://discord.com/channels/731205301247803413/1342924294757552229",
       "completed": [],
       "todo": [],
