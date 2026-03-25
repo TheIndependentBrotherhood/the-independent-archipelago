@@ -1,52 +1,3987 @@
 {
   "games": [
     {
-      "id": "elden-ring",
-      "name": "Elden Ring",
-      "url": "https://archipelago.gg/games/Elden%20Ring/info/en",
-      "description": "A masterpiece of action RPG gameplay. Explore the Lands Between with randomized bosses and loot.",
-      "completed": ["minipomme"],
+      "id": "a-dance-of-fire-and-ice",
+      "name": "A Dance of Fire and Ice",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/A%20Dance%20of%20Fire%20and%20Ice/info/en",
+      "description": "Archipelago randomizer for A Dance of Fire and Ice (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1194141971644682412",
+      "completed": [],
       "todo": []
     },
     {
-      "id": "ocarina-of-time",
-      "name": "The Legend of Zelda: Ocarina of Time",
-      "url": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
-      "description": "Classic N64 Zelda adventure with randomized dungeons and items.",
+      "id": "a-difficult-game-about-climbing",
+      "name": "A Difficult Game About Climbing",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/A%20Difficult%20Game%20About%20Climbing/info/en",
+      "description": "Archipelago randomizer for A Difficult Game About Climbing (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1336857648464920586",
       "completed": [],
-      "todo": ["minipomme"]
+      "todo": []
     },
     {
-      "id": "super-metroid",
-      "name": "Super Metroid",
-      "url": "https://archipelago.gg/games/Super%20Metroid/info/en",
-      "description": "Space exploration action-adventure with randomized power-ups and routes.",
-      "completed": ["minipomme"],
+      "id": "a-hat-in-time",
+      "name": "A Hat in Time",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/A%20Hat%20in%20Time/info/en",
+      "description": "Archipelago randomizer for A Hat in Time (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257453386073374842",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "a-short-hike",
+      "name": "A Short Hike",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/A%20Short%20Hike/info/en",
+      "description": "Archipelago randomizer for A Short Hike (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224389725922787389",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "actraiser",
+      "name": "ActRaiser",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/ActRaiser/info/en",
+      "description": "Archipelago randomizer for ActRaiser (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1113529234800005181",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "adventure",
+      "name": "Adventure",
+      "platform": "2600",
+      "url": "https://archipelago.gg/games/Adventure/info/en",
+      "description": "Archipelago randomizer for Adventure (2600)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090814076378153111",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "against-the-storm",
+      "name": "Against the Storm",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Against%20the%20Storm/info/en",
+      "description": "Archipelago randomizer for Against the Storm (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1250491355290140672",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "age-of-empires-ii-definitive-edition",
+      "name": "Age of Empires II: Definitive Edition",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Age%20of%20Empires%20II:%20Definitive%20Edition/info/en",
+      "description": "Archipelago randomizer for Age of Empires II: Definitive Edition (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1364201827113107526",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "air-delivery",
+      "name": "Air Delivery",
+      "platform": "PICO-8",
+      "url": "https://archipelago.gg/games/Air%20Delivery/info/en",
+      "description": "Archipelago randomizer for Air Delivery (PICO-8)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1252453771661803523",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "an-untitled-story",
+      "name": "An Untitled Story",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/An%20Untitled%20Story/info/en",
+      "description": "Archipelago randomizer for An Untitled Story (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1194062970230165554",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "animal-well",
+      "name": "ANIMAL WELL",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/ANIMAL%20WELL/info/en",
+      "description": "Archipelago randomizer for ANIMAL WELL (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1238463626344665119",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "anodyne",
+      "name": "Anodyne",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Anodyne/info/en",
+      "description": "Archipelago randomizer for Anodyne (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1121290232688545792",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "another-crabs-treasure",
+      "name": "Another Crab's Treasure",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Another%20Crab's%20Treasure/info/en",
+      "description": "Archipelago randomizer for Another Crab's Treasure (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1239467743116525688",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "apquest",
+      "name": "APQuest",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/APQuest/info/en",
+      "description": "Archipelago randomizer for APQuest (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1450659987331481610",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ape-escape",
+      "name": "Ape Escape",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Ape%20Escape/info/en",
+      "description": "Archipelago randomizer for Ape Escape (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1168645708103028856",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ape-escape-3",
+      "name": "Ape Escape 3",
+      "platform": "PS2",
+      "url": "https://archipelago.gg/games/Ape%20Escape%203/info/en",
+      "description": "Archipelago randomizer for Ape Escape 3 (PS2)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1336332485788831825",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "aquaria",
+      "name": "Aquaria",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Aquaria/info/en",
+      "description": "Archipelago randomizer for Aquaria (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257452465272389687",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "archipeladoku",
+      "name": "Archipeladoku",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Archipeladoku/info/en",
+      "description": "Archipelago randomizer for Archipeladoku (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1451642525726150677",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "archipela-go",
+      "name": "Archipela-Go!",
+      "platform": "Android",
+      "url": "https://archipelago.gg/games/Archipela-Go!/info/en",
+      "description": "Archipelago randomizer for Archipela-Go! (Android)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1203890996794884126",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "armored-core",
+      "name": "Armored Core",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Armored%20Core/info/en",
+      "description": "Archipelago randomizer for Armored Core (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1393754231214837861",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "astalon-tears-of-the-earth",
+      "name": "Astalon: Tears of the Earth",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Astalon:%20Tears%20of%20the%20Earth/info/en",
+      "description": "Archipelago randomizer for Astalon: Tears of the Earth (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1211521722881286164",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "autopelago",
+      "name": "Autopelago",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Autopelago/info/en",
+      "description": "Archipelago randomizer for Autopelago (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1307517897194868768",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "axiom-verge",
+      "name": "Axiom Verge",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Axiom%20Verge/info/en",
+      "description": "Archipelago randomizer for Axiom Verge (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1032831597583536208",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "balatro",
+      "name": "Balatro",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Balatro/info/en",
+      "description": "Archipelago randomizer for Balatro (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1424479033261031474",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "banjo-tooie",
+      "name": "Banjo-Tooie",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Banjo-Tooie/info/en",
+      "description": "Archipelago randomizer for Banjo-Tooie (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1380609128753532948",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "blasphemous",
+      "name": "Blasphemous",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Blasphemous/info/en",
+      "description": "Archipelago randomizer for Blasphemous (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090815418731597884",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "blasphemous-2",
+      "name": "Blasphemous 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Blasphemous%202/info/en",
+      "description": "Archipelago randomizer for Blasphemous 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1399145913649467524",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bloons-tower-defense-6",
+      "name": "Bloons Tower Defense 6",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Bloons%20Tower%20Defense%206/info/en",
+      "description": "Archipelago randomizer for Bloons Tower Defense 6 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1465832575359516970",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bomberman-quest",
+      "name": "Bomberman Quest",
+      "platform": "GB",
+      "url": "https://archipelago.gg/games/Bomberman%20Quest/info/en",
+      "description": "Archipelago randomizer for Bomberman Quest (GB)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1409932342017134655",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bomberman-64",
+      "name": "Bomberman 64",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Bomberman%2064/info/en",
+      "description": "Archipelago randomizer for Bomberman 64 (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1326400868773400677",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bomberman-64-the-second-attack",
+      "name": "Bomberman 64: The Second Attack!",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Bomberman%2064:%20The%20Second%20Attack!/info/en",
+      "description": "Archipelago randomizer for Bomberman 64: The Second Attack! (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1064213698861879459",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bomberman-hero",
+      "name": "Bomberman Hero",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Bomberman%20Hero/info/en",
+      "description": "Archipelago randomizer for Bomberman Hero (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1330612852867858505",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bomb-rush-cyberfunk",
+      "name": "Bomb Rush Cyberfunk",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/info/en",
+      "description": "Archipelago randomizer for Bomb Rush Cyberfunk (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257453065083031642",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "brave-fencer-musashi",
+      "name": "Brave Fencer Musashi",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Brave%20Fencer%20Musashi/info/en",
+      "description": "Archipelago randomizer for Brave Fencer Musashi (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1291453297370337351",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "brotato",
+      "name": "Brotato",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Brotato/info/en",
+      "description": "Archipelago randomizer for Brotato (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1154944430097313803",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "buckshot-roulette",
+      "name": "Buckshot Roulette",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Buckshot%20Roulette/info/en",
+      "description": "Archipelago randomizer for Buckshot Roulette (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1234399148665737237",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "bumper-stickers",
+      "name": "Bumper Stickers",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Bumper%20Stickers/info/en",
+      "description": "Archipelago randomizer for Bumper Stickers (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1148330200891932742",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "candy-box-2",
+      "name": "Candy Box 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Candy%20Box%202/info/en",
+      "description": "Archipelago randomizer for Candy Box 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1351112920398037015",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "castlevania-64",
+      "name": "Castlevania 64",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Castlevania%2064/info/en",
+      "description": "Archipelago randomizer for Castlevania 64 (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224387731782893731",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "castlevania-circle-of-the-moon",
+      "name": "Castlevania: Circle of the Moon",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Castlevania:%20Circle%20of%20the%20Moon/info/en",
+      "description": "Archipelago randomizer for Castlevania: Circle of the Moon (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356647822803603536",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "castlevania-dawn-of-sorrow",
+      "name": "Castlevania: Dawn of Sorrow",
+      "platform": "NDS",
+      "url": "https://archipelago.gg/games/Castlevania:%20Dawn%20of%20Sorrow/info/en",
+      "description": "Archipelago randomizer for Castlevania: Dawn of Sorrow (NDS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1441671319690412052",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "castlevania-harmony-of-dissonance",
+      "name": "Castlevania: Harmony of Dissonance",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Castlevania:%20Harmony%20of%20Dissonance/info/en",
+      "description": "Archipelago randomizer for Castlevania: Harmony of Dissonance (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356897465046929498",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "castlevania-legacy-of-darkness",
+      "name": "Castlevania: Legacy of Darkness",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Castlevania:%20Legacy%20of%20Darkness/info/en",
+      "description": "Archipelago randomizer for Castlevania: Legacy of Darkness (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1178601625078738985",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "castlevania-symphony-of-the-night",
+      "name": "Castlevania: Symphony of the Night",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Castlevania:%20Symphony%20of%20the%20Night/info/en",
+      "description": "Archipelago randomizer for Castlevania: Symphony of the Night (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1462294492752380167",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "cat-quest",
+      "name": "Cat Quest",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Cat%20Quest/info/en",
+      "description": "Archipelago randomizer for Cat Quest (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1319965826601844736",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "cavern-of-dreams",
+      "name": "Cavern of Dreams",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Cavern%20of%20Dreams/info/en",
+      "description": "Archipelago randomizer for Cavern of Dreams (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1189647737210286080",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "cave-story",
+      "name": "Cave Story",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Cave%20Story/info/en",
+      "description": "Archipelago randomizer for Cave Story (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1083474864150695956",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "celeste",
+      "name": "Celeste",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Celeste/info/en",
+      "description": "Archipelago randomizer for Celeste (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1367624611256205443",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "celeste-(open-world)",
+      "name": "Celeste (Open World)",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Celeste%20(Open%20World)/info/en",
+      "description": "Archipelago randomizer for Celeste (Open World) (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1408557298946670835",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "celeste-64",
+      "name": "Celeste 64",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Celeste%2064/info/en",
+      "description": "Archipelago randomizer for Celeste 64 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224388599160635552",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "chained-echoes",
+      "name": "Chained Echoes",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Chained%20Echoes/info/en",
+      "description": "Archipelago randomizer for Chained Echoes (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1306059155899154493",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "checksfinder",
+      "name": "ChecksFinder",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/ChecksFinder/info/en",
+      "description": "Archipelago randomizer for ChecksFinder (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/959282474746282014",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "checksmate",
+      "name": "ChecksMate",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/ChecksMate/info/en",
+      "description": "Archipelago randomizer for ChecksMate (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1033159819114319892",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "chrono-trigger",
+      "name": "Chrono Trigger",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Chrono%20Trigger/info/en",
+      "description": "Archipelago randomizer for Chrono Trigger (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1063559984148906035",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "choo-choo-charles",
+      "name": "Choo-Choo Charles",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Choo-Choo%20Charles/info/en",
+      "description": "Archipelago randomizer for Choo-Choo Charles (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1436453823928598679",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "clique",
+      "name": "Clique",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Clique/info/en",
+      "description": "Archipelago randomizer for Clique (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090815835825774683",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "clustertruck",
+      "name": "ClusterTruck",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/ClusterTruck/info/en",
+      "description": "Archipelago randomizer for ClusterTruck (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1344157838578290792",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "cobalt-core",
+      "name": "Cobalt Core",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Cobalt%20Core/info/en",
+      "description": "Archipelago randomizer for Cobalt Core (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1190007746641272912",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "corn-kidz-64",
+      "name": "Corn Kidz 64",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Corn%20Kidz%2064/info/en",
+      "description": "Archipelago randomizer for Corn Kidz 64 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1282470024560508990",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "crosscode",
+      "name": "CrossCode",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/CrossCode/info/en",
+      "description": "Archipelago randomizer for CrossCode (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1128180904926396437",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "crosswordap",
+      "name": "CrosswordAP",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/CrosswordAP/info/en",
+      "description": "Archipelago randomizer for CrosswordAP (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1433538371031924798",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "crypt-of-the-necrodancer",
+      "name": "Crypt of the NecroDancer",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Crypt%20of%20the%20NecroDancer/info/en",
+      "description": "Archipelago randomizer for Crypt of the NecroDancer (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192775219740422176",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "crystal-project",
+      "name": "Crystal Project",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Crystal%20Project/info/en",
+      "description": "Archipelago randomizer for Crystal Project (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1193008693827076106",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "crystalis",
+      "name": "Crystalis",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Crystalis/info/en",
+      "description": "Archipelago randomizer for Crystalis (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1041412559460389017",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "cuphead",
+      "name": "Cuphead",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Cuphead/info/en",
+      "description": "Archipelago randomizer for Cuphead (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1050929729844297789",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dark-souls-remastered",
+      "name": "Dark Souls: Remastered",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dark%20Souls:%20Remastered/info/en",
+      "description": "Archipelago randomizer for Dark Souls: Remastered (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1367143578576621670",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dark-souls-ii",
+      "name": "Dark Souls II",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dark%20Souls%20II/info/en",
+      "description": "Archipelago randomizer for Dark Souls II (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1124935172287123466",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dark-souls-iii",
+      "name": "Dark Souls III",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dark%20Souls%20III/info/en",
+      "description": "Archipelago randomizer for Dark Souls III (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1005246392329052220",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "deadlock",
+      "name": "Deadlock",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Deadlock/info/en",
+      "description": "Archipelago randomizer for Deadlock (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1476976528171597875",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "deaths-door",
+      "name": "Death's Door",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Death's%20Door/info/en",
+      "description": "Archipelago randomizer for Death's Door (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1126418897827020800",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "deep-rock-galactic",
+      "name": "Deep Rock Galactic",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Deep%20Rock%20Galactic/info/en",
+      "description": "Archipelago randomizer for Deep Rock Galactic (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1195162433292087358",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "delivering-hope",
+      "name": "Delivering HOPE",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Delivering%20HOPE/info/en",
+      "description": "Archipelago randomizer for Delivering HOPE (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1435067745476546600",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "deltarune",
+      "name": "Deltarune",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Deltarune/info/en",
+      "description": "Archipelago randomizer for Deltarune (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1481971897024516250",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "devil-may-cry-3",
+      "name": "Devil May Cry 3",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Devil%20May%20Cry%203/info/en",
+      "description": "Archipelago randomizer for Devil May Cry 3 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1255822049163612271",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dicey-dungeons",
+      "name": "Dicey Dungeons",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dicey%20Dungeons/info/en",
+      "description": "Archipelago randomizer for Dicey Dungeons (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1172783536474947595",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "diddy-kong-racing",
+      "name": "Diddy Kong Racing",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Diddy%20Kong%20Racing/info/en",
+      "description": "Archipelago randomizer for Diddy Kong Racing (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1057754627795337387",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "digimon-world",
+      "name": "Digimon World",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Digimon%20World/info/en",
+      "description": "Archipelago randomizer for Digimon World (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224418923861118977",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dlc-quest",
+      "name": "DLC Quest",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/DLC%20Quest/info/en",
+      "description": "Archipelago randomizer for DLC Quest (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1109178880838868992",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dome-keeper",
+      "name": "Dome Keeper",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dome%20Keeper/info/en",
+      "description": "Archipelago randomizer for Dome Keeper (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1195385214877306921",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dont-starve-together",
+      "name": "Don't Starve Together",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Don't%20Starve%20Together/info/en",
+      "description": "Archipelago randomizer for Don't Starve Together (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1149971904447385751",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "donkey-kong-64",
+      "name": "Donkey Kong 64",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Donkey%20Kong%2064/info/en",
+      "description": "Archipelago randomizer for Donkey Kong 64 (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1409624528912650360",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "donkey-kong-country",
+      "name": "Donkey Kong Country",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Donkey%20Kong%20Country/info/en",
+      "description": "Archipelago randomizer for Donkey Kong Country (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1364840991755997244",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "donkey-kong-country-2-diddys-kong-quest",
+      "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Donkey%20Kong%20Country%202:%20Diddy's%20Kong%20Quest/info/en",
+      "description": "Archipelago randomizer for Donkey Kong Country 2: Diddy's Kong Quest (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1023381145565548646",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "donkey-kong-country-3-dixie-kongs-double-trouble",
+      "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Donkey%20Kong%20Country%203:%20Dixie%20Kong's%20Double%20Trouble!/info/en",
+      "description": "Archipelago randomizer for Donkey Kong Country 3: Dixie Kong's Double Trouble! (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1005246223277641809",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "doom-1993",
+      "name": "DOOM 1993",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/DOOM%201993/info/en",
+      "description": "Archipelago randomizer for DOOM 1993 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1148329739996643348",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "doom-ii",
+      "name": "DOOM II",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/DOOM%20II/info/en",
+      "description": "Archipelago randomizer for DOOM II (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192236810487738510",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "doronko-wanko",
+      "name": "DORONKO WANKO",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/DORONKO%20WANKO/info/en",
+      "description": "Archipelago randomizer for DORONKO WANKO (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1325915019313152097",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dracomino",
+      "name": "Dracomino",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dracomino/info/en",
+      "description": "Archipelago randomizer for Dracomino (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1458225573552848908",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dragon-warrior-1",
+      "name": "Dragon Warrior 1",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Dragon%20Warrior%201/info/en",
+      "description": "Archipelago randomizer for Dragon Warrior 1 (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1132150057852997733",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dredge",
+      "name": "DREDGE",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/DREDGE/info/en",
+      "description": "Archipelago randomizer for DREDGE (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1323663496566542336",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "duke-nukem-3d-atomic-edition",
+      "name": "Duke Nukem 3D: Atomic Edition",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Duke%20Nukem%203D:%20Atomic%20Edition/info/en",
+      "description": "Archipelago randomizer for Duke Nukem 3D: Atomic Edition (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1223230842130796544",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "dungeon-clawler",
+      "name": "Dungeon Clawler",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Dungeon%20Clawler/info/en",
+      "description": "Archipelago randomizer for Dungeon Clawler (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1339622918774067220",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "earthbound",
+      "name": "EarthBound",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/EarthBound/info/en",
+      "description": "Archipelago randomizer for EarthBound (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1077266688657068032",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ender-lilies-quietus-of-the-knights",
+      "name": "Ender Lilies: Quietus of the Knights",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Ender%20Lilies:%20Quietus%20of%20the%20Knights/info/en",
+      "description": "Archipelago randomizer for Ender Lilies: Quietus of the Knights (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1093030832886792242",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "enter-the-gungeon",
+      "name": "Enter the Gungeon",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Enter%20the%20Gungeon/info/en",
+      "description": "Archipelago randomizer for Enter the Gungeon (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1191767250257055785",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "everhood-2",
+      "name": "Everhood 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Everhood%202/info/en",
+      "description": "Archipelago randomizer for Everhood 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1365278588219424828",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "factorio",
+      "name": "Factorio",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Factorio/info/en",
+      "description": "Archipelago randomizer for Factorio (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/827139809763262525",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "factorio-space-age-without-space",
+      "name": "Factorio Space Age Without Space",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Factorio%20Space%20Age%20Without%20Space/info/en",
+      "description": "Archipelago randomizer for Factorio Space Age Without Space (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1311946326040383589",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "fakutori",
+      "name": "Fakutori",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Fakutori/info/en",
+      "description": "Archipelago randomizer for Fakutori (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1480232889659559966",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "faxanadu",
+      "name": "Faxanadu",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Faxanadu/info/en",
+      "description": "Archipelago randomizer for Faxanadu (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356649072462659716",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy",
+      "name": "Final Fantasy",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Final%20Fantasy/info/en",
+      "description": "Archipelago randomizer for Final Fantasy (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/917510025461776445",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-iv",
+      "name": "Final Fantasy IV",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20IV/info/en",
+      "description": "Archipelago randomizer for Final Fantasy IV (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1170144930610557008",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-vi",
+      "name": "Final Fantasy VI",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20VI/info/en",
+      "description": "Archipelago randomizer for Final Fantasy VI (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1022545979146252288",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-x-hd-remaster",
+      "name": "Final Fantasy X HD Remaster",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20X%20HD%20Remaster/info/en",
+      "description": "Archipelago randomizer for Final Fantasy X HD Remaster (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1304953414148554824",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-xii-open-world",
+      "name": "Final Fantasy XII: Open World",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20XII:%20Open%20World/info/en",
+      "description": "Archipelago randomizer for Final Fantasy XII: Open World (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1229091295465570456",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-xii-trial-mode",
+      "name": "Final Fantasy XII: Trial Mode",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20XII:%20Trial%20Mode/info/en",
+      "description": "Archipelago randomizer for Final Fantasy XII: Trial Mode (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1177092493981007922",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-mystic-quest",
+      "name": "Final Fantasy: Mystic Quest",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Final%20Fantasy:%20Mystic%20Quest/info/en",
+      "description": "Archipelago randomizer for Final Fantasy: Mystic Quest (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192237281298362539",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-tactics-advance",
+      "name": "Final Fantasy Tactics Advance",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20Tactics%20Advance/info/en",
+      "description": "Archipelago randomizer for Final Fantasy Tactics Advance (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1100823015819837449",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-tactics-ivalice-island",
+      "name": "Final Fantasy Tactics: Ivalice Island",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20Tactics:%20Ivalice%20Island/info/en",
+      "description": "Archipelago randomizer for Final Fantasy Tactics: Ivalice Island (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1451730887136903240",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-pixel-remaster",
+      "name": "Final Fantasy Pixel Remaster",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20Pixel%20Remaster/info/en",
+      "description": "Archipelago randomizer for Final Fantasy Pixel Remaster (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1195372952166879262",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "final-fantasy-tactics-a2-grimoire-of-the-rift",
+      "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Final%20Fantasy%20Tactics%20A2:%20Grimoire%20of%20the%20Rift/info/en",
+      "description": "Archipelago randomizer for Final Fantasy Tactics A2: Grimoire of the Rift (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1296095764518277143",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "fire-emblem-the-sacred-stones",
+      "name": "Fire Emblem: The Sacred Stones",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Fire%20Emblem:%20The%20Sacred%20Stones/info/en",
+      "description": "Archipelago randomizer for Fire Emblem: The Sacred Stones (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1098762105445953546",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "fnaf-world",
+      "name": "FNaF World",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/FNaF%20World/info/en",
+      "description": "Archipelago randomizer for FNaF World (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1104088448127729704",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "freddy-fazbears-pizzeria-simulator",
+      "name": "Freddy Fazbear's Pizzeria Simulator",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Freddy%20Fazbear's%20Pizzeria%20Simulator/info/en",
+      "description": "Archipelago randomizer for Freddy Fazbear's Pizzeria Simulator (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1078423429310582806",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "freedom-planet-2",
+      "name": "Freedom Planet 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Freedom%20Planet%202/info/en",
+      "description": "Archipelago randomizer for Freedom Planet 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1204965442494660608",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "friday-night-funkin",
+      "name": "Friday Night Funkin'",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Friday%20Night%20Funkin'/info/en",
+      "description": "Archipelago randomizer for Friday Night Funkin' (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1142560423594430576",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "frogmonster",
+      "name": "Frogmonster",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Frogmonster/info/en",
+      "description": "Archipelago randomizer for Frogmonster (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1271323478779363398",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "garfield-kart---furious-racing",
+      "name": "Garfield Kart - Furious Racing",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Garfield%20Kart%20-%20Furious%20Racing/info/en",
+      "description": "Archipelago randomizer for Garfield Kart - Furious Racing (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1315673680155639848",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "gato-roboto",
+      "name": "Gato Roboto",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Gato%20Roboto/info/en",
+      "description": "Archipelago randomizer for Gato Roboto (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1205195046689841217",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "gato-roboto-b-side",
+      "name": "Gato Roboto B-Side",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Gato%20Roboto%20B-Side/info/en",
+      "description": "Archipelago randomizer for Gato Roboto B-Side (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1466872819433607248",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "gauntlet-legends",
+      "name": "Gauntlet Legends",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Gauntlet%20Legends/info/en",
+      "description": "Archipelago randomizer for Gauntlet Legends (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1195336830258778183",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "getting-over-it-with-bennett-foddy",
+      "name": "Getting Over It with Bennett Foddy",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Getting%20Over%20It%20with%20Bennett%20Foddy/info/en",
+      "description": "Archipelago randomizer for Getting Over It with Bennett Foddy (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1123510506884444250",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "glyphs",
+      "name": "GLYPHS",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/GLYPHS/info/en",
+      "description": "Archipelago randomizer for GLYPHS (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1401434680808575017",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "golden-sun-the-lost-age",
+      "name": "Golden Sun: The Lost Age",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Golden%20Sun:%20The%20Lost%20Age/info/en",
+      "description": "Archipelago randomizer for Golden Sun: The Lost Age (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1055515261270241320",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "grim-dawn",
+      "name": "Grim Dawn",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Grim%20Dawn/info/en",
+      "description": "Archipelago randomizer for Grim Dawn (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1114646643225137224",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "guild-wars-2",
+      "name": "Guild Wars 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Guild%20Wars%202/info/en",
+      "description": "Archipelago randomizer for Guild Wars 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1247738360160587787",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "gzdoom",
+      "name": "gzDoom",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/gzDoom/info/en",
+      "description": "Archipelago randomizer for gzDoom (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1344142763842601090",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hades",
+      "name": "Hades",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hades/info/en",
+      "description": "Archipelago randomizer for Hades (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1367914798519550024",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hammerwatch",
+      "name": "Hammerwatch",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hammerwatch/info/en",
+      "description": "Archipelago randomizer for Hammerwatch (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1072687192360624218",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "haste-broken-worlds",
+      "name": "Haste: Broken Worlds",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Haste:%20Broken%20Worlds/info/en",
+      "description": "Archipelago randomizer for Haste: Broken Worlds (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356638437872111687",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hatsune-miku-project-diva-mega-mix+",
+      "name": "Hatsune Miku: Project Diva Mega Mix+",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hatsune%20Miku:%20Project%20Diva%20Mega%20Mix+/info/en",
+      "description": "Archipelago randomizer for Hatsune Miku: Project Diva Mega Mix+ (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1241134454391443580",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "here-comes-niko",
+      "name": "Here Comes Niko!",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Here%20Comes%20Niko!/info/en",
+      "description": "Archipelago randomizer for Here Comes Niko! (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1289974001434886287",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "heretic",
+      "name": "Heretic",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Heretic/info/en",
+      "description": "Archipelago randomizer for Heretic (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192236842515439627",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hero-core",
+      "name": "Hero Core",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hero%20Core/info/en",
+      "description": "Archipelago randomizer for Hero Core (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1019382284878622790",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hexcells-infinite",
+      "name": "Hexcells Infinite",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hexcells%20Infinite/info/en",
+      "description": "Archipelago randomizer for Hexcells Infinite (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1398578301081223260",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "high-roller",
+      "name": "High Roller",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/High%20Roller/info/en",
+      "description": "Archipelago randomizer for High Roller (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1470104360682917961",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hi-fi-rush",
+      "name": "Hi-Fi RUSH",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hi-Fi%20RUSH/info/en",
+      "description": "Archipelago randomizer for Hi-Fi RUSH (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1223862313145073674",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hollow-knight",
+      "name": "Hollow Knight",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hollow%20Knight/info/en",
+      "description": "Archipelago randomizer for Hollow Knight (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/959203442570715176",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "holo8",
+      "name": "holo8",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/holo8/info/en",
+      "description": "Archipelago randomizer for holo8 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1368677346869252228",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hololive-treasure-mountain",
+      "name": "Hololive Treasure Mountain",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hololive%20Treasure%20Mountain/info/en",
+      "description": "Archipelago randomizer for Hololive Treasure Mountain (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1435070203460583445",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "hylics-2",
+      "name": "Hylics 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Hylics%202/info/en",
+      "description": "Archipelago randomizer for Hylics 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1043593298247417929",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "iji",
+      "name": "Iji",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Iji/info/en",
+      "description": "Archipelago randomizer for Iji (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1335786670641123400",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "isles-of-sea-and-sky",
+      "name": "Isles of Sea and Sky",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Isles%20of%20Sea%20and%20Sky/info/en",
+      "description": "Archipelago randomizer for Isles of Sea and Sky (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1253182614441951282",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "inscryption",
+      "name": "Inscryption",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Inscryption/info/en",
+      "description": "Archipelago randomizer for Inscryption (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356651394320437469",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "into-the-breach",
+      "name": "Into the Breach",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Into%20the%20Breach/info/en",
+      "description": "Archipelago randomizer for Into the Breach (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1127025077196701828",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ittle-dew-2+",
+      "name": "Ittle Dew 2+",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Ittle%20Dew%202+/info/en",
+      "description": "Archipelago randomizer for Ittle Dew 2+ (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1260030530217574500",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "jak-and-daxter-the-precursor-legacy",
+      "name": "Jak and Daxter: The Precursor Legacy",
+      "platform": "PS2",
+      "url": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/info/en",
+      "description": "Archipelago randomizer for Jak and Daxter: The Precursor Legacy (PS2)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1394026388683755613",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "jak-2",
+      "name": "Jak 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Jak%202/info/en",
+      "description": "Archipelago randomizer for Jak 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1369067607290024056",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "jet-island",
+      "name": "Jet Island",
+      "platform": "VR",
+      "url": "https://archipelago.gg/games/Jet%20Island/info/en",
+      "description": "Archipelago randomizer for Jet Island (VR)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1370901827826094192",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "jigsaw",
+      "name": "Jigsaw",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Jigsaw/info/en",
+      "description": "Archipelago randomizer for Jigsaw (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1409148531637489775",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "js-paint",
+      "name": "JS Paint",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/JS%20Paint/info/en",
+      "description": "Archipelago randomizer for JS Paint (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1404622196567048253",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kabuto-park-demo",
+      "name": "Kabuto Park DEMO",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Kabuto%20Park%20DEMO/info/en",
+      "description": "Archipelago randomizer for Kabuto Park DEMO (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356738429139816680",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "keep-talking-and-nobody-explodes",
+      "name": "Keep Talking and Nobody Explodes",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Keep%20Talking%20and%20Nobody%20Explodes/info/en",
+      "description": "Archipelago randomizer for Keep Talking and Nobody Explodes (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1058549067107532840",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "keymasters-keep",
+      "name": "Keymaster's Keep",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Keymaster's%20Keep/info/en",
+      "description": "Archipelago randomizer for Keymaster's Keep (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1321323711676284939",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kingdom-hearts-final-mix",
+      "name": "KINGDOM HEARTS FINAL MIX",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20FINAL%20MIX/info/en",
+      "description": "Archipelago randomizer for KINGDOM HEARTS FINAL MIX (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1311061458662199357",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kingdom-hearts-chain-of-memories",
+      "name": "KINGDOM HEARTS Chain of Memories",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20Chain%20of%20Memories/info/en",
+      "description": "Archipelago randomizer for KINGDOM HEARTS Chain of Memories (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1074710550384234587",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kingdom-hearts-birth-by-sleep-final-mix",
+      "name": "KINGDOM HEARTS Birth by Sleep FINAL MIX",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20Birth%20by%20Sleep%20FINAL%20MIX/info/en",
+      "description": "Archipelago randomizer for KINGDOM HEARTS Birth by Sleep FINAL MIX (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1158149027385319434",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kingdom-hearts-rechain-of-memories",
+      "name": "KINGDOM HEARTS Re:Chain of Memories",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20Re:Chain%20of%20Memories/info/en",
+      "description": "Archipelago randomizer for KINGDOM HEARTS Re:Chain of Memories (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1074710550384234587",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kingdom-hearts-ii-final-mix",
+      "name": "KINGDOM HEARTS II FINAL MIX",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20II%20FINAL%20MIX/info/en",
+      "description": "Archipelago randomizer for KINGDOM HEARTS II FINAL MIX (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090817012416118815",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kirby-64-the-crystal-shards",
+      "name": "Kirby 64: The Crystal Shards",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Kirby%2064:%20The%20Crystal%20Shards/info/en",
+      "description": "Archipelago randomizer for Kirby 64: The Crystal Shards (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1175344681928904806",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kirby-air-ride",
+      "name": "Kirby Air Ride",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Kirby%20Air%20Ride/info/en",
+      "description": "Archipelago randomizer for Kirby Air Ride (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1291501105389502554",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kirbys-dream-land-3",
+      "name": "Kirby's Dream Land 3",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/info/en",
+      "description": "Archipelago randomizer for Kirby's Dream Land 3 (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224389195485806703",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "kirby-super-star",
+      "name": "Kirby Super Star",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Kirby%20Super%20Star/info/en",
+      "description": "Archipelago randomizer for Kirby Super Star (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1455078199611490384",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "landstalker---the-treasures-of-king-nole",
+      "name": "Landstalker - The Treasures of King Nole",
+      "platform": "GEN",
+      "url": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/info/en",
+      "description": "Archipelago randomizer for Landstalker - The Treasures of King Nole (GEN)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192237232069808238",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/League%20of%20Legends/info/en",
+      "description": "Archipelago randomizer for League of Legends (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1184691812099686492",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "legend-of-dragoon",
+      "name": "Legend of Dragoon",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Legend%20of%20Dragoon/info/en",
+      "description": "Archipelago randomizer for Legend of Dragoon (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1334988609249345567",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lego-batman-the-video-game",
+      "name": "Lego Batman: The Video Game",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lego%20Batman:%20The%20Video%20Game/info/en",
+      "description": "Archipelago randomizer for Lego Batman: The Video Game (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1182049227145232474",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lego-star-wars-the-complete-saga",
+      "name": "Lego Star Wars: The Complete Saga",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lego%20Star%20Wars:%20The%20Complete%20Saga/info/en",
+      "description": "Archipelago randomizer for Lego Star Wars: The Complete Saga (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1110760232763801711",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lethal-company",
+      "name": "Lethal Company",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lethal%20Company/info/en",
+      "description": "Archipelago randomizer for Lethal Company (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1183860023147896942",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lil-gator-game",
+      "name": "Lil Gator Game",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lil%20Gator%20Game/info/en",
+      "description": "Archipelago randomizer for Lil Gator Game (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1084922067469734039",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lingo",
+      "name": "Lingo",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lingo/info/en",
+      "description": "Archipelago randomizer for Lingo (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192233449868767362",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lingo-2",
+      "name": "Lingo 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lingo%202/info/en",
+      "description": "Archipelago randomizer for Lingo 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1351182605655080970",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "little-witch-nobeta",
+      "name": "Little Witch Nobeta",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Little%20Witch%20Nobeta/info/en",
+      "description": "Archipelago randomizer for Little Witch Nobeta (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1170655339323080796",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "loonyland-halloween-hill",
+      "name": "Loonyland: Halloween Hill",
+      "platform": "PC/Web",
+      "url": "https://archipelago.gg/games/Loonyland:%20Halloween%20Hill/info/en",
+      "description": "Archipelago randomizer for Loonyland: Halloween Hill (PC/Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1314639182655656016",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lufia-ii-rise-of-the-sinistrals",
+      "name": "Lufia II: Rise of the Sinistrals",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Lufia%20II:%20Rise%20of%20the%20Sinistrals/info/en",
+      "description": "Archipelago randomizer for Lufia II: Rise of the Sinistrals (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1055241755383046154",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "luigis-mansion",
+      "name": "Luigi's Mansion",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Luigi's%20Mansion/info/en",
+      "description": "Archipelago randomizer for Luigi's Mansion (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1378465872917827614",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "lunacid",
+      "name": "Lunacid",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Lunacid/info/en",
+      "description": "Archipelago randomizer for Lunacid (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1176614031067455528",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mario-&-luigi-superstar-saga",
+      "name": "Mario & Luigi: Superstar Saga",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Mario%20&%20Luigi:%20Superstar%20Saga/info/en",
+      "description": "Archipelago randomizer for Mario & Luigi: Superstar Saga (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257453738612756632",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mario-is-missing",
+      "name": "Mario is Missing!",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Mario%20is%20Missing!/info/en",
+      "description": "Archipelago randomizer for Mario is Missing! (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1188695271941603348",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mario-kart-64",
+      "name": "Mario Kart 64",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Mario%20Kart%2064/info/en",
+      "description": "Archipelago randomizer for Mario Kart 64 (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1124649084544876615",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mario-kart-double-dash",
+      "name": "Mario Kart: Double Dash",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Mario%20Kart:%20Double%20Dash/info/en",
+      "description": "Archipelago randomizer for Mario Kart: Double Dash (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257102472967884882",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mario-kart-wii",
+      "name": "Mario Kart Wii",
+      "platform": "Wii",
+      "url": "https://archipelago.gg/games/Mario%20Kart%20Wii/info/en",
+      "description": "Archipelago randomizer for Mario Kart Wii (Wii)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1204920631351713823",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mario-super-sluggers",
+      "name": "Mario Super Sluggers",
+      "platform": "Wii",
+      "url": "https://archipelago.gg/games/Mario%20Super%20Sluggers/info/en",
+      "description": "Archipelago randomizer for Mario Super Sluggers (Wii)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1238777175033909318",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "medievil-(1998)",
+      "name": "MediEvil (1998)",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/MediEvil%20(1998)/info/en",
+      "description": "Archipelago randomizer for MediEvil (1998) (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1282755532515709048",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mega-man-2",
+      "name": "Mega Man 2",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Mega%20Man%202/info/en",
+      "description": "Archipelago randomizer for Mega Man 2 (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1311061171192729690",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mega-man-3",
+      "name": "Mega Man 3",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Mega%20Man%203/info/en",
+      "description": "Archipelago randomizer for Mega Man 3 (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1250369456048177152",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mega-man-x",
+      "name": "Mega Man X",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Mega%20Man%20X/info/en",
+      "description": "Archipelago randomizer for Mega Man X (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1134349743984742520",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mega-man-x2",
+      "name": "Mega Man X2",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Mega%20Man%20X2/info/en",
+      "description": "Archipelago randomizer for Mega Man X2 (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1232388647127613490",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mega-man-x3",
+      "name": "Mega Man X3",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Mega%20Man%20X3/info/en",
+      "description": "Archipelago randomizer for Mega Man X3 (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1209396673755746324",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mega-man-battle-network-3-blue",
+      "name": "Mega Man Battle Network 3 Blue",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Mega%20Man%20Battle%20Network%203%20Blue/info/en",
+      "description": "Archipelago randomizer for Mega Man Battle Network 3 Blue (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1148331400542568558",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "meritous",
+      "name": "Meritous",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Meritous/info/en",
+      "description": "Archipelago randomizer for Meritous (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/959202754188963880",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "metrocubevania",
+      "name": "MetroCUBEvania",
+      "platform": "PICO-8",
+      "url": "https://archipelago.gg/games/MetroCUBEvania/info/en",
+      "description": "Archipelago randomizer for MetroCUBEvania (PICO-8)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1259263968245977128",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "metroid-fusion",
+      "name": "Metroid Fusion",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Metroid%20Fusion/info/en",
+      "description": "Archipelago randomizer for Metroid Fusion (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1161319361345232946",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "metroid-zero-mission",
+      "name": "Metroid: Zero Mission",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Metroid:%20Zero%20Mission/info/en",
+      "description": "Archipelago randomizer for Metroid: Zero Mission (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1106280250528235620",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "metroid-prime",
+      "name": "Metroid Prime",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Metroid%20Prime/info/en",
+      "description": "Archipelago randomizer for Metroid Prime (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1425600401733980301",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mindustry",
+      "name": "Mindustry",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Mindustry/info/en",
+      "description": "Archipelago randomizer for Mindustry (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1160797230161211472",
+      "completed": [],
       "todo": []
     },
     {
       "id": "minecraft",
       "name": "Minecraft",
+      "platform": "PC",
       "url": "https://archipelago.gg/games/Minecraft/info/en",
-      "description": "Sandbox adventure with randomized progression and linked worlds.",
+      "description": "Archipelago randomizer for Minecraft (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/837136185662111746",
       "completed": [],
-      "todo": ["minipomme", "todiun"]
+      "todo": []
+    },
+    {
+      "id": "minecraft-dig",
+      "name": "Minecraft Dig",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Minecraft%20Dig/info/en",
+      "description": "Archipelago randomizer for Minecraft Dig (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/837136185662111746",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "minishoot-adventures",
+      "name": "Minishoot' Adventures",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Minishoot'%20Adventures/info/en",
+      "description": "Archipelago randomizer for Minishoot' Adventures (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1307687662798508113",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "minit",
+      "name": "Minit",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Minit/info/en",
+      "description": "Archipelago randomizer for Minit (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1167463223528787998",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "momodora-moonlit-farewell",
+      "name": "Momodora: Moonlit Farewell",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Momodora:%20Moonlit%20Farewell/info/en",
+      "description": "Archipelago randomizer for Momodora: Moonlit Farewell (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1351406749315240007",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "monster-sanctuary",
+      "name": "Monster Sanctuary",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Monster%20Sanctuary/info/en",
+      "description": "Archipelago randomizer for Monster Sanctuary (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1096278752142577684",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "muse-dash",
+      "name": "Muse Dash",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Muse%20Dash/info/en",
+      "description": "Archipelago randomizer for Muse Dash (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1148331097705414796",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "mystical-ninja-starring-goemon",
+      "name": "Mystical Ninja Starring Goemon",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Mystical%20Ninja%20Starring%20Goemon/info/en",
+      "description": "Archipelago randomizer for Mystical Ninja Starring Goemon (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1176230651352068226",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "nine-sols",
+      "name": "Nine Sols",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Nine%20Sols/info/en",
+      "description": "Archipelago randomizer for Nine Sols (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1291949699150123048",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "noita",
+      "name": "Noita",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Noita/info/en",
+      "description": "Archipelago randomizer for Noita (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1109174779619057795",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "nodebuster",
+      "name": "Nodebuster",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Nodebuster/info/en",
+      "description": "Archipelago randomizer for Nodebuster (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1354141892434067476",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "nonogram-(picross)",
+      "name": "Nonogram (Picross)",
+      "platform": "PC/Mobile",
+      "url": "https://archipelago.gg/games/Nonogram%20(Picross)/info/en",
+      "description": "Archipelago randomizer for Nonogram (Picross) (PC/Mobile)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454544116711952384",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "old-school-runescape",
+      "name": "Old School Runescape",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Old%20School%20Runescape/info/en",
+      "description": "Archipelago randomizer for Old School Runescape (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1311060866598178866",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "openrct2",
+      "name": "OpenRCT2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/OpenRCT2/info/en",
+      "description": "Archipelago randomizer for OpenRCT2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1095746758774108240",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "openttd",
+      "name": "OpenTTD",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/OpenTTD/info/en",
+      "description": "Archipelago randomizer for OpenTTD (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1475251506381979970",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ori-and-the-blind-forest",
+      "name": "Ori and the Blind Forest",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Ori%20and%20the%20Blind%20Forest/info/en",
+      "description": "Archipelago randomizer for Ori and the Blind Forest (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1036405779726610452",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ori-and-the-will-of-the-wisps",
+      "name": "Ori and the Will of the Wisps",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Ori%20and%20the%20Will%20of%20the%20Wisps/info/en",
+      "description": "Archipelago randomizer for Ori and the Will of the Wisps (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1272952565843103765",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "osu",
+      "name": "Osu!",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Osu!/info/en",
+      "description": "Archipelago randomizer for Osu! (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1195040661171355730",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "our-ascent",
+      "name": "Our Ascent",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Our%20Ascent/info/en",
+      "description": "Archipelago randomizer for Our Ascent (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1358525617234252130",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "outer-wilds",
+      "name": "Outer Wilds",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Outer%20Wilds/info/en",
+      "description": "Archipelago randomizer for Outer Wilds (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1178700404637311086",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "overcooked-2",
+      "name": "Overcooked! 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Overcooked!%202/info/en",
+      "description": "Archipelago randomizer for Overcooked! 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1043593072174440448",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "oxygen-not-included",
+      "name": "Oxygen Not Included",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Oxygen%20Not%20Included/info/en",
+      "description": "Archipelago randomizer for Oxygen Not Included (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1446597534847074416",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "panel-de-pon/tetris-attack",
+      "name": "Panel De Pon/Tetris Attack",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Panel%20De%20Pon/Tetris%20Attack/info/en",
+      "description": "Archipelago randomizer for Panel De Pon/Tetris Attack (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1207963109990596669",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "paper-mario",
+      "name": "Paper Mario",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Paper%20Mario/info/en",
+      "description": "Archipelago randomizer for Paper Mario (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1369329691076329582",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "paper-mario-the-thousand-year-door",
+      "name": "Paper Mario: The Thousand Year Door",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Paper%20Mario:%20The%20Thousand%20Year%20Door/info/en",
+      "description": "Archipelago randomizer for Paper Mario: The Thousand Year Door (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1388344505446432789",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "parkitect",
+      "name": "Parkitect",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Parkitect/info/en",
+      "description": "Archipelago randomizer for Parkitect (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1417531615956963439",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "peaks-of-yore",
+      "name": "Peaks of Yore",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Peaks%20of%20Yore/info/en",
+      "description": "Archipelago randomizer for Peaks of Yore (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1332506808182378677",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "peggle-deluxe",
+      "name": "Peggle Deluxe",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Peggle%20Deluxe/info/en",
+      "description": "Archipelago randomizer for Peggle Deluxe (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1470246861557334016",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "peggle-nights",
+      "name": "Peggle Nights",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Peggle%20Nights/info/en",
+      "description": "Archipelago randomizer for Peggle Nights (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1470912354941141156",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pikmin-2",
+      "name": "Pikmin 2",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Pikmin%202/info/en",
+      "description": "Archipelago randomizer for Pikmin 2 (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1062964930174779452",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pinball-fx3",
+      "name": "Pinball FX3",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Pinball%20FX3/info/en",
+      "description": "Archipelago randomizer for Pinball FX3 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1465211526141972684",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pixeldraw",
+      "name": "PixelDraw",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/PixelDraw/info/en",
+      "description": "Archipelago randomizer for PixelDraw (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1483851572340457604",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pizza-tower",
+      "name": "Pizza Tower",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Pizza%20Tower/info/en",
+      "description": "Archipelago randomizer for Pizza Tower (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1079671816257277972",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "placid-plastic-duck-simulator",
+      "name": "Placid Plastic Duck Simulator",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Placid%20Plastic%20Duck%20Simulator/info/en",
+      "description": "Archipelago randomizer for Placid Plastic Duck Simulator (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1104785671262056559",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "plants-vs-zombies-replanted/goty",
+      "name": "Plants vs Zombies: Replanted/GOTY",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Plants%20vs%20Zombies:%20Replanted/GOTY/info/en",
+      "description": "Archipelago randomizer for Plants vs Zombies: Replanted/GOTY (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1437352496455483413",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "plateup",
+      "name": "Plateup!",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Plateup!/info/en",
+      "description": "Archipelago randomizer for Plateup! (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1159168584505901106",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "plok",
+      "name": "Plok",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Plok/info/en",
+      "description": "Archipelago randomizer for Plok (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1353834617433755688",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-red-and-blue",
+      "name": "Pokémon Red and Blue",
+      "platform": "GB",
+      "url": "https://archipelago.gg/games/Pokémon%20Red%20and%20Blue/info/en",
+      "description": "Archipelago randomizer for Pokémon Red and Blue (GB)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1043592720603693167",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-pinball",
+      "name": "Pokémon Pinball",
+      "platform": "GB",
+      "url": "https://archipelago.gg/games/Pokémon%20Pinball/info/en",
+      "description": "Archipelago randomizer for Pokémon Pinball (GB)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1358934774647095447",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-crystal",
+      "name": "Pokémon Crystal",
+      "platform": "GBC",
+      "url": "https://archipelago.gg/games/Pokémon%20Crystal/info/en",
+      "description": "Archipelago randomizer for Pokémon Crystal (GBC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1365127145709502575",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-firered-and-leafgreen",
+      "name": "Pokémon FireRed and LeafGreen",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Pokémon%20FireRed%20and%20LeafGreen/info/en",
+      "description": "Archipelago randomizer for Pokémon FireRed and LeafGreen (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1365127226533871718",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-emerald",
+      "name": "Pokémon Emerald",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Pokémon%20Emerald/info/en",
+      "description": "Archipelago randomizer for Pokémon Emerald (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192236871468711966",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-black-and-white",
+      "name": "Pokémon Black and White",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Pokémon%20Black%20and%20White/info/en",
+      "description": "Archipelago randomizer for Pokémon Black and White (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1414928022854696991",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-platinum",
+      "name": "Pokémon Platinum",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Pokémon%20Platinum/info/en",
+      "description": "Archipelago randomizer for Pokémon Platinum (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1414786317014929418",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-ranger-(quest)",
+      "name": "Pokémon Ranger (Quest)",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Pokémon%20Ranger%20(Quest)/info/en",
+      "description": "Archipelago randomizer for Pokémon Ranger (Quest) (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1476751710801362995",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pokémon-mystery-dungeon-explorers-of-sky",
+      "name": "Pokémon Mystery Dungeon Explorers of Sky",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Pokémon%20Mystery%20Dungeon%20Explorers%20of%20Sky/info/en",
+      "description": "Archipelago randomizer for Pokémon Mystery Dungeon Explorers of Sky (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1408865961385267260",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "poképark-wii-pikachus-adventure",
+      "name": "PokéPark Wii: Pikachu's Adventure",
+      "platform": "Wii",
+      "url": "https://archipelago.gg/games/PokéPark%20Wii:%20Pikachu's%20Adventure/info/en",
+      "description": "Archipelago randomizer for PokéPark Wii: Pikachu's Adventure (Wii)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1365710916011819088",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "poképelago---pokémon-guessing-game",
+      "name": "Poképelago - Pokémon Guessing Game",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Poképelago%20-%20Pokémon%20Guessing%20Game/info/en",
+      "description": "Archipelago randomizer for Poképelago - Pokémon Guessing Game (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1474030797811093514",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "powerwash-simulator",
+      "name": "Powerwash Simulator",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Powerwash%20Simulator/info/en",
+      "description": "Archipelago randomizer for Powerwash Simulator (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1158367507703410739",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "prodigal",
+      "name": "Prodigal",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Prodigal/info/en",
+      "description": "Archipelago randomizer for Prodigal (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1140678965422465115",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "pseudoregalia",
+      "name": "Pseudoregalia",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Pseudoregalia/info/en",
+      "description": "Archipelago randomizer for Pseudoregalia (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1147564210436452393",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "psychonauts",
+      "name": "Psychonauts",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Psychonauts/info/en",
+      "description": "Archipelago randomizer for Psychonauts (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1191273397976584212",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rabi-ribi",
+      "name": "Rabi-Ribi",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rabi-Ribi/info/en",
+      "description": "Archipelago randomizer for Rabi-Ribi (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1183337635805138994",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "raft",
+      "name": "Raft",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Raft/info/en",
+      "description": "Archipelago randomizer for Raft (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/937206960472883243",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rain-world",
+      "name": "Rain World",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rain%20World/info/en",
+      "description": "Archipelago randomizer for Rain World (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1136042293162418176",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rachet-&-clank",
+      "name": "Rachet & Clank",
+      "platform": "PS3",
+      "url": "https://archipelago.gg/games/Rachet%20&%20Clank/info/en",
+      "description": "Archipelago randomizer for Rachet & Clank (PS3)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1146024297324879872",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ratchet-&-clank-going-commando",
+      "name": "Ratchet & Clank: Going Commando",
+      "platform": "PS2",
+      "url": "https://archipelago.gg/games/Ratchet%20&%20Clank:%20Going%20Commando/info/en",
+      "description": "Archipelago randomizer for Ratchet & Clank: Going Commando (PS2)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1325015730218860554",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ratchet-&-clank-3-up-your-arsenal",
+      "name": "Ratchet & Clank 3: Up Your Arsenal",
+      "platform": "PS2",
+      "url": "https://archipelago.gg/games/Ratchet%20&%20Clank%203:%20Up%20Your%20Arsenal/info/en",
+      "description": "Archipelago randomizer for Ratchet & Clank 3: Up Your Arsenal (PS2)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1357102103054651622",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rayman-2-the-great-escape",
+      "name": "Rayman 2: The Great Escape",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rayman%202:%20The%20Great%20Escape/info/en",
+      "description": "Archipelago randomizer for Rayman 2: The Great Escape (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1151502935667257386",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "refunct",
+      "name": "Refunct",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Refunct/info/en",
+      "description": "Archipelago randomizer for Refunct (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1273001824919617577",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "r.e.p.o.",
+      "name": "R.E.P.O.",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/R.E.P.O./info/en",
+      "description": "Archipelago randomizer for R.E.P.O. (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1345146101094678639",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "reventure",
+      "name": "Reventure",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Reventure/info/en",
+      "description": "Archipelago randomizer for Reventure (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1200081144629174363",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rift-of-the-necrodancer",
+      "name": "Rift of the NecroDancer",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rift%20of%20the%20NecroDancer/info/en",
+      "description": "Archipelago randomizer for Rift of the NecroDancer (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1337112354130759757",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rift-wizard",
+      "name": "Rift Wizard",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rift%20Wizard/info/en",
+      "description": "Archipelago randomizer for Rift Wizard (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1097001818564853770",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "risk-of-rain",
+      "name": "Risk of Rain",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Risk%20of%20Rain/info/en",
+      "description": "Archipelago randomizer for Risk of Rain (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "risk-of-rain-2",
+      "name": "Risk of Rain 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
+      "description": "Archipelago randomizer for Risk of Rain 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/884926818480705586",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "risk-of-rain-returns",
+      "name": "Risk of Rain Returns",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Risk%20of%20Rain%20Returns/info/en",
+      "description": "Archipelago randomizer for Risk of Rain Returns (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1172336306890747984",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rogue-legacy",
+      "name": "Rogue Legacy",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rogue%20Legacy/info/en",
+      "description": "Archipelago randomizer for Rogue Legacy (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/929585237695029268",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "rusted-moss",
+      "name": "Rusted Moss",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Rusted%20Moss/info/en",
+      "description": "Archipelago randomizer for Rusted Moss (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1239286100472758302",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "satisfactory",
+      "name": "Satisfactory",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Satisfactory/info/en",
+      "description": "Archipelago randomizer for Satisfactory (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454822629423841442",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "saving-princess",
+      "name": "Saving Princess",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Saving%20Princess/info/en",
+      "description": "Archipelago randomizer for Saving Princess (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356647146484666439",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "scooby-doo-night-of-100-frights",
+      "name": "Scooby-Doo! Night of 100 Frights",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Scooby-Doo!%20Night%20of%20100%20Frights/info/en",
+      "description": "Archipelago randomizer for Scooby-Doo! Night of 100 Frights (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1188152412498829352",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "secret-of-evermore",
+      "name": "Secret of Evermore",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Secret%20of%20Evermore/info/en",
+      "description": "Archipelago randomizer for Secret of Evermore (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/909605724190019645",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "secret-of-mana",
+      "name": "Secret of Mana",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Secret%20of%20Mana/info/en",
+      "description": "Archipelago randomizer for Secret of Mana (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1228235556589146193",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sentinels-of-the-multiverse",
+      "name": "Sentinels of the Multiverse",
+      "platform": "PC / Physical",
+      "url": "https://archipelago.gg/games/Sentinels%20of%20the%20Multiverse/info/en",
+      "description": "Archipelago randomizer for Sentinels of the Multiverse (PC / Physical)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1241869295848521730",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "severed-soul",
+      "name": "Severed Soul",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Severed%20Soul/info/en",
+      "description": "Archipelago randomizer for Severed Soul (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1400131509569978478",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "shadow-the-hedgehog",
+      "name": "Shadow the Hedgehog",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Shadow%20the%20Hedgehog/info/en",
+      "description": "Archipelago randomizer for Shadow the Hedgehog (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1142558464242094200",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "shadowgate-64",
+      "name": "Shadowgate 64",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Shadowgate%2064/info/en",
+      "description": "Archipelago randomizer for Shadowgate 64 (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1295834685548658819",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "shapez",
+      "name": "Shapez",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Shapez/info/en",
+      "description": "Archipelago randomizer for Shapez (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1394026826782740601",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "shapez-2",
+      "name": "Shapez 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Shapez%202/info/en",
+      "description": "Archipelago randomizer for Shapez 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1278481415830245427",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "shivers",
+      "name": "Shivers",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Shivers/info/en",
+      "description": "Archipelago randomizer for Shivers (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1192237130005610586",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sid-meiers-civilization-v",
+      "name": "Sid Meier's Civilization V",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Sid%20Meier's%20Civilization%20V/info/en",
+      "description": "Archipelago randomizer for Sid Meier's Civilization V (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1342924294757552229",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sid-meiers-civilization-vi",
+      "name": "Sid Meier's Civilization VI",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Sid%20Meier's%20Civilization%20VI/info/en",
+      "description": "Archipelago randomizer for Sid Meier's Civilization VI (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356645390497222887",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "simon-tathams-portable-puzzle-collection",
+      "name": "Simon Tatham's Portable Puzzle Collection",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Simon%20Tatham's%20Portable%20Puzzle%20Collection/info/en",
+      "description": "Archipelago randomizer for Simon Tatham's Portable Puzzle Collection (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1278733078516207719",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "slay-the-spire",
+      "name": "Slay the Spire",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Slay%20the%20Spire/info/en",
+      "description": "Archipelago randomizer for Slay the Spire (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/884926940182609920",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "slime-rancher",
+      "name": "Slime Rancher",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Slime%20Rancher/info/en",
+      "description": "Archipelago randomizer for Slime Rancher (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1108426937409486909",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sly-cooper-and-the-thievius-raccoonus",
+      "name": "Sly Cooper and the Thievius Raccoonus",
+      "platform": "PS2",
+      "url": "https://archipelago.gg/games/Sly%20Cooper%20and%20the%20Thievius%20Raccoonus/info/en",
+      "description": "Archipelago randomizer for Sly Cooper and the Thievius Raccoonus (PS2)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1170557242660093952",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sly-2-band-of-thieves",
+      "name": "Sly 2: Band of Thieves",
+      "platform": "PS2",
+      "url": "https://archipelago.gg/games/Sly%202:%20Band%20of%20Thieves/info/en",
+      "description": "Archipelago randomizer for Sly 2: Band of Thieves (PS2)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1359447263981600788",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "smushi-come-home",
+      "name": "Smushi Come Home",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Smushi%20Come%20Home/info/en",
+      "description": "Archipelago randomizer for Smushi Come Home (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1443621717552402535",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "smw-spicy-mycena-waffles",
+      "name": "SMW: Spicy Mycena Waffles",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/SMW:%20Spicy%20Mycena%20Waffles/info/en",
+      "description": "Archipelago randomizer for SMW: Spicy Mycena Waffles (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1435322478024200202",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "smz3",
+      "name": "SMZ3",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/SMZ3/info/en",
+      "description": "Archipelago randomizer for SMZ3 (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/959203096142184458",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sonic-the-hedgehog",
+      "name": "Sonic the Hedgehog",
+      "platform": "GEN",
+      "url": "https://archipelago.gg/games/Sonic%20the%20Hedgehog/info/en",
+      "description": "Archipelago randomizer for Sonic the Hedgehog (GEN)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1212629606608408576",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sonic-adventure-dx",
+      "name": "Sonic Adventure DX",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Sonic%20Adventure%20DX/info/en",
+      "description": "Archipelago randomizer for Sonic Adventure DX (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1420425220858056874",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sonic-adventure-2-battle",
+      "name": "Sonic Adventure 2: Battle",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Sonic%20Adventure%202:%20Battle/info/en",
+      "description": "Archipelago randomizer for Sonic Adventure 2: Battle (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/980554290798145566",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sonic-heroes",
+      "name": "Sonic Heroes",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Sonic%20Heroes/info/en",
+      "description": "Archipelago randomizer for Sonic Heroes (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1234592520403423352",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sonic-riders",
+      "name": "Sonic Riders",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Sonic%20Riders/info/en",
+      "description": "Archipelago randomizer for Sonic Riders (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1292128680046235739",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "sonic-rush",
+      "name": "Sonic Rush",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Sonic%20Rush/info/en",
+      "description": "Archipelago randomizer for Sonic Rush (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1280648306124394567",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "soulblazer",
+      "name": "Soulblazer",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Soulblazer/info/en",
+      "description": "Archipelago randomizer for Soulblazer (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1209689725057761310",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "spelunker",
+      "name": "Spelunker",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/Spelunker/info/en",
+      "description": "Archipelago randomizer for Spelunker (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1237999589907234938",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "spelunky-2",
+      "name": "Spelunky 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Spelunky%202/info/en",
+      "description": "Archipelago randomizer for Spelunky 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1142626744629735555",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "spinball",
+      "name": "Spinball",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Spinball/info/en",
+      "description": "Archipelago randomizer for Spinball (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1325257989891952742",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "spongebob-squarepants-battle-for-bikini-bottom",
+      "name": "SpongeBob SquarePants: Battle For Bikini Bottom",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/SpongeBob%20SquarePants:%20Battle%20For%20Bikini%20Bottom/info/en",
+      "description": "Archipelago randomizer for SpongeBob SquarePants: Battle For Bikini Bottom (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1098766534035386458",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "spyro-2",
+      "name": "Spyro 2",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Spyro%202/info/en",
+      "description": "Archipelago randomizer for Spyro 2 (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1281660590431015046",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "spyro-3",
+      "name": "Spyro 3",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Spyro%203/info/en",
+      "description": "Archipelago randomizer for Spyro 3 (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1018847303722872843",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "stacklands",
+      "name": "Stacklands",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Stacklands/info/en",
+      "description": "Archipelago randomizer for Stacklands (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1151149079238299719",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "star-wars-episode-i---racer",
+      "name": "Star Wars: Episode I - Racer",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Star%20Wars:%20Episode%20I%20-%20Racer/info/en",
+      "description": "Archipelago randomizer for Star Wars: Episode I - Racer (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1207274588120158269",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "starcraft-ii",
+      "name": "StarCraft II",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/StarCraft%20II/info/en",
+      "description": "Archipelago randomizer for StarCraft II (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/980554570075873300",
+      "completed": [],
+      "todo": []
     },
     {
       "id": "stardew-valley",
       "name": "Stardew Valley",
+      "platform": "PC",
       "url": "https://archipelago.gg/games/Stardew%20Valley/info/en",
-      "description": "Farming life simulation with randomized relationships and objectives.",
-      "completed": ["minipomme"],
+      "description": "Archipelago randomizer for Stardew Valley (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090823633099833464",
+      "completed": [],
       "todo": []
+    },
+    {
+      "id": "starfox-64",
+      "name": "Starfox 64",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Starfox%2064/info/en",
+      "description": "Archipelago randomizer for Starfox 64 (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1024876649151475732",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "stick-ranger",
+      "name": "Stick Ranger",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Stick%20Ranger/info/en",
+      "description": "Archipelago randomizer for Stick Ranger (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1368511758662373517",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "streets-of-rage",
+      "name": "Streets of Rage",
+      "platform": "GEN",
+      "url": "https://archipelago.gg/games/Streets%20of%20Rage/info/en",
+      "description": "Archipelago randomizer for Streets of Rage (GEN)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1421815799504437409",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "subnautica",
+      "name": "Subnautica",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Subnautica/info/en",
+      "description": "Archipelago randomizer for Subnautica (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/868938368346628096",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-cat-planet",
+      "name": "Super Cat Planet",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Super%20Cat%20Planet/info/en",
+      "description": "Archipelago randomizer for Super Cat Planet (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1338978189682409473",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-junkoid",
+      "name": "Super Junkoid",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Super%20Junkoid/info/en",
+      "description": "Archipelago randomizer for Super Junkoid (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1196920710724071555",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-land-2-6-golden-coins",
+      "name": "Super Mario Land 2: 6 Golden Coins",
+      "platform": "GB",
+      "url": "https://archipelago.gg/games/Super%20Mario%20Land%202:%206%20Golden%20Coins/info/en",
+      "description": "Archipelago randomizer for Super Mario Land 2: 6 Golden Coins (GB)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1394026996325158982",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-sunshine",
+      "name": "Super Mario Sunshine",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Super%20Mario%20Sunshine/info/en",
+      "description": "Archipelago randomizer for Super Mario Sunshine (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1383204057514250300",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-sunshine-arcade-2",
+      "name": "Super Mario Sunshine Arcade 2",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Super%20Mario%20Sunshine%20Arcade%202/info/en",
+      "description": "Archipelago randomizer for Super Mario Sunshine Arcade 2 (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1399897298301096048",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-world",
+      "name": "Super Mario World",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Super%20Mario%20World/info/en",
+      "description": "Archipelago randomizer for Super Mario World (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1043593173089398846",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-world-2-yoshis-island",
+      "name": "Super Mario World 2: Yoshi's Island",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Super%20Mario%20World%202:%20Yoshi's%20Island/info/en",
+      "description": "Archipelago randomizer for Super Mario World 2: Yoshi's Island (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224389973336133743",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-64",
+      "name": "Super Mario 64",
+      "platform": "N64/PC",
+      "url": "https://archipelago.gg/games/Super%20Mario%2064/info/en",
+      "description": "Archipelago randomizer for Super Mario 64 (N64/PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/937206798014898186",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-mario-rpg",
+      "name": "Super Mario RPG",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Super%20Mario%20RPG/info/en",
+      "description": "Archipelago randomizer for Super Mario RPG (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1091478379963883651",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-metroid",
+      "name": "Super Metroid",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Super%20Metroid/info/en",
+      "description": "Archipelago randomizer for Super Metroid (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/909599727341928538",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-metroid-map-rando",
+      "name": "Super Metroid Map Rando",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Super%20Metroid%20Map%20Rando/info/en",
+      "description": "Archipelago randomizer for Super Metroid Map Rando (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1156395911874875473",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "super-smash-bros.-melee",
+      "name": "Super Smash Bros. Melee",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Super%20Smash%20Bros.%20Melee/info/en",
+      "description": "Archipelago randomizer for Super Smash Bros. Melee (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1179050965802942474",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "system-shock-2",
+      "name": "System Shock 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/System%20Shock%202/info/en",
+      "description": "Archipelago randomizer for System Shock 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1340419754200010915",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "talos-principle-reawakened",
+      "name": "Talos Principle Reawakened",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Talos%20Principle%20Reawakened/info/en",
+      "description": "Archipelago randomizer for Talos Principle Reawakened (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1473070314165633215",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "tcg-card-shop-simulator",
+      "name": "TCG Card Shop Simulator",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/TCG%20Card%20Shop%20Simulator/info/en",
+      "description": "Archipelago randomizer for TCG Card Shop Simulator (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1302063649812250665",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "terraria",
+      "name": "Terraria",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Terraria/info/en",
+      "description": "Archipelago randomizer for Terraria (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1148330488482767008",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "platform": "GB",
+      "url": "https://archipelago.gg/games/Tetris/info/en",
+      "description": "Archipelago randomizer for Tetris (GB)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1477485575937331281",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "tevi",
+      "name": "TEVI",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/TEVI/info/en",
+      "description": "Archipelago randomizer for TEVI (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1320015979736203304",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-binding-of-isaac-repentance",
+      "name": "The Binding of Isaac: Repentance",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Binding%20of%20Isaac:%20Repentance/info/en",
+      "description": "Archipelago randomizer for The Binding of Isaac: Repentance (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454262765047775326",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-forged-curse",
+      "name": "The Forged Curse",
+      "platform": "PICO-8",
+      "url": "https://archipelago.gg/games/The%20Forged%20Curse/info/en",
+      "description": "Archipelago randomizer for The Forged Curse (PICO-8)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1411846246271815850",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-grinch",
+      "name": "The Grinch",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/The%20Grinch/info/en",
+      "description": "Archipelago randomizer for The Grinch (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1279837475338190999",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-heroes-trails-in-the-sky-the-3rd",
+      "name": "The Legend of Heroes: Trails in the Sky the 3rd",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Heroes:%20Trails%20in%20the%20Sky%20the%203rd/info/en",
+      "description": "Archipelago randomizer for The Legend of Heroes: Trails in the Sky the 3rd (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1217595862872490065",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda",
+      "name": "The Legend of Zelda",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090821869340467332",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-ii-the-adventure-of-link",
+      "name": "The Legend of Zelda II: The Adventure of Link",
+      "platform": "NES",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda%20II:%20The%20Adventure%20of%20Link/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda II: The Adventure of Link (NES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1239454398367924325",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-a-link-to-the-past",
+      "name": "The Legend of Zelda: A Link to the Past",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20A%20Link%20to%20the%20Past/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: A Link to the Past (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/827141303330406408",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-links-awakening-dx",
+      "name": "The Legend of Zelda: Link's Awakening DX",
+      "platform": "GBC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Link's%20Awakening%20DX/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Link's Awakening DX (GBC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090819435893362768",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-ocarina-of-time",
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Ocarina%20of%20Time/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Ocarina of Time (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/884928390421938206",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-ocarina-of-time-(ship-of-harkinian)",
+      "name": "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Ocarina%20of%20Time%20(Ship%20of%20Harkinian)/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Ocarina of Time (Ship of Harkinian) (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1434235335625281707",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-ocarina-of-time-but-its-just-master-quest-water-temple",
+      "name": "The Legend of Zelda: Ocarina of Time but it's just Master Quest Water Temple",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Ocarina%20of%20Time%20but%20it's%20just%20Master%20Quest%20Water%20Temple/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Ocarina of Time but it's just Master Quest Water Temple (N64)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1211745516807782410",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-majoras-mask",
+      "name": "The Legend of Zelda: Majora's Mask",
+      "platform": "N64/PC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Majora's%20Mask/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Majora's Mask (N64/PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1368653154241089546",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-oracle-of-ages",
+      "name": "The Legend of Zelda: Oracle of Ages",
+      "platform": "GBC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Oracle%20of%20Ages/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Oracle of Ages (GBC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1279722186601750",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-oracle-of-seasons",
+      "name": "The Legend of Zelda: Oracle of Seasons",
+      "platform": "GBC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Oracle%20of%20Seasons/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Oracle of Seasons (GBC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1439343546615206019",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-the-wind-waker",
+      "name": "The Legend of Zelda: The Wind Waker",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20The%20Wind%20Waker/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: The Wind Waker (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1356643332754768044",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-the-minish-cap",
+      "name": "The Legend of Zelda: The Minish Cap",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20The%20Minish%20Cap/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: The Minish Cap (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1419820477404418140",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-twilight-princess",
+      "name": "The Legend of Zelda: Twilight Princess",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Twilight%20Princess/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Twilight Princess (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1369050080887312506",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-skyward-sword",
+      "name": "The Legend of Zelda: Skyward Sword",
+      "platform": "Wii",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Skyward%20Sword/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Skyward Sword (Wii)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1469917221068214444",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-phantom-hourglass",
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Phantom%20Hourglass/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Phantom Hourglass (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1256012365049233438",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-spirit-tracks",
+      "name": "The Legend of Zelda: Spirit Tracks",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Spirit%20Tracks/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: Spirit Tracks (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1358582876085682417",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-legend-of-zelda-a-link-between-worlds",
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "platform": "3DS",
+      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20A%20Link%20Between%20Worlds/info/en",
+      "description": "Archipelago randomizer for The Legend of Zelda: A Link Between Worlds (3DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1434699603843874846",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-messenger",
+      "name": "The Messenger",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Messenger/info/en",
+      "description": "Archipelago randomizer for The Messenger (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090822939697500243",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-simpsons-hit-and-run",
+      "name": "The Simpsons: Hit and Run",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Simpsons:%20Hit%20and%20Run/info/en",
+      "description": "Archipelago randomizer for The Simpsons: Hit and Run (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1158211913495359548",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-sims-4",
+      "name": "The Sims 4",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Sims%204/info/en",
+      "description": "Archipelago randomizer for The Sims 4 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1079002955262480424",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "the-witness",
+      "name": "The Witness",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/The%20Witness/info/en",
+      "description": "Archipelago randomizer for The Witness (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/980554001231786014",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "timespinner",
+      "name": "Timespinner",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Timespinner/info/en",
+      "description": "Archipelago randomizer for Timespinner (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/893636303630000169",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "toejam-&-earl",
+      "name": "Toejam & Earl",
+      "platform": "GEN",
+      "url": "https://archipelago.gg/games/Toejam%20&%20Earl/info/en",
+      "description": "Archipelago randomizer for Toejam & Earl (GEN)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1204326236415856671",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "toem",
+      "name": "TOEM",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/TOEM/info/en",
+      "description": "Archipelago randomizer for TOEM (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1255989734497587241",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "tombola",
+      "name": "Tombola",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Tombola/info/en",
+      "description": "Archipelago randomizer for Tombola (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1475176727235002571",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "total-war-warhammer-3-immortal-empires",
+      "name": "Total War Warhammer 3: Immortal Empires",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Total%20War%20Warhammer%203:%20Immortal%20Empires/info/en",
+      "description": "Archipelago randomizer for Total War Warhammer 3: Immortal Empires (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1136329107370684538",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "totally-accurate-battle-simulator",
+      "name": "Totally Accurate Battle Simulator",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Totally%20Accurate%20Battle%20Simulator/info/en",
+      "description": "Archipelago randomizer for Totally Accurate Battle Simulator (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1348142956682547230",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "touhou-18.5",
+      "name": "Touhou 18.5",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Touhou%2018.5/info/en",
+      "description": "Archipelago randomizer for Touhou 18.5 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1346288808512983040",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "trackmania-random-campaign",
+      "name": "Trackmania Random Campaign",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Trackmania%20Random%20Campaign/info/en",
+      "description": "Archipelago randomizer for Trackmania Random Campaign (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1368696493904625785",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "tunic",
+      "name": "TUNIC",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/TUNIC/info/en",
+      "description": "Archipelago randomizer for TUNIC (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224388891948093540",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "turnip-boy-commits-tax-evasion",
+      "name": "Turnip Boy Commits Tax Evasion",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Turnip%20Boy%20Commits%20Tax%20Evasion/info/en",
+      "description": "Archipelago randomizer for Turnip Boy Commits Tax Evasion (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1297617351977734214",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "twisty-cube",
+      "name": "Twisty Cube",
+      "platform": "PC/Mobile",
+      "url": "https://archipelago.gg/games/Twisty%20Cube/info/en",
+      "description": "Archipelago randomizer for Twisty Cube (PC/Mobile)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1420821472057757716",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "tyrian",
+      "name": "Tyrian",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Tyrian/info/en",
+      "description": "Archipelago randomizer for Tyrian (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224498137570349076",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ty-the-tasmanian-tiger",
+      "name": "Ty the Tasmanian Tiger",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Ty%20the%20Tasmanian%20Tiger/info/en",
+      "description": "Archipelago randomizer for Ty the Tasmanian Tiger (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1111533202184613991",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "ufo-50",
+      "name": "UFO 50",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/UFO%2050/info/en",
+      "description": "Archipelago randomizer for UFO 50 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1286076770445164575",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "undertale",
+      "name": "Undertale",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Undertale/info/en",
+      "description": "Archipelago randomizer for Undertale (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1148330675452264499",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "unfair-flips",
+      "name": "Unfair Flips",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Unfair%20Flips/info/en",
+      "description": "Archipelago randomizer for Unfair Flips (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1443942587974029322",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "vacation-simulator",
+      "name": "Vacation Simulator",
+      "platform": "VR",
+      "url": "https://archipelago.gg/games/Vacation%20Simulator/info/en",
+      "description": "Archipelago randomizer for Vacation Simulator (VR)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1204935955580985414",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "voltorb-flip-(hgss)",
+      "name": "Voltorb Flip (HGSS)",
+      "platform": "DS",
+      "url": "https://archipelago.gg/games/Voltorb%20Flip%20(HGSS)/info/en",
+      "description": "Archipelago randomizer for Voltorb Flip (HGSS) (DS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1419104603126890506",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "void-sols",
+      "name": "Void Sols",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Void%20Sols/info/en",
+      "description": "Archipelago randomizer for Void Sols (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1448045030777421844",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "void-stranger",
+      "name": "Void Stranger",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Void%20Stranger/info/en",
+      "description": "Archipelago randomizer for Void Stranger (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1231073014439743528",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "vvvvvv",
+      "name": "VVVVVV",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/VVVVVV/info/en",
+      "description": "Archipelago randomizer for VVVVVV (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/937206899949076540",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "wargroove",
+      "name": "Wargroove",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Wargroove/info/en",
+      "description": "Archipelago randomizer for Wargroove (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1090824439710625822",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "wargroove-2",
+      "name": "Wargroove 2",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Wargroove%202/info/en",
+      "description": "Archipelago randomizer for Wargroove 2 (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1159482310652076082",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "wario-land-super-mario-land-3",
+      "name": "Wario Land: Super Mario Land 3",
+      "platform": "GB",
+      "url": "https://archipelago.gg/games/Wario%20Land:%20Super%20Mario%20Land%203/info/en",
+      "description": "Archipelago randomizer for Wario Land: Super Mario Land 3 (GB)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1173641836502454303",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "wario-land-4",
+      "name": "Wario Land 4",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Wario%20Land%204/info/en",
+      "description": "Archipelago randomizer for Wario Land 4 (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1079899101732290620",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "wario-world",
+      "name": "Wario World",
+      "platform": "GC",
+      "url": "https://archipelago.gg/games/Wario%20World/info/en",
+      "description": "Archipelago randomizer for Wario World (GC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257377358269251666",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "watery-words",
+      "name": "Watery Words",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Watery%20Words/info/en",
+      "description": "Archipelago randomizer for Watery Words (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1292965246847418388",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "webfishing",
+      "name": "WEBFISHING",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/WEBFISHING/info/en",
+      "description": "Archipelago randomizer for WEBFISHING (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1299564055597416449",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "west-of-loathing",
+      "name": "West of Loathing",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/West%20of%20Loathing/info/en",
+      "description": "Archipelago randomizer for West of Loathing (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1273856413327822950",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "wordipelago",
+      "name": "Wordipelago",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Wordipelago/info/en",
+      "description": "Archipelago randomizer for Wordipelago (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1336387000928047186",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "xcom-2-war-of-the-chosen",
+      "name": "XCOM 2: War of the Chosen",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/XCOM%202:%20War%20of%20the%20Chosen/info/en",
+      "description": "Archipelago randomizer for XCOM 2: War of the Chosen (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1037751568700805141",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "xenoblade-chronicles-x",
+      "name": "Xenoblade Chronicles X",
+      "platform": "Wii U",
+      "url": "https://archipelago.gg/games/Xenoblade%20Chronicles%20X/info/en",
+      "description": "Archipelago randomizer for Xenoblade Chronicles X (Wii U)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1333863771868762265",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yacht-dice",
+      "name": "Yacht Dice",
+      "platform": "Web",
+      "url": "https://archipelago.gg/games/Yacht%20Dice/info/en",
+      "description": "Archipelago randomizer for Yacht Dice (Web)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1311061580645142578",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yarg-(yet-another-rhythm-game)",
+      "name": "YARG (Yet Another Rhythm Game)",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/YARG%20(Yet%20Another%20Rhythm%20Game)/info/en",
+      "description": "Archipelago randomizer for YARG (Yet Another Rhythm Game) (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1451771538943508490",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yarg-(guitar-hero-1/rock-band-3/combined)",
+      "name": "YARG (Guitar Hero 1/Rock Band 3/Combined)",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/YARG%20(Guitar%20Hero%201/Rock%20Band%203/Combined)/info/en",
+      "description": "Archipelago randomizer for YARG (Guitar Hero 1/Rock Band 3/Combined) (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454538103933898752",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "donkey-kong-country-mirror-hack",
+      "name": "Donkey Kong Country (Mirror Hack)",
+      "platform": "SNES",
+      "url": "https://archipelago.gg/games/Donkey%20Kong%20Country%20(Mirror%20Hack)/info/en",
+      "description": "Archipelago randomizer for Donkey Kong Country (Mirror Hack) (SNES)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1395482597710106694",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yokus-island-express",
+      "name": "Yoku's Island Express",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Yoku's%20Island%20Express/info/en",
+      "description": "Archipelago randomizer for Yoku's Island Express (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1225283906333446245",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yooka-laylee",
+      "name": "Yooka-Laylee",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Yooka-Laylee/info/en",
+      "description": "Archipelago randomizer for Yooka-Laylee (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1103936661156536330",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yu-gi-oh-dungeon-dice-monsters",
+      "name": "Yu-Gi-Oh! Dungeon Dice Monsters",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Yu-Gi-Oh!%20Dungeon%20Dice%20Monsters/info/en",
+      "description": "Archipelago randomizer for Yu-Gi-Oh! Dungeon Dice Monsters (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1298768685510561842",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yu-gi-oh-ultimate-masters-wct-2006",
+      "name": "Yu-Gi-Oh! Ultimate Masters: WCT 2006",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Yu-Gi-Oh!%20Ultimate%20Masters:%20WCT%202006/info/en",
+      "description": "Archipelago randomizer for Yu-Gi-Oh! Ultimate Masters: WCT 2006 (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1257454640950149151",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yu-gi-oh-forbidden-memories",
+      "name": "Yu-Gi-Oh! Forbidden Memories",
+      "platform": "PSX",
+      "url": "https://archipelago.gg/games/Yu-Gi-Oh!%20Forbidden%20Memories/info/en",
+      "description": "Archipelago randomizer for Yu-Gi-Oh! Forbidden Memories (PSX)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1210743818564149288",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "yu-gi-oh-gx-duel-academy",
+      "name": "Yu-Gi-Oh GX Duel Academy",
+      "platform": "GBA",
+      "url": "https://archipelago.gg/games/Yu-Gi-Oh%20GX%20Duel%20Academy/info/en",
+      "description": "Archipelago randomizer for Yu-Gi-Oh GX Duel Academy (GBA)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1345884440571678862",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "zillion",
+      "name": "Zillion",
+      "platform": "SMS",
+      "url": "https://archipelago.gg/games/Zillion/info/en",
+      "description": "Archipelago randomizer for Zillion (SMS)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1043593966131613736",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "zork-grand-inquisitor",
+      "name": "Zork: Grand Inquisitor",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Zork:%20Grand%20Inquisitor/info/en",
+      "description": "Archipelago randomizer for Zork: Grand Inquisitor (PC)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1224389493289648218",
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "platform": "PC",
+      "url": "https://archipelago.gg/games/Elden%20Ring/info/en",
+      "description": "A masterpiece of action RPG gameplay. Explore the Lands Between with randomized bosses and loot.",
+      "completed": [
+        "minipomme"
+      ],
+      "todo": []
+    },
+    {
+      "id": "ocarina-of-time",
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "platform": "N64",
+      "url": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
+      "description": "Classic N64 Zelda adventure with randomized dungeons and items.",
+      "completed": [],
+      "todo": [
+        "minipomme"
+      ]
     },
     {
       "id": "dark-souls-3",
       "name": "Dark Souls III",
+      "platform": "PC",
       "url": "https://archipelago.gg/games/Dark%20Souls%20III/info/en",
       "description": "Challenging action RPG with randomized bosses and loot progression.",
       "completed": [],
-      "todo": ["todiun"]
+      "todo": [
+        "todiun"
+      ]
     }
   ]
 }

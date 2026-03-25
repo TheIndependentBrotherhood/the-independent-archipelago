@@ -15,7 +15,9 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -30,7 +32,11 @@ body {
 header {
   text-align: center;
   padding: 40px 0 30px;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--secondary-color) 100%
+  );
   color: white;
   margin-bottom: 40px;
 }
@@ -128,7 +134,9 @@ header p {
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 20px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -183,7 +191,9 @@ header p {
   padding: 10px 12px;
   border-radius: 20px;
   cursor: pointer;
-  transition: opacity 0.2s, transform 0.2s;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
   font-size: 1rem;
   width: fit-content;
 }
@@ -303,6 +313,39 @@ header p {
   background-color: var(--primary-color);
 }
 
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition:
+    background-color 0.2s,
+    transform 0.2s;
+}
+
+.btn-icon:hover {
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.btn-icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .no-results {
   grid-column: 1 / -1;
   text-align: center;
@@ -328,7 +371,7 @@ footer {
   .games-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .filter-section {
     grid-template-columns: 1fr;
   }
