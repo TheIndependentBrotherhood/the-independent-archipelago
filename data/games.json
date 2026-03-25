@@ -424,7 +424,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["minipomme"],
       "inProgress": []
     },
     {
@@ -1541,22 +1541,10 @@
       "inProgress": []
     },
     {
-      "id": "donkey-kong-country-2",
-      "name": "Donkey Kong Country 2",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Donkey_Kong_Country_2",
-      "description": "Archipelago randomizer for Donkey Kong Country 2",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "donkey-kong-country-2-diddys-kong-quest",
       "name": "Donkey Kong Country 2: Diddy's Kong Quest",
       "platform": "SNES",
-      "url": "https://archipelago.gg/games/Donkey%20Kong%20Country%202:%20Diddy's%20Kong%20Quest/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Donkey_Kong_Country_2",
       "description": "Archipelago randomizer for Donkey Kong Country 2: Diddy's Kong Quest (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1023381145565548646",
       "completed": [],
@@ -1778,22 +1766,10 @@
       "inProgress": []
     },
     {
-      "id": "ender-lilies",
-      "name": "Ender Lilies",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Ender_Lilies",
-      "description": "Archipelago randomizer for Ender Lilies",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "ender-lilies-quietus-of-the-knights",
       "name": "Ender Lilies: Quietus of the Knights",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/Ender%20Lilies:%20Quietus%20of%20the%20Knights/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Ender_Lilies",
       "description": "Archipelago randomizer for Ender Lilies: Quietus of the Knights (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1093030832886792242",
       "completed": [],
@@ -1919,18 +1895,6 @@
       "inProgress": []
     },
     {
-      "id": "ff1-pixel-remaster",
-      "name": "FF1 Pixel Remaster",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/FF1_Pixel_Remaster",
-      "description": "Archipelago randomizer for FF1 Pixel Remaster",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "final-fantasy",
       "name": "Final Fantasy",
       "platform": "NES",
@@ -1993,7 +1957,7 @@
       "id": "final-fantasy-pixel-remaster",
       "name": "Final Fantasy Pixel Remaster",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/Final%20Fantasy%20Pixel%20Remaster/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/FF1_Pixel_Remaster",
       "description": "Archipelago randomizer for Final Fantasy Pixel Remaster (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1195372952166879262",
       "completed": [],
@@ -2002,22 +1966,10 @@
       "inProgress": []
     },
     {
-      "id": "final-fantasy-tactics-a2",
-      "name": "Final Fantasy Tactics A2",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_Tactics_A2",
-      "description": "Archipelago randomizer for Final Fantasy Tactics A2",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "final-fantasy-tactics-a2-grimoire-of-the-rift",
       "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
       "platform": "DS",
-      "url": "https://archipelago.gg/games/Final%20Fantasy%20Tactics%20A2:%20Grimoire%20of%20the%20Rift/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_Tactics_A2",
       "description": "Archipelago randomizer for Final Fantasy Tactics A2: Grimoire of the Rift (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1296095764518277143",
       "completed": [],
@@ -2275,22 +2227,10 @@
       "inProgress": []
     },
     {
-      "id": "getting-over-it",
-      "name": "Getting Over It",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Getting_Over_It",
-      "description": "Archipelago randomizer for Getting Over It",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "getting-over-it-with-bennett-foddy",
       "name": "Getting Over It with Bennett Foddy",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/Getting%20Over%20It%20with%20Bennett%20Foddy/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Getting_Over_It",
       "description": "Archipelago randomizer for Getting Over It with Bennett Foddy (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1123510506884444250",
       "completed": [],
@@ -2546,7 +2486,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["minipomme"],
       "inProgress": []
     },
     {
@@ -2715,22 +2655,10 @@
       "inProgress": []
     },
     {
-      "id": "ittle-dew-2",
-      "name": "Ittle Dew 2",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Ittle_Dew_2",
-      "description": "Archipelago randomizer for Ittle Dew 2",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "ittle-dew-2+",
       "name": "Ittle Dew 2+",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/Ittle%20Dew%202+/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Ittle_Dew_2",
       "description": "Archipelago randomizer for Ittle Dew 2+ (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1260030530217574500",
       "completed": [],
@@ -2903,22 +2831,10 @@
       "inProgress": []
     },
     {
-      "id": "kingdom-hearts-birth-by-sleep",
-      "name": "Kingdom Hearts Birth by Sleep",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Kingdom_Hearts_Birth_by_Sleep",
-      "description": "Archipelago randomizer for Kingdom Hearts Birth by Sleep",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "kingdom-hearts-birth-by-sleep-final-mix",
       "name": "KINGDOM HEARTS Birth by Sleep FINAL MIX",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20Birth%20by%20Sleep%20FINAL%20MIX/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Kingdom_Hearts_Birth_by_Sleep",
       "description": "Archipelago randomizer for KINGDOM HEARTS Birth by Sleep FINAL MIX (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1158149027385319434",
       "completed": [],
@@ -2973,22 +2889,10 @@
       "inProgress": []
     },
     {
-      "id": "kingdom-hearts-re-chain-of-memories",
-      "name": "Kingdom Hearts RE Chain of Memories",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Kingdom_Hearts_RE_Chain_of_Memories",
-      "description": "Archipelago randomizer for Kingdom Hearts RE Chain of Memories",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "kingdom-hearts-rechain-of-memories",
       "name": "KINGDOM HEARTS Re:Chain of Memories",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/KINGDOM%20HEARTS%20Re:Chain%20of%20Memories/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Kingdom_Hearts_RE_Chain_of_Memories",
       "description": "Archipelago randomizer for KINGDOM HEARTS Re:Chain of Memories (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1074710550384234587",
       "completed": [],
@@ -3281,18 +3185,6 @@
       "inProgress": []
     },
     {
-      "id": "majoras-mask-recompiled",
-      "name": "Majora's Mask Recompiled",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Majora%27s_Mask_Recompiled",
-      "description": "Archipelago randomizer for Majora's Mask Recompiled",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "mario-&-luigi-superstar-saga",
       "name": "Mario & Luigi: Superstar Saga",
       "platform": "GBA",
@@ -3388,22 +3280,10 @@
       "inProgress": []
     },
     {
-      "id": "medievil",
-      "name": "Medievil",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Medievil",
-      "description": "Archipelago randomizer for Medievil",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "medievil-(1998)",
       "name": "MediEvil (1998)",
       "platform": "PSX",
-      "url": "https://archipelago.gg/games/MediEvil%20(1998)/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Medievil",
       "description": "Archipelago randomizer for MediEvil (1998) (PSX)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1282755532515709048",
       "completed": [],
@@ -3909,22 +3789,10 @@
       "inProgress": []
     },
     {
-      "id": "nonograhmm",
-      "name": "Nonograhmm",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Nonograhmm",
-      "description": "Archipelago randomizer for Nonograhmm",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "nonogram-(picross)",
       "name": "Nonogram (Picross)",
       "platform": "PC/Mobile",
-      "url": "https://archipelago.gg/games/Nonogram%20(Picross)/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Nonograhmm",
       "description": "Archipelago randomizer for Nonogram (Picross) (PC/Mobile)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1454544116711952384",
       "completed": [],
@@ -3962,18 +3830,6 @@
       "platform": "Unknown",
       "url": "https://archipelago.miraheze.org/wiki/Oblivion_Remastered",
       "description": "Archipelago randomizer for Oblivion Remastered",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
-      "id": "ocarina-of-time-but-its-just-master-quest-water-temple",
-      "name": "Ocarina of Time but it's just Master Quest Water Temple",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Ocarina_of_Time_but_it%27s_just_Master_Quest_Water_Temple",
-      "description": "Archipelago randomizer for Ocarina of Time but it's just Master Quest Water Temple",
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
@@ -4120,7 +3976,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["minipomme"],
       "inProgress": []
     },
     {
@@ -4215,7 +4071,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["minipomme"],
       "inProgress": []
     },
     {
@@ -4564,22 +4420,10 @@
       "inProgress": []
     },
     {
-      "id": "poképelago",
-      "name": "Poképelago",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9pelago",
-      "description": "Archipelago randomizer for Poképelago",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "poképelago---pokémon-guessing-game",
       "name": "Poképelago - Pokémon Guessing Game",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/Poképelago%20-%20Pokémon%20Guessing%20Game/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9pelago",
       "description": "Archipelago randomizer for Poképelago - Pokémon Guessing Game (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1474030797811093514",
       "completed": [],
@@ -4672,22 +4516,10 @@
       "inProgress": []
     },
     {
-      "id": "repo",
-      "name": "R.E.P.O",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/R.E.P.O",
-      "description": "Archipelago randomizer for R.E.P.O",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
       "id": "r.e.p.o.",
       "name": "R.E.P.O.",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/R.E.P.O./info/en",
+      "url": "https://archipelago.miraheze.org/wiki/R.E.P.O",
       "description": "Archipelago randomizer for R.E.P.O. (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1345146101094678639",
       "completed": [],
@@ -5034,7 +4866,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["moonmoon"],
       "inProgress": []
     },
     {
@@ -5099,9 +4931,9 @@
     {
       "id": "sentinels-of-the-multiverse",
       "name": "Sentinels of the Multiverse",
-      "platform": "PC / Physical",
+      "platform": "PC/Physical",
       "url": "https://archipelago.miraheze.org/wiki/Sentinels_of_the_Multiverse",
-      "description": "Archipelago randomizer for Sentinels of the Multiverse (PC / Physical)",
+      "description": "Archipelago randomizer for Sentinels of the Multiverse (PC/Physical)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1241869295848521730",
       "completed": [],
       "todo": [],
@@ -5296,18 +5128,6 @@
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/ishanpm/ap-sgtpuzzles-web/releases",
-      "inProgress": []
-    },
-    {
-      "id": "skyward-sword",
-      "name": "Skyward Sword",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Skyward_Sword",
-      "description": "Archipelago randomizer for Skyward Sword",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
       "inProgress": []
     },
     {
@@ -5528,24 +5348,12 @@
       "id": "sonic-the-hedgehog",
       "name": "Sonic the Hedgehog",
       "platform": "GEN",
-      "url": "https://archipelago.gg/games/Sonic%20the%20Hedgehog/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Sonic_the_Hedgehog_1",
       "description": "Archipelago randomizer for Sonic the Hedgehog (GEN)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1212629606608408576",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/kaithar/Archipelago/releases",
-      "inProgress": []
-    },
-    {
-      "id": "sonic-the-hedgehog-1",
-      "name": "Sonic the Hedgehog 1",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Sonic_the_Hedgehog_1",
-      "description": "Archipelago randomizer for Sonic the Hedgehog 1",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
       "inProgress": []
     },
     {
@@ -5727,21 +5535,9 @@
     },
     {
       "id": "star-wars-episode-i-racer",
-      "name": "Star Wars Episode I Racer",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/Star_Wars_Episode_I_Racer",
-      "description": "Archipelago randomizer for Star Wars Episode I Racer",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": []
-    },
-    {
-      "id": "star-wars-episode-i---racer",
       "name": "Star Wars: Episode I - Racer",
       "platform": "PC",
-      "url": "https://archipelago.gg/games/Star%20Wars:%20Episode%20I%20-%20Racer/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Star_Wars_Episode_I_Racer",
       "description": "Archipelago randomizer for Star Wars: Episode I - Racer (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1207274588120158269",
       "completed": [],
@@ -6158,9 +5954,9 @@
     {
       "id": "the-legend-of-zelda-majoras-mask",
       "name": "The Legend of Zelda: Majora's Mask",
-      "platform": "N64/PC",
-      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Majora's%20Mask/info/en",
-      "description": "Archipelago randomizer for The Legend of Zelda: Majora's Mask (N64/PC)",
+      "platform": "N64",
+      "url": "https://archipelago.miraheze.org/wiki/Majora%27s_Mask_Recompiled",
+      "description": "Archipelago randomizer for The Legend of Zelda: Majora's Mask (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1368653154241089546",
       "completed": [],
       "todo": [],
@@ -6194,7 +5990,7 @@
       "id": "the-legend-of-zelda-ocarina-of-time-but-its-just-master-quest-water-temple",
       "name": "The Legend of Zelda: Ocarina of Time but it's just Master Quest Water Temple",
       "platform": "N64",
-      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Ocarina%20of%20Time%20but%20it's%20just%20Master%20Quest%20Water%20Temple/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Ocarina_of_Time_but_it%27s_just_Master_Quest_Water_Temple",
       "description": "Archipelago randomizer for The Legend of Zelda: Ocarina of Time but it's just Master Quest Water Temple (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1211745516807782410",
       "completed": [],
@@ -6242,7 +6038,7 @@
       "id": "the-legend-of-zelda-skyward-sword",
       "name": "The Legend of Zelda: Skyward Sword",
       "platform": "Wii",
-      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20Skyward%20Sword/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/Skyward_Sword",
       "description": "Archipelago randomizer for The Legend of Zelda: Skyward Sword (Wii)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1469917221068214444",
       "completed": [],
@@ -6266,7 +6062,7 @@
       "id": "the-legend-of-zelda-the-minish-cap",
       "name": "The Legend of Zelda: The Minish Cap",
       "platform": "GBA",
-      "url": "https://archipelago.gg/games/The%20Legend%20of%20Zelda:%20The%20Minish%20Cap/info/en",
+      "url": "https://archipelago.miraheze.org/wiki/The_Minish_Cap",
       "description": "Archipelago randomizer for The Legend of Zelda: The Minish Cap (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1419820477404418140",
       "completed": [],
@@ -6306,18 +6102,6 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1090822939697500243",
       "completed": [],
       "todo": ["lifestomper"],
-      "inProgress": []
-    },
-    {
-      "id": "the-minish-cap",
-      "name": "The Minish Cap",
-      "platform": "Unknown",
-      "url": "https://archipelago.miraheze.org/wiki/The_Minish_Cap",
-      "description": "Archipelago randomizer for The Minish Cap",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
       "inProgress": []
     },
     {
