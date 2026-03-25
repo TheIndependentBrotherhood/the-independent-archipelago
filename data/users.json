@@ -1,19 +1,9 @@
 {
   "users": [
     {
-      "id": "minipomme",
-      "pseudo": "Pom'",
-      "emoji": "🍎"
-    },
-    {
-      "id": "moonmoon",
-      "pseudo": "Moon Moon",
-      "emoji": "🐺"
-    },
-    {
-      "id": "miniviruce",
-      "pseudo": "miniviruce",
-      "emoji": "👽"
+      "id": "falclone",
+      "pseudo": "Falclone",
+      "emoji": "🦅"
     },
     {
       "id": "lifestomper",
@@ -26,9 +16,19 @@
       "emoji": "🪄"
     },
     {
-      "id": "todiun",
-      "pseudo": "Todiun",
-      "emoji": "🤏"
+      "id": "miniviruce",
+      "pseudo": "miniviruce",
+      "emoji": "👽"
+    },
+    {
+      "id": "moonmoon",
+      "pseudo": "Moon Moon",
+      "emoji": "🐺"
+    },
+    {
+      "id": "minipomme",
+      "pseudo": "Pom'",
+      "emoji": "🍎"
     },
     {
       "id": "sid",
@@ -36,9 +36,9 @@
       "emoji": "🧊"
     },
     {
-      "id": "falclone",
-      "pseudo": "Falclone",
-      "emoji": "🦅"
+      "id": "todiun",
+      "pseudo": "Todiun",
+      "emoji": "🤏"
     }
   ]
 }
