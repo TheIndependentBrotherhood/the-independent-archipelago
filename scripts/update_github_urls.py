@@ -2,7 +2,7 @@ import json
 import re
 
 # Read the existing games.json
-with open('data/games.json', 'r', encoding='utf-8') as f:
+with open('../data/games.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 games_by_id = {game['id']: game for game in data['games']}
@@ -355,7 +355,7 @@ for line in github_data.strip().split('\n'):
 updated_games = list(games_by_id.values())
 result = {"games": updated_games}
 
-with open('data/games.json', 'w', encoding='utf-8') as f:
+with open('../data/games.json', 'w', encoding='utf-8') as f:
     json.dump(result, f, indent=2, ensure_ascii=False)
 
 print(f"Updated {updated_games_count} games with GitHub URLs")

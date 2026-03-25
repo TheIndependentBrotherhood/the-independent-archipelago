@@ -30,7 +30,7 @@ class GameParser(HTMLParser):
 
 
 # Read HTML file
-with open('data/origin/archipelago_wiki_first_page.html', 'r', encoding='utf-8') as f:
+with open('../data/origin/archipelago_wiki_first_page.html', 'r', encoding='utf-8') as f:
     html_content = f.read()
 
 # Parse games from HTML
@@ -41,7 +41,7 @@ wiki_games = parser.games
 print(f"Extracted {len(wiki_games)} games from wiki HTML")
 
 # Load existing games
-with open('data/games.json', 'r', encoding='utf-8') as f:
+with open('../data/games.json', 'r', encoding='utf-8') as f:
     games_data = json.load(f)
 
 games_by_id = {game['id']: game for game in games_data['games']}
@@ -85,7 +85,7 @@ for wiki_game in wiki_games:
 updated_games = sorted(games_by_id.values(), key=lambda g: g['name'].lower())
 result = {"games": updated_games}
 
-with open('data/games.json', 'w', encoding='utf-8') as f:
+with open('../data/games.json', 'w', encoding='utf-8') as f:
     json.dump(result, f, indent=2, ensure_ascii=False)
 
 print(f"Updated {updated_count} games with wiki URLs")
