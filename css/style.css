@@ -284,6 +284,25 @@ header p {
   color: white;
 }
 
+/* Status-specific filter colors - matching badge colors */
+#todoUserFilter .filter-btn.active {
+  background-color: var(--todo-bg);
+  border-color: var(--todo-border);
+  color: var(--todo-text);
+}
+
+#inProgressUserFilter .filter-btn.active {
+  background-color: var(--inprogress-bg);
+  border-color: var(--inprogress-border);
+  color: var(--inprogress-text);
+}
+
+#completedUserFilter .filter-btn.active {
+  background-color: var(--completed-bg);
+  border-color: var(--completed-border);
+  color: var(--completed-text);
+}
+
 .clear-filter-btn {
   background: none;
   border: none;

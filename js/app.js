@@ -118,7 +118,7 @@ function initializeFilters(games) {
 
   // Create filter buttons for todo
   createFilterGroup(
-    "Todo",
+    "To Do List",
     "todoUserFilter",
     todoUsers,
     toggleTodoFilter,
