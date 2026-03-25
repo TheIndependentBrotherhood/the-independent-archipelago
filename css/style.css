@@ -90,7 +90,7 @@ header p {
 
 .filter-group h3 {
   margin-bottom: 12px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--primary-color);
 }
 
@@ -212,7 +212,7 @@ header p {
 .game-card h3 {
   margin-bottom: 8px;
   color: var(--primary-color);
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   position: relative;
   z-index: 2;
 }
