@@ -2,6 +2,7 @@
 let usersMap = {};
 let allGames = [];
 let selectedTodoFilter = null;
+let selectedInProgressFilter = null;
 let selectedCompletedFilter = null;
 
 async function loadGames() {
@@ -32,12 +33,14 @@ async function loadGames() {
 }
 
 function initializeFilters(games) {
-  // Get all unique users in todo and completed
+  // Get all unique users in todo, inProgress and completed
   const todoUsers = new Set();
+  const inProgressUsers = new Set();
   const completedUsers = new Set();
 
   games.forEach((game) => {
     game.todo.forEach((userId) => todoUsers.add(userId));
+    game.inProgress.forEach((userId) => inProgressUsers.add(userId));
     game.completed.forEach((userId) => completedUsers.add(userId));
   });
 
@@ -51,6 +54,20 @@ function initializeFilters(games) {
     btn.textContent = `${user.emoji} ${user.pseudo}`;
     btn.addEventListener("click", () => toggleTodoFilter(userId, btn));
     todoFilterContainer.appendChild(btn);
+  });
+
+  // Create filter buttons for inProgress
+  const inProgressFilterContainer = document.getElementById(
+    "inProgressUserFilter",
+  );
+  inProgressFilterContainer.innerHTML = "";
+  inProgressUsers.forEach((userId) => {
+    const user = usersMap[userId];
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.textContent = `${user.emoji} ${user.pseudo}`;
+    btn.addEventListener("click", () => toggleInProgressFilter(userId, btn));
+    inProgressFilterContainer.appendChild(btn);
   });
 
   // Create filter buttons for completed
@@ -82,6 +99,20 @@ function toggleTodoFilter(userId, btn) {
   applyFilters();
 }
 
+function toggleInProgressFilter(userId, btn) {
+  if (selectedInProgressFilter === userId) {
+    selectedInProgressFilter = null;
+    btn.classList.remove("active");
+  } else {
+    document
+      .querySelectorAll("#inProgressUserFilter .filter-btn.active")
+      .forEach((b) => b.classList.remove("active"));
+    selectedInProgressFilter = userId;
+    btn.classList.add("active");
+  }
+  applyFilters();
+}
+
 function toggleCompletedFilter(userId, btn) {
   if (selectedCompletedFilter === userId) {
     selectedCompletedFilter = null;
@@ -102,6 +133,12 @@ function applyFilters() {
   if (selectedTodoFilter) {
     filtered = filtered.filter((game) =>
       game.todo.includes(selectedTodoFilter),
+    );
+  }
+
+  if (selectedInProgressFilter) {
+    filtered = filtered.filter((game) =>
+      game.inProgress.includes(selectedInProgressFilter),
     );
   }
 
@@ -129,11 +166,20 @@ function renderGames(games) {
 // Create a game card HTML
 function createGameCard(game) {
   const allCompleted = game.completed.slice(0, 3);
+  const allInProgress = game.inProgress.slice(0, 3);
   const allTodo = game.todo.slice(0, 3);
   const completedExtra = Math.max(0, game.completed.length - 3);
+  const inProgressExtra = Math.max(0, game.inProgress.length - 3);
   const todoExtra = Math.max(0, game.todo.length - 3);
 
   const completedBadges = allCompleted
+    .map((userId) => {
+      const user = usersMap[userId];
+      return `<span class="user-emoji" title="${user?.pseudo || userId}">${user?.emoji || "👤"}</span>`;
+    })
+    .join("");
+
+  const inProgressBadges = allInProgress
     .map((userId) => {
       const user = usersMap[userId];
       return `<span class="user-emoji" title="${user?.pseudo || userId}">${user?.emoji || "👤"}</span>`;
@@ -153,26 +199,25 @@ function createGameCard(game) {
       <p>${game.description}</p>
       <div class="game-meta">
         <div class="status-line">
-          <div class="user-group-todo">
-            ${
-              game.todo.length > 0
-                ? `<div class="user-bubble todo-bubble" onclick="showUsers('todo-${game.id}')">
+          <div class="user-group-todo status-left">
+            <div class="user-bubble todo-bubble ${game.todo.length === 0 ? "empty" : ""}" ${game.todo.length > 0 ? `onclick="showUsers('todo-${game.id}')"` : ""}>
               <i class="fas fa-list-check"></i>
-              <div class="avatars-inline">${todoBadges}${todoExtra > 0 ? `<span class="extra-count">+${todoExtra}</span>` : ""}</div>
-            </div>`
-                : ""
-            }
+              ${game.todo.length > 0 ? `<div class="avatars-inline">${todoBadges}${todoExtra > 0 ? `<span class="extra-count">+${todoExtra}</span>` : ""}</div>` : ""}
+            </div>
           </div>
           
-          <div class="user-group-completed">
-            ${
-              game.completed.length > 0
-                ? `<div class="user-bubble completed-bubble" onclick="showUsers('completed-${game.id}')">
+          <div class="user-group-inprogress status-center">
+            <div class="user-bubble inprogress-bubble ${game.inProgress.length === 0 ? "empty" : ""}" ${game.inProgress.length > 0 ? `onclick="showUsers('inProgress-${game.id}')"` : ""}>
+              <i class="fas fa-play-circle"></i>
+              ${game.inProgress.length > 0 ? `<div class="avatars-inline">${inProgressBadges}${inProgressExtra > 0 ? `<span class="extra-count">+${inProgressExtra}</span>` : ""}</div>` : ""}
+            </div>
+          </div>
+          
+          <div class="user-group-completed status-right">
+            <div class="user-bubble completed-bubble ${game.completed.length === 0 ? "empty" : ""}" ${game.completed.length > 0 ? `onclick="showUsers('completed-${game.id}')"` : ""}>
               <i class="fas fa-check-circle"></i>
-              <div class="avatars-inline">${completedBadges}${completedExtra > 0 ? `<span class="extra-count">+${completedExtra}</span>` : ""}</div>
-            </div>`
-                : ""
-            }
+              ${game.completed.length > 0 ? `<div class="avatars-inline">${completedBadges}${completedExtra > 0 ? `<span class="extra-count">+${completedExtra}</span>` : ""}</div>` : ""}
+            </div>
           </div>
         </div>
       </div>
@@ -207,6 +252,24 @@ function createGameCard(game) {
           <h4><i class="fas fa-list-check"></i> To Do</h4>
           <div class="users-list">
             ${game.todo
+              .map((userId) => {
+                const user = usersMap[userId];
+                return `<div class="user-item">${user?.emoji || "👤"} ${user?.pseudo || userId}</div>`;
+              })
+              .join("")}
+          </div>
+        </div>
+      </div>`
+          : ""
+      }
+      
+      ${
+        game.inProgress.length > 0
+          ? `<div id="inProgress-${game.id}" class="modal hidden">
+        <div class="modal-content">
+          <h4><i class="fas fa-play-circle"></i> In Progress</h4>
+          <div class="users-list">
+            ${game.inProgress
               .map((userId) => {
                 const user = usersMap[userId];
                 return `<div class="user-item">${user?.emoji || "👤"} ${user?.pseudo || userId}</div>`;
@@ -266,6 +329,12 @@ document.getElementById("searchInput").addEventListener("input", async (e) => {
   if (selectedTodoFilter) {
     filtered = filtered.filter((game) =>
       game.todo.includes(selectedTodoFilter),
+    );
+  }
+
+  if (selectedInProgressFilter) {
+    filtered = filtered.filter((game) =>
+      game.inProgress.includes(selectedInProgressFilter),
     );
   }
 

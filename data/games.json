@@ -9,7 +9,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "a-dance-of-fire-and-ice",
@@ -20,7 +21,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1194141971644682412",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ClaudeChibout/ADOFAI_AP-Mod/releases"
+      "githubUrl": "https://github.com/ClaudeChibout/ADOFAI_AP-Mod/releases",
+      "inProgress": []
     },
     {
       "id": "a-difficult-game-about-climbing",
@@ -31,7 +33,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1336857648464920586",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/GrabbingChecks/releases"
+      "githubUrl": "https://github.com/BlastSlimey/GrabbingChecks/releases",
+      "inProgress": []
     },
     {
       "id": "a-hat-in-time",
@@ -41,7 +44,8 @@
       "description": "Archipelago randomizer for A Hat in Time (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257453386073374842",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "a-link-between-worlds",
@@ -52,7 +56,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "a-short-hike",
@@ -62,7 +67,8 @@
       "description": "Archipelago randomizer for A Short Hike (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1224389725922787389",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "actraiser",
@@ -73,7 +79,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1113529234800005181",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases"
+      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "adventure",
@@ -83,7 +90,8 @@
       "description": "Archipelago randomizer for Adventure (2600)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090814076378153111",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "against-the-storm",
@@ -94,7 +102,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1250491355290140672",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ryguy-9999/ArchipelagoATS/releases"
+      "githubUrl": "https://github.com/Ryguy-9999/ArchipelagoATS/releases",
+      "inProgress": []
     },
     {
       "id": "age-of-empires-ii-definitive-edition",
@@ -105,7 +114,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1364201827113107526",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/dmwever/Ageipelago/releases"
+      "githubUrl": "https://github.com/dmwever/Ageipelago/releases",
+      "inProgress": []
     },
     {
       "id": "air-delivery",
@@ -116,7 +126,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1252453771661803523",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/qwint/ap-air-delivery/releases"
+      "githubUrl": "https://github.com/qwint/ap-air-delivery/releases",
+      "inProgress": []
     },
     {
       "id": "an-untitled-story",
@@ -127,7 +138,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1194062970230165554",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ThatOneGuy27/Archipelago-aus/releases"
+      "githubUrl": "https://github.com/ThatOneGuy27/Archipelago-aus/releases",
+      "inProgress": []
     },
     {
       "id": "animal-well",
@@ -138,7 +150,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1238463626344665119",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ScipioWright/Archipelago-SW/releases"
+      "githubUrl": "https://github.com/ScipioWright/Archipelago-SW/releases",
+      "inProgress": []
     },
     {
       "id": "anodyne",
@@ -149,7 +162,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1121290232688545792",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/PixieCatSupreme/ArchipelagoAno/releases"
+      "githubUrl": "https://github.com/PixieCatSupreme/ArchipelagoAno/releases",
+      "inProgress": []
     },
     {
       "id": "another-crabs-treasure",
@@ -160,7 +174,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1239467743116525688",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases"
+      "githubUrl": "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases",
+      "inProgress": []
     },
     {
       "id": "ap-nonograms",
@@ -171,7 +186,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ap-tombola",
@@ -182,7 +198,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "apbingo",
@@ -193,7 +210,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ape-escape",
@@ -204,7 +222,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1168645708103028856",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases"
+      "githubUrl": "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases",
+      "inProgress": []
     },
     {
       "id": "ape-escape-3",
@@ -215,7 +234,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1336332485788831825",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/aidanii24/ae3-archipelago/releases"
+      "githubUrl": "https://github.com/aidanii24/ae3-archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "apquest",
@@ -225,7 +245,8 @@
       "description": "Archipelago randomizer for APQuest (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1450659987331481610",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "apsudoku",
@@ -236,7 +257,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "aquaria",
@@ -246,7 +268,8 @@
       "description": "Archipelago randomizer for Aquaria (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257452465272389687",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "archipela-go",
@@ -257,7 +280,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1203890996794884126",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/aki665/react-native-archipelago/releases"
+      "githubUrl": "https://github.com/aki665/react-native-archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "archipelacode",
@@ -268,7 +292,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "archipeladoku",
@@ -279,7 +304,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1451642525726150677",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/galdiuz/archipeladoku/"
+      "githubUrl": "https://github.com/galdiuz/archipeladoku/",
+      "inProgress": []
     },
     {
       "id": "archipidle",
@@ -290,7 +316,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "armored-core",
@@ -301,7 +328,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1393754231214837861",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/releases"
+      "githubUrl": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "astalon",
@@ -312,7 +340,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "astalon-tears-of-the-earth",
@@ -323,7 +352,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1211521722881286164",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/drtchops/Archipelago-Astalon/releases"
+      "githubUrl": "https://github.com/drtchops/Archipelago-Astalon/releases",
+      "inProgress": []
     },
     {
       "id": "atlyss",
@@ -334,7 +364,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "autopelago",
@@ -345,7 +376,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1307517897194868768",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/airbreather/Autopelago/releases"
+      "githubUrl": "https://github.com/airbreather/Autopelago/releases",
+      "inProgress": []
     },
     {
       "id": "axiom-verge",
@@ -356,7 +388,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1032831597583536208",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/mail-liam/Archipelago/releases/latest"
+      "githubUrl": "https://github.com/mail-liam/Archipelago/releases/latest",
+      "inProgress": []
     },
     {
       "id": "baba-is-you",
@@ -367,7 +400,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "backlog-expedition",
@@ -378,7 +412,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "balatro",
@@ -389,7 +424,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1424479033261031474",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BurndiL/BalatroAP/releases"
+      "githubUrl": "https://github.com/BurndiL/BalatroAP/releases",
+      "inProgress": []
     },
     {
       "id": "baldurs-gate-3",
@@ -400,7 +436,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "banjo-tooie",
@@ -411,7 +448,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1380609128753532948",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases"
+      "githubUrl": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases",
+      "inProgress": []
     },
     {
       "id": "batboy",
@@ -422,7 +460,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "beat-saber",
@@ -433,7 +472,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bits-and-bops",
@@ -444,7 +484,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bk-simulator",
@@ -455,7 +496,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "black-market-of-bulletphilia-~-100th-black-market",
@@ -466,7 +508,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "black-ops-3-zombies",
@@ -477,7 +520,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "blasphemous",
@@ -487,7 +531,8 @@
       "description": "Archipelago randomizer for Blasphemous (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090815418731597884",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "blasphemous-2",
@@ -497,7 +542,8 @@
       "description": "Archipelago randomizer for Blasphemous 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1399145913649467524",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "blockupelago",
@@ -508,7 +554,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bloons-td-6",
@@ -518,7 +565,8 @@
       "description": "Archipelago randomizer for Bloons TD 6 (PC)",
       "githubUrl": "https://github.com/GamingInfinite/Archipelago/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bloons-td6",
@@ -529,7 +577,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bloons-tower-defense-6",
@@ -539,7 +588,8 @@
       "description": "Archipelago randomizer for Bloons Tower Defense 6 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1465832575359516970",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "blue-sphere",
@@ -550,7 +600,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bomb-rush-cyberfunk",
@@ -560,7 +611,8 @@
       "description": "Archipelago randomizer for Bomb Rush Cyberfunk (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257453065083031642",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bomberman-64",
@@ -571,7 +623,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1326400868773400677",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases?q=093058ece14c8cc1a887b2087eb5cfe9&expanded=true"
+      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases?q=093058ece14c8cc1a887b2087eb5cfe9&expanded=true",
+      "inProgress": []
     },
     {
       "id": "bomberman-64-the-second-attack",
@@ -582,7 +635,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1064213698861879459",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases"
+      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "bomberman-hero",
@@ -592,7 +646,8 @@
       "description": "Archipelago randomizer for Bomberman Hero (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1330612852867858505",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "bomberman-quest",
@@ -603,7 +658,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1409932342017134655",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases?q=bomberman&expanded=true"
+      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases?q=bomberman&expanded=true",
+      "inProgress": []
     },
     {
       "id": "bomberman-the-second-attack",
@@ -614,7 +670,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "borderlands-2",
@@ -625,7 +682,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "brave-fencer-musashi",
@@ -636,7 +694,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1291453297370337351",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases"
+      "githubUrl": "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases",
+      "inProgress": []
     },
     {
       "id": "brotato",
@@ -647,7 +706,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1154944430097313803",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases"
+      "githubUrl": "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases",
+      "inProgress": []
     },
     {
       "id": "buckshot-roulette",
@@ -658,7 +718,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1234399148665737237",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/asdfwyay/APBuckshot/releases"
+      "githubUrl": "https://github.com/asdfwyay/APBuckshot/releases",
+      "inProgress": []
     },
     {
       "id": "bumper-stickers",
@@ -668,7 +729,8 @@
       "description": "Archipelago randomizer for Bumper Stickers (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148330200891932742",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "burnout-3-takedown",
@@ -679,7 +741,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "candy-box-2",
@@ -690,7 +753,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1351112920398037015",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/vicr123/Archipelago/releases"
+      "githubUrl": "https://github.com/vicr123/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "cash-cleaner-simulator",
@@ -701,7 +765,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "cassette-beasts",
@@ -712,7 +777,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "castlevania-64",
@@ -722,7 +788,8 @@
       "description": "Archipelago randomizer for Castlevania 64 (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1224387731782893731",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "castlevania-circle-of-the-moon",
@@ -732,7 +799,8 @@
       "description": "Archipelago randomizer for Castlevania: Circle of the Moon (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356647822803603536",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "castlevania-dawn-of-sorrow",
@@ -743,7 +811,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1441671319690412052",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20dawn%20of%20sorrow&expanded=true"
+      "githubUrl": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20dawn%20of%20sorrow&expanded=true",
+      "inProgress": []
     },
     {
       "id": "castlevania-harmony-of-dissonance",
@@ -754,7 +823,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1356897465046929498",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/LiquidCat64/LiquidCatipelago/releases"
+      "githubUrl": "https://github.com/LiquidCat64/LiquidCatipelago/releases",
+      "inProgress": []
     },
     {
       "id": "castlevania-legacy-of-darkness",
@@ -765,7 +835,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1178601625078738985",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/LiquidCat64/LiquidCatipelago/releases"
+      "githubUrl": "https://github.com/LiquidCat64/LiquidCatipelago/releases",
+      "inProgress": []
     },
     {
       "id": "castlevania-symphony-of-the-night",
@@ -776,7 +847,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1462294492752380167",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Darvitz/Archipelago-Crystal/releases"
+      "githubUrl": "https://github.com/Darvitz/Archipelago-Crystal/releases",
+      "inProgress": []
     },
     {
       "id": "casualties-unknown",
@@ -787,7 +859,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "cat-quest",
@@ -798,7 +871,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1319965826601844736",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Nikkilites/Archipelago-CatQuest/releases"
+      "githubUrl": "https://github.com/Nikkilites/Archipelago-CatQuest/releases",
+      "inProgress": []
     },
     {
       "id": "cave-story",
@@ -809,7 +883,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1083474864150695956",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/kl3cks7r/Archipelago/releases"
+      "githubUrl": "https://github.com/kl3cks7r/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "cavern-of-dreams",
@@ -820,7 +895,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1189647737210286080",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/wu4/Archipelago/releases"
+      "githubUrl": "https://github.com/wu4/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "caves-of-qud",
@@ -831,7 +907,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "celeste",
@@ -841,7 +918,8 @@
       "description": "Archipelago randomizer for Celeste (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1367624611256205443",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "celeste-(open-world)",
@@ -851,7 +929,8 @@
       "description": "Archipelago randomizer for Celeste (Open World) (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1408557298946670835",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "celeste-64",
@@ -861,7 +940,8 @@
       "description": "Archipelago randomizer for Celeste 64 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1224388599160635552",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "chained-echoes",
@@ -872,7 +952,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1306059155899154493",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Samupo/ChainedEchoesRandomizer/releases/"
+      "githubUrl": "https://github.com/Samupo/ChainedEchoesRandomizer/releases/",
+      "inProgress": []
     },
     {
       "id": "checksfinder",
@@ -882,7 +963,8 @@
       "description": "Archipelago randomizer for ChecksFinder (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/959282474746282014",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "checksmate",
@@ -893,7 +975,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1033159819114319892",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/chesslogic/chessv/releases"
+      "githubUrl": "https://github.com/chesslogic/chessv/releases",
+      "inProgress": []
     },
     {
       "id": "choo-choo-charles",
@@ -903,7 +986,8 @@
       "description": "Archipelago randomizer for Choo-Choo Charles (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1436453823928598679",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "christmasdelivery",
@@ -914,7 +998,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "chrono-trigger",
@@ -925,7 +1010,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1063559984148906035",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://www.wiki.ctjot.com/doku.php?id=multiworld"
+      "githubUrl": "https://www.wiki.ctjot.com/doku.php?id=multiworld",
+      "inProgress": []
     },
     {
       "id": "chrono-trigger-jets-of-time",
@@ -936,7 +1022,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "civilization-v",
@@ -947,7 +1034,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "clair-obscur-expedition-33",
@@ -958,7 +1046,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "clique",
@@ -969,7 +1058,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1090815835825774683",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://pharware.com/git/Phar/Clique/releases/latest"
+      "githubUrl": "https://pharware.com/git/Phar/Clique/releases/latest",
+      "inProgress": []
     },
     {
       "id": "cloverpit",
@@ -980,7 +1070,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "clustertruck",
@@ -991,7 +1082,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1344157838578290792",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases"
+      "githubUrl": "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases",
+      "inProgress": []
     },
     {
       "id": "cobalt-core",
@@ -1002,7 +1094,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1190007746641272912",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases"
+      "githubUrl": "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases",
+      "inProgress": []
     },
     {
       "id": "codeforces",
@@ -1013,7 +1106,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "commander-keen",
@@ -1024,7 +1118,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "conbunn-cardboard",
@@ -1035,7 +1130,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "cookie-clicker",
@@ -1046,7 +1142,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "corn-kidz-64",
@@ -1057,7 +1154,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1282470024560508990",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Cyb3RGER/cornkidz64_apworld/releases"
+      "githubUrl": "https://github.com/Cyb3RGER/cornkidz64_apworld/releases",
+      "inProgress": []
     },
     {
       "id": "corruobserver",
@@ -1068,7 +1166,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "crash2",
@@ -1079,7 +1178,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "crosscode",
@@ -1090,7 +1190,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1128180904926396437",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases"
+      "githubUrl": "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases",
+      "inProgress": []
     },
     {
       "id": "crosswordap",
@@ -1101,7 +1202,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1433538371031924798",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/densebamboo/CrosswordAP/releases"
+      "githubUrl": "https://github.com/densebamboo/CrosswordAP/releases",
+      "inProgress": []
     },
     {
       "id": "crypt-of-the-necrodancer",
@@ -1112,7 +1214,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1192775219740422176",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/lastingParadox/Archipelago-CotND/releases"
+      "githubUrl": "https://github.com/lastingParadox/Archipelago-CotND/releases",
+      "inProgress": []
     },
     {
       "id": "crystal-project",
@@ -1123,7 +1226,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1193008693827076106",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Emerassi/CrystalProjectAPWorld/releases"
+      "githubUrl": "https://github.com/Emerassi/CrystalProjectAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "crystalis",
@@ -1134,7 +1238,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1041412559460389017",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ars-Ignis/Archipelago/releases"
+      "githubUrl": "https://github.com/Ars-Ignis/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "cuphead",
@@ -1145,7 +1250,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1050929729844297789",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/JKLeckr/Archipelago-cuphead/releases"
+      "githubUrl": "https://github.com/JKLeckr/Archipelago-cuphead/releases",
+      "inProgress": []
     },
     {
       "id": "custom-robo",
@@ -1156,7 +1262,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "cyberpunk-2077",
@@ -1167,7 +1274,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dark-cloud-1",
@@ -1178,7 +1286,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dark-cloud-2",
@@ -1189,7 +1298,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dark-souls-ii",
@@ -1200,7 +1310,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1124935172287123466",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases"
+      "githubUrl": "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "dark-souls-iii",
@@ -1210,7 +1321,8 @@
       "description": "Archipelago randomizer for Dark Souls III (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1005246392329052220",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dark-souls-remastered",
@@ -1221,7 +1333,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1367143578576621670",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ArsonAssassin/DSAP/releases"
+      "githubUrl": "https://github.com/ArsonAssassin/DSAP/releases",
+      "inProgress": []
     },
     {
       "id": "dawnsbury-days",
@@ -1232,7 +1345,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dead-cells",
@@ -1243,7 +1357,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dead-rising-deluxe-remaster",
@@ -1254,7 +1369,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "deadlock",
@@ -1265,7 +1381,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1476976528171597875",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ArchipelagoBrad/deadlockipelago/releases"
+      "githubUrl": "https://github.com/ArchipelagoBrad/deadlockipelago/releases",
+      "inProgress": []
     },
     {
       "id": "death-road-to-canada",
@@ -1276,7 +1393,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "deaths-door",
@@ -1287,7 +1405,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1126418897827020800",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/roseasromeo/DeathsDoorAPWorld/releases"
+      "githubUrl": "https://github.com/roseasromeo/DeathsDoorAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "deathlinkipelago",
@@ -1298,7 +1417,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "deep-rock-galactic",
@@ -1308,7 +1428,8 @@
       "description": "Archipelago randomizer for Deep Rock Galactic (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1195162433292087358",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "delivering-hope",
@@ -1319,7 +1440,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1435067745476546600",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases"
+      "githubUrl": "https://github.com/StellatedCUBE/Delivering-Hope-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "deltarune",
@@ -1330,7 +1452,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1481971897024516250",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/"
+      "githubUrl": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/",
+      "inProgress": []
     },
     {
       "id": "devil-may-cry-3",
@@ -1341,7 +1464,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1255822049163612271",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/AshIndigo/DMC3ArchipelagoClient/releases"
+      "githubUrl": "https://github.com/AshIndigo/DMC3ArchipelagoClient/releases",
+      "inProgress": []
     },
     {
       "id": "dicey-dungeons",
@@ -1352,7 +1476,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1172783536474947595",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Fylcoast/AP_diceydungeons/releases"
+      "githubUrl": "https://github.com/Fylcoast/AP_diceydungeons/releases",
+      "inProgress": []
     },
     {
       "id": "diddy-kong-racing",
@@ -1363,7 +1488,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1057754627795337387",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/zakwiz/DiddyKongRacingAP/releases"
+      "githubUrl": "https://github.com/zakwiz/DiddyKongRacingAP/releases",
+      "inProgress": []
     },
     {
       "id": "digimon-world",
@@ -1374,7 +1500,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1224418923861118977",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ArsonAssassin/DWAP/releases"
+      "githubUrl": "https://github.com/ArsonAssassin/DWAP/releases",
+      "inProgress": []
     },
     {
       "id": "dlc-quest",
@@ -1384,7 +1511,8 @@
       "description": "Archipelago randomizer for DLC Quest (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1109178880838868992",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dome-keeper",
@@ -1395,7 +1523,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1195385214877306921",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Arrcival/ArchipelagoDK/releases"
+      "githubUrl": "https://github.com/Arrcival/ArchipelagoDK/releases",
+      "inProgress": []
     },
     {
       "id": "dont-starve-together",
@@ -1406,7 +1535,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1149971904447385751",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DragonWolfLeo/Archipelago-DST/releases"
+      "githubUrl": "https://github.com/DragonWolfLeo/Archipelago-DST/releases",
+      "inProgress": []
     },
     {
       "id": "donkey-kong-64",
@@ -1417,7 +1547,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1409624528912650360",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://dev.dk64randomizer.com/wiki/index.html?title=Archipelago-Dev-Setup-Guide"
+      "githubUrl": "https://dev.dk64randomizer.com/wiki/index.html?title=Archipelago-Dev-Setup-Guide",
+      "inProgress": []
     },
     {
       "id": "donkey-kong-country",
@@ -1428,7 +1559,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1364840991755997244",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Donkey+Kong+Country+1\"&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Donkey+Kong+Country+1\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "donkey-kong-country-mirror-hack",
@@ -1439,7 +1571,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1395482597710106694",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=yeknoD&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=yeknoD&expanded=true",
+      "inProgress": []
     },
     {
       "id": "donkey-kong-country-2",
@@ -1450,7 +1583,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "donkey-kong-country-2-diddys-kong-quest",
@@ -1461,7 +1595,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1023381145565548646",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=country+2&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=country+2&expanded=true",
+      "inProgress": []
     },
     {
       "id": "donkey-kong-country-3-dixie-kongs-double-trouble",
@@ -1471,7 +1606,8 @@
       "description": "Archipelago randomizer for Donkey Kong Country 3: Dixie Kong's Double Trouble! (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1005246223277641809",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "doom-1993",
@@ -1480,10 +1616,9 @@
       "url": "https://archipelago.gg/games/DOOM%201993/info/en",
       "description": "Archipelago randomizer for DOOM 1993 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148329739996643348",
-      "completed": [
-        "todiun"
-      ],
-      "todo": []
+      "completed": [],
+      "todo": [],
+      "inProgress": ["todiun"]
     },
     {
       "id": "doom-ii",
@@ -1493,7 +1628,8 @@
       "description": "Archipelago randomizer for DOOM II (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192236810487738510",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "doronko-wanko",
@@ -1504,7 +1640,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1325915019313152097",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Vendily/DoronkoWankoArchipelago/releases"
+      "githubUrl": "https://github.com/Vendily/DoronkoWankoArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "dracomino",
@@ -1515,7 +1652,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1458225573552848908",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DragonWolfLeo/DracominoAPWorld/releases"
+      "githubUrl": "https://github.com/DragonWolfLeo/DracominoAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "dragon-warrior",
@@ -1526,7 +1664,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dragon-warrior-1",
@@ -1537,7 +1676,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1132150057852997733",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases"
+      "githubUrl": "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases",
+      "inProgress": []
     },
     {
       "id": "dream-dazia",
@@ -1548,7 +1688,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "dredge",
@@ -1559,7 +1700,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1323663496566542336",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/alextric234/ArchipelagoDredge/releases"
+      "githubUrl": "https://github.com/alextric234/ArchipelagoDredge/releases",
+      "inProgress": []
     },
     {
       "id": "duck-life-4",
@@ -1570,7 +1712,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "duke-nukem-3d",
@@ -1581,7 +1724,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "duke-nukem-3d-atomic-edition",
@@ -1592,7 +1736,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1223230842130796544",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/LLCoolDave/Duke3DAP/releases"
+      "githubUrl": "https://github.com/LLCoolDave/Duke3DAP/releases",
+      "inProgress": []
     },
     {
       "id": "dungeon-clawler",
@@ -1603,7 +1748,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1339622918774067220",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/agilbert1412/Clawrchipelago/releases"
+      "githubUrl": "https://github.com/agilbert1412/Clawrchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "dyson-sphere-program",
@@ -1614,7 +1760,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "earthbound",
@@ -1625,7 +1772,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1077266688657068032",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/PinkSwitch/Archipelago/releases?q=earthbound&expanded=true"
+      "githubUrl": "https://github.com/PinkSwitch/Archipelago/releases?q=earthbound&expanded=true",
+      "inProgress": []
     },
     {
       "id": "easy-delivery-co",
@@ -1636,7 +1784,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "elder-scrolls-online",
@@ -1647,7 +1796,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "elementipelago",
@@ -1658,7 +1808,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ender-lilies",
@@ -1669,7 +1820,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ender-lilies-quietus-of-the-knights",
@@ -1680,7 +1832,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1093030832886792242",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Trexounay/EnderLilies.Archipelago/releases"
+      "githubUrl": "https://github.com/Trexounay/EnderLilies.Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "enter-the-gungeon",
@@ -1689,11 +1842,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Enter_The_Gungeon",
       "description": "Archipelago randomizer for Enter the Gungeon (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1191767250257055785",
-      "completed": [
-        "falclone"
-      ],
+      "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases"
+      "githubUrl": "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases",
+      "inProgress": ["falclone"]
     },
     {
       "id": "everhood-2",
@@ -1704,7 +1856,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1365278588219424828",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DeamonHunter/ArchipelagoEverhood2/releases"
+      "githubUrl": "https://github.com/DeamonHunter/ArchipelagoEverhood2/releases",
+      "inProgress": []
     },
     {
       "id": "evolve",
@@ -1715,7 +1868,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "factorio",
@@ -1725,7 +1879,8 @@
       "description": "Archipelago randomizer for Factorio (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/827139809763262525",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "factorio-bobs",
@@ -1736,7 +1891,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "factorio-space-age-without-space",
@@ -1746,7 +1902,8 @@
       "description": "Archipelago randomizer for Factorio Space Age Without Space (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311946326040383589",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "factorio-space-age",
@@ -1757,7 +1914,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "fakutori",
@@ -1768,7 +1926,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1480232889659559966",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/chickentuna/Archipelago-Fakutori/releases/tag/apworld"
+      "githubUrl": "https://github.com/chickentuna/Archipelago-Fakutori/releases/tag/apworld",
+      "inProgress": []
     },
     {
       "id": "faxanadu",
@@ -1778,7 +1937,8 @@
       "description": "Archipelago randomizer for Faxanadu (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356649072462659716",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "fez",
@@ -1789,7 +1949,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ff1-pixel-remaster",
@@ -1800,7 +1961,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy",
@@ -1810,7 +1972,8 @@
       "description": "Archipelago randomizer for Final Fantasy (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/917510025461776445",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-12-open-world",
@@ -1821,7 +1984,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-6-worlds-collide",
@@ -1832,7 +1996,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-iv",
@@ -1843,7 +2008,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1170144930610557008",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=FF4&expanded=true"
+      "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=FF4&expanded=true",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-iv-free-enterprise",
@@ -1854,7 +2020,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-pixel-remaster",
@@ -1865,7 +2032,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1195372952166879262",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/wildham0/FF1PRAP/releases/latest"
+      "githubUrl": "https://github.com/wildham0/FF1PRAP/releases/latest",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-tactics-a2",
@@ -1876,7 +2044,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-tactics-a2-grimoire-of-the-rift",
@@ -1887,7 +2056,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1296095764518277143",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Rurusachi/Archipelago/releases"
+      "githubUrl": "https://github.com/Rurusachi/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-tactics-advance",
@@ -1898,7 +2068,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1100823015819837449",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spicynun/Archipelago/releases"
+      "githubUrl": "https://github.com/spicynun/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-tactics-ivalice-island",
@@ -1909,7 +2080,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1451730887136903240",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=Tactics&expanded=true"
+      "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=Tactics&expanded=true",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-v-pr",
@@ -1920,7 +2092,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-vi",
@@ -1931,7 +2104,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1022545979146252288",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://docs.google.com/document/d/1ZN-eO3ZasTEAReGCRP7l9tgI-kEh0GG4gJxVv7JOlyk/edit?tab=t.0"
+      "githubUrl": "https://docs.google.com/document/d/1ZN-eO3ZasTEAReGCRP7l9tgI-kEh0GG4gJxVv7JOlyk/edit?tab=t.0",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-x",
@@ -1942,7 +2116,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "final-fantasy-x-hd-remaster",
@@ -1953,7 +2128,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1304953414148554824",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/FFX-AP/Archipelago/releases"
+      "githubUrl": "https://github.com/FFX-AP/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-xii-open-world",
@@ -1964,7 +2140,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1229091295465570456",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Bartz24/Archipelago/releases"
+      "githubUrl": "https://github.com/Bartz24/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-xii-trial-mode",
@@ -1975,7 +2152,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1177092493981007922",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/silasary/Archipelago/releases?q=\"FFXII+Trial+Mode\"&expanded=true"
+      "githubUrl": "https://github.com/silasary/Archipelago/releases?q=\"FFXII+Trial+Mode\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "final-fantasy-mystic-quest",
@@ -1985,7 +2163,8 @@
       "description": "Archipelago randomizer for Final Fantasy: Mystic Quest (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192237281298362539",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "fire-emblem-sacred-stones",
@@ -1996,7 +2175,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "fire-emblem-the-sacred-stones",
@@ -2007,7 +2187,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1098762105445953546",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/CT075/Archipelago/releases"
+      "githubUrl": "https://github.com/CT075/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "flipwitch-forbidden-sex-hex",
@@ -2018,7 +2199,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "fnaf-world",
@@ -2028,7 +2210,8 @@
       "description": "Archipelago randomizer for FNaF World (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1104088448127729704",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "forged-curse",
@@ -2039,7 +2222,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "freddy-fazbears-pizzeria-simulator",
@@ -2049,7 +2233,8 @@
       "description": "Archipelago randomizer for Freddy Fazbear's Pizzeria Simulator (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1078423429310582806",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "freedom-planet-2",
@@ -2060,7 +2245,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1204965442494660608",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases"
+      "githubUrl": "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "friday-night-funkin",
@@ -2071,7 +2257,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1142560423594430576",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Z11Coding/Mixtape-Engine-Rework/releases"
+      "githubUrl": "https://github.com/Z11Coding/Mixtape-Engine-Rework/releases",
+      "inProgress": []
     },
     {
       "id": "frogmonster",
@@ -2082,7 +2269,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1271323478779363398",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Rooby-Roo/FrogmonsterAPWorld/releases"
+      "githubUrl": "https://github.com/Rooby-Roo/FrogmonsterAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "garfield-kart---furious-racing",
@@ -2093,7 +2281,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1315673680155639848",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/FeluciaPS/Archipelago/releases"
+      "githubUrl": "https://github.com/FeluciaPS/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "garfield-kart-furious-racing",
@@ -2104,7 +2293,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "gato-roboto",
@@ -2115,7 +2305,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1205195046689841217",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ravenmist-Games/Gato-Roboto-AP-Tracker/releases"
+      "githubUrl": "https://github.com/Ravenmist-Games/Gato-Roboto-AP-Tracker/releases",
+      "inProgress": []
     },
     {
       "id": "gato-roboto-b-side",
@@ -2126,7 +2317,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1466872819433607248",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago/releases"
+      "githubUrl": "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "gauntlet-legends",
@@ -2137,7 +2329,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1195336830258778183",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/jamesbrq/GauntletLegendsAP/releases"
+      "githubUrl": "https://github.com/jamesbrq/GauntletLegendsAP/releases",
+      "inProgress": []
     },
     {
       "id": "getting-over-it",
@@ -2148,7 +2341,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "getting-over-it-with-bennett-foddy",
@@ -2159,7 +2353,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1123510506884444250",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/CheckingOverIt/releases"
+      "githubUrl": "https://github.com/BlastSlimey/CheckingOverIt/releases",
+      "inProgress": []
     },
     {
       "id": "glover",
@@ -2170,7 +2365,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "glyphs",
@@ -2181,7 +2377,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1401434680808575017",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BuffYoda21/ap-glyphs/releases/"
+      "githubUrl": "https://github.com/BuffYoda21/ap-glyphs/releases/",
+      "inProgress": []
     },
     {
       "id": "golden-sun-the-lost-age",
@@ -2192,7 +2389,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1055515261270241320",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/cjmang/Archipelago/releases"
+      "githubUrl": "https://github.com/cjmang/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "grapple-dog",
@@ -2203,7 +2401,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "grim-dawn",
@@ -2214,7 +2413,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1114646643225137224",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/routhken/Archipelago/releases"
+      "githubUrl": "https://github.com/routhken/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "guild-wars-2",
@@ -2225,7 +2425,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1247738360160587787",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Feldar99/Archipelago/releases"
+      "githubUrl": "https://github.com/Feldar99/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "gzdoom",
@@ -2236,7 +2437,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1344142763842601090",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ToxicFrog/doom-mods/blob/main/release/gzdoom.apworld"
+      "githubUrl": "https://github.com/ToxicFrog/doom-mods/blob/main/release/gzdoom.apworld",
+      "inProgress": []
     },
     {
       "id": "hacknet",
@@ -2247,7 +2449,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hades",
@@ -2256,11 +2459,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Hades",
       "description": "Archipelago randomizer for Hades (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1367914798519550024",
-      "completed": [
-        "moonmoon"
-      ],
+      "completed": ["moonmoon"],
       "todo": [],
-      "githubUrl": "https://github.com/NaixGames/Polycosmos/releases"
+      "githubUrl": "https://github.com/NaixGames/Polycosmos/releases",
+      "inProgress": []
     },
     {
       "id": "hammerwatch",
@@ -2271,7 +2473,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1072687192360624218",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases"
+      "githubUrl": "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "hangman",
@@ -2282,7 +2485,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "haste",
@@ -2293,7 +2497,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "haste-broken-worlds",
@@ -2304,7 +2509,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1356638437872111687",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/WritingHusky/haste_apworld/releases"
+      "githubUrl": "https://github.com/WritingHusky/haste_apworld/releases",
+      "inProgress": []
     },
     {
       "id": "hatsune-miku-project-diva-mega-mix+",
@@ -2315,7 +2521,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1241134454391443580",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Cynichill/DivaAPworld/releases"
+      "githubUrl": "https://github.com/Cynichill/DivaAPworld/releases",
+      "inProgress": []
     },
     {
       "id": "here-comes-niko",
@@ -2326,7 +2533,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1289974001434886287",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/niieli/Niko-Archipelago/releases"
+      "githubUrl": "https://github.com/niieli/Niko-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "heretic",
@@ -2336,7 +2544,8 @@
       "description": "Archipelago randomizer for Heretic (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192236842515439627",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hero-core",
@@ -2347,7 +2556,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1019382284878622790",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Minish-Link/HeroCore-Archipelago/releases"
+      "githubUrl": "https://github.com/Minish-Link/HeroCore-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "hexcells-infinite",
@@ -2358,7 +2568,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1398578301081223260",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Heaxeus/Archipelago/releases/"
+      "githubUrl": "https://github.com/Heaxeus/Archipelago/releases/",
+      "inProgress": []
     },
     {
       "id": "hi-fi-rush",
@@ -2369,7 +2580,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1223862313145073674",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TRPG0/HbkArchipelago/releases"
+      "githubUrl": "https://github.com/TRPG0/HbkArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "high-roller",
@@ -2380,7 +2592,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1470104360682917961",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ElireFeltores/High-Roller/releases"
+      "githubUrl": "https://github.com/ElireFeltores/High-Roller/releases",
+      "inProgress": []
     },
     {
       "id": "hitman-world-of-assassination",
@@ -2391,7 +2604,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hollow-knight",
@@ -2401,7 +2615,8 @@
       "description": "Archipelago randomizer for Hollow Knight (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/959203442570715176",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "holo8",
@@ -2412,7 +2627,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1368677346869252228",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/latest"
+      "githubUrl": "https://github.com/KitLemonfoot/ArchipelagoHolo8/releases/latest",
+      "inProgress": []
     },
     {
       "id": "hololive-treasure-mountain",
@@ -2423,7 +2639,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1435070203460583445",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases"
+      "githubUrl": "https://github.com/StellatedCUBE/Treasure-Mountain-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "hunie-cam-studio",
@@ -2434,7 +2651,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hunie-pop",
@@ -2445,7 +2663,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hunie-pop-2",
@@ -2456,7 +2675,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hylics-2",
@@ -2466,7 +2686,8 @@
       "description": "Archipelago randomizer for Hylics 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1043593298247417929",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "hyperrogue",
@@ -2477,7 +2698,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "i-hate-you-please-suffer",
@@ -2488,7 +2710,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "i-was-a-teenage-exocolonist",
@@ -2499,7 +2722,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "iji",
@@ -2510,7 +2734,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1335786670641123400",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Minish-Link/Iji-Archipelago/releases"
+      "githubUrl": "https://github.com/Minish-Link/Iji-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "inscryption",
@@ -2520,7 +2745,8 @@
       "description": "Archipelago randomizer for Inscryption (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356651394320437469",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "into-the-breach",
@@ -2531,7 +2757,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1127025077196701828",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ishigh1/ITB-randomizer-for-AP/releases"
+      "githubUrl": "https://github.com/Ishigh1/ITB-randomizer-for-AP/releases",
+      "inProgress": []
     },
     {
       "id": "isles-of-sea-and-sky",
@@ -2542,7 +2769,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1253182614441951282",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Kim-Delicious/Archipelago_IslesOfSeaAndSky/releases"
+      "githubUrl": "https://github.com/Kim-Delicious/Archipelago_IslesOfSeaAndSky/releases",
+      "inProgress": []
     },
     {
       "id": "ittle-dew-2",
@@ -2553,7 +2781,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ittle-dew-2+",
@@ -2564,7 +2793,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1260030530217574500",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Extra-2-Dew/ArchipelagoRandomizer/releases"
+      "githubUrl": "https://github.com/Extra-2-Dew/ArchipelagoRandomizer/releases",
+      "inProgress": []
     },
     {
       "id": "jak-2",
@@ -2575,7 +2805,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1369067607290024056",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/narramoment/Archipelago/releases"
+      "githubUrl": "https://github.com/narramoment/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "jak-and-daxter-the-precursor-legacy",
@@ -2585,7 +2816,8 @@
       "description": "Archipelago randomizer for Jak and Daxter: The Precursor Legacy (PS2)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1394026388683755613",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "jak-ii",
@@ -2596,7 +2828,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "jet-island",
@@ -2607,7 +2840,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1370901827826094192",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Nullctipus/JetIslandArchipelago/releases"
+      "githubUrl": "https://github.com/Nullctipus/JetIslandArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "jigsaw",
@@ -2618,7 +2852,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1409148531637489775",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spineraks-org/ArchipelagoJigsaw/releases"
+      "githubUrl": "https://github.com/spineraks-org/ArchipelagoJigsaw/releases",
+      "inProgress": []
     },
     {
       "id": "js-paint",
@@ -2627,10 +2862,9 @@
       "url": "https://archipelago.gg/games/JS%20Paint/info/en",
       "description": "Archipelago randomizer for JS Paint (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1404622196567048253",
-      "completed": [
-        "moonmoon"
-      ],
-      "todo": []
+      "completed": ["moonmoon"],
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "junko",
@@ -2641,7 +2875,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "jurassic-park",
@@ -2652,7 +2887,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "k-on-after-school-live",
@@ -2662,7 +2898,8 @@
       "description": "Archipelago randomizer for K-On! After School Live!! (PSP)",
       "githubUrl": "https://github.com/dannybonz/k-on_archipelago/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kabuto-park-demo",
@@ -2672,7 +2909,8 @@
       "description": "Archipelago randomizer for Kabuto Park DEMO (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356738429139816680",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "keep-talking-and-nobody-explodes",
@@ -2683,7 +2921,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1058549067107532840",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/GreenPower713/Archipelago/releases"
+      "githubUrl": "https://github.com/GreenPower713/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "keymasters-keep",
@@ -2694,7 +2933,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1321323711676284939",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases"
+      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "keywe",
@@ -2705,7 +2945,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kindergarten-2",
@@ -2716,7 +2957,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-birth-by-sleep",
@@ -2727,7 +2969,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-birth-by-sleep-final-mix",
@@ -2738,7 +2981,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1158149027385319434",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/"
+      "githubUrl": "https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/",
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-chain-of-memories",
@@ -2749,7 +2993,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1074710550384234587",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases"
+      "githubUrl": "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases",
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-dream-drop-distance",
@@ -2760,7 +3005,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-final-mix",
@@ -2770,7 +3016,8 @@
       "description": "Archipelago randomizer for KINGDOM HEARTS FINAL MIX (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311061458662199357",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-ii-final-mix",
@@ -2780,7 +3027,8 @@
       "description": "Archipelago randomizer for KINGDOM HEARTS II FINAL MIX (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090817012416118815",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-re-chain-of-memories",
@@ -2791,7 +3039,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "kingdom-hearts-rechain-of-memories",
@@ -2802,7 +3051,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1074710550384234587",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/gaithernOrg/ArchipelagoKHRECOM/releases"
+      "githubUrl": "https://github.com/gaithernOrg/ArchipelagoKHRECOM/releases",
+      "inProgress": []
     },
     {
       "id": "kirby-64-the-crystal-shards",
@@ -2813,7 +3063,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1175344681928904806",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Ak64_0&expanded=true"
+      "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Ak64_0&expanded=true",
+      "inProgress": []
     },
     {
       "id": "kirby-air-ride",
@@ -2824,7 +3075,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1291501105389502554",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DeDeDeK/KARchipelago/releases/latest"
+      "githubUrl": "https://github.com/DeDeDeK/KARchipelago/releases/latest",
+      "inProgress": []
     },
     {
       "id": "kirby-super-star",
@@ -2835,7 +3087,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1455078199611490384",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Akss_0&expanded=true"
+      "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Akss_0&expanded=true",
+      "inProgress": []
     },
     {
       "id": "kirbys-dream-land-3",
@@ -2845,7 +3098,8 @@
       "description": "Archipelago randomizer for Kirby's Dream Land 3 (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1224389195485806703",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "landstalker---the-treasures-of-king-nole",
@@ -2855,7 +3109,8 @@
       "description": "Archipelago randomizer for Landstalker - The Treasures of King Nole (GEN)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192237232069808238",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "league-of-legends",
@@ -2866,7 +3121,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1184691812099686492",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/gaithernOrg/LoLAP/releases"
+      "githubUrl": "https://github.com/gaithernOrg/LoLAP/releases",
+      "inProgress": []
     },
     {
       "id": "left-4-dead-2",
@@ -2877,7 +3133,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "legend-of-dragoon",
@@ -2888,7 +3145,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1334988609249345567",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/pkolb-dev/Archipelago/releases"
+      "githubUrl": "https://github.com/pkolb-dev/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "lego-batman-the-video-game",
@@ -2899,7 +3157,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1182049227145232474",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ZAPaDASH04/LEGO-Batman-Archipelago-Mod/releases/latest"
+      "githubUrl": "https://github.com/ZAPaDASH04/LEGO-Batman-Archipelago-Mod/releases/latest",
+      "inProgress": []
     },
     {
       "id": "lego-star-wars-the-complete-saga",
@@ -2910,7 +3169,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1110760232763801711",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Mysteryem/Archipelago-TCS/releases"
+      "githubUrl": "https://github.com/Mysteryem/Archipelago-TCS/releases",
+      "inProgress": []
     },
     {
       "id": "lethal-company",
@@ -2921,7 +3181,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1183860023147896942",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/T0r1nn/APLC/releases"
+      "githubUrl": "https://github.com/T0r1nn/APLC/releases",
+      "inProgress": []
     },
     {
       "id": "library-of-ruina",
@@ -2932,7 +3193,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "lies-of-p",
@@ -2943,7 +3205,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "lightning-returns-final-fantasy-xiii",
@@ -2954,7 +3217,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "lil-gator-game",
@@ -2965,7 +3229,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1084922067469734039",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/natronium/GatorArchipelago/releases"
+      "githubUrl": "https://github.com/natronium/GatorArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "lingo",
@@ -2975,7 +3240,8 @@
       "description": "Archipelago randomizer for Lingo (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192233449868767362",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "lingo-2",
@@ -2986,7 +3252,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1351182605655080970",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://code.fourisland.com/lingo2-archipelago/about/"
+      "githubUrl": "https://code.fourisland.com/lingo2-archipelago/about/",
+      "inProgress": []
     },
     {
       "id": "little-witch-nobeta",
@@ -2997,7 +3264,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1170655339323080796",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/danielgruethling/RandomizedWitchNobeta/releases"
+      "githubUrl": "https://github.com/danielgruethling/RandomizedWitchNobeta/releases",
+      "inProgress": []
     },
     {
       "id": "lobotomy-corporation",
@@ -3008,7 +3276,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "loonyland-halloween-hill",
@@ -3019,7 +3288,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1314639182655656016",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/AutomaticFrenzy/HamSandwich/releases"
+      "githubUrl": "https://github.com/AutomaticFrenzy/HamSandwich/releases",
+      "inProgress": []
     },
     {
       "id": "luanti-citadel",
@@ -3030,7 +3300,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "lufia-ii-rise-of-the-sinistrals",
@@ -3040,7 +3311,8 @@
       "description": "Archipelago randomizer for Lufia II: Rise of the Sinistrals (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1055241755383046154",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "luigis-mansion",
@@ -3051,7 +3323,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1378465872917827614",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BootsinSoots/Archipelago/releases"
+      "githubUrl": "https://github.com/BootsinSoots/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "lunacid",
@@ -3062,7 +3335,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1176614031067455528",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Witchybun/LunacidAPClient/releases/"
+      "githubUrl": "https://github.com/Witchybun/LunacidAPClient/releases/",
+      "inProgress": []
     },
     {
       "id": "majoras-mask-recompiled",
@@ -3073,7 +3347,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mario-&-luigi-superstar-saga",
@@ -3083,7 +3358,8 @@
       "description": "Archipelago randomizer for Mario & Luigi: Superstar Saga (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257453738612756632",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mario-is-missing",
@@ -3094,7 +3370,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1188695271941603348",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases"
+      "githubUrl": "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases",
+      "inProgress": []
     },
     {
       "id": "mario-kart-64",
@@ -3105,7 +3382,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1124649084544876615",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Edsploration/MK64-Archipelago/releases"
+      "githubUrl": "https://github.com/Edsploration/MK64-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "mario-kart-wii",
@@ -3116,7 +3394,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1204920631351713823",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/toent/Archipelago-MKWii/releases"
+      "githubUrl": "https://github.com/toent/Archipelago-MKWii/releases",
+      "inProgress": []
     },
     {
       "id": "mario-kart-double-dash",
@@ -3125,12 +3404,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Mario_Kart_Double_Dash",
       "description": "Archipelago randomizer for Mario Kart: Double Dash (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257102472967884882",
-      "completed": [
-        "minipomme",
-        "lifestomper"
-      ],
+      "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/aXu-AP/archipelago-double-dash/releases"
+      "githubUrl": "https://github.com/aXu-AP/archipelago-double-dash/releases",
+      "inProgress": ["minipomme", "lifestomper"]
     },
     {
       "id": "mario-party-3",
@@ -3141,7 +3418,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mario-party-advance",
@@ -3152,7 +3430,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mario-super-sluggers",
@@ -3163,7 +3442,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1238777175033909318",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/MarioManTAW/Archipelago/releases"
+      "githubUrl": "https://github.com/MarioManTAW/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "medievil",
@@ -3174,7 +3454,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "medievil-(1998)",
@@ -3185,7 +3466,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1282755532515709048",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/riezahughes/MedievilAPWorld/releases"
+      "githubUrl": "https://github.com/riezahughes/MedievilAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "medievil-2",
@@ -3196,7 +3478,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man",
@@ -3207,7 +3490,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-2",
@@ -3217,7 +3501,8 @@
       "description": "Archipelago randomizer for Mega Man 2 (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311061171192729690",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-3",
@@ -3228,7 +3513,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1250369456048177152",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Amm3_0&expanded=true"
+      "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Amm3_0&expanded=true",
+      "inProgress": []
     },
     {
       "id": "mega-man-battle-network-3-blue",
@@ -3238,7 +3524,8 @@
       "description": "Archipelago randomizer for Mega Man Battle Network 3 Blue (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148331400542568558",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-battle-network-6",
@@ -3249,7 +3536,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-legends",
@@ -3260,7 +3548,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-x",
@@ -3271,7 +3560,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1134349743984742520",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Mega+Man+X\"&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Mega+Man+X\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "mega-man-x-command-mission",
@@ -3282,7 +3572,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-x2",
@@ -3293,7 +3584,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1232388647127613490",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Mega+Man+X2\"&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Mega+Man+X2\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "mega-man-x3",
@@ -3304,7 +3596,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1209396673755746324",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Mega+Man+X3\"&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=\"Mega+Man+X3\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "mega-man-x4",
@@ -3315,7 +3608,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mega-man-zero-3",
@@ -3326,7 +3620,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "melatonin",
@@ -3337,7 +3632,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mercenaries",
@@ -3348,7 +3644,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "meritous",
@@ -3358,7 +3655,8 @@
       "description": "Archipelago randomizer for Meritous (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/959202754188963880",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "metal-gear-solid",
@@ -3369,7 +3667,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "metrocubevania",
@@ -3380,7 +3679,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1259263968245977128",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ap-metrocubevania/ap-metrocubevania/releases"
+      "githubUrl": "https://github.com/ap-metrocubevania/ap-metrocubevania/releases",
+      "inProgress": []
     },
     {
       "id": "metroid-fusion",
@@ -3391,7 +3691,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1161319361345232946",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=Metroid+Fusion&expanded=true"
+      "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=Metroid+Fusion&expanded=true",
+      "inProgress": []
     },
     {
       "id": "metroid-prime",
@@ -3402,7 +3703,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1425600401733980301",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/UltiNaruto/MetroidAPrime/releases"
+      "githubUrl": "https://github.com/UltiNaruto/MetroidAPrime/releases",
+      "inProgress": []
     },
     {
       "id": "metroid-zero-mission",
@@ -3413,7 +3715,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1106280250528235620",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/releases"
+      "githubUrl": "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/releases",
+      "inProgress": []
     },
     {
       "id": "mindustry",
@@ -3424,7 +3727,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1160797230161211472",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/JohnMahglass/Archipelago-Mindustry/releases"
+      "githubUrl": "https://github.com/JohnMahglass/Archipelago-Mindustry/releases",
+      "inProgress": []
     },
     {
       "id": "minecraft",
@@ -3434,7 +3738,8 @@
       "description": "Archipelago randomizer for Minecraft (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/837136185662111746",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "minecraft-(neoforge)",
@@ -3444,7 +3749,8 @@
       "description": "Archipelago randomizer for Minecraft (NeoForge) (PC)",
       "githubUrl": "https://github.com/qixils/NeoForgeAP/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "minecraft-dig",
@@ -3453,11 +3759,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Minecraft_Dig",
       "description": "Archipelago randomizer for Minecraft Dig (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/837136185662111746",
-      "completed": [
-        "matwands"
-      ],
+      "completed": ["matwands"],
       "todo": [],
-      "githubUrl": "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/"
+      "githubUrl": "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/",
+      "inProgress": []
     },
     {
       "id": "minecraft-fabric",
@@ -3468,7 +3773,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "minishoot-adventures",
@@ -3479,7 +3785,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1307687662798508113",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheNooodle/MinishootRandomizer/releases"
+      "githubUrl": "https://github.com/TheNooodle/MinishootRandomizer/releases",
+      "inProgress": []
     },
     {
       "id": "minit",
@@ -3490,7 +3797,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1167463223528787998",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/qwint/APMinit/releases"
+      "githubUrl": "https://github.com/qwint/APMinit/releases",
+      "inProgress": []
     },
     {
       "id": "modded-minecraft",
@@ -3501,7 +3809,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "momodora-4-reverie-under-the-moonlight",
@@ -3512,7 +3821,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "momodora-moonlit-farewell",
@@ -3523,7 +3833,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1351406749315240007",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases"
+      "githubUrl": "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases",
+      "inProgress": []
     },
     {
       "id": "monster-hunter-world",
@@ -3534,7 +3845,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "monster-sanctuary",
@@ -3545,7 +3857,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1096278752142577684",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Gtaray/archipelago-monstersanctuary/releases"
+      "githubUrl": "https://github.com/Gtaray/archipelago-monstersanctuary/releases",
+      "inProgress": []
     },
     {
       "id": "muse-dash",
@@ -3555,7 +3868,8 @@
       "description": "Archipelago randomizer for Muse Dash (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148331097705414796",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "musipelago",
@@ -3566,7 +3880,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "mystical-ninja-starring-goemon",
@@ -3577,7 +3892,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1176230651352068226",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Killklli/MNSGRecompRando/releases"
+      "githubUrl": "https://github.com/Killklli/MNSGRecompRando/releases",
+      "inProgress": []
     },
     {
       "id": "naruto-clash-of-ninja-2",
@@ -3588,7 +3904,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "nine-sols",
@@ -3599,7 +3916,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1291949699150123048",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases"
+      "githubUrl": "https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases",
+      "inProgress": []
     },
     {
       "id": "no-rest-for-the-wicked",
@@ -3610,7 +3928,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "nodebuster",
@@ -3621,7 +3940,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1354141892434067476",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/josephwhite/Emerlads-Nodebuster_AP_Mod/releases/"
+      "githubUrl": "https://github.com/josephwhite/Emerlads-Nodebuster_AP_Mod/releases/",
+      "inProgress": []
     },
     {
       "id": "noita",
@@ -3630,10 +3950,9 @@
       "url": "https://archipelago.gg/games/Noita/info/en",
       "description": "Archipelago randomizer for Noita (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1109174779619057795",
-      "completed": [
-        "todiun"
-      ],
-      "todo": []
+      "completed": ["todiun"],
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "noita-killsanity",
@@ -3644,7 +3963,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "nonograhmm",
@@ -3655,7 +3975,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "nonogram-(picross)",
@@ -3666,7 +3987,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1454544116711952384",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spineraks-org/ArchipelagoNonogram/releases"
+      "githubUrl": "https://github.com/spineraks-org/ArchipelagoNonogram/releases",
+      "inProgress": []
     },
     {
       "id": "nonopelagram",
@@ -3677,7 +3999,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "nsmbw",
@@ -3688,7 +4011,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "oblivion-remastered",
@@ -3699,7 +4023,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ocarina-of-time-but-its-just-master-quest-water-temple",
@@ -3710,7 +4035,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "old-school-runescape",
@@ -3720,7 +4046,8 @@
       "description": "Archipelago randomizer for Old School Runescape (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311060866598178866",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "once-upon-a-katamari",
@@ -3731,7 +4058,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "openrct2",
@@ -3742,7 +4070,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1095746758774108240",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases"
+      "githubUrl": "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases",
+      "inProgress": []
     },
     {
       "id": "openttd",
@@ -3753,7 +4082,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1475251506381979970",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/solida1987/openttd-archipelago/releases"
+      "githubUrl": "https://github.com/solida1987/openttd-archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "openttd-cargolock",
@@ -3764,7 +4094,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "operation-octo",
@@ -3775,7 +4106,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ori-and-the-blind-forest",
@@ -3786,7 +4118,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1036405779726610452",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/c-ostic/Archipelago/releases"
+      "githubUrl": "https://github.com/c-ostic/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "ori-and-the-will-of-the-wisps",
@@ -3797,7 +4130,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1272952565843103765",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Satisha10/APwotw_release/releases"
+      "githubUrl": "https://github.com/Satisha10/APwotw_release/releases",
+      "inProgress": []
     },
     {
       "id": "osu",
@@ -3808,7 +4142,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1195040661171355730",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/lilymnky-F/Archipelago-Osu/releases"
+      "githubUrl": "https://github.com/lilymnky-F/Archipelago-Osu/releases",
+      "inProgress": []
     },
     {
       "id": "our-ascent",
@@ -3819,7 +4154,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1358525617234252130",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/AzuriCaelum/OurAscentAPWorld/releases"
+      "githubUrl": "https://github.com/AzuriCaelum/OurAscentAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "outer-wilds",
@@ -3830,7 +4166,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1178700404637311086",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases"
+      "githubUrl": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases",
+      "inProgress": []
     },
     {
       "id": "outward-definitive-edition",
@@ -3841,7 +4178,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "overcooked-2",
@@ -3850,10 +4188,9 @@
       "url": "https://archipelago.gg/games/Overcooked!%202/info/en",
       "description": "Archipelago randomizer for Overcooked! 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1043593072174440448",
-      "completed": [
-        "miniviruce"
-      ],
-      "todo": []
+      "completed": [],
+      "todo": [],
+      "inProgress": ["miniviruce"]
     },
     {
       "id": "oxygen-not-included",
@@ -3864,7 +4201,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1446597534847074416",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ShadowKitty42/ONI-Archipelago/releases"
+      "githubUrl": "https://github.com/ShadowKitty42/ONI-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "panel-de-pon/tetris-attack",
@@ -3874,7 +4212,8 @@
       "description": "Archipelago randomizer for Panel De Pon/Tetris Attack (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1207963109990596669",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "panel-de-pon-tetris-attack",
@@ -3884,7 +4223,8 @@
       "description": "Archipelago randomizer for Panel De Pon/Tetris Attack (SNES)",
       "githubUrl": "https://github.com/AgStarRay/TetrisAttackAP/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "paper-mario",
@@ -3895,7 +4235,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1369329691076329582",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/JKBSunshine/PMR_APWorld/releases"
+      "githubUrl": "https://github.com/JKBSunshine/PMR_APWorld/releases",
+      "inProgress": []
     },
     {
       "id": "paper-mario-the-thousand-year-door",
@@ -3904,11 +4245,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Paper_Mario:_The_Thousand-Year_Door",
       "description": "Archipelago randomizer for Paper Mario: The Thousand Year Door (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1388344505446432789",
-      "completed": [
-        "lifestomper"
-      ],
+      "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/jamesbrq/ArchipelagoTTYD/releases"
+      "githubUrl": "https://github.com/jamesbrq/ArchipelagoTTYD/releases",
+      "inProgress": ["lifestomper"]
     },
     {
       "id": "parkitect",
@@ -3919,7 +4259,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1417531615956963439",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/CrusherRL/AP_Parkitect_World/releases"
+      "githubUrl": "https://github.com/CrusherRL/AP_Parkitect_World/releases",
+      "inProgress": []
     },
     {
       "id": "path-of-exile",
@@ -3930,7 +4271,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "peak",
@@ -3941,7 +4283,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "peaks-of-yore",
@@ -3951,7 +4294,8 @@
       "description": "Archipelago randomizer for Peaks of Yore (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1332506808182378677",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "peggle-deluxe",
@@ -3962,7 +4306,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1470246861557334016",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"peggle+deluxe\"&expanded=true"
+      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"peggle+deluxe\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "peggle-nights",
@@ -3973,7 +4318,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1470912354941141156",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"peggle+nights\"&expanded=true"
+      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"peggle+nights\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "persona-5-royal",
@@ -3984,7 +4330,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "phantasy-star-ii",
@@ -3995,7 +4342,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "phoenotopia-awakening",
@@ -4006,7 +4354,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "pikmin",
@@ -4017,7 +4366,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "pikmin-2",
@@ -4028,7 +4378,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1062964930174779452",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/chpas0/Pikmin2Archipelago"
+      "githubUrl": "https://github.com/chpas0/Pikmin2Archipelago",
+      "inProgress": []
     },
     {
       "id": "pinball-fx3",
@@ -4039,7 +4390,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1465211526141972684",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"pinball+fx3\"&expanded=true"
+      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"pinball+fx3\"&expanded=true",
+      "inProgress": []
     },
     {
       "id": "piranesi-restoration-project",
@@ -4050,7 +4402,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "pixeldraw",
@@ -4061,7 +4414,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1483851572340457604",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://interestedsc2.itch.io/pixel-draw"
+      "githubUrl": "https://interestedsc2.itch.io/pixel-draw",
+      "inProgress": []
     },
     {
       "id": "pizza-tower",
@@ -4072,7 +4426,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1079671816257277972",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/unsafetyskizzers/Archipelago/releases/latest/"
+      "githubUrl": "https://github.com/unsafetyskizzers/Archipelago/releases/latest/",
+      "inProgress": []
     },
     {
       "id": "placid-plastic-duck-simulator",
@@ -4083,7 +4438,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1104785671262056559",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SWCreeperKing/PPDSArchipelago/releases"
+      "githubUrl": "https://github.com/SWCreeperKing/PPDSArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "plants-vs-zombies-replanted/goty",
@@ -4093,7 +4449,8 @@
       "description": "Archipelago randomizer for Plants vs Zombies: Replanted/GOTY (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1437352496455483413",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "plants-vs-zombies-replanted-goty",
@@ -4103,7 +4460,8 @@
       "description": "Archipelago randomizer for Plants vs Zombies: Replanted/GOTY (PC)",
       "githubUrl": "https://github.com/dannybonz/replanted_archipelago/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "plants-vs-zombies-replanted",
@@ -4114,7 +4472,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "plateup",
@@ -4125,7 +4484,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1159168584505901106",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/CazIsABoi/Archipelago/releases"
+      "githubUrl": "https://github.com/CazIsABoi/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "plok",
@@ -4136,7 +4496,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1353834617433755688",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases"
+      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "poco",
@@ -4147,7 +4508,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "pokémon-black-and-white",
@@ -4156,11 +4518,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Black_and_White",
       "description": "Archipelago randomizer for Pokémon Black and White (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1414928022854696991",
-      "completed": [
-        "matwands"
-      ],
+      "completed": ["matwands"],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/PokemonBWAP/releases"
+      "githubUrl": "https://github.com/BlastSlimey/PokemonBWAP/releases",
+      "inProgress": []
     },
     {
       "id": "pokémon-crystal",
@@ -4171,7 +4532,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1365127145709502575",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/gerbiljames/Archipelago-Crystal/releases"
+      "githubUrl": "https://github.com/gerbiljames/Archipelago-Crystal/releases",
+      "inProgress": []
     },
     {
       "id": "pokémon-emerald",
@@ -4180,10 +4542,9 @@
       "url": "https://archipelago.gg/games/Pokémon%20Emerald/info/en",
       "description": "Archipelago randomizer for Pokémon Emerald (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192236871468711966",
-      "completed": [
-        "sid"
-      ],
-      "todo": []
+      "completed": ["sid"],
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "pokémon-firered-and-leafgreen",
@@ -4194,7 +4555,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1365127226533871718",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/vyneras/Archipelago/releases"
+      "githubUrl": "https://github.com/vyneras/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "pokémon-mystery-dungeon-explorers-of-sky",
@@ -4205,7 +4567,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1408865961385267260",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases"
+      "githubUrl": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases",
+      "inProgress": []
     },
     {
       "id": "pokémon-pinball",
@@ -4216,7 +4579,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1358934774647095447",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases?q=pokemon&expanded=true"
+      "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases?q=pokemon&expanded=true",
+      "inProgress": []
     },
     {
       "id": "pokémon-platinum",
@@ -4227,7 +4591,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1414786317014929418",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ljtpetersen/platinum_archipelago?tab=readme-ov-file"
+      "githubUrl": "https://github.com/ljtpetersen/platinum_archipelago?tab=readme-ov-file",
+      "inProgress": []
     },
     {
       "id": "pokémon-ranger-(quest)",
@@ -4238,7 +4603,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1476751710801362995",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/Archipelago/releases?q=Pokémon+Ranger+(Quest)&expanded=true"
+      "githubUrl": "https://github.com/BlastSlimey/Archipelago/releases?q=Pokémon+Ranger+(Quest)&expanded=true",
+      "inProgress": []
     },
     {
       "id": "pokémon-red-and-blue",
@@ -4248,7 +4614,8 @@
       "description": "Archipelago randomizer for Pokémon Red and Blue (GB)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1043592720603693167",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "pokémon-stadium",
@@ -4259,7 +4626,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "poképark",
@@ -4270,7 +4638,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "poképark-wii-pikachus-adventure",
@@ -4281,7 +4650,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1365710916011819088",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Mekurushi/Archipelago_Pokepark/releases"
+      "githubUrl": "https://github.com/Mekurushi/Archipelago_Pokepark/releases",
+      "inProgress": []
     },
     {
       "id": "poképelago",
@@ -4292,7 +4662,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "poképelago---pokémon-guessing-game",
@@ -4303,7 +4674,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1474030797811093514",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/dowlle/PokepelagoClient/releases"
+      "githubUrl": "https://github.com/dowlle/PokepelagoClient/releases",
+      "inProgress": []
     },
     {
       "id": "portal-2",
@@ -4314,7 +4686,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "powerwash-simulator",
@@ -4325,7 +4698,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1158367507703410739",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SWCreeperKing/PowerwashSimAP/releases"
+      "githubUrl": "https://github.com/SWCreeperKing/PowerwashSimAP/releases",
+      "inProgress": []
     },
     {
       "id": "prodigal",
@@ -4336,7 +4710,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1140678965422465115",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/randomsalience/ProdigalArchipelago/releases"
+      "githubUrl": "https://github.com/randomsalience/ProdigalArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "pseudoregalia",
@@ -4347,7 +4722,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1147564210436452393",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases"
+      "githubUrl": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "psychonauts",
@@ -4358,7 +4734,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1191273397976584212",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases"
+      "githubUrl": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases",
+      "inProgress": []
     },
     {
       "id": "pâquerette-down-the-bunburrows",
@@ -4369,7 +4746,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "quake-1",
@@ -4380,7 +4758,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "repo",
@@ -4391,7 +4770,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "r.e.p.o.",
@@ -4402,7 +4782,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1345146101094678639",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases"
+      "githubUrl": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases",
+      "inProgress": []
     },
     {
       "id": "rabbit-and-steel",
@@ -4413,7 +4794,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "rabi-ribi",
@@ -4424,7 +4806,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1183337635805138994",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases"
+      "githubUrl": "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases",
+      "inProgress": []
     },
     {
       "id": "rachet-&-clank",
@@ -4434,7 +4817,8 @@
       "description": "Archipelago randomizer for Rachet & Clank (PS3)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1146024297324879872",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "raft",
@@ -4444,7 +4828,8 @@
       "description": "Archipelago randomizer for Raft (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/937206960472883243",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "rain-world",
@@ -4455,7 +4840,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1136042293162418176",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/alphappy/ArchipelagoRW/releases"
+      "githubUrl": "https://github.com/alphappy/ArchipelagoRW/releases",
+      "inProgress": []
     },
     {
       "id": "ratchet-and-clank",
@@ -4465,7 +4851,8 @@
       "description": "Archipelago randomizer for Ratchet & Clank (PS3)",
       "githubUrl": "https://github.com/Panda291/Archipelago/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ratchet-and-clank-2",
@@ -4476,7 +4863,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ratchet-and-clank-3",
@@ -4487,7 +4875,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ratchet-&-clank-3-up-your-arsenal",
@@ -4497,7 +4886,8 @@
       "description": "Archipelago randomizer for Ratchet & Clank 3: Up Your Arsenal (PS2)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1357102103054651622",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ratchet-and-clank-3-up-your-arsenal",
@@ -4507,7 +4897,8 @@
       "description": "Archipelago randomizer for Ratchet & Clank 3: Up Your Arsenal (PS2)",
       "githubUrl": "https://github.com/Taoshix/Archipelago-RaC3/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ratchet-&-clank-going-commando",
@@ -4517,7 +4908,8 @@
       "description": "Archipelago randomizer for Ratchet & Clank: Going Commando (PS2)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1325015730218860554",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ratchet-and-clank-going-commando",
@@ -4527,7 +4919,8 @@
       "description": "Archipelago randomizer for Ratchet & Clank: Going Commando (PS2)",
       "githubUrl": "https://github.com/evilwb/APRac2/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "rayman-2",
@@ -4538,7 +4931,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "rayman-2-the-great-escape",
@@ -4549,7 +4943,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1151502935667257386",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Aeltumn/Rayman2AP/releases"
+      "githubUrl": "https://github.com/Aeltumn/Rayman2AP/releases",
+      "inProgress": []
     },
     {
       "id": "refunct",
@@ -4560,7 +4955,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1273001824919617577",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spinerak/refunct-tas-archipelago/releases/latest"
+      "githubUrl": "https://github.com/spinerak/refunct-tas-archipelago/releases/latest",
+      "inProgress": []
     },
     {
       "id": "resident-evil-2-remake",
@@ -4571,7 +4967,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "resident-evil-3-remake",
@@ -4582,7 +4979,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "resident-evil-7",
@@ -4593,7 +4991,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "return-of-the-obra-dinn",
@@ -4604,7 +5003,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "reventure",
@@ -4615,7 +5015,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1200081144629174363",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Droppel/ReventureEndingRando/releases"
+      "githubUrl": "https://github.com/Droppel/ReventureEndingRando/releases",
+      "inProgress": []
     },
     {
       "id": "rift-of-the-necrodancer",
@@ -4626,7 +5027,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1337112354130759757",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/studkid/RiftArchipelago/releases"
+      "githubUrl": "https://github.com/studkid/RiftArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "rift-wizard",
@@ -4637,7 +5039,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1097001818564853770",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheBigSalarius/Archipelago/releases"
+      "githubUrl": "https://github.com/TheBigSalarius/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "rimworld",
@@ -4648,7 +5051,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "risk-of-rain",
@@ -4657,11 +5061,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Risk_of_Rain",
       "description": "Archipelago randomizer for Risk of Rain (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
-      "completed": [
-        "miniviruce"
-      ],
+      "completed": ["miniviruce"],
       "todo": [],
-      "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases"
+      "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "risk-of-rain-2",
@@ -4670,10 +5073,9 @@
       "url": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
       "description": "Archipelago randomizer for Risk of Rain 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/884926818480705586",
-      "completed": [
-        "miniviruce"
-      ],
-      "todo": []
+      "completed": ["miniviruce"],
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "risk-of-rain-returns",
@@ -4682,11 +5084,10 @@
       "url": "https://archipelago.gg/games/Risk%20of%20Rain%20Returns/info/en",
       "description": "Archipelago randomizer for Risk of Rain Returns (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1172336306890747984",
-      "completed": [
-        "miniviruce"
-      ],
+      "completed": ["miniviruce"],
       "todo": [],
-      "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases"
+      "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "rogue-legacy",
@@ -4696,7 +5097,8 @@
       "description": "Archipelago randomizer for Rogue Legacy (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/929585237695029268",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "rusted-moss",
@@ -4707,7 +5109,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1239286100472758302",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/dgrossmann144/Archipelago/releases"
+      "githubUrl": "https://github.com/dgrossmann144/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "salt-and-sanctuary",
@@ -4718,7 +5121,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "santa",
@@ -4729,7 +5133,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "satisfactory",
@@ -4740,7 +5145,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1454822629423841442",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Jarno458/SatisfactoryArchipelagoMod/releases"
+      "githubUrl": "https://github.com/Jarno458/SatisfactoryArchipelagoMod/releases",
+      "inProgress": []
     },
     {
       "id": "saving-princess",
@@ -4750,7 +5156,8 @@
       "description": "Archipelago randomizer for Saving Princess (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356647146484666439",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sburbelago",
@@ -4761,7 +5168,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "schedule-i",
@@ -4772,7 +5180,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "scooby-doo-night-of-100-frights",
@@ -4783,7 +5192,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1188152412498829352",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases"
+      "githubUrl": "https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases",
+      "inProgress": []
     },
     {
       "id": "secret-of-evermore",
@@ -4793,7 +5203,8 @@
       "description": "Archipelago randomizer for Secret of Evermore (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/909605724190019645",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "secret-of-mana",
@@ -4804,7 +5215,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1228235556589146193",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/black-sliver/som-apworld/releases"
+      "githubUrl": "https://github.com/black-sliver/som-apworld/releases",
+      "inProgress": []
     },
     {
       "id": "seedling",
@@ -4815,7 +5227,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sekiro-shadows-die-twice",
@@ -4826,7 +5239,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sentinels-of-the-multiverse",
@@ -4837,7 +5251,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1241869295848521730",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Totox00/Archipelago-sotm/releases"
+      "githubUrl": "https://github.com/Totox00/Archipelago-sotm/releases",
+      "inProgress": []
     },
     {
       "id": "settlersheritageofkings",
@@ -4848,7 +5263,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "severed-soul",
@@ -4859,7 +5275,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1400131509569978478",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Grenhunterr/Archipelago/releases"
+      "githubUrl": "https://github.com/Grenhunterr/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "shadow-the-hedgehog",
@@ -4870,7 +5287,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1142558464242094200",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/choatix/Archipelago/releases"
+      "githubUrl": "https://github.com/choatix/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "shadowgate-64",
@@ -4881,7 +5299,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1295834685548658819",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/jjjj12212/Archipelago-Shadowgate64/releases"
+      "githubUrl": "https://github.com/jjjj12212/Archipelago-Shadowgate64/releases",
+      "inProgress": []
     },
     {
       "id": "shahrazad",
@@ -4892,7 +5311,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "shapez",
@@ -4903,7 +5323,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1394026826782740601",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/shapezipelago/releases"
+      "githubUrl": "https://github.com/BlastSlimey/shapezipelago/releases",
+      "inProgress": []
     },
     {
       "id": "shapez-2",
@@ -4914,7 +5335,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1278481415830245427",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/2hapezipelago/releases"
+      "githubUrl": "https://github.com/BlastSlimey/2hapezipelago/releases",
+      "inProgress": []
     },
     {
       "id": "shining-in-the-darkness",
@@ -4925,7 +5347,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "ship-of-harkinian",
@@ -4936,7 +5359,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "shivers",
@@ -4946,7 +5370,8 @@
       "description": "Archipelago randomizer for Shivers (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192237130005610586",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "shovel-knight-pocket-dungeon",
@@ -4957,7 +5382,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sid-meiers-civilization-v",
@@ -4968,7 +5394,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1342924294757552229",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/1313e/Civ-V-AP-World/releases"
+      "githubUrl": "https://github.com/1313e/Civ-V-AP-World/releases",
+      "inProgress": []
     },
     {
       "id": "sid-meiers-civilization-vi",
@@ -4978,7 +5405,8 @@
       "description": "Archipelago randomizer for Sid Meier's Civilization VI (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356645390497222887",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "signalis",
@@ -4989,7 +5417,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "silver-daze",
@@ -5000,7 +5429,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "simon-tathams-portable-puzzle-collection",
@@ -5011,7 +5441,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1278733078516207719",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ishanpm/ap-sgtpuzzles-web/releases"
+      "githubUrl": "https://github.com/ishanpm/ap-sgtpuzzles-web/releases",
+      "inProgress": []
     },
     {
       "id": "skyward-sword",
@@ -5022,7 +5453,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "slay-the-spire",
@@ -5033,7 +5465,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/884926940182609920",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/cjmang/StS-AP-World/releases"
+      "githubUrl": "https://github.com/cjmang/StS-AP-World/releases",
+      "inProgress": []
     },
     {
       "id": "slay-the-spire-ii",
@@ -5044,7 +5477,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "slime-rancher",
@@ -5055,7 +5489,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1108426937409486909",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SWCreeperKing/Slimipelago/releases"
+      "githubUrl": "https://github.com/SWCreeperKing/Slimipelago/releases",
+      "inProgress": []
     },
     {
       "id": "slotlock",
@@ -5066,7 +5501,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sly-2-band-of-thieves",
@@ -5077,7 +5513,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1359447263981600788",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/NikolajDanger/APSly2/releases"
+      "githubUrl": "https://github.com/NikolajDanger/APSly2/releases",
+      "inProgress": []
     },
     {
       "id": "sly-3-honor-among-thieves",
@@ -5088,7 +5525,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sly-cooper-and-the-thievius-raccoonus",
@@ -5099,7 +5537,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1170557242660093952",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/hoppel16/ArchipelagoBranchSly1/releases"
+      "githubUrl": "https://github.com/hoppel16/ArchipelagoBranchSly1/releases",
+      "inProgress": []
     },
     {
       "id": "smushi-come-home",
@@ -5110,7 +5549,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1443621717552402535",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHome/releases/latest"
+      "githubUrl": "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHome/releases/latest",
+      "inProgress": []
     },
     {
       "id": "smw-spicy-mycena-waffles",
@@ -5121,7 +5561,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1435322478024200202",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=Spicy&expanded=true"
+      "githubUrl": "https://github.com/TheLX5/Archipelago/releases?q=Spicy&expanded=true",
+      "inProgress": []
     },
     {
       "id": "smz3",
@@ -5131,7 +5572,8 @@
       "description": "Archipelago randomizer for SMZ3 (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/959203096142184458",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sonic-advance-2",
@@ -5142,7 +5584,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sonic-adventure-2-battle",
@@ -5152,7 +5595,8 @@
       "description": "Archipelago randomizer for Sonic Adventure 2: Battle (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/980554290798145566",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sonic-adventure-dx",
@@ -5163,7 +5607,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1420425220858056874",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases"
+      "githubUrl": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases",
+      "inProgress": []
     },
     {
       "id": "sonic-battle",
@@ -5174,7 +5619,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sonic-frontiers",
@@ -5185,7 +5631,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "sonic-heroes",
@@ -5196,7 +5643,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1234592520403423352",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases"
+      "githubUrl": "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "sonic-riders",
@@ -5207,7 +5655,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1292128680046235739",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ninjakakes/Archipelago/releases?q=Sonic+Riders&expanded=true"
+      "githubUrl": "https://github.com/Ninjakakes/Archipelago/releases?q=Sonic+Riders&expanded=true",
+      "inProgress": []
     },
     {
       "id": "sonic-rush",
@@ -5218,7 +5667,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1280648306124394567",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/SonicRushAP/releases"
+      "githubUrl": "https://github.com/BlastSlimey/SonicRushAP/releases",
+      "inProgress": []
     },
     {
       "id": "sonic-the-hedgehog",
@@ -5229,7 +5679,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1212629606608408576",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/kaithar/Archipelago/releases"
+      "githubUrl": "https://github.com/kaithar/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "sonic-the-hedgehog-1",
@@ -5240,7 +5691,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "soul-blazer",
@@ -5250,7 +5702,8 @@
       "description": "Archipelago randomizer for Soul Blazer (SNES)",
       "githubUrl": "https://github.com/Tranquilite0/Archipelago-SoulBlazer/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "soulblazer",
@@ -5260,7 +5713,8 @@
       "description": "Archipelago randomizer for Soulblazer (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1209689725057761310",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "spelunker",
@@ -5270,7 +5724,8 @@
       "description": "Archipelago randomizer for Spelunker (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1237999589907234938",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "spelunky-2",
@@ -5281,7 +5736,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1142626744629735555",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases"
+      "githubUrl": "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "spinball",
@@ -5292,7 +5748,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1325257989891952742",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spineraks-org/ArchipelagoSpinball/releases"
+      "githubUrl": "https://github.com/spineraks-org/ArchipelagoSpinball/releases",
+      "inProgress": []
     },
     {
       "id": "spirit-island",
@@ -5303,7 +5760,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "spirit-valley",
@@ -5314,7 +5772,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "spongebob-squarepants-battle-for-bikini-bottom",
@@ -5325,7 +5784,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1098766534035386458",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Cyb3RGER/bfbb_ap_world/releases"
+      "githubUrl": "https://github.com/Cyb3RGER/bfbb_ap_world/releases",
+      "inProgress": []
     },
     {
       "id": "spyro-2",
@@ -5336,7 +5796,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1281660590431015046",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Uroogla/S2AP/releases"
+      "githubUrl": "https://github.com/Uroogla/S2AP/releases",
+      "inProgress": []
     },
     {
       "id": "spyro-3",
@@ -5347,7 +5808,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1018847303722872843",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Uroogla/S3AP/releases"
+      "githubUrl": "https://github.com/Uroogla/S3AP/releases",
+      "inProgress": []
     },
     {
       "id": "spyro-the-dragon",
@@ -5358,7 +5820,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "spyro-a-heros-tail",
@@ -5369,7 +5832,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "stacklands",
@@ -5380,7 +5844,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1151149079238299719",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/JammyGeeza/Stacklands-Randomizer/releases"
+      "githubUrl": "https://github.com/JammyGeeza/Stacklands-Randomizer/releases",
+      "inProgress": []
     },
     {
       "id": "star-fox-64",
@@ -5391,7 +5856,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "star-fox-adventures",
@@ -5402,7 +5868,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "star-wars-episode-i-racer",
@@ -5413,7 +5880,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "star-wars-episode-i---racer",
@@ -5424,7 +5892,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1207274588120158269",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/wcolding/SWR_AP_Client/releases"
+      "githubUrl": "https://github.com/wcolding/SWR_AP_Client/releases",
+      "inProgress": []
     },
     {
       "id": "starcraft-ii",
@@ -5434,7 +5903,8 @@
       "description": "Archipelago randomizer for StarCraft II (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/980554570075873300",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "stardew-valley",
@@ -5444,7 +5914,8 @@
       "description": "Archipelago randomizer for Stardew Valley (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090823633099833464",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "starfox-64",
@@ -5455,7 +5926,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1024876649151475732",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Auztin/AP-Star-Fox-64/releases"
+      "githubUrl": "https://github.com/Auztin/AP-Star-Fox-64/releases",
+      "inProgress": []
     },
     {
       "id": "stick-ranger",
@@ -5466,7 +5938,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1368511758662373517",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Kryen112/AP_Stick_Ranger/releases"
+      "githubUrl": "https://github.com/Kryen112/AP_Stick_Ranger/releases",
+      "inProgress": []
     },
     {
       "id": "streets-of-rage",
@@ -5477,7 +5950,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1421815799504437409",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/UltiNaruto/SOR_AP_Randomizer/releases"
+      "githubUrl": "https://github.com/UltiNaruto/SOR_AP_Randomizer/releases",
+      "inProgress": []
     },
     {
       "id": "subnautica",
@@ -5487,7 +5961,8 @@
       "description": "Archipelago randomizer for Subnautica (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/868938368346628096",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-cat-planet",
@@ -5498,7 +5973,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1338978189682409473",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/lone01/scp/releases"
+      "githubUrl": "https://github.com/lone01/scp/releases",
+      "inProgress": []
     },
     {
       "id": "super-junkoid",
@@ -5509,7 +5985,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1196920710724071555",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Ninjakakes/Archipelago/releases"
+      "githubUrl": "https://github.com/Ninjakakes/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "super-mario-64",
@@ -5519,7 +5996,8 @@
       "description": "Archipelago randomizer for Super Mario 64 (N64/PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/937206798014898186",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-mario-land-2-6-golden-coins",
@@ -5529,7 +6007,8 @@
       "description": "Archipelago randomizer for Super Mario Land 2: 6 Golden Coins (GB)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1394026996325158982",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-mario-rpg",
@@ -5540,7 +6019,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1091478379963883651",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases"
+      "githubUrl": "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases",
+      "inProgress": []
     },
     {
       "id": "super-mario-sunshine",
@@ -5551,7 +6031,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1383204057514250300",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Joshark/archipelago-sms/releases"
+      "githubUrl": "https://github.com/Joshark/archipelago-sms/releases",
+      "inProgress": []
     },
     {
       "id": "super-mario-sunshine-arcade-2",
@@ -5562,7 +6043,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1399897298301096048",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Jorbori/SMSA2AP/releases"
+      "githubUrl": "https://github.com/Jorbori/SMSA2AP/releases",
+      "inProgress": []
     },
     {
       "id": "super-mario-world",
@@ -5572,7 +6054,8 @@
       "description": "Archipelago randomizer for Super Mario World (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1043593173089398846",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-mario-world-2-yoshis-island",
@@ -5582,7 +6065,8 @@
       "description": "Archipelago randomizer for Super Mario World 2: Yoshi's Island (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1224389973336133743",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-metroid",
@@ -5592,7 +6076,8 @@
       "description": "Archipelago randomizer for Super Metroid (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/909599727341928538",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-metroid-map-rando",
@@ -5602,7 +6087,8 @@
       "description": "Archipelago randomizer for Super Metroid Map Rando (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1156395911874875473",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "super-smash-bros.-melee",
@@ -5612,7 +6098,8 @@
       "description": "Archipelago randomizer for Super Smash Bros. Melee (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1179050965802942474",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "system-shock-2",
@@ -5623,7 +6110,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1340419754200010915",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Partatio/SS2-Apworld/releases"
+      "githubUrl": "https://github.com/Partatio/SS2-Apworld/releases",
+      "inProgress": []
     },
     {
       "id": "talos-principle-reawakened",
@@ -5634,7 +6122,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1473070314165633215",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/johnso48/TalosPrincipleArchipelago/releases"
+      "githubUrl": "https://github.com/johnso48/TalosPrincipleArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "tcg-card-shop-simulator",
@@ -5645,7 +6134,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1302063649812250665",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases"
+      "githubUrl": "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases",
+      "inProgress": []
     },
     {
       "id": "terraria",
@@ -5654,10 +6144,9 @@
       "url": "https://archipelago.gg/games/Terraria/info/en",
       "description": "Archipelago randomizer for Terraria (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148330488482767008",
-      "completed": [
-        "lifestomper"
-      ],
-      "todo": []
+      "completed": ["lifestomper"],
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "tetris",
@@ -5668,7 +6157,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1477485575937331281",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Alchav/Archipelago/releases?q=Tetris&expanded=true"
+      "githubUrl": "https://github.com/Alchav/Archipelago/releases?q=Tetris&expanded=true",
+      "inProgress": []
     },
     {
       "id": "tevi",
@@ -5679,7 +6169,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1320015979736203304",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlackSoulKnight/Tevi_Archipelago/releases"
+      "githubUrl": "https://github.com/BlackSoulKnight/Tevi_Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "the-binding-of-isaac-repentance",
@@ -5690,7 +6181,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1454262765047775326",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/NaveTK/Archipelago/releases"
+      "githubUrl": "https://github.com/NaveTK/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "the-forged-curse",
@@ -5701,7 +6193,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1411846246271815850",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/cheesepak/ap-forged-curse/releases"
+      "githubUrl": "https://github.com/cheesepak/ap-forged-curse/releases",
+      "inProgress": []
     },
     {
       "id": "the-grinch",
@@ -5712,7 +6205,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1279837475338190999",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/MarioSpore/Grinch-AP/releases"
+      "githubUrl": "https://github.com/MarioSpore/Grinch-AP/releases",
+      "inProgress": []
     },
     {
       "id": "the-guardian-legend",
@@ -5723,7 +6217,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-dragoon",
@@ -5734,7 +6229,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-heroes-trails-in-the-sky-the-3rd",
@@ -5745,7 +6241,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1217595862872490065",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/releases"
+      "githubUrl": "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda",
@@ -5755,7 +6252,8 @@
       "description": "Archipelago randomizer for The Legend of Zelda (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090821869340467332",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-ii-the-adventure-of-link",
@@ -5766,7 +6264,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1239454398367924325",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/PinkSwitch/Archipelago/releases?q=zelda&expanded=true"
+      "githubUrl": "https://github.com/PinkSwitch/Archipelago/releases?q=zelda&expanded=true",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-a-link-between-worlds",
@@ -5777,7 +6276,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1434699603843874846",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/randomsalience/albw-archipelago/releases"
+      "githubUrl": "https://github.com/randomsalience/albw-archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-a-link-to-the-past",
@@ -5787,7 +6287,8 @@
       "description": "Archipelago randomizer for The Legend of Zelda: A Link to the Past (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/827141303330406408",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-links-awakening-dx",
@@ -5797,7 +6298,8 @@
       "description": "Archipelago randomizer for The Legend of Zelda: Link's Awakening DX (GBC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090819435893362768",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-majoras-mask",
@@ -5808,7 +6310,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1368653154241089546",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/RecompRando/MMRecompRando/releases"
+      "githubUrl": "https://github.com/RecompRando/MMRecompRando/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-ocarina-of-time",
@@ -5818,7 +6321,8 @@
       "description": "Archipelago randomizer for The Legend of Zelda: Ocarina of Time (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/884928390421938206",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-ocarina-of-time-(ship-of-harkinian)",
@@ -5829,7 +6333,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1434235335625281707",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/HarbourMasters/Archipelago-SoH?tab=readme-ov-file#ship-of-harkinian--archipelago"
+      "githubUrl": "https://github.com/HarbourMasters/Archipelago-SoH?tab=readme-ov-file#ship-of-harkinian--archipelago",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-ocarina-of-time-but-its-just-master-quest-water-temple",
@@ -5840,7 +6345,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1211745516807782410",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Alchav/Archipelago/releases?q=Water&expanded=true"
+      "githubUrl": "https://github.com/Alchav/Archipelago/releases?q=Water&expanded=true",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-oracle-of-ages",
@@ -5851,7 +6357,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1279722186601750",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SenPierre/ArchipelagoOoA/releases"
+      "githubUrl": "https://github.com/SenPierre/ArchipelagoOoA/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-oracle-of-seasons",
@@ -5862,7 +6369,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1439343546615206019",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Dinopony/ArchipelagoOoS/releases"
+      "githubUrl": "https://github.com/Dinopony/ArchipelagoOoS/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-phantom-hourglass",
@@ -5873,7 +6381,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1256012365049233438",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/carrotinator/Archipelago/releases"
+      "githubUrl": "https://github.com/carrotinator/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-skyward-sword",
@@ -5884,7 +6393,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1469917221068214444",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Battlecats59/SS_APWorld/releases"
+      "githubUrl": "https://github.com/Battlecats59/SS_APWorld/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-spirit-tracks",
@@ -5895,7 +6405,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1358582876085682417",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DayKat/spirit-tracks/releases"
+      "githubUrl": "https://github.com/DayKat/spirit-tracks/releases",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-the-minish-cap",
@@ -5906,7 +6417,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1419820477404418140",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/eternalcode0/Archipelago/releases/"
+      "githubUrl": "https://github.com/eternalcode0/Archipelago/releases/",
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-the-wind-waker",
@@ -5916,7 +6428,8 @@
       "description": "Archipelago randomizer for The Legend of Zelda: The Wind Waker (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356643332754768044",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-legend-of-zelda-twilight-princess",
@@ -5927,7 +6440,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1369050080887312506",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases"
+      "githubUrl": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases",
+      "inProgress": []
     },
     {
       "id": "the-messenger",
@@ -5937,7 +6451,8 @@
       "description": "Archipelago randomizer for The Messenger (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090822939697500243",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-minish-cap",
@@ -5948,7 +6463,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-password-game",
@@ -5959,7 +6475,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-planet-crafter",
@@ -5970,7 +6487,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "the-simpsons-hit-and-run",
@@ -5981,7 +6499,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1158211913495359548",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/nmize1/Archipelago/releases"
+      "githubUrl": "https://github.com/nmize1/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "the-sims-4",
@@ -5992,7 +6511,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1079002955262480424",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/benny-dreamly/Archipelago/releases/latest"
+      "githubUrl": "https://github.com/benny-dreamly/Archipelago/releases/latest",
+      "inProgress": []
     },
     {
       "id": "the-witness",
@@ -6002,7 +6522,8 @@
       "description": "Archipelago randomizer for The Witness (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/980554001231786014",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "timespinner",
@@ -6012,7 +6533,8 @@
       "description": "Archipelago randomizer for Timespinner (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/893636303630000169",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "toejam-&-earl",
@@ -6022,7 +6544,8 @@
       "description": "Archipelago randomizer for Toejam & Earl (GEN)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1204326236415856671",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "toejam-and-earl",
@@ -6032,7 +6555,8 @@
       "description": "Archipelago randomizer for Toejam & Earl (GEN)",
       "githubUrl": "https://github.com/IgnisUmbrae/TJE-Archipelago/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "toem",
@@ -6043,7 +6567,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1255989734497587241",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/bbernardoni/Archipelago.TOEM/releases"
+      "githubUrl": "https://github.com/bbernardoni/Archipelago.TOEM/releases",
+      "inProgress": []
     },
     {
       "id": "tombola",
@@ -6054,7 +6579,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1475176727235002571",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Arenes214/APWorld-Tombola/releases"
+      "githubUrl": "https://github.com/Arenes214/APWorld-Tombola/releases",
+      "inProgress": []
     },
     {
       "id": "total-war-warhammer-3-immortal-empires",
@@ -6065,7 +6591,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1136329107370684538",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/jordansds/Archipelago_TWW3_Alt/releases"
+      "githubUrl": "https://github.com/jordansds/Archipelago_TWW3_Alt/releases",
+      "inProgress": []
     },
     {
       "id": "totally-accurate-battle-simulator",
@@ -6074,11 +6601,10 @@
       "url": "https://archipelago.gg/games/Totally%20Accurate%20Battle%20Simulator/info/en",
       "description": "Archipelago randomizer for Totally Accurate Battle Simulator (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1348142956682547230",
-      "completed": [
-        "minipomme"
-      ],
+      "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/duckboycool/TABS-Archipelago/releases"
+      "githubUrl": "https://github.com/duckboycool/TABS-Archipelago/releases",
+      "inProgress": ["minipomme"]
     },
     {
       "id": "touhou-18.5",
@@ -6089,7 +6615,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1346288808512983040",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/furret78/Archipelago/releases"
+      "githubUrl": "https://github.com/furret78/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "trackmania-random-campaign",
@@ -6100,7 +6627,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1368696493904625785",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SerialBoxes/ArchipelagoTrackmania/releases"
+      "githubUrl": "https://github.com/SerialBoxes/ArchipelagoTrackmania/releases",
+      "inProgress": []
     },
     {
       "id": "tunic",
@@ -6110,7 +6638,8 @@
       "description": "Archipelago randomizer for TUNIC (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1224388891948093540",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "turnip-boy-commits-tax-evasion",
@@ -6121,7 +6650,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1297617351977734214",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/pointfivetee/TurnipBoyRandomizer/releases"
+      "githubUrl": "https://github.com/pointfivetee/TurnipBoyRandomizer/releases",
+      "inProgress": []
     },
     {
       "id": "twisty-cube",
@@ -6132,7 +6662,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1420821472057757716",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest"
+      "githubUrl": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest",
+      "inProgress": []
     },
     {
       "id": "ty-the-tasmanian-tiger",
@@ -6143,7 +6674,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1111533202184613991",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/xMcacutt/Archipelago-TyTheTasmanianTiger/releases"
+      "githubUrl": "https://github.com/xMcacutt/Archipelago-TyTheTasmanianTiger/releases",
+      "inProgress": []
     },
     {
       "id": "tyrian",
@@ -6154,7 +6686,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1224498137570349076",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/KScl/TyrianArchipelago/releases"
+      "githubUrl": "https://github.com/KScl/TyrianArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "ufo-50",
@@ -6165,7 +6698,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1286076770445164575",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/UFO-50-Archipelago/Archipelago/releases"
+      "githubUrl": "https://github.com/UFO-50-Archipelago/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "undertale",
@@ -6175,7 +6709,8 @@
       "description": "Archipelago randomizer for Undertale (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148330675452264499",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "unfair-flips",
@@ -6186,7 +6721,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1443942587974029322",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/xMcacutt-Archipelago/Archipelago-UnfairFlips/releases"
+      "githubUrl": "https://github.com/xMcacutt-Archipelago/Archipelago-UnfairFlips/releases",
+      "inProgress": []
     },
     {
       "id": "vacation-simulator",
@@ -6196,7 +6732,8 @@
       "description": "Archipelago randomizer for Vacation Simulator (VR)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1204935955580985414",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "void-sols",
@@ -6207,7 +6744,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1448045030777421844",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/cookie966507/Archipelago/releases"
+      "githubUrl": "https://github.com/cookie966507/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "void-stranger",
@@ -6218,7 +6756,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1231073014439743528",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/CriminalPancake/void-stranger-ap/releases"
+      "githubUrl": "https://github.com/CriminalPancake/void-stranger-ap/releases",
+      "inProgress": []
     },
     {
       "id": "voltorb-flip-(hgss)",
@@ -6229,7 +6768,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1419104603126890506",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/BlastSlimey/Archipelago/releases?q=Voltorb+Flip&expanded=true"
+      "githubUrl": "https://github.com/BlastSlimey/Archipelago/releases?q=Voltorb+Flip&expanded=true",
+      "inProgress": []
     },
     {
       "id": "vvvvvv",
@@ -6239,7 +6779,8 @@
       "description": "Archipelago randomizer for VVVVVV (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/937206899949076540",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "wargroove",
@@ -6248,10 +6789,9 @@
       "url": "https://archipelago.gg/games/Wargroove/info/en",
       "description": "Archipelago randomizer for Wargroove (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090824439710625822",
-      "completed": [
-        "minipomme"
-      ],
-      "todo": []
+      "completed": ["minipomme"],
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "wargroove-2",
@@ -6260,11 +6800,10 @@
       "url": "https://archipelago.gg/games/Wargroove%202/info/en",
       "description": "Archipelago randomizer for Wargroove 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1159482310652076082",
-      "completed": [
-        "minipomme"
-      ],
+      "completed": ["minipomme"],
       "todo": [],
-      "githubUrl": "https://github.com/FlySniper/Archipelago/releases?q=Wargroove+2&expanded=true"
+      "githubUrl": "https://github.com/FlySniper/Archipelago/releases?q=Wargroove+2&expanded=true",
+      "inProgress": []
     },
     {
       "id": "wario-land-4",
@@ -6275,7 +6814,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1079899101732290620",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/lilDavid/Archipelago-Wario-Land-4/releases"
+      "githubUrl": "https://github.com/lilDavid/Archipelago-Wario-Land-4/releases",
+      "inProgress": []
     },
     {
       "id": "wario-land-super-mario-land-3",
@@ -6286,7 +6826,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1173641836502454303",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/randomcodegen/Archipelago/releases"
+      "githubUrl": "https://github.com/randomcodegen/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "wario-world",
@@ -6297,7 +6838,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1257377358269251666",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/m0ester/WarioworldAP/releases"
+      "githubUrl": "https://github.com/m0ester/WarioworldAP/releases",
+      "inProgress": []
     },
     {
       "id": "watery-words",
@@ -6308,7 +6850,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1292965246847418388",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/spineraks-org/ArchipelagoWateryWords/releases"
+      "githubUrl": "https://github.com/spineraks-org/ArchipelagoWateryWords/releases",
+      "inProgress": []
     },
     {
       "id": "webfishing",
@@ -6319,7 +6862,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1299564055597416449",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/mwoiii/webfishing-ap/releases"
+      "githubUrl": "https://github.com/mwoiii/webfishing-ap/releases",
+      "inProgress": []
     },
     {
       "id": "west-of-loathing",
@@ -6330,7 +6874,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1273856413327822950",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Lucasvdm/WOLAP/releases"
+      "githubUrl": "https://github.com/Lucasvdm/WOLAP/releases",
+      "inProgress": []
     },
     {
       "id": "wordipelago",
@@ -6341,7 +6886,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1336387000928047186",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/ProfDeCube/Archipelago/releases"
+      "githubUrl": "https://github.com/ProfDeCube/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "xcom-2-war-of-the-chosen",
@@ -6352,7 +6898,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1037751568700805141",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases"
+      "githubUrl": "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "xenoblade-chronicles-x",
@@ -6363,7 +6910,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1333863771868762265",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/MaragonMH/Archipelago/releases"
+      "githubUrl": "https://github.com/MaragonMH/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "yacht-dice",
@@ -6373,7 +6921,8 @@
       "description": "Archipelago randomizer for Yacht Dice (Web)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311061580645142578",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "yarg-(guitar-hero-1/rock-band-3/combined)",
@@ -6383,7 +6932,8 @@
       "description": "Archipelago randomizer for YARG (Guitar Hero 1/Rock Band 3/Combined) (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1454538103933898752",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "yarg-(guitar-hero-1-rock-band-3-combined)",
@@ -6393,7 +6943,8 @@
       "description": "Archipelago randomizer for YARG (Guitar Hero 1/Rock Band 3/Combined) (PC)",
       "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "yarg-(yet-another-rhythm-game)",
@@ -6404,7 +6955,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1451771538943508490",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/energymaster22/YARGArchipelago/releases"
+      "githubUrl": "https://github.com/energymaster22/YARGArchipelago/releases",
+      "inProgress": []
     },
     {
       "id": "yokus-island-express",
@@ -6415,7 +6967,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1225283906333446245",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://git.makuluni.com/Archipelago/YokuAPWorld/releases"
+      "githubUrl": "https://git.makuluni.com/Archipelago/YokuAPWorld/releases",
+      "inProgress": []
     },
     {
       "id": "yooka-laylee",
@@ -6426,7 +6979,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1103936661156536330",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/Awareqwx/Archipelago/releases"
+      "githubUrl": "https://github.com/Awareqwx/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "yu-gi-oh-gx-duel-academy",
@@ -6436,7 +6990,8 @@
       "description": "Archipelago randomizer for Yu-Gi-Oh GX Duel Academy (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1345884440571678862",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "yu-gi-oh-dungeon-dice-monsters",
@@ -6447,7 +7002,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1298768685510561842",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/JustinMarshall98/Archipelago/releases"
+      "githubUrl": "https://github.com/JustinMarshall98/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "yu-gi-oh-forbidden-memories",
@@ -6458,7 +7014,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1210743818564149288",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/sg4e/Archipelago/releases"
+      "githubUrl": "https://github.com/sg4e/Archipelago/releases",
+      "inProgress": []
     },
     {
       "id": "yu-gi-oh-ultimate-masters-wct-2006",
@@ -6468,7 +7025,8 @@
       "description": "Archipelago randomizer for Yu-Gi-Oh! Ultimate Masters: WCT 2006 (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257454640950149151",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "zillion",
@@ -6478,7 +7036,8 @@
       "description": "Archipelago randomizer for Zillion (SMS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1043593966131613736",
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "zork-grand-inquisitor",
@@ -6489,7 +7048,8 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1224389493289648218",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=zork&expanded=true"
+      "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=zork&expanded=true",
+      "inProgress": []
     }
   ]
 }

@@ -174,14 +174,37 @@ header p {
   align-items: center;
   gap: 10px;
   min-height: 40px;
+  width: 100%;
 }
 
 .user-group-todo {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-group-inprogress {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .user-group-completed {
-  flex-shrink: 0;
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-left {
+  justify-content: flex-start;
+}
+
+.status-center {
+  justify-content: center;
+}
+
+.status-right {
+  justify-content: flex-end;
 }
 
 .user-bubble {
@@ -214,10 +237,23 @@ header p {
   color: #856404;
 }
 
+.inprogress-bubble {
+  background-color: #cfe2ff;
+  border: 2px solid #0d6efd;
+  color: #084298;
+}
+
 .completed-bubble {
   background-color: #d4edda;
   border: 2px solid #28a745;
   color: #155724;
+}
+
+.user-bubble.empty {
+  background-color: #f0f0f0;
+  border: 2px solid #ddd;
+  color: #999;
+  opacity: 0.5;
 }
 
 .avatars-inline {
