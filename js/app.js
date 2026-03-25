@@ -2,7 +2,7 @@
 function initDarkMode() {
   // Check if user has a stored preference
   const storedTheme = localStorage.getItem("theme");
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const prefersDark = globalThis.matchMedia("(prefers-color-scheme: dark)").matches;
 
   // Set theme based on stored preference or system preference
   if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
@@ -11,7 +11,7 @@ function initDarkMode() {
   }
 
   // Listen for system theme changes
-  window
+  globalThis
     .matchMedia("(prefers-color-scheme: dark)")
     .addEventListener("change", (e) => {
       if (!localStorage.getItem("theme")) {
@@ -700,7 +700,7 @@ function updateLastUpdated() {
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 if (scrollTopBtn) {
   scrollTopBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    globalThis.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
 

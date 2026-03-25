@@ -13,6 +13,21 @@
   --text-muted: #999;
   --text-error: #d32f2f;
   --text-secondary: #666;
+  /* Badge colors */
+  --todo-bg: #fff3cd;
+  --todo-border: #ffc107;
+  --todo-text: #856404;
+  --inprogress-bg: #cfe2ff;
+  --inprogress-border: #0d6efd;
+  --inprogress-text: #084298;
+  --completed-bg: #d4edda;
+  --completed-border: #28a745;
+  --completed-text: #155724;
+  /* Filter colors */
+  --filter-bg: #f0f0f0;
+  --filter-bg-hover: #e8e8e8;
+  --filter-active-bg: #4da373;
+  --filter-active-border: #1a472a;
 }
 
 /* Dark mode theme */
@@ -31,6 +46,21 @@
   --text-muted: #999;
   --text-error: #ff6b6b;
   --text-secondary: #aaa;
+  /* Badge colors for dark mode */
+  --todo-bg: #3a3a1a;
+  --todo-border: #d4a023;
+  --todo-text: #ffc107;
+  --inprogress-bg: #1a2a3a;
+  --inprogress-border: #4d94ff;
+  --inprogress-text: #6ba3ff;
+  --completed-bg: #1a3a1a;
+  --completed-border: #4ade80;
+  --completed-text: #6ee67e;
+  /* Filter colors for dark mode */
+  --filter-bg: #2a2a2a;
+  --filter-bg-hover: #3a3a3a;
+  --filter-active-bg: #5eb37f;
+  --filter-active-border: #2d7a4a;
 }
 
 * {
@@ -233,7 +263,7 @@ header p {
 
 .filter-btn {
   padding: 6px 12px;
-  background-color: var(--btn-bg);
+  background-color: var(--filter-bg);
   border: 2px solid var(--border-color);
   border-radius: 20px;
   cursor: pointer;
@@ -244,13 +274,13 @@ header p {
 }
 
 .filter-btn:hover {
-  background-color: var(--btn-bg-hover);
+  background-color: var(--filter-bg-hover);
   border-color: var(--accent-color);
 }
 
 .filter-btn.active {
-  background-color: var(--accent-color);
-  border-color: var(--primary-color);
+  background-color: var(--filter-active-bg);
+  border-color: var(--filter-active-border);
   color: white;
 }
 
@@ -422,21 +452,21 @@ header p {
 }
 
 .todo-bubble {
-  background-color: #fff3cd;
-  border: 2px solid #ffc107;
-  color: #856404;
+  background-color: var(--todo-bg);
+  border: 2px solid var(--todo-border);
+  color: var(--todo-text);
 }
 
 .inprogress-bubble {
-  background-color: #cfe2ff;
-  border: 2px solid #0d6efd;
-  color: #084298;
+  background-color: var(--inprogress-bg);
+  border: 2px solid var(--inprogress-border);
+  color: var(--inprogress-text);
 }
 
 .completed-bubble {
-  background-color: #d4edda;
-  border: 2px solid #28a745;
-  color: #155724;
+  background-color: var(--completed-bg);
+  border: 2px solid var(--completed-border);
+  color: var(--completed-text);
 }
 
 .user-bubble.empty {
