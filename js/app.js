@@ -533,13 +533,13 @@ function validateTwitchImages() {
       const urlWithoutIGDB = `https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}-144x192.jpg`;
       const urlWithIGDB = `https://static-cdn.jtvnw.net/ttv-boxart/${twitchId}_IGDB-144x192.jpg`;
 
-      tryLoadImage(card, urlWithoutIGDB, urlWithIGDB);
+      tryLoadImage(card, urlWithoutIGDB, urlWithIGDB, twitchId);
     }
   });
 }
 
 // Try to load image with fallback chain
-async function tryLoadImage(card, urlWithoutIGDB, urlWithIGDB) {
+async function tryLoadImage(card, urlWithoutIGDB, urlWithIGDB, twitchId) {
   // Check first URL
   if (await isValidImageUrl(urlWithoutIGDB)) {
     card.style.backgroundImage = `url('${urlWithoutIGDB}')`;
@@ -553,6 +553,10 @@ async function tryLoadImage(card, urlWithoutIGDB, urlWithIGDB) {
   }
 
   // Both failed, show fallback (remove class to show Archipelago logo)
+  const gameName = card.querySelector("h3")?.textContent || "Unknown";
+  console.warn(
+    `Failed to load Twitch image for "${gameName}" (Twitch ID: ${twitchId}). Both URLs failed: ${urlWithoutIGDB} and ${urlWithIGDB}`,
+  );
   card.classList.remove("has-twitch-image");
   card.style.backgroundImage = "none";
 }
