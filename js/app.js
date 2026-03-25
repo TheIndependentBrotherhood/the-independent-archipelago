@@ -169,16 +169,30 @@ function applyFilters() {
     selectedCompletedFilters.size > 0
   ) {
     filtered = filtered.filter((game) => {
-      const matchesTodo =
-        selectedTodoFilters.size === 0 ||
-        game.todo.some((userId) => selectedTodoFilters.has(userId));
-      const matchesInProgress =
-        selectedInProgressFilters.size === 0 ||
-        game.inProgress.some((userId) => selectedInProgressFilters.has(userId));
-      const matchesCompleted =
-        selectedCompletedFilters.size === 0 ||
-        game.completed.some((userId) => selectedCompletedFilters.has(userId));
-      return matchesTodo || matchesInProgress || matchesCompleted;
+      let hasMatch = false;
+
+      // Check each category that has filters selected
+      if (selectedTodoFilters.size > 0) {
+        hasMatch =
+          hasMatch ||
+          game.todo.some((userId) => selectedTodoFilters.has(userId));
+      }
+
+      if (selectedInProgressFilters.size > 0) {
+        hasMatch =
+          hasMatch ||
+          game.inProgress.some((userId) =>
+            selectedInProgressFilters.has(userId),
+          );
+      }
+
+      if (selectedCompletedFilters.size > 0) {
+        hasMatch =
+          hasMatch ||
+          game.completed.some((userId) => selectedCompletedFilters.has(userId));
+      }
+
+      return hasMatch;
     });
   }
 
@@ -347,11 +361,12 @@ function showUsers(modalId) {
 }
 
 // Search functionality
-document.getElementById("searchInput").addEventListener("input", async (e) => {
+document.getElementById("searchInput").addEventListener("input", (e) => {
   const query = e.target.value.toLowerCase();
 
   let filtered = allGames;
 
+  // Apply search filter first
   if (query) {
     filtered = filtered.filter(
       (game) =>
@@ -362,20 +377,35 @@ document.getElementById("searchInput").addEventListener("input", async (e) => {
 
   // Apply status filters with OR logic between categories
   if (
-    selectedTodoFilter ||
-    selectedInProgressFilter ||
-    selectedCompletedFilter
+    selectedTodoFilters.size > 0 ||
+    selectedInProgressFilters.size > 0 ||
+    selectedCompletedFilters.size > 0
   ) {
     filtered = filtered.filter((game) => {
-      const matchesTodo =
-        !selectedTodoFilter || game.todo.includes(selectedTodoFilter);
-      const matchesInProgress =
-        !selectedInProgressFilter ||
-        game.inProgress.includes(selectedInProgressFilter);
-      const matchesCompleted =
-        !selectedCompletedFilter ||
-        game.completed.includes(selectedCompletedFilter);
-      return matchesTodo || matchesInProgress || matchesCompleted;
+      let hasMatch = false;
+
+      // Check each category that has filters selected
+      if (selectedTodoFilters.size > 0) {
+        hasMatch =
+          hasMatch ||
+          game.todo.some((userId) => selectedTodoFilters.has(userId));
+      }
+
+      if (selectedInProgressFilters.size > 0) {
+        hasMatch =
+          hasMatch ||
+          game.inProgress.some((userId) =>
+            selectedInProgressFilters.has(userId),
+          );
+      }
+
+      if (selectedCompletedFilters.size > 0) {
+        hasMatch =
+          hasMatch ||
+          game.completed.some((userId) => selectedCompletedFilters.has(userId));
+      }
+
+      return hasMatch;
     });
   }
 
