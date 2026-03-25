@@ -5641,9 +5641,9 @@
     {
       "id": "super-mario-64",
       "name": "Super Mario 64",
-      "platform": "N64/PC",
+      "platform": "N64",
       "url": "https://archipelago.gg/games/Super%20Mario%2064/info/en",
-      "description": "Archipelago randomizer for Super Mario 64 (N64/PC)",
+      "description": "Archipelago randomizer for Super Mario 64 (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/937206798014898186",
       "completed": [],
       "todo": [],
