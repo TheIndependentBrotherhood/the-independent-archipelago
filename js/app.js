@@ -4,6 +4,7 @@ let allGames = [];
 let selectedTodoFilters = new Set();
 let selectedInProgressFilters = new Set();
 let selectedCompletedFilters = new Set();
+let selectedPlatformFilters = new Set();
 
 async function loadGames() {
   try {
@@ -33,6 +34,21 @@ async function loadGames() {
 }
 
 function initializeFilters(games) {
+  // Get all unique platforms
+  const platforms = new Set();
+  games.forEach((game) => {
+    if (game.platform) platforms.add(game.platform);
+  });
+
+  // Create filter buttons for platforms
+  createPlatformFilterGroup(
+    "Platform",
+    "platformFilter",
+    Array.from(platforms).sort(),
+    togglePlatformFilter,
+    clearPlatformFilters,
+  );
+
   // Get all unique users in todo, inProgress and completed
   const todoUsers = new Set();
   const inProgressUsers = new Set();
@@ -102,6 +118,54 @@ function createFilterGroup(
   });
 }
 
+function createPlatformFilterGroup(
+  title,
+  containerId,
+  platforms,
+  toggleFunction,
+  clearFunction,
+) {
+  const filterGroup = document.querySelector(`#${containerId}`).parentElement;
+
+  // Update title with clear button
+  const titleElement = filterGroup.querySelector("h3");
+  titleElement.innerHTML = `${title} <button class="clear-filter-btn" title="Clear filter"><i class="fas fa-times"></i></button>`;
+  titleElement
+    .querySelector(".clear-filter-btn")
+    .addEventListener("click", clearFunction);
+
+  // Create filter buttons
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+
+  platforms.forEach((platform) => {
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.textContent = platform;
+    btn.addEventListener("click", () => toggleFunction(platform, btn));
+    container.appendChild(btn);
+  });
+}
+
+function togglePlatformFilter(platform, btn) {
+  if (selectedPlatformFilters.has(platform)) {
+    selectedPlatformFilters.delete(platform);
+    btn.classList.remove("active");
+  } else {
+    selectedPlatformFilters.add(platform);
+    btn.classList.add("active");
+  }
+  applyFilters();
+}
+
+function clearPlatformFilters() {
+  selectedPlatformFilters.clear();
+  document
+    .querySelectorAll("#platformFilter .filter-btn.active")
+    .forEach((b) => b.classList.remove("active"));
+  applyFilters();
+}
+
 function toggleTodoFilter(userId, btn) {
   if (selectedTodoFilters.has(userId)) {
     selectedTodoFilters.delete(userId);
@@ -161,6 +225,13 @@ function clearCompletedFilters() {
 
 function applyFilters() {
   let filtered = allGames;
+
+  // Apply platform filter
+  if (selectedPlatformFilters.size > 0) {
+    filtered = filtered.filter((game) =>
+      selectedPlatformFilters.has(game.platform),
+    );
+  }
 
   // Apply status filters with OR logic between categories
   if (
@@ -376,6 +447,13 @@ document.getElementById("searchInput").addEventListener("input", (e) => {
       (game) =>
         game.name.toLowerCase().includes(query) ||
         game.description.toLowerCase().includes(query),
+    );
+  }
+
+  // Apply platform filter
+  if (selectedPlatformFilters.size > 0) {
+    filtered = filtered.filter((game) =>
+      selectedPlatformFilters.has(game.platform),
     );
   }
 
