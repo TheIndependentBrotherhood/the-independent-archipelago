@@ -59,6 +59,10 @@ let selectedInProgressFilters = new Set();
 let selectedCompletedFilters = new Set();
 let selectedPlatformFilters = new Set();
 
+// Selection mode for todo list
+let selectedGamesForTodoList = new Set();
+let isSelectionMode = false;
+
 async function loadGames() {
   try {
     // Load users first
@@ -400,6 +404,21 @@ function renderGames(games) {
 
   // Validate Twitch images after rendering
   validateTwitchImages(".game-card.has-twitch-image");
+
+  // Apply selection mode if active
+  if (isSelectionMode) {
+    updateGameCardsForSelectionMode();
+
+    // Restore selected state for cards that are in selection
+    games.forEach((game) => {
+      if (selectedGamesForTodoList.has(game.id)) {
+        const card = document.getElementById(`card-${game.id}`);
+        if (card) {
+          card.classList.add("selected");
+        }
+      }
+    });
+  }
 }
 
 // Initialize alphabet navigation
@@ -518,6 +537,9 @@ function createGameCard(game) {
 
   return `
     <div class="game-card ${twitchClass}" id="${cardId}" ${backgroundStyle}>
+      <div class="game-card-selection-overlay">
+        <i class="fas fa-check selection-check-icon"></i>
+      </div>
       <h3>${game.name}</h3>
       <div class="game-meta">
         <div class="status-line">
@@ -883,7 +905,8 @@ function spinAnimation(userId, userTodoGames, canvas, drawWheel, games) {
   // Segment center is at: selectedIndex * segmentAngle + rotation + segmentAngle/2
   // So: selectedIndex * segmentAngle + rotation + segmentAngle/2 = 3π/2
   // Therefore: rotation = 3π/2 - segmentAngle * (selectedIndex + 0.5)
-  const targetRotation = 3 * Math.PI / 2 - segmentAngle * (selectedIndex + 0.5);
+  const targetRotation =
+    (3 * Math.PI) / 2 - segmentAngle * (selectedIndex + 0.5);
 
   let currentRotation = 0;
   const startTime = Date.now();
@@ -1116,6 +1139,31 @@ document.addEventListener("DOMContentLoaded", () => {
     darkModeToggle.addEventListener("click", toggleDarkMode);
   }
 
+  // Set up selection mode button
+  const selectionModeBtn = document.getElementById("selectionModeBtn");
+  if (selectionModeBtn) {
+    selectionModeBtn.addEventListener("click", toggleSelectionMode);
+  }
+
+  // Set up selection mode action buttons
+  const selectAllBtn = document.getElementById("selectAllInlineBtn");
+  const deselectAllBtn = document.getElementById("deselectAllInlineBtn");
+  const exportBtn = document.getElementById("exportInlineBtn");
+  const exitBtn = document.getElementById("exitSelectionModeBtn");
+
+  if (selectAllBtn) {
+    selectAllBtn.addEventListener("click", selectAllGamesInGrid);
+  }
+  if (deselectAllBtn) {
+    deselectAllBtn.addEventListener("click", deselectAllGamesInGrid);
+  }
+  if (exportBtn) {
+    exportBtn.addEventListener("click", exportSelectionAsJson);
+  }
+  if (exitBtn) {
+    exitBtn.addEventListener("click", toggleSelectionMode);
+  }
+
   loadGames();
 });
 
@@ -1127,3 +1175,140 @@ document.addEventListener("click", (e) => {
     });
   }
 });
+
+// Selection Mode Functions
+function toggleSelectionMode() {
+  isSelectionMode = !isSelectionMode;
+  const selectionBar = document.getElementById("selectionModeBar");
+  const selectionBtn = document.getElementById("selectionModeBtn");
+
+  if (isSelectionMode) {
+    selectionBar.classList.remove("hidden");
+    selectionBtn.classList.add("active");
+    updateGameCardsForSelectionMode();
+
+    // Scroll to the selection mode bar
+    if (selectionBar) {
+      selectionBar.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  } else {
+    selectionBar.classList.add("hidden");
+    selectionBtn.classList.remove("active");
+    selectedGamesForTodoList.clear();
+    updateGameCardsForSelectionMode();
+    updateSelectedCountDisplay();
+  }
+}
+
+function updateGameCardsForSelectionMode() {
+  const cards = document.querySelectorAll(".game-card");
+  cards.forEach((card) => {
+    if (isSelectionMode) {
+      card.classList.add("selection-mode-active");
+      card.addEventListener("click", handleGameCardClick);
+    } else {
+      card.classList.remove("selection-mode-active");
+      card.removeEventListener("click", handleGameCardClick);
+      card.classList.remove("selected");
+    }
+  });
+}
+
+function handleGameCardClick(e) {
+  if (!isSelectionMode) return;
+
+  // Don't trigger on action buttons or modals
+  if (
+    e.target.closest(".action-buttons") ||
+    e.target.closest(".modal") ||
+    e.target.closest(".user-bubble")
+  ) {
+    return;
+  }
+
+  const cardId = this.id;
+  const gameId = cardId.replace("card-", "");
+  toggleGameSelectionInGrid(gameId);
+}
+
+function toggleGameSelectionInGrid(gameId) {
+  if (selectedGamesForTodoList.has(gameId)) {
+    selectedGamesForTodoList.delete(gameId);
+  } else {
+    selectedGamesForTodoList.add(gameId);
+  }
+
+  // Update card visually
+  const card = document.getElementById(`card-${gameId}`);
+  if (card) {
+    if (selectedGamesForTodoList.has(gameId)) {
+      card.classList.add("selected");
+    } else {
+      card.classList.remove("selected");
+    }
+  }
+
+  updateSelectedCountDisplay();
+}
+
+function updateSelectedCountDisplay() {
+  const display = document.getElementById("selectedCountDisplay");
+  if (display) {
+    const count = selectedGamesForTodoList.size;
+    display.textContent = `${count} game${count !== 1 ? "s" : ""} selected`;
+  }
+}
+
+function selectAllGamesInGrid() {
+  // Get all currently displayed games (filtered)
+  const displayedCards = document.querySelectorAll(
+    ".game-card.selection-mode-active",
+  );
+  displayedCards.forEach((card) => {
+    const gameId = card.id.replace("card-", "");
+    selectedGamesForTodoList.add(gameId);
+    card.classList.add("selected");
+  });
+  updateSelectedCountDisplay();
+}
+
+function deselectAllGamesInGrid() {
+  selectedGamesForTodoList.clear();
+  document
+    .querySelectorAll(".game-card.selected")
+    .forEach((card) => card.classList.remove("selected"));
+  updateSelectedCountDisplay();
+}
+
+function exportSelectionAsJson() {
+  const pseudo = document.getElementById("pseudoInputInline").value.trim();
+
+  if (!pseudo) {
+    alert("Please enter your pseudo");
+    return;
+  }
+
+  if (selectedGamesForTodoList.size === 0) {
+    alert("Please select at least one game");
+    return;
+  }
+
+  const todoListData = {
+    pseudo: pseudo,
+    gameIds: Array.from(selectedGamesForTodoList),
+  };
+
+  const dataStr = JSON.stringify(todoListData, null, 2);
+  const dataBlob = new Blob([dataStr], { type: "application/json" });
+  const url = URL.createObjectURL(dataBlob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `${pseudo}_todo_list.json`;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+
+  // Reset selection mode
+  toggleSelectionMode();
+}

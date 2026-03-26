@@ -178,10 +178,17 @@ header {
   position: relative;
 }
 
-header .dark-mode-toggle {
+header .header-buttons {
   position: absolute;
   top: 20px;
   right: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+header .header-icon-btn,
+header .dark-mode-toggle {
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.3);
   color: white;
@@ -196,6 +203,7 @@ header .dark-mode-toggle {
   transition: all 0.3s ease;
 }
 
+header .header-icon-btn:hover,
 header .dark-mode-toggle:hover {
   background: rgba(255, 255, 255, 0.3);
   border-color: rgba(255, 255, 255, 0.5);
@@ -1021,4 +1029,235 @@ footer {
 .result-game-card .action-buttons {
   position: relative;
   z-index: 2;
+}
+
+/* Selection Mode */
+.selection-mode-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: 2px solid var(--secondary-color);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.selection-mode-btn:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+.selection-mode-btn.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.selection-mode-bar {
+  position: sticky;
+  top: 0;
+  background: var(--card-bg);
+  border-bottom: 3px solid var(--primary-color);
+  padding: 15px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  animation: slideDown 0.3s ease;
+}
+
+.selection-mode-bar.hidden {
+  display: none;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.selection-mode-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.selection-mode-left {
+  flex: 0 0 auto;
+  min-width: 150px;
+}
+
+.selected-count-display {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}
+
+.selection-mode-center {
+  flex: 1;
+  min-width: 200px;
+  max-width: 400px;
+}
+
+.pseudo-input-inline {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.pseudo-input-inline:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.selection-mode-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selection-mode-action-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  border: 2px solid var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.selection-mode-action-btn:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.selection-mode-export-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.selection-mode-export-btn:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.selection-mode-export-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.selection-mode-exit-btn {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selection-mode-exit-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Game Card Selection Overlay */
+.game-card {
+  position: relative;
+}
+
+.game-card.selection-mode-active {
+  cursor: pointer;
+}
+
+.game-card-selection-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(45, 122, 74, 0.85);
+  border-radius: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 5;
+  backdrop-filter: blur(2px);
+}
+
+.game-card.selection-mode-active:hover .game-card-selection-overlay {
+  opacity: 0.3;
+}
+
+.game-card.selected .game-card-selection-overlay {
+  opacity: 1;
+}
+
+.game-card h3 {
+  position: relative;
+  z-index: 10;
+}
+
+.game-card.selected h3 {
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.selection-check-icon {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  animation: scaleIn 0.3s ease;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

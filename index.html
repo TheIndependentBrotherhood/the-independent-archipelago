@@ -25,13 +25,22 @@
       <header>
         <h1>🌴 The Independent Archipelago</h1>
         <p>Your complete guide to Archipelago games</p>
-        <button
-          id="darkModeToggle"
-          class="dark-mode-toggle"
-          title="Toggle dark mode"
-        >
-          <i class="fas fa-moon"></i>
-        </button>
+        <div class="header-buttons">
+          <button
+            id="selectionModeBtn"
+            class="header-icon-btn"
+            title="Create my todo list"
+          >
+            <i class="fas fa-list-check"></i>
+          </button>
+          <button
+            id="darkModeToggle"
+            class="dark-mode-toggle"
+            title="Toggle dark mode"
+          >
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
       </header>
 
       <div class="filters">
@@ -63,6 +72,55 @@
       </div>
 
       <div id="resultsCount" class="results-count"></div>
+
+      <!-- Selection Mode Bar -->
+      <div id="selectionModeBar" class="selection-mode-bar hidden">
+        <div class="selection-mode-content">
+          <div class="selection-mode-left">
+            <span id="selectedCountDisplay" class="selected-count-display"
+              >0 games selected</span
+            >
+          </div>
+          <div class="selection-mode-center">
+            <input
+              type="text"
+              id="pseudoInputInline"
+              placeholder="Enter your pseudo..."
+              class="pseudo-input-inline"
+            />
+          </div>
+          <div class="selection-mode-right">
+            <button
+              id="selectAllInlineBtn"
+              class="selection-mode-action-btn"
+              title="Select all"
+            >
+              <i class="fas fa-check-double"></i> All
+            </button>
+            <button
+              id="deselectAllInlineBtn"
+              class="selection-mode-action-btn"
+              title="Deselect all"
+            >
+              <i class="fas fa-times"></i> Clear
+            </button>
+            <button
+              id="exportInlineBtn"
+              class="selection-mode-export-btn"
+              title="Export as JSON"
+            >
+              <i class="fas fa-download"></i> Export
+            </button>
+            <button
+              id="exitSelectionModeBtn"
+              class="selection-mode-exit-btn"
+              title="Exit selection mode"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
 
       <main id="gamesContainer" class="games-grid">
         <!-- Games will be loaded here -->
