@@ -815,6 +815,28 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  max-height: calc(5 * (44px + 10px));
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 5px;
+}
+
+.selector-buttons::-webkit-scrollbar {
+  width: 8px;
+}
+
+.selector-buttons::-webkit-scrollbar-track {
+  background: var(--filter-bg);
+  border-radius: 4px;
+}
+
+.selector-buttons::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 4px;
+}
+
+.selector-buttons::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
 }
 
 .selector-btn {
