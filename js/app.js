@@ -791,7 +791,7 @@ function spinWheelForUser(userId, games) {
     // Draw center circle
     ctx.beginPath();
     ctx.arc(centerX, centerY, 25, 0, Math.PI * 2);
-    ctx.fillStyle = "#1a472a";
+    ctx.fillStyle = "#47301a";
     ctx.fill();
     ctx.strokeStyle = "#fff";
     ctx.lineWidth = 2;
