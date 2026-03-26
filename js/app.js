@@ -871,7 +871,9 @@ function spinAnimation(userId, userTodoGames, canvas, drawWheel, games) {
   const rotationsCount = 8; // Full rotations
 
   // Pre-select a random game to ensure consistency
-  const selectedIndex = Math.floor(Math.random() * games.length);
+  const randomBuffer = new Uint8Array(1);
+  crypto.getRandomValues(randomBuffer);
+  const selectedIndex = randomBuffer[0] % games.length;
   const selectedGame = games[selectedIndex];
   const segmentCount = games.length;
   const segmentAngle = (Math.PI * 2) / segmentCount;
