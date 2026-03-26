@@ -877,8 +877,11 @@ function spinAnimation(userId, userTodoGames, canvas, drawWheel, games) {
   const segmentAngle = (Math.PI * 2) / segmentCount;
 
   // Calculate the final rotation so the selected game lands at the pointer (top)
-  // The pointer is at angle 0, so we need to rotate so that selectedIndex segment's center is at top
-  const selectedSegmentCenter = segmentAngle * (selectedIndex + 0.5);
+  // The pointer is at angle 3π/2 (top in canvas coords), so we need the selected segment's center there
+  // Segment center is at: selectedIndex * segmentAngle + rotation + segmentAngle/2
+  // So: selectedIndex * segmentAngle + rotation + segmentAngle/2 = 3π/2
+  // Therefore: rotation = 3π/2 - segmentAngle * (selectedIndex + 0.5)
+  const targetRotation = 3 * Math.PI / 2 - segmentAngle * (selectedIndex + 0.5);
 
   let currentRotation = 0;
   const startTime = Date.now();
@@ -890,8 +893,8 @@ function spinAnimation(userId, userTodoGames, canvas, drawWheel, games) {
     // Ease out animation (cubic)
     const easeProgress = 1 - Math.pow(1 - progress, 3);
     const totalRotation = rotationsCount * Math.PI * 2 * easeProgress;
-    // Add the segment center to position it at the pointer (top)
-    currentRotation = (totalRotation + selectedSegmentCenter) % (Math.PI * 2);
+    // Add the target offset to position the selected segment at the pointer (top)
+    currentRotation = (totalRotation + targetRotation) % (Math.PI * 2);
 
     drawWheel(currentRotation);
 

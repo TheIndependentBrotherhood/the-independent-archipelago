@@ -4175,11 +4175,11 @@
       "twitchId": "489335"
     },
     {
-      "id": "outward-definitive-edition",
-      "name": "Outward: Definitive Edition",
+      "id": "outward",
+      "name": "Outward",
       "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Outward:_Definitive_Edition",
-      "description": "Archipelago randomizer for Outward: Definitive Edition",
+      "description": "Archipelago randomizer for Outward",
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
