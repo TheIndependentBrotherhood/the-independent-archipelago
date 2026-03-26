@@ -225,11 +225,10 @@ header .header-buttons {
   align-items: center;
 }
 
-header .header-icon-btn,
-header .dark-mode-toggle {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  color: white;
+header .header-icon-btn {
+  background-color: var(--todo-bg);
+  border: 2px solid var(--todo-border);
+  color: var(--todo-text);
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -241,10 +240,9 @@ header .dark-mode-toggle {
   transition: all 0.3s ease;
 }
 
-header .header-icon-btn:hover,
-header .dark-mode-toggle:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.5);
+header .header-icon-btn:hover {
+  background-color: var(--filter-bg-hover);
+  border-color: var(--accent-color);
   transform: scale(1.1);
 }
 
