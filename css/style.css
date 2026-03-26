@@ -176,28 +176,26 @@ header {
 }
 
 .header-content {
-  display: flex;
   align-items: center;
-  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 20px;
   padding: 0 20px;
   position: relative;
   width: 100%;
 }
 
 .header-logo-text {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  justify-content: center;
+  display: contents;
 }
 
 .header-logo {
   width: 80px;
   height: 80px;
   object-fit: contain;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .header-text {
@@ -1256,7 +1254,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(45, 122, 74, 0.85);
+  background: rgba(186, 83, 0, 0.85);
   border-radius: inherit;
   display: flex;
   align-items: center;
