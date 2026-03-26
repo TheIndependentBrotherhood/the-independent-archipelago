@@ -2457,23 +2457,11 @@
       "twitchId": "622"
     },
     {
-      "id": "haste",
-      "name": "Haste",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/Haste",
-      "description": "Archipelago randomizer for Haste",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "116082744"
-    },
-    {
       "id": "haste-broken-worlds",
       "name": "Haste: Broken Worlds",
       "platform": "PC",
       "description": "Archipelago randomizer for Haste: Broken Worlds (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Haste",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356638437872111687",
       "completed": [],
       "todo": [],
