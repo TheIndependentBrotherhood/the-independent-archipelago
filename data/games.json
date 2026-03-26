@@ -3885,7 +3885,7 @@
     {
       "id": "naruto-clash-of-ninja-2",
       "name": "Naruto Clash of Ninja 2",
-      "platform": "GCN",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Naruto_Clash_of_Ninja_2",
       "description": "Archipelago randomizer for Naruto Clash of Ninja 2",
       "githubUrl": null,
@@ -4348,7 +4348,7 @@
     {
       "id": "pikmin",
       "name": "Pikmin",
-      "platform": "GCN",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Pikmin",
       "description": "Archipelago randomizer for Pikmin",
       "githubUrl": null,
@@ -5786,7 +5786,7 @@
     {
       "id": "star-fox-adventures",
       "name": "Star Fox Adventures",
-      "platform": "GCN",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Star_Fox_Adventures",
       "description": "Archipelago randomizer for Star Fox Adventures",
       "githubUrl": null,
