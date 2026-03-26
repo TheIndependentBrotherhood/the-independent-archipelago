@@ -4780,17 +4780,6 @@
       "twitchId": "491266"
     },
     {
-      "id": "rachet-&-clank",
-      "name": "Rachet & Clank",
-      "platform": "PS3",
-      "description": "Archipelago randomizer for Rachet & Clank (PS3)",
-      "discordUrl": "https://discord.com/channels/731205301247803413/1146024297324879872",
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "352915626"
-    },
-    {
       "id": "raft",
       "name": "Raft",
       "platform": "PC",
@@ -4821,11 +4810,12 @@
       "platform": "PS3",
       "url": "https://archipelago.miraheze.org/wiki/Ratchet_%26_Clank",
       "description": "Archipelago randomizer for Ratchet & Clank (PS3)",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1146024297324879872",
       "githubUrl": "https://github.com/Panda291/Archipelago/releases",
       "completed": [],
       "todo": ["lifestomper"],
       "inProgress": [],
-      "twitchId": "16791"
+      "twitchId": "352915626"
     },
     {
       "id": "ratchet-and-clank-2-going-commando",
