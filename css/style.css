@@ -1087,7 +1087,7 @@ footer {
 
 .result-game-card .action-buttons {
   position: relative;
-  z-index: 2;
+  z-index: 101;
 }
 
 /* Selection Mode */
