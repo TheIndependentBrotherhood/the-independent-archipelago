@@ -3,6 +3,54 @@ import sys
 import os
 
 
+def normalize_user_id(pseudo):
+    """
+    Create a normalized user ID from pseudo.
+    Example: "John Doe" -> "johndoe"
+    """
+    return pseudo.strip().lower().replace(' ', '').replace("'", '')
+
+
+def add_user_if_not_exists(pseudo):
+    """
+    Add a new user to users.json if it doesn't exist.
+    Uses wolf emoji (🐺) by default and maintains alphabetical order.
+    """
+    try:
+        # Load existing users
+        with open('../data/users.json', 'r', encoding='utf-8') as f:
+            users_data = json.load(f)
+
+        user_id = normalize_user_id(pseudo)
+
+        # Check if user already exists
+        for user in users_data['users']:
+            if user['id'] == user_id or user['pseudo'] == pseudo:
+                return user_id  # User already exists
+
+        # Create new user with wolf emoji
+        new_user = {
+            "id": user_id,
+            "pseudo": pseudo,
+            "emoji": "🐺"
+        }
+
+        # Add user and maintain alphabetical order by pseudo
+        users_data['users'].append(new_user)
+        users_data['users'].sort(key=lambda u: u['pseudo'].lower())
+
+        # Save updated users
+        with open('../data/users.json', 'w', encoding='utf-8') as f:
+            json.dump(users_data, f, indent=2, ensure_ascii=False)
+
+        print(f"✓ Created new user: {pseudo} (emoji: 🐺)")
+        return user_id
+
+    except Exception as e:
+        print(f"Error managing users: {e}")
+        return None
+
+
 def import_todo_list(json_file_path):
     """
     Import a todo list JSON file and add the pseudo to the games.
@@ -43,6 +91,12 @@ def import_todo_list(json_file_path):
         print(f"Importing todo list for pseudo: {pseudo}")
         print(f"Games to add: {len(game_ids)}")
 
+        # Add user if doesn't exist
+        user_id = add_user_if_not_exists(pseudo)
+        if not user_id:
+            print("Error: Could not create or retrieve user")
+            return False
+
         # Load existing games
         with open('../data/games.json', 'r', encoding='utf-8') as f:
             games_data = json.load(f)
@@ -50,16 +104,16 @@ def import_todo_list(json_file_path):
         # Create a map of game IDs for quick lookup
         games_by_id = {game['id']: game for game in games_data['games']}
 
-        # Add the pseudo to each game's todo list
+        # Add the user ID to each game's todo list
         added_count = 0
         not_found = []
 
         for game_id in game_ids:
             if game_id in games_by_id:
                 game = games_by_id[game_id]
-                # Check if pseudo is already in the todo list
-                if pseudo not in game['todo']:
-                    game['todo'].append(pseudo)
+                # Check if user ID is already in the todo list
+                if user_id not in game['todo']:
+                    game['todo'].append(user_id)
                     added_count += 1
             else:
                 not_found.append(game_id)

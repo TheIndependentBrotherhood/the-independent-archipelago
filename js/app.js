@@ -121,13 +121,12 @@ function initializeFilters(games) {
   });
 
   // Create filter buttons for todo
-  createTodoFilterGroup(
+  createFilterGroup(
     "To Do List",
     "todoUserFilter",
     todoUsers,
     toggleTodoFilter,
-    clearTodoFilters,
-    allGames,
+    clearTodoFilters
   );
 
   // Create filter buttons for inProgress
@@ -177,62 +176,6 @@ function createFilterGroup(
     btn.addEventListener("click", () => toggleFunction(userId, btn));
     container.appendChild(btn);
   });
-}
-
-function createTodoFilterGroup(
-  title,
-  containerId,
-  users,
-  toggleFunction,
-  clearFunction,
-  games,
-) {
-  const filterGroup = document.querySelector(`#${containerId}`).parentElement;
-
-  // Update title with clear button and spin button
-  const titleElement = filterGroup.querySelector("h3");
-  titleElement.textContent = title;
-
-  const buttonsContainer = document.createElement("div");
-  buttonsContainer.className = "title-buttons-container";
-
-  const spinBtn = document.createElement("button");
-  spinBtn.className = "spin-btn-title";
-  spinBtn.title = "Spin the wheel";
-  spinBtn.innerHTML = '<i class="fas fa-dharmachakra"></i> Spin';
-  spinBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    openWheelSelector(Array.from(users), games);
-  });
-
-  const clearBtn = document.createElement("button");
-  clearBtn.className = "clear-filter-btn";
-  clearBtn.title = "Clear filter";
-  clearBtn.innerHTML = '<i class="fas fa-times"></i>';
-  clearBtn.addEventListener("click", clearFunction);
-
-  buttonsContainer.appendChild(spinBtn);
-  buttonsContainer.appendChild(clearBtn);
-  titleElement.appendChild(buttonsContainer);
-
-  // Create filter buttons without spin button
-  const container = document.getElementById(containerId);
-  container.innerHTML = "";
-
-  // Add filter buttons
-  const filtersContainer = document.createElement("div");
-  filtersContainer.className = "todo-filters-container";
-
-  users.forEach((userId) => {
-    const user = usersMap[userId];
-    const btn = document.createElement("button");
-    btn.className = "filter-btn";
-    btn.textContent = `${user.emoji} ${user.pseudo}`;
-    btn.addEventListener("click", () => toggleFunction(userId, btn));
-    filtersContainer.appendChild(btn);
-  });
-
-  container.appendChild(filtersContainer);
 }
 
 function createPlatformFilterGroup(
@@ -659,6 +602,10 @@ function openWheelSelector(userIds, games) {
       <h3>Choose a Player</h3>
       <div class="selector-buttons">
         ${userIds
+          .filter((userId) => {
+            const userGames = games.filter((g) => g.todo.includes(userId));
+            return userGames.length > 0;
+          })
           .map((userId) => {
             const user = usersMap[userId];
             const userGames = games.filter((g) => g.todo.includes(userId));
@@ -747,8 +694,6 @@ function spinWheelForUser(userId, games) {
   const ctx = canvas.getContext("2d");
   canvas.width = 450;
   canvas.height = 450;
-
-  let currentRotation = 0;
 
   function drawWheel(rotation = 0) {
     const centerX = canvas.width / 2;
@@ -1143,6 +1088,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const selectionModeBtn = document.getElementById("selectionModeBtn");
   if (selectionModeBtn) {
     selectionModeBtn.addEventListener("click", toggleSelectionMode);
+  }
+
+  // Set up spin wheel button
+  const spinWheelBtn = document.getElementById("spinWheelBtn");
+  if (spinWheelBtn) {
+    spinWheelBtn.addEventListener("click", (e) => {
+      openWheelSelector(Object.keys(usersMap), allGames);
+    });
   }
 
   // Set up selection mode action buttons

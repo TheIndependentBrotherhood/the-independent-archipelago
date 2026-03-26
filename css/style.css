@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #1a472a;
-  --secondary-color: #2d7a4a;
-  --accent-color: #4da373;
+  --primary-color: #ba5300;
+  --secondary-color: #d4b728;
+  --accent-color: #e8a835;
   --text-color: #1a1a1a;
   --bg-color: #f5f5f5;
   --card-bg: #ffffff;
@@ -26,15 +26,15 @@
   /* Filter colors */
   --filter-bg: #f0f0f0;
   --filter-bg-hover: #e8e8e8;
-  --filter-active-bg: #4da373;
-  --filter-active-border: #1a472a;
+  --filter-active-bg: #e8a835;
+  --filter-active-border: #ba5300;
 }
 
 /* Dark mode theme */
 :root.dark-mode {
-  --primary-color: #2d7a4a;
-  --secondary-color: #1a472a;
-  --accent-color: #5eb37f;
+  --primary-color: #ba5300;
+  --secondary-color: #ba5300;
+  --accent-color: #e8a835;
   --text-color: #e0e0e0;
   --bg-color: #121212;
   --card-bg: #1e1e1e;
@@ -59,8 +59,8 @@
   /* Filter colors for dark mode */
   --filter-bg: #2a2a2a;
   --filter-bg-hover: #3a3a3a;
-  --filter-active-bg: #5eb37f;
-  --filter-active-border: #2d7a4a;
+  --filter-active-bg: #e8a835;
+  --filter-active-border: #fbfc99;
 }
 
 * {
@@ -73,7 +73,7 @@ body {
   font-family:
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
     Cantarell, sans-serif;
-  background-color: var(--bg-color);
+  background-color: #121212;
   color: var(--text-color);
   line-height: 1.6;
   transition:
@@ -159,23 +159,63 @@ body {
   color: white;
 }
 
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  background: transparent;
+  border-bottom: none;
+  position: relative;
+  width: 100%;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-header {
-  text-align: center;
-  padding: 40px 0 30px;
-  background: linear-gradient(
-    135deg,
-    var(--primary-color) 0%,
-    var(--secondary-color) 100%
-  );
-  color: white;
-  margin-bottom: 40px;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 0 20px;
   position: relative;
+  width: 100%;
+}
+
+.header-logo-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.header-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.header-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-text h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.header-text p {
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
 header .header-buttons {
@@ -183,7 +223,7 @@ header .header-buttons {
   top: 20px;
   right: 20px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
 }
 
@@ -225,6 +265,7 @@ header p {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  padding: 20px;
 }
 
 .search-input {
