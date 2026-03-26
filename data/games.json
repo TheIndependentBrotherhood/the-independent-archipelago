@@ -137,7 +137,8 @@
       "todo": [],
       "githubUrl": "https://github.com/ThatOneGuy27/Archipelago-aus/releases",
       "inProgress": [],
-      "twitchId": "20192"
+      "twitchId": "20192",
+      "url": "https://archipelago.miraheze.org/wiki/An_Untitled_Story"
     },
     {
       "id": "animal-well",
@@ -258,7 +259,7 @@
     {
       "id": "apsudoku",
       "name": "APSudoku",
-      "platform": "PC/Web",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/APSudoku",
       "description": "Archipelago randomizer for APSudoku",
       "githubUrl": null,
@@ -848,6 +849,7 @@
       "name": "Castlevania: Symphony of the Night",
       "platform": "PSX",
       "description": "Archipelago randomizer for Castlevania: Symphony of the Night (PSX)",
+      "url": "https://archipelago.miraheze.org/wiki/Symphony_of_the_Night",
       "discordUrl": "https://discord.com/channels/731205301247803413/1462294492752380167",
       "completed": [],
       "todo": [],
@@ -1605,6 +1607,7 @@
       "name": "Donkey Kong Country (Mirror Hack)",
       "platform": "SNES",
       "description": "Archipelago randomizer for Donkey Kong Country (Mirror Hack) (SNES)",
+      "url": "https://archipelago.miraheze.org/wiki/YrtnuoC_gnoK_yeknoD",
       "discordUrl": "https://discord.com/channels/731205301247803413/1395482597710106694",
       "completed": [],
       "todo": [],
@@ -2033,7 +2036,7 @@
     {
       "id": "final-fantasy-tactics-a2-grimoire-of-the-rift",
       "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_Tactics_A2",
       "description": "Archipelago randomizer for Final Fantasy Tactics A2: Grimoire of the Rift (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1296095764518277143",
@@ -2390,15 +2393,16 @@
     },
     {
       "id": "gzdoom",
-      "name": "gzDoom",
+      "name": "gzDoom/UZDoom",
       "platform": "PC",
-      "description": "Archipelago randomizer for gzDoom (PC)",
+      "description": "Archipelago randomizer for gzDoom/UZDoom (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/UZDoom",
       "discordUrl": "https://discord.com/channels/731205301247803413/1344142763842601090",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/ToxicFrog/doom-mods/releases/latest",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": "1432406535"
     },
     {
       "id": "hacknet",
@@ -2858,7 +2862,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "1869263958_IGDB"
+      "twitchId": "1869263958"
     },
     {
       "id": "k-on-after-school-live",
@@ -3255,7 +3259,7 @@
     {
       "id": "loonyland-halloween-hill",
       "name": "Loonyland: Halloween Hill",
-      "platform": "PC/Web",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Loonyland:_Halloween_Hill",
       "description": "Archipelago randomizer for Loonyland: Halloween Hill (PC/Web)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1314639182655656016",
@@ -4204,6 +4208,7 @@
       "name": "Panel De Pon/Tetris Attack",
       "platform": "SNES",
       "description": "Archipelago randomizer for Panel De Pon/Tetris Attack (SNES)",
+      "url": "https://archipelago.miraheze.org/wiki/Tetris_Attack",
       "discordUrl": "https://discord.com/channels/731205301247803413/1207963109990596669",
       "githubUrl": "https://github.com/AgStarRay/TetrisAttackAP/releases",
       "completed": [],
@@ -4498,7 +4503,7 @@
     {
       "id": "pokémon-black-and-white",
       "name": "Pokémon Black and White",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Black_and_White",
       "description": "Archipelago randomizer for Pokémon Black and White (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1414928022854696991",
@@ -4549,7 +4554,7 @@
     {
       "id": "pokémon-mystery-dungeon-explorers-of-sky",
       "name": "Pokémon Mystery Dungeon Explorers of Sky",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Sky",
       "description": "Archipelago randomizer for Pokémon Mystery Dungeon Explorers of Sky (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1408865961385267260",
@@ -4575,7 +4580,7 @@
     {
       "id": "pokémon-platinum",
       "name": "Pokémon Platinum",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Platinum",
       "description": "Archipelago randomizer for Pokémon Platinum (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1414786317014929418",
@@ -4588,7 +4593,7 @@
     {
       "id": "pokémon-ranger-(quest)",
       "name": "Pokémon Ranger (Quest)",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Ranger_(Quest)",
       "description": "Archipelago randomizer for Pokémon Ranger (Quest) (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1476751710801362995",
@@ -5189,19 +5194,6 @@
       "twitchId": "490758"
     },
     {
-      "id": "settlersheritageofkings",
-      "name": "The Settlers: Heritage of Kings",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/SettlersHeritageOfKings",
-      "description": "Archipelago randomizer for SettlersHeritageOfKings",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "17827"
-    },
-    {
       "id": "severed-soul",
       "name": "Severed Soul",
       "platform": "PC",
@@ -5614,7 +5606,7 @@
     {
       "id": "sonic-rush",
       "name": "Sonic Rush",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Sonic_Rush",
       "description": "Archipelago randomizer for Sonic Rush (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1280648306124394567",
@@ -5874,7 +5866,8 @@
       "todo": [],
       "githubUrl": "https://github.com/Kryen112/AP_Stick_Ranger/releases",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": null,
+      "url": "https://archipelago.miraheze.org/wiki/Stick_Ranger"
     },
     {
       "id": "streets-of-rage",
@@ -5886,7 +5879,8 @@
       "todo": [],
       "githubUrl": "https://github.com/UltiNaruto/SOR_AP_Randomizer/releases",
       "inProgress": [],
-      "twitchId": "18692"
+      "twitchId": "18692",
+      "url": "https://archipelago.miraheze.org/wiki/Streets_of_Rage"
     },
     {
       "id": "subnautica",
@@ -5910,6 +5904,20 @@
       "todo": [],
       "githubUrl": "https://github.com/lone01/scp/releases",
       "inProgress": [],
+      "twitchId": "1128497156",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Cat_Planet"
+    },
+    {
+      "id": "super-chipflake-ü",
+      "name": "Super Chipflake Ü",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Chipflake_%C3%9C",
+      "description": "Archipelago randomizer for Super Chipflake Ü",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
       "twitchId": "1128497156"
     },
     {
@@ -5922,7 +5930,8 @@
       "todo": [],
       "githubUrl": "https://github.com/Ninjakakes/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "7595"
+      "twitchId": "7595",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Junkoid"
     },
     {
       "id": "super-mario-64",
@@ -5953,6 +5962,7 @@
       "platform": "SNES",
       "description": "Archipelago randomizer for Super Mario RPG (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1091478379963883651",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Mario_RPG_Legend_of_the_Seven_Stars",
       "completed": [],
       "todo": ["lifestomper"],
       "githubUrl": "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases",
@@ -5969,7 +5979,8 @@
       "todo": ["lifestomper"],
       "githubUrl": "https://github.com/Joshark/archipelago-sms/releases",
       "inProgress": [],
-      "twitchId": "6086"
+      "twitchId": "6086",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Mario_Sunshine"
     },
     {
       "id": "super-mario-sunshine-arcade-2",
@@ -5981,7 +5992,8 @@
       "todo": ["lifestomper"],
       "githubUrl": "https://github.com/Jorbori/SMSA2AP/releases",
       "inProgress": [],
-      "twitchId": "6086"
+      "twitchId": "6086",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Mario_Sunshine_Arcade_2"
     },
     {
       "id": "super-mario-world",
@@ -6007,6 +6019,19 @@
       "twitchId": "2635"
     },
     {
+      "id": "super-meat-boy",
+      "name": "Super Meat Boy",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Meat_Boy",
+      "description": "Archipelago randomizer for Super Meat Boy",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "22720"
+    },
+    {
       "id": "super-metroid",
       "name": "Super Metroid",
       "platform": "SNES",
@@ -6030,15 +6055,42 @@
       "twitchId": "7595"
     },
     {
+      "id": "super-smash-bros-brawl-the-subspace-emissary",
+      "name": "Super Smash Bros. Brawl - The Subspace Emissary",
+      "platform": "Wii",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Smash_Bros._Brawl_-_The_Subspace_Emissary",
+      "description": "Archipelago randomizer for Super Smash Bros. Brawl - The Subspace Emissary",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "18833"
+    },
+    {
       "id": "super-smash-bros.-melee",
       "name": "Super Smash Bros. Melee",
       "platform": "GC",
       "description": "Archipelago randomizer for Super Smash Bros. Melee (GC)",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Smash_Bros._Melee",
       "discordUrl": "https://discord.com/channels/731205301247803413/1179050965802942474",
       "completed": [],
       "todo": ["lifestomper"],
       "inProgress": [],
       "twitchId": "16282"
+    },
+    {
+      "id": "supraland",
+      "name": "Supraland",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Supraland",
+      "description": "Archipelago randomizer for Supraland",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "504059"
     },
     {
       "id": "system-shock-2",
@@ -6050,19 +6102,20 @@
       "todo": [],
       "githubUrl": "https://github.com/Partatio/SS2-Apworld/releases",
       "inProgress": [],
-      "twitchId": "8135"
+      "twitchId": "8135",
+      "url": "https://archipelago.miraheze.org/wiki/System_Shock_2"
     },
     {
-      "id": "talos-principle-reawakened",
-      "name": "Talos Principle Reawakened",
+      "id": "taskipelago",
+      "name": "Taskipelago",
       "platform": "PC",
-      "description": "Archipelago randomizer for Talos Principle Reawakened (PC)",
-      "discordUrl": "https://discord.com/channels/731205301247803413/1473070314165633215",
+      "url": "https://archipelago.miraheze.org/wiki/Taskipelago",
+      "description": "Archipelago randomizer for Taskipelago",
+      "githubUrl": null,
+      "discordUrl": null,
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/johnso48/TalosPrincipleArchipelago/releases",
-      "inProgress": [],
-      "twitchId": "1453708234"
+      "twitchId": null
     },
     {
       "id": "tcg-card-shop-simulator",
@@ -6074,7 +6127,8 @@
       "todo": ["minipomme"],
       "githubUrl": "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases",
       "inProgress": [],
-      "twitchId": "1230742965"
+      "twitchId": "1230742965",
+      "url": "https://archipelago.miraheze.org/wiki/TCG_Card_Shop_Simulator"
     },
     {
       "id": "terraria",
@@ -6093,6 +6147,7 @@
       "name": "Tetris",
       "platform": "GB",
       "description": "Archipelago randomizer for Tetris (GB)",
+      "url": "https://archipelago.miraheze.org/wiki/Tetris_(Gameboy)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1477485575937331281",
       "completed": [],
       "todo": [],
@@ -6110,7 +6165,8 @@
       "todo": [],
       "githubUrl": "https://github.com/BlackSoulKnight/Tevi_Archipelago/releases",
       "inProgress": [],
-      "twitchId": "1254885825"
+      "twitchId": "1254885825",
+      "url": "https://archipelago.miraheze.org/wiki/Tevi"
     },
     {
       "id": "the-binding-of-isaac-repentance",
@@ -6182,6 +6238,7 @@
       "name": "The Legend of Heroes: Trails in the Sky the 3rd",
       "platform": "PC",
       "description": "Archipelago randomizer for The Legend of Heroes: Trails in the Sky the 3rd (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Trails_in_the_Sky_the_3rd",
       "discordUrl": "https://discord.com/channels/731205301247803413/1217595862872490065",
       "completed": [],
       "todo": [],
@@ -6206,6 +6263,7 @@
       "name": "The Legend of Zelda II: The Adventure of Link",
       "platform": "NES",
       "description": "Archipelago randomizer for The Legend of Zelda II: The Adventure of Link (NES)",
+      "url": "https://archipelago.miraheze.org/wiki/Zelda_II",
       "discordUrl": "https://discord.com/channels/731205301247803413/1239454398367924325",
       "completed": [],
       "todo": [],
@@ -6326,7 +6384,7 @@
     {
       "id": "the-legend-of-zelda-phantom-hourglass",
       "name": "The Legend of Zelda: Phantom Hourglass",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Zelda_-_Phantom_Hourglass",
       "description": "Archipelago randomizer for The Legend of Zelda: Phantom Hourglass (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1256012365049233438",
@@ -6352,7 +6410,7 @@
     {
       "id": "the-legend-of-zelda-spirit-tracks",
       "name": "The Legend of Zelda: Spirit Tracks",
-      "platform": "DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Zelda_-_Spirit_Tracks",
       "description": "Archipelago randomizer for The Legend of Zelda: Spirit Tracks (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1358582876085682417",
@@ -6391,6 +6449,7 @@
       "name": "The Legend of Zelda: Twilight Princess",
       "platform": "GC",
       "description": "Archipelago randomizer for The Legend of Zelda: Twilight Princess (GC)",
+      "url": "https://archipelago.miraheze.org/wiki/Twilight_Princess",
       "discordUrl": "https://discord.com/channels/731205301247803413/1369050080887312506",
       "completed": [],
       "todo": [],
@@ -6437,6 +6496,19 @@
       "twitchId": "1311010677"
     },
     {
+      "id": "settlersheritageofkings",
+      "name": "The Settlers: Heritage of Kings",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/SettlersHeritageOfKings",
+      "description": "Archipelago randomizer for SettlersHeritageOfKings",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "17827"
+    },
+    {
       "id": "the-simpsons-hit-and-run",
       "name": "The Simpsons: Hit and Run",
       "platform": "PC",
@@ -6461,6 +6533,32 @@
       "githubUrl": "https://github.com/benny-dreamly/Archipelago/releases/latest",
       "inProgress": [],
       "twitchId": "369252"
+    },
+    {
+      "id": "the-talos-principle-reawakened",
+      "name": "The Talos Principle Reawakened",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/The_Talos_Principle_Reawakened",
+      "description": "Archipelago randomizer for The Talos Principle Reawakened",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1473070314165633215",
+      "completed": [],
+      "todo": [],
+      "githubUrl": "https://github.com/johnso48/TalosPrincipleArchipelago/releases",
+      "inProgress": [],
+      "twitchId": "1453708234"
+    },
+    {
+      "id": "the-werecleaner",
+      "name": "The WereCleaner",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/The_WereCleaner",
+      "description": "Archipelago randomizer for The WereCleaner",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "156034788"
     },
     {
       "id": "the-witness",
@@ -6496,13 +6594,15 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "12206"
+      "twitchId": "12206",
+      "url": "https://archipelago.miraheze.org/wiki/ToeJam_and_Earl"
     },
     {
       "id": "toem",
       "name": "TOEM",
       "platform": "PC",
       "description": "Archipelago randomizer for TOEM (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/TOEM:_A_Photo_Adventure",
       "discordUrl": "https://discord.com/channels/731205301247803413/1255989734497587241",
       "completed": [],
       "todo": [],
@@ -6527,6 +6627,7 @@
       "name": "Total War Warhammer 3: Immortal Empires",
       "platform": "PC",
       "description": "Archipelago randomizer for Total War Warhammer 3: Immortal Empires (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Total_War_Warhammer_3",
       "discordUrl": "https://discord.com/channels/731205301247803413/1136329107370684538",
       "completed": [],
       "todo": [],
@@ -6544,13 +6645,14 @@
       "todo": [],
       "githubUrl": "https://github.com/duckboycool/TABS-Archipelago/releases",
       "inProgress": ["minipomme"],
-      "twitchId": "493069"
+      "twitchId": "493069",
+      "url": "https://archipelago.miraheze.org/wiki/Totally_Accurate_Battle_Simulator"
     },
     {
       "id": "touhou-18.5",
-      "name": "Touhou 18.5",
+      "name": "Touhou 18.5 - Black Market of Bulletphilia ~ 100th Black Market",
       "platform": "PC",
-      "description": "Archipelago randomizer for Touhou 18.5 (PC)",
+      "description": "Archipelago randomizer for Touhou 18.5 - Black Market of Bulletphilia ~ 100th Black Market (PC)",
       "url": "https://archipelago.miraheze.org/wiki/Black_Market_of_Bulletphilia_~_100th_Black_Market",
       "discordUrl": "https://discord.com/channels/731205301247803413/1346288808512983040",
       "completed": [],
@@ -6561,45 +6663,49 @@
     },
     {
       "id": "touhou-6",
-      "name": "Touhou 6",
+      "name": "Touhou 6 - Embodiment of Scarlet Devil",
       "platform": "PC",
-      "description": "Archipelago randomizer for Touhou 6 (PC)",
+      "description": "Archipelago randomizer for Touhou 6 - Embodiment of Scarlet Devil (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Touhou_Koumakyou_~_the_Embodiment_of_Scarlet_Devil",
       "discordUrl": "https://discord.com/channels/1085716850370957462/1353408740480778270",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/Nepley/eosd-apworld/releases",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": "19951"
     },
     {
       "id": "touhou-7",
-      "name": "Touhou 7",
+      "name": "Touhou 7 - Perfect Cherry Blossom",
       "platform": "PC",
-      "description": "Archipelago randomizer for Touhou 7 (PC)",
+      "description": "Archipelago randomizer for Touhou 7 - Perfect Cherry Blossom (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Touhou_Youyoumu_~_Perfect_Cherry_Blossom",
       "discordUrl": "https://discord.com/channels/1085716850370957462/1388571445713703022",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/Nepley/pcb-apworld/releases",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": "19947"
     },
     {
       "id": "touhou-8",
-      "name": "Touhou 8",
+      "name": "Touhou 8 - Imperishable Night",
       "platform": "PC",
-      "description": "Archipelago randomizer for Touhou 8 (PC)",
+      "description": "Archipelago randomizer for Touhou 8 - Imperishable Night (PC)",
       "discordUrl": "https://discord.com/channels/1085716850370957462/1416494134168125552",
+      "url": "https://archipelago.miraheze.org/wiki/Touhou_Eiyashou_~_Imperishable_Night",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/Nepley/in-apworld/releases",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": "19909"
     },
     {
       "id": "trackmania-random-campaign",
       "name": "Trackmania Random Campaign",
       "platform": "PC",
       "description": "Archipelago randomizer for Trackmania Random Campaign (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Trackmania",
       "discordUrl": "https://discord.com/channels/731205301247803413/1368696493904625785",
       "completed": [],
       "todo": ["minipomme"],
@@ -6624,6 +6730,7 @@
       "name": "Turnip Boy Commits Tax Evasion",
       "platform": "PC",
       "description": "Archipelago randomizer for Turnip Boy Commits Tax Evasion (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/TurnipBoy",
       "discordUrl": "https://discord.com/channels/731205301247803413/1297617351977734214",
       "completed": [],
       "todo": [],
@@ -6641,7 +6748,8 @@
       "todo": [],
       "githubUrl": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": null,
+      "url": "https://archipelago.miraheze.org/wiki/Twisty_Cube"
     },
     {
       "id": "ty-the-tasmanian-tiger",
@@ -6653,7 +6761,34 @@
       "todo": ["lifestomper"],
       "githubUrl": "https://github.com/xMcacutt/Archipelago-TyTheTasmanianTiger/releases",
       "inProgress": [],
-      "twitchId": "12086"
+      "twitchId": "12086",
+      "url": "https://archipelago.miraheze.org/wiki/Ty_the_Tasmanian_Tiger"
+    },
+    {
+      "id": "ty-the-tasmanian-tiger-2",
+      "name": "Ty the Tasmanian Tiger 2",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Ty_the_Tasmanian_Tiger_2",
+      "description": "Archipelago randomizer for Ty the Tasmanian Tiger 2",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "779369576"
+    },
+    {
+      "id": "ty-the-tasmanian-tiger-3",
+      "name": "Ty the Tasmanian Tiger 3",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Ty_the_Tasmanian_Tiger_3",
+      "description": "Archipelago randomizer for Ty the Tasmanian Tiger 3",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "17576"
     },
     {
       "id": "tyrian",
@@ -6665,7 +6800,8 @@
       "todo": [],
       "githubUrl": "https://github.com/KScl/TyrianArchipelago/releases",
       "inProgress": [],
-      "twitchId": "460"
+      "twitchId": "460",
+      "url": "https://archipelago.miraheze.org/wiki/Tyrian"
     },
     {
       "id": "ufo-50",
@@ -6677,7 +6813,47 @@
       "todo": [],
       "githubUrl": "https://github.com/UFO-50-Archipelago/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "498215"
+      "twitchId": "498215",
+      "url": "https://archipelago.miraheze.org/wiki/UFO_50"
+    },
+    {
+      "id": "ufouria",
+      "name": "Ufouria",
+      "platform": "NES",
+      "url": "https://archipelago.miraheze.org/wiki/Ufouria",
+      "description": "Archipelago randomizer for Ufouria",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null
+    },
+    {
+      "id": "ultrakill",
+      "name": "Ultrakill",
+      "platform": "PC",
+      "description": "Archipelago randomizer for Ultrakill (PC)",
+      "discordUrl": "https://discord.com/channels/1085716850370957462/1123371409339584532",
+      "completed": [],
+      "todo": [],
+      "githubUrl": "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases",
+      "inProgress": [],
+      "twitchId": "514166",
+      "url": "https://archipelago.miraheze.org/wiki/ULTRAKILL"
+    },
+    {
+      "id": "unbeatable-arcade",
+      "name": "UNBEATABLE Arcade",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/UNBEATABLE_Arcade",
+      "description": "Archipelago randomizer for UNBEATABLE Arcade",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1652175477"
     },
     {
       "id": "undertale",
@@ -6701,19 +6877,21 @@
       "todo": [],
       "githubUrl": "https://github.com/xMcacutt-Archipelago/Archipelago-UnfairFlips/releases",
       "inProgress": [],
-      "twitchId": "1786539857"
+      "twitchId": "1786539857",
+      "url": "https://archipelago.miraheze.org/wiki/Unfair_Flips"
     },
     {
-      "id": "ultrakill",
-      "name": "Ultrakill",
+      "id": "untitled-goose-game",
+      "name": "Untitled Goose Game",
       "platform": "PC",
-      "description": "Archipelago randomizer for Ultrakill (PC)",
-      "discordUrl": "https://discord.com/channels/1085716850370957462/1123371409339584532",
+      "url": "https://archipelago.miraheze.org/wiki/Untitled_Goose_Game",
+      "description": "Archipelago randomizer for Untitled Goose Game",
+      "githubUrl": null,
+      "discordUrl": null,
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases",
       "inProgress": [],
-      "twitchId": "514166"
+      "twitchId": "499537"
     },
     {
       "id": "vacation-simulator",
@@ -6727,6 +6905,69 @@
       "twitchId": "500630"
     },
     {
+      "id": "valheim",
+      "name": "Valheim",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Valheim",
+      "description": "Archipelago randomizer for Valheim",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "508455"
+    },
+    {
+      "id": "vampire-survivors",
+      "name": "Vampire Survivors",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Vampire_Survivors",
+      "description": "Archipelago randomizer for Vampire Survivors",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1833694612"
+    },
+    {
+      "id": "very-very-valet",
+      "name": "Very Very Valet",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Very_Very_Valet",
+      "description": "Archipelago randomizer for Very Very Valet",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1618268465"
+    },
+    {
+      "id": "vespadian",
+      "name": "Vespadian",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Vespadian",
+      "description": "Archipelago randomizer for Vespadian",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": []
+    },
+    {
+      "id": "vintage-story",
+      "name": "Vintage Story",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Vintage_Story",
+      "description": "Archipelago randomizer for Vintage Story",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "498417"
+    },
+    {
       "id": "void-sols",
       "name": "Void Sols",
       "platform": "PC",
@@ -6736,7 +6977,8 @@
       "todo": [],
       "githubUrl": "https://github.com/cookie966507/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "1312582590"
+      "twitchId": "1312582590",
+      "url": "https://archipelago.miraheze.org/wiki/Void_Sols"
     },
     {
       "id": "void-stranger",
@@ -6748,19 +6990,47 @@
       "todo": [],
       "githubUrl": "https://github.com/CriminalPancake/void-stranger-ap/releases",
       "inProgress": [],
-      "twitchId": "44005315"
+      "twitchId": "44005315",
+      "url": "https://archipelago.miraheze.org/wiki/Void_Stranger"
     },
     {
       "id": "voltorb-flip-(hgss)",
       "name": "Voltorb Flip (HGSS)",
-      "platform": "DS",
+      "platform": "NDS",
       "description": "Archipelago randomizer for Voltorb Flip (HGSS) (DS)",
+      "url": "https://archipelago.miraheze.org/wiki/Voltorb_Flip",
       "discordUrl": "https://discord.com/channels/731205301247803413/1419104603126890506",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/BlastSlimey/Archipelago/releases?q=Voltorb+Flip&expanded=true",
       "inProgress": [],
       "twitchId": "23857"
+    },
+    {
+      "id": "votipelago",
+      "name": "Votipelago",
+      "platform": "Twitch",
+      "url": "https://archipelago.miraheze.org/wiki/Votipelago",
+      "description": "Archipelago randomizer for Votipelago",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null
+    },
+    {
+      "id": "vrchat",
+      "name": "VRChat",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/VRChat",
+      "description": "Archipelago randomizer for VRChat",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "499003"
     },
     {
       "id": "vvvvvv",
@@ -6796,7 +7066,21 @@
       "todo": [],
       "githubUrl": "https://github.com/FlySniper/Archipelago/releases?q=Wargroove+2&expanded=true",
       "inProgress": [],
-      "twitchId": "1072835570"
+      "twitchId": "1072835570",
+      "url": "https://archipelago.miraheze.org/wiki/Wargroove_2"
+    },
+    {
+      "id": "wario-land",
+      "name": "Wario Land",
+      "platform": "GB",
+      "url": "https://archipelago.miraheze.org/wiki/Wario_Land",
+      "description": "Archipelago randomizer for Wario Land",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "17608"
     },
     {
       "id": "wario-land-4",
@@ -6808,7 +7092,8 @@
       "todo": ["lifestomper"],
       "githubUrl": "https://github.com/lilDavid/Archipelago-Wario-Land-4/releases",
       "inProgress": [],
-      "twitchId": "3940"
+      "twitchId": "3940",
+      "url": "https://archipelago.miraheze.org/wiki/Wario_Land_4"
     },
     {
       "id": "wario-land-super-mario-land-3",
@@ -6827,6 +7112,7 @@
       "name": "Wario World",
       "platform": "GC",
       "description": "Archipelago randomizer for Wario World (GC)",
+      "url": "https://archipelago.miraheze.org/wiki/Warioworld",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257377358269251666",
       "completed": [],
       "todo": [],
@@ -6844,7 +7130,8 @@
       "todo": [],
       "githubUrl": "https://github.com/spineraks-org/ArchipelagoWateryWords/releases",
       "inProgress": [],
-      "twitchId": null
+      "twitchId": null,
+      "url": "https://archipelago.miraheze.org/wiki/Watery_Words"
     },
     {
       "id": "webfishing",
@@ -6856,7 +7143,8 @@
       "todo": [],
       "githubUrl": "https://github.com/mwoiii/webfishing-ap/releases",
       "inProgress": [],
-      "twitchId": "1094044362"
+      "twitchId": "1094044362",
+      "url": "https://archipelago.miraheze.org/wiki/WEBFISHING"
     },
     {
       "id": "west-of-loathing",
@@ -6868,7 +7156,34 @@
       "todo": ["lifestomper"],
       "githubUrl": "https://github.com/Lucasvdm/WOLAP/releases",
       "inProgress": [],
-      "twitchId": "495932"
+      "twitchId": "495932",
+      "url": "https://archipelago.miraheze.org/wiki/West_of_Loathing"
+    },
+    {
+      "id": "widget-inc",
+      "name": "Widget Inc",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Widget_Inc",
+      "description": "Archipelago randomizer for Widget Inc",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1145836839"
+    },
+    {
+      "id": "wikipelago",
+      "name": "Wikipelago",
+      "platform": "Web",
+      "url": "https://archipelago.miraheze.org/wiki/Wikipelago",
+      "description": "Archipelago randomizer for Wikipelago",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null
     },
     {
       "id": "wordipelago",
@@ -6879,6 +7194,20 @@
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/ProfDeCube/Archipelago/releases",
+      "inProgress": [],
+      "twitchId": null,
+      "url": "https://archipelago.miraheze.org/wiki/Wordipelago"
+    },
+    {
+      "id": "wordsearch",
+      "name": "WordSearch",
+      "platform": "Web",
+      "url": "https://archipelago.miraheze.org/wiki/WordSearch",
+      "description": "Archipelago randomizer for WordSearch",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
       "inProgress": [],
       "twitchId": null
     },
@@ -6892,13 +7221,15 @@
       "todo": ["minipomme"],
       "githubUrl": "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases",
       "inProgress": [],
-      "twitchId": "489767"
+      "twitchId": "489767",
+      "url": "https://archipelago.miraheze.org/wiki/XCOM_2_War_of_the_Chosen"
     },
     {
       "id": "xenoblade-chronicles-x",
       "name": "Xenoblade Chronicles X",
       "platform": "Wii U",
       "description": "Archipelago randomizer for Xenoblade Chronicles X (Wii U)",
+      "url": "https://archipelago.miraheze.org/wiki/Xenoblade_X",
       "discordUrl": "https://discord.com/channels/731205301247803413/1333863771868762265",
       "completed": [],
       "todo": [],
@@ -6919,28 +7250,80 @@
       "twitchId": "1398806508"
     },
     {
-      "id": "yarg-(guitar-hero-1/rock-band-3/combined)",
-      "name": "YARG (Guitar Hero 1/Rock Band 3/Combined)",
-      "platform": "PC",
-      "description": "Archipelago randomizer for YARG (Guitar Hero 1/Rock Band 3/Combined) (PC)",
-      "discordUrl": "https://discord.com/channels/731205301247803413/1454538103933898752",
-      "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "5789"
-    },
-    {
       "id": "yarg-(yet-another-rhythm-game)",
       "name": "YARG (Yet Another Rhythm Game)",
       "platform": "PC",
       "description": "Archipelago randomizer for YARG (Yet Another Rhythm Game) (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/YARG",
       "discordUrl": "https://discord.com/channels/731205301247803413/1451771538943508490",
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/energymaster22/YARGArchipelago/releases",
       "inProgress": [],
       "twitchId": "1364053756"
+    },
+    {
+      "id": "yargallsetlists",
+      "name": "YARGAllSetlists",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/YARGAllSetlists",
+      "description": "Archipelago randomizer for YARGAllSetlists",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454538103933898752",
+      "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
+      "completed": [],
+      "todo": [],
+      "twitchId": "1364053756"
+    },
+    {
+      "id": "yargguitarhero1",
+      "name": "YARGGuitarHero1",
+      "platform": "PC/PS2",
+      "url": "https://archipelago.miraheze.org/wiki/YARGGuitarHero1",
+      "description": "Archipelago randomizer for YARGGuitarHero1",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454538103933898752",
+      "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
+      "completed": [],
+      "todo": [],
+      "twitchId": "5789"
+    },
+    {
+      "id": "yargrockband3",
+      "name": "YARGRockBand3",
+      "platform": "PC/360",
+      "url": "https://archipelago.miraheze.org/wiki/YARGRockBand3",
+      "description": "Archipelago randomizer for YARGRockBand3",
+      "discordUrl": "https://discord.com/channels/731205301247803413/1454538103933898752",
+      "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "25180"
+    },
+    {
+      "id": "yayarg",
+      "name": "YAYARG",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/YAYARG",
+      "description": "Archipelago randomizer for YAYARG",
+      "githubUrl": "https://github.com/Thedrummonger/YargArchipelagoPluginV2/releases/latest",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1364053756"
+    },
+    {
+      "id": "yellow-taxi-goes-vroom",
+      "name": "Yellow Taxi Goes Vroom",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Yellow_Taxi_Goes_Vroom",
+      "description": "Archipelago randomizer for Yellow Taxi Goes Vroom",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1945556169"
     },
     {
       "id": "yokus-island-express",
@@ -6952,7 +7335,8 @@
       "todo": [],
       "githubUrl": "https://git.makuluni.com/Archipelago/YokuAPWorld/releases",
       "inProgress": [],
-      "twitchId": "498644"
+      "twitchId": "498644",
+      "url": "https://archipelago.miraheze.org/wiki/Yoku%27s_Island_Express"
     },
     {
       "id": "yooka-laylee",
@@ -6964,7 +7348,21 @@
       "todo": [],
       "githubUrl": "https://github.com/Awareqwx/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "489591"
+      "twitchId": "489591",
+      "url": "https://archipelago.miraheze.org/wiki/Yooka-Laylee"
+    },
+    {
+      "id": "ys-i-chronicles",
+      "name": "Ys I Chronicles",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Ys_I_Chronicles",
+      "description": "Archipelago randomizer for Ys I Chronicles",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "1925897513"
     },
     {
       "id": "yu-gi-oh-gx-duel-academy",
@@ -6987,7 +7385,8 @@
       "todo": [],
       "githubUrl": "https://github.com/JustinMarshall98/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "23113"
+      "twitchId": "23113",
+      "url": "https://archipelago.miraheze.org/wiki/Yu-Gi-Oh!_Dungeon_Dice_Monsters"
     },
     {
       "id": "yu-gi-oh-forbidden-memories",
@@ -6999,7 +7398,8 @@
       "todo": [],
       "githubUrl": "https://github.com/sg4e/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "207"
+      "twitchId": "207",
+      "url": "https://archipelago.miraheze.org/wiki/Yu-Gi-Oh!_Forbidden_Memories"
     },
     {
       "id": "yu-gi-oh-ultimate-masters-wct-2006",
@@ -7011,6 +7411,19 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "31349"
+    },
+    {
+      "id": "yu-gi-oh-world-championship-2008",
+      "name": "Yu-Gi-Oh! World Championship 2008",
+      "platform": "NDS",
+      "url": "https://archipelago.miraheze.org/wiki/Yu-Gi-Oh!_World_Championship_2008",
+      "description": "Archipelago randomizer for Yu-Gi-Oh! World Championship 2008",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": "21122"
     },
     {
       "id": "zillion",
@@ -7034,7 +7447,8 @@
       "todo": [],
       "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=zork&expanded=true",
       "inProgress": [],
-      "twitchId": "1463"
+      "twitchId": "1463",
+      "url": "https://archipelago.miraheze.org/wiki/Zork_Grand_Inquisitor"
     }
   ]
 }
