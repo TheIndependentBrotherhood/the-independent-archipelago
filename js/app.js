@@ -117,12 +117,13 @@ function initializeFilters(games) {
   });
 
   // Create filter buttons for todo
-  createFilterGroup(
+  createTodoFilterGroup(
     "To Do List",
     "todoUserFilter",
     todoUsers,
     toggleTodoFilter,
     clearTodoFilters,
+    allGames,
   );
 
   // Create filter buttons for inProgress
@@ -172,6 +173,62 @@ function createFilterGroup(
     btn.addEventListener("click", () => toggleFunction(userId, btn));
     container.appendChild(btn);
   });
+}
+
+function createTodoFilterGroup(
+  title,
+  containerId,
+  users,
+  toggleFunction,
+  clearFunction,
+  games,
+) {
+  const filterGroup = document.querySelector(`#${containerId}`).parentElement;
+
+  // Update title with clear button and spin button
+  const titleElement = filterGroup.querySelector("h3");
+  titleElement.textContent = title;
+
+  const buttonsContainer = document.createElement("div");
+  buttonsContainer.className = "title-buttons-container";
+
+  const spinBtn = document.createElement("button");
+  spinBtn.className = "spin-btn-title";
+  spinBtn.title = "Spin the wheel";
+  spinBtn.innerHTML = '<i class="fas fa-dharmachakra"></i> Spin';
+  spinBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    openWheelSelector(Array.from(users), games);
+  });
+
+  const clearBtn = document.createElement("button");
+  clearBtn.className = "clear-filter-btn";
+  clearBtn.title = "Clear filter";
+  clearBtn.innerHTML = '<i class="fas fa-times"></i>';
+  clearBtn.addEventListener("click", clearFunction);
+
+  buttonsContainer.appendChild(spinBtn);
+  buttonsContainer.appendChild(clearBtn);
+  titleElement.appendChild(buttonsContainer);
+
+  // Create filter buttons without spin button
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+
+  // Add filter buttons
+  const filtersContainer = document.createElement("div");
+  filtersContainer.className = "todo-filters-container";
+
+  users.forEach((userId) => {
+    const user = usersMap[userId];
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.textContent = `${user.emoji} ${user.pseudo}`;
+    btn.addEventListener("click", () => toggleFunction(userId, btn));
+    filtersContainer.appendChild(btn);
+  });
+
+  container.appendChild(filtersContainer);
 }
 
 function createPlatformFilterGroup(
@@ -342,7 +399,7 @@ function renderGames(games) {
   container.innerHTML = games.map((game) => createGameCard(game)).join("");
 
   // Validate Twitch images after rendering
-  validateTwitchImages();
+  validateTwitchImages(".game-card.has-twitch-image");
 }
 
 // Initialize alphabet navigation
@@ -567,6 +624,336 @@ function createGameCard(game) {
   `;
 }
 
+// Open wheel selector to choose user
+function openWheelSelector(userIds, games) {
+  const selector = document.createElement("div");
+  selector.id = "wheel-selector";
+  selector.className = "wheel-selector";
+  selector.innerHTML = `
+    <div class="wheel-selector-content">
+      <button class="wheel-close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <h3>Choose a Player</h3>
+      <div class="selector-buttons">
+        ${userIds
+          .map((userId) => {
+            const user = usersMap[userId];
+            const userGames = games.filter((g) => g.todo.includes(userId));
+            const canSpin = userGames.length > 1;
+            return `
+              <button class="selector-btn ${!canSpin ? "disabled" : ""}" data-user-id="${userId}" ${!canSpin ? "disabled" : ""}>
+                <span class="selector-emoji">${user.emoji}</span>
+                <span class="selector-name">${user.pseudo}</span>
+                <span class="selector-count">${userGames.length} game${userGames.length !== 1 ? "s" : ""}</span>
+              </button>
+            `;
+          })
+          .join("")}
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(selector);
+
+  // Close button
+  selector.querySelector(".wheel-close-btn").addEventListener("click", () => {
+    selector.remove();
+  });
+
+  // Selector buttons
+  selector.querySelectorAll(".selector-btn:not(.disabled)").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const userId = btn.getAttribute("data-user-id");
+      selector.remove();
+      spinWheelForUser(userId, games);
+    });
+  });
+
+  // Close when clicking outside
+  selector.addEventListener("click", (e) => {
+    if (e.target === selector) {
+      selector.remove();
+    }
+  });
+}
+
+// Spin the wheel for a user's todo list
+function spinWheelForUser(userId, games) {
+  // Get all games for this user's todo list
+  const userTodoGames = games.filter((game) => game.todo.includes(userId));
+
+  if (userTodoGames.length === 0) {
+    alert("No games in todo list for this user!");
+    return;
+  }
+
+  const user = usersMap[userId];
+
+  // Close existing wheel popup if any
+  const existingPopup = document.getElementById("wheel-popup");
+  if (existingPopup) {
+    existingPopup.remove();
+  }
+
+  // Create wheel popup
+  const wheelPopup = document.createElement("div");
+  wheelPopup.id = "wheel-popup";
+  wheelPopup.className = "wheel-popup";
+  wheelPopup.innerHTML = `
+    <div class="wheel-popup-content">
+      <button class="wheel-close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <h3>${user.emoji} ${user.pseudo}'s Wheel of Fortune</h3>
+      <div class="wheel-spinner-container">
+        <canvas id="wheelCanvas" class="wheel-canvas"></canvas>
+        <div class="wheel-pointer">▼</div>
+        <button class="spin-btn-icon" id="spinBtnLarge" title="Spin the wheel">
+          <i class="fas fa-dharmachakra"></i>
+        </button>
+      </div>
+      <div id="wheelResult" class="wheel-result hidden">
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(wheelPopup);
+
+  // Draw wheel
+  const canvas = document.getElementById("wheelCanvas");
+  const ctx = canvas.getContext("2d");
+  canvas.width = 450;
+  canvas.height = 450;
+
+  let currentRotation = 0;
+
+  function drawWheel(rotation = 0) {
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+    const radius = canvas.width / 2 - 10;
+    const segmentCount = userTodoGames.length;
+    const segmentAngle = (Math.PI * 2) / segmentCount;
+
+    const isDarkMode = document.documentElement.classList.contains("dark-mode");
+
+    // Colors for segments - using badge colors (adjusted for dark mode)
+    const colors = isDarkMode
+      ? [
+          "#3a3a1a", // todo-bg dark
+          "#1a2a3a", // inprogress-bg dark
+          "#1a3a1a", // completed-bg dark
+          "#3a1a1a", // error-like
+          "#2a1a3a", // purple-like
+          "#1a3a3a", // teal-like
+          "#3a2a1a", // orange-like
+          "#3a3a1a", // yellow-like
+          "#2a2a3a", // blue-like
+          "#3a2a2a", // brown-like
+          "#2a3a2a", // green-like
+          "#3a3a2a", // gold-like
+        ]
+      : [
+          "#fff3cd", // Yellow
+          "#cfe2ff", // Blue
+          "#d4edda", // Green
+          "#f8d7da", // Red/Pink
+          "#e7d4f5", // Violet
+          "#d1ecf1", // Cyan
+          "#ffe4c4", // Bisque/Orange
+          "#f0e68c", // Khaki
+          "#ffcccc", // Light Pink
+          "#ccf0ff", // Light Blue
+          "#e0ffe0", // Light Green
+          "#fffacd", // Light Yellow
+        ];
+
+    const borderColor = isDarkMode ? "#666" : "#333";
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Draw segments
+    userTodoGames.forEach((game, index) => {
+      const startAngle = index * segmentAngle + rotation;
+      const endAngle = (index + 1) * segmentAngle + rotation;
+
+      // Draw segment
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+      ctx.lineTo(centerX, centerY);
+      ctx.fillStyle = colors[index % colors.length];
+      ctx.fill();
+
+      // Draw border
+      ctx.strokeStyle = borderColor;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      // Draw game name
+      ctx.save();
+      ctx.translate(centerX, centerY);
+      ctx.rotate(startAngle + segmentAngle / 2);
+
+      // Create clipping region for text (stays within segment)
+      ctx.beginPath();
+      ctx.arc(0, 0, radius, -segmentAngle / 2, segmentAngle / 2);
+      ctx.lineTo(0, 0);
+      ctx.clip();
+
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.font = "bold 14px sans-serif";
+
+      const textRadius = radius * 0.65;
+      const gameName = game.name.substring(0, 30);
+
+      // Draw text with outline for better visibility
+      ctx.strokeStyle = "rgba(255, 255, 255, 0.9)";
+      ctx.lineWidth = 4;
+      ctx.lineJoin = "round";
+      ctx.lineCap = "round";
+      ctx.strokeText(gameName, textRadius, 0);
+
+      // Draw text
+      ctx.fillStyle = "#1a1a1a";
+      ctx.fillText(gameName, textRadius, 0);
+
+      ctx.restore();
+    });
+
+    // Draw center circle
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, 25, 0, Math.PI * 2);
+    ctx.fillStyle = "#1a472a";
+    ctx.fill();
+    ctx.strokeStyle = "#fff";
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Draw center icon
+    ctx.fillStyle = "#fff";
+    ctx.font = "bold 18px sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText("🎡", centerX, centerY);
+  }
+
+  // Initial draw
+  drawWheel();
+
+  // Add event listeners
+  wheelPopup
+    .querySelector(".wheel-close-btn")
+    .addEventListener("click", closeWheelPopup);
+  wheelPopup.querySelector("#spinBtnLarge").addEventListener("click", () => {
+    spinAnimation(userId, userTodoGames, canvas, drawWheel, userTodoGames);
+  });
+
+  // Close popup when clicking outside
+  wheelPopup.addEventListener("click", (e) => {
+    if (e.target === wheelPopup) {
+      closeWheelPopup();
+    }
+  });
+}
+
+function spinAnimation(userId, userTodoGames, canvas, drawWheel, games) {
+  const result = document.getElementById("wheelResult");
+  const spinBtn = document.getElementById("spinBtnLarge");
+
+  // Hide result and disable button
+  result.classList.add("hidden");
+  spinBtn.disabled = true;
+  spinBtn.style.opacity = "0.5";
+
+  // Animation variables
+  const animationDuration = 3000;
+  const rotationsCount = 8; // Full rotations
+
+  // Pre-select a random game to ensure consistency
+  const selectedIndex = Math.floor(Math.random() * games.length);
+  const selectedGame = games[selectedIndex];
+  const segmentCount = games.length;
+  const segmentAngle = (Math.PI * 2) / segmentCount;
+
+  // Calculate the final rotation so the selected game lands at the pointer (top)
+  // The pointer is at angle 0, so we need to rotate so that selectedIndex segment's center is at top
+  const selectedSegmentCenter = segmentAngle * (selectedIndex + 0.5);
+
+  let currentRotation = 0;
+  const startTime = Date.now();
+
+  function animate() {
+    const elapsed = Date.now() - startTime;
+    const progress = Math.min(elapsed / animationDuration, 1);
+
+    // Ease out animation (cubic)
+    const easeProgress = 1 - Math.pow(1 - progress, 3);
+    const totalRotation = rotationsCount * Math.PI * 2 * easeProgress;
+    // Add the segment center to position it at the pointer (top)
+    currentRotation = (totalRotation + selectedSegmentCenter) % (Math.PI * 2);
+
+    drawWheel(currentRotation);
+
+    if (progress < 1) {
+      requestAnimationFrame(animate);
+    } else {
+      // Animation complete - show the pre-selected game (already determined)
+      // Show result
+      const resultDiv = document.getElementById("wheelResult");
+      const backgroundStyle = selectedGame.twitchId
+        ? `style="background-image: url('https://static-cdn.jtvnw.net/ttv-boxart/${selectedGame.twitchId}-144x192.jpg')"`
+        : "";
+      const twitchClass = selectedGame.twitchId ? "has-twitch-image" : "";
+      resultDiv.innerHTML = `
+        <div class="result-game-card ${twitchClass}" ${backgroundStyle}>
+          <h5><b>You got:</b> ${selectedGame.name}</h5>
+          <div class="action-buttons">
+        ${
+          selectedGame.url
+            ? `<a href="${selectedGame.url}" target="_blank" class="btn-icon" title="View on Archipelago.gg">
+          <i class="fas fa-globe"></i>
+        </a>`
+            : ""
+        }
+        ${
+          selectedGame.discordUrl
+            ? `<a href="${selectedGame.discordUrl}" target="_blank" class="btn-icon" title="Go to Discord channel">
+          <i class="fab fa-discord"></i>
+        </a>`
+            : ""
+        }
+        ${
+          selectedGame.githubUrl
+            ? `<a href="${selectedGame.githubUrl}" target="_blank" class="btn-icon" title="View on GitHub">
+          <i class="fab fa-github"></i>
+        </a>`
+            : ""
+        }
+      </div>
+        </div>
+      `;
+      result.classList.remove("hidden");
+
+      // Validate Twitch images after rendering
+      validateTwitchImages(".result-game-card.has-twitch-image");
+
+      // Re-enable button
+      spinBtn.disabled = false;
+      spinBtn.style.opacity = "1";
+    }
+  }
+
+  requestAnimationFrame(animate);
+}
+
+function closeWheelPopup() {
+  const popup = document.getElementById("wheel-popup");
+  if (popup) {
+    popup.remove();
+  }
+}
+
 // Show users modal
 function showUsers(modalId) {
   // Close all other modals first
@@ -586,8 +973,8 @@ function showUsers(modalId) {
 }
 
 // Validate Twitch images and fallback if they fail to load
-function validateTwitchImages() {
-  document.querySelectorAll(".game-card.has-twitch-image").forEach((card) => {
+function validateTwitchImages(selector) {
+  document.querySelectorAll(selector).forEach((card) => {
     const twitchId = card.style.backgroundImage.match(/\/(\d+)/)?.[1];
     if (twitchId) {
       // Try without _IGDB first
