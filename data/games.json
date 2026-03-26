@@ -515,19 +515,6 @@
       "twitchId": null
     },
     {
-      "id": "black-market-of-bulletphilia-~-100th-black-market",
-      "name": "Black Market of Bulletphilia ~ 100th Black Market",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/Black_Market_of_Bulletphilia_~_100th_Black_Market",
-      "description": "Archipelago randomizer for Black Market of Bulletphilia ~ 100th Black Market",
-      "githubUrl": null,
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "1841801492"
-    },
-    {
       "id": "black-ops-3-zombies",
       "name": "Black Ops 3 - Zombies",
       "platform": "PC",
@@ -6574,6 +6561,7 @@
       "name": "Touhou 18.5",
       "platform": "PC",
       "description": "Archipelago randomizer for Touhou 18.5 (PC)",
+      "url": "https://archipelago.miraheze.org/wiki/Black_Market_of_Bulletphilia_~_100th_Black_Market",
       "discordUrl": "https://discord.com/channels/731205301247803413/1346288808512983040",
       "completed": [],
       "todo": [],
