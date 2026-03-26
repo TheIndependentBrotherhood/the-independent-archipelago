@@ -6115,7 +6115,8 @@
       "discordUrl": null,
       "completed": [],
       "todo": [],
-      "twitchId": null
+      "twitchId": null,
+      "inProgress": []
     },
     {
       "id": "tcg-card-shop-simulator",
@@ -6952,7 +6953,8 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": []
+      "todo": [],
+      "inProgress": []
     },
     {
       "id": "vintage-story",
@@ -7272,7 +7274,8 @@
       "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
       "completed": [],
       "todo": [],
-      "twitchId": "1364053756"
+      "twitchId": "1364053756",
+      "inProgress": []
     },
     {
       "id": "yargguitarhero1",
@@ -7284,7 +7287,8 @@
       "githubUrl": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases",
       "completed": [],
       "todo": [],
-      "twitchId": "5789"
+      "twitchId": "5789",
+      "inProgress": []
     },
     {
       "id": "yargrockband3",
