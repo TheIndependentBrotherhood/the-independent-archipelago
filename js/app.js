@@ -546,7 +546,7 @@ function createGameCard(game) {
       <div class="action-buttons">
         ${
           game.url
-            ? `<a href="${game.url}" target="_blank" class="btn-icon" title="View on Archipelago.gg">
+            ? `<a href="${game.url}" target="_blank" class="btn-icon" title="View on Archipelago.gg/wiki">
           <i class="fas fa-globe"></i>
         </a>`
             : ""
@@ -916,7 +916,7 @@ function spinAnimation(userId, userTodoGames, canvas, drawWheel, games) {
           <div class="action-buttons">
         ${
           selectedGame.url
-            ? `<a href="${selectedGame.url}" target="_blank" class="btn-icon" title="View on Archipelago.gg">
+            ? `<a href="${selectedGame.url}" target="_blank" class="btn-icon" title="View on Archipelago.gg/wiki">
           <i class="fas fa-globe"></i>
         </a>`
             : ""
