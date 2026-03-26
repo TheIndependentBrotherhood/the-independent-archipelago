@@ -448,7 +448,7 @@ header p {
   flex-direction: column;
   gap: 12px;
   position: relative;
-  z-index: 2;
+  z-index: 101;
   flex: 1;
   justify-content: center;
 }
