@@ -4224,10 +4224,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Paper_Mario:_The_Thousand-Year_Door",
       "description": "Archipelago randomizer for Paper Mario: The Thousand Year Door (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1388344505446432789",
-      "completed": [],
+      "completed": ["lifestomper"],
       "todo": [],
       "githubUrl": "https://github.com/jamesbrq/ArchipelagoTTYD/releases",
-      "inProgress": ["lifestomper"],
+      "inProgress": [],
       "twitchId": "812908663"
     },
     {
