@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.bootstrap5.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -88,20 +92,9 @@
             >
           </div>
           <div class="selection-mode-center">
-            <div class="pseudo-input-group">
-              <input
-                type="text"
-                id="pseudoInputInline"
-                placeholder="Enter your pseudo (or existing user)..."
-                class="pseudo-input-inline"
-                list="userSuggestions"
-                autocomplete="off"
-              />
-              <datalist id="userSuggestions"></datalist>
-              <div id="existingGamesInfo" class="existing-games-info hidden">
-                <small>Loaded <span id="existingGameCount">0</span> existing games</small>
-              </div>
-            </div>
+            <select id="userSelector" class="user-selector">
+              <option value="">Select a player...</option>
+            </select>
           </div>
           <div class="selection-mode-right">
             <button
@@ -145,6 +138,7 @@
       </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
