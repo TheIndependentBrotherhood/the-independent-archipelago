@@ -3365,10 +3365,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Mario_Kart_Double_Dash",
       "description": "Archipelago randomizer for Mario Kart: Double Dash (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257102472967884882",
-      "completed": [],
+      "completed": ["minipomme", "lifestomper"],
       "todo": [],
       "githubUrl": "https://github.com/aXu-AP/archipelago-double-dash/releases",
-      "inProgress": ["minipomme", "lifestomper"],
+      "inProgress": [],
       "twitchId": "17189"
     },
     {
@@ -6630,10 +6630,10 @@
       "platform": "PC",
       "description": "Archipelago randomizer for Totally Accurate Battle Simulator (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1348142956682547230",
-      "completed": [],
+      "completed": ["minipomme"],
       "todo": [],
       "githubUrl": "https://github.com/duckboycool/TABS-Archipelago/releases",
-      "inProgress": ["minipomme"],
+      "inProgress": [],
       "twitchId": "493069",
       "url": "https://archipelago.miraheze.org/wiki/Totally_Accurate_Battle_Simulator"
     },
