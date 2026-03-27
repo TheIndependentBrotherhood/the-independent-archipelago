@@ -1177,12 +1177,46 @@ footer {
   border: 2px solid var(--border-color);
   border-radius: 8px;
   font-size: 1rem;
+  background-color: var(--card-bg);
+  color: var(--text-color);
   transition: border-color 0.2s ease;
 }
 
 .pseudo-input-inline:focus {
   outline: none;
   border-color: var(--primary-color);
+}
+
+/* User selector and pseudo input group */
+.pseudo-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.pseudo-input-inline {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  transition: border-color 0.2s ease;
+}
+
+.existing-games-info {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  padding: 6px 10px;
+  background-color: var(--btn-bg);
+  border-radius: 6px;
+  border-left: 3px solid var(--primary-color);
+}
+
+.existing-games-info.hidden {
+  display: none;
 }
 
 .selection-mode-right {

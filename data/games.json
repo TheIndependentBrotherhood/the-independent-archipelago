@@ -446,7 +446,7 @@
       "githubUrl": null,
       "discordUrl": "https://discord.com/channels/1085716850370957462/1419417116842393821",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "512923"
     },
@@ -574,7 +574,7 @@
       "githubUrl": "https://github.com/GamingInfinite/Archipelago/releases",
       "discordUrl": "https://discord.com/channels/731205301247803413/1465832575359516970",
       "completed": [],
-      "todo": ["falclone"],
+      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "inProgress": [],
       "twitchId": "508292"
     },
@@ -675,7 +675,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "32345"
     },
@@ -700,7 +700,7 @@
       "description": "Archipelago randomizer for Brotato (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1154944430097313803",
       "completed": [],
-      "todo": ["falclone"],
+      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "githubUrl": "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases",
       "inProgress": [],
       "twitchId": "743214338"
@@ -778,7 +778,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "517505"
     },
@@ -878,7 +878,7 @@
       "description": "Archipelago randomizer for Cat Quest (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1319965826601844736",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Nikkilites/Archipelago-CatQuest/releases",
       "inProgress": [],
       "twitchId": "495933"
@@ -1495,7 +1495,7 @@
       "description": "Archipelago randomizer for Devil May Cry 3 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1255822049163612271",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/AshIndigo/DMC3ArchipelagoClient/releases",
       "inProgress": [],
       "twitchId": "1051643471"
@@ -1508,7 +1508,7 @@
       "description": "Archipelago randomizer for Dicey Dungeons (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1172783536474947595",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Fylcoast/AP_diceydungeons/releases",
       "inProgress": [],
       "twitchId": "508708"
@@ -1521,7 +1521,7 @@
       "description": "Archipelago randomizer for Diddy Kong Racing (N64)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1057754627795337387",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/zakwiz/DiddyKongRacingAP/releases",
       "inProgress": [],
       "twitchId": "14660"
@@ -1546,7 +1546,7 @@
       "description": "Archipelago randomizer for DLC Quest (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1109178880838868992",
       "completed": [],
-      "todo": ["falclone"],
+      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "inProgress": [],
       "twitchId": "33096"
     },
@@ -1648,7 +1648,7 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1148329739996643348",
       "completed": [],
       "todo": [],
-      "inProgress": ["todiun"],
+      "inProgress": ["a3b6c9d2-5e8f-1a4b-7c0d-1e2f3a4b5c6d"],
       "twitchId": "1432406535"
     },
     {
@@ -1774,7 +1774,7 @@
       "description": "Archipelago randomizer for Dungeon Clawler (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1339622918774067220",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/agilbert1412/Clawrchipelago/releases",
       "inProgress": [],
       "twitchId": "381933311"
@@ -1866,7 +1866,7 @@
       "completed": [],
       "todo": [],
       "githubUrl": "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases",
-      "inProgress": ["falclone"],
+      "inProgress": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "twitchId": "488632"
     },
     {
@@ -2041,7 +2041,7 @@
       "description": "Archipelago randomizer for Final Fantasy Tactics A2: Grimoire of the Rift (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1296095764518277143",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Rurusachi/Archipelago/releases",
       "inProgress": [],
       "twitchId": "19410"
@@ -2054,7 +2054,7 @@
       "description": "Archipelago randomizer for Final Fantasy Tactics Advance (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1100823015819837449",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/spicynun/Archipelago/releases",
       "inProgress": [],
       "twitchId": "7994"
@@ -2067,7 +2067,7 @@
       "description": "Archipelago randomizer for Final Fantasy Tactics: Ivalice Island (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1451730887136903240",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=Tactics&expanded=true",
       "inProgress": [],
       "twitchId": "726936393"
@@ -2170,7 +2170,7 @@
       "githubUrl": "https://github.com/CT075/Archipelago/releases",
       "discordUrl": "https://discord.com/channels/731205301247803413/1098762105445953546",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "1055"
     },
@@ -2386,7 +2386,7 @@
       "description": "Archipelago randomizer for Guild Wars 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1247738360160587787",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Feldar99/Archipelago/releases",
       "inProgress": [],
       "twitchId": "19357"
@@ -2424,7 +2424,7 @@
       "url": "https://archipelago.miraheze.org/wiki/Hades",
       "description": "Archipelago randomizer for Hades (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1367914798519550024",
-      "completed": ["moonmoon"],
+      "completed": ["b1d4e7a0-3c5f-6b8d-9e1a-2f3a4b5c6d7e"],
       "todo": [],
       "githubUrl": "https://github.com/NaixGames/Polycosmos/releases",
       "inProgress": [],
@@ -2438,7 +2438,10 @@
       "description": "Archipelago randomizer for Hammerwatch (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1072687192360624218",
       "completed": [],
-      "todo": ["minipomme", "lifestomper"],
+      "todo": [
+        "d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e",
+        "a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"
+      ],
       "githubUrl": "https://github.com/Parcosmic/Hammerwatch-Archipelago/releases",
       "inProgress": [],
       "twitchId": "271257"
@@ -2568,7 +2571,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "1780647523"
     },
@@ -2733,7 +2736,7 @@
       "description": "Archipelago randomizer for Into the Breach (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1127025077196701828",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Ishigh1/ITB-randomizer-for-AP/releases",
       "inProgress": [],
       "twitchId": "495636"
@@ -2821,7 +2824,7 @@
       "platform": "PC",
       "description": "Archipelago randomizer for JS Paint (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1404622196567048253",
-      "completed": ["moonmoon"],
+      "completed": ["b1d4e7a0-3c5f-6b8d-9e1a-2f3a4b5c6d7e"],
       "todo": [],
       "inProgress": [],
       "twitchId": null
@@ -2883,7 +2886,7 @@
       "description": "Archipelago randomizer for Keep Talking and Nobody Explodes (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1058549067107532840",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/GreenPower713/Archipelago/releases",
       "inProgress": [],
       "twitchId": "461492"
@@ -3086,7 +3089,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["sid"],
+      "todo": ["e6f1a4b7-2c5d-8e0a-1b3c-4d5e6f7a8b9c"],
       "inProgress": [],
       "twitchId": "24193"
     },
@@ -3289,7 +3292,7 @@
       "description": "Archipelago randomizer for Luigi's Mansion (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1378465872917827614",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/BootsinSoots/Archipelago/releases",
       "inProgress": [],
       "twitchId": "10090"
@@ -3365,7 +3368,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Mario_Kart_Double_Dash",
       "description": "Archipelago randomizer for Mario Kart: Double Dash (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1257102472967884882",
-      "completed": ["minipomme", "lifestomper"],
+      "completed": [
+        "d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e",
+        "a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"
+      ],
       "todo": [],
       "githubUrl": "https://github.com/aXu-AP/archipelago-double-dash/releases",
       "inProgress": [],
@@ -3457,7 +3463,7 @@
       "description": "Archipelago randomizer for Mega Man 2 (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311061171192729690",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "12870"
     },
@@ -3468,7 +3474,7 @@
       "description": "Archipelago randomizer for Mega Man 3 (NES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1250369456048177152",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Silvris/Archipelago/releases?q=tag%3Amm3_0&expanded=true",
       "inProgress": [],
       "twitchId": "1311228706"
@@ -3660,7 +3666,7 @@
       "description": "Archipelago randomizer for Metroid Fusion (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1161319361345232946",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Rosalie-A/Archipelago/releases?q=Metroid+Fusion&expanded=true",
       "inProgress": [],
       "twitchId": "9479"
@@ -3673,7 +3679,7 @@
       "description": "Archipelago randomizer for Metroid Prime (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1425600401733980301",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/UltiNaruto/MetroidAPrime/releases",
       "inProgress": [],
       "twitchId": "1263367105"
@@ -3686,7 +3692,7 @@
       "description": "Archipelago randomizer for Metroid: Zero Mission (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1106280250528235620",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/lilDavid/Archipelago-Metroid-Zero-Mission/releases",
       "inProgress": [],
       "twitchId": "1548985796"
@@ -3712,7 +3718,7 @@
       "description": "Archipelago randomizer for Minecraft (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/837136185662111746",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "27471"
     },
@@ -3734,7 +3740,7 @@
       "url": "https://archipelago.miraheze.org/wiki/Minecraft_Dig",
       "description": "Archipelago randomizer for Minecraft Dig (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/837136185662111746",
-      "completed": ["matwands"],
+      "completed": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "todo": [],
       "githubUrl": "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases/",
       "inProgress": [],
@@ -3839,7 +3845,7 @@
       "description": "Archipelago randomizer for Monster Sanctuary (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1096278752142577684",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/Gtaray/archipelago-monstersanctuary/releases",
       "inProgress": [],
       "twitchId": "505788"
@@ -3941,7 +3947,7 @@
       "url": "https://archipelago.gg/games/Noita/info/en",
       "description": "Archipelago randomizer for Noita (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1109174779619057795",
-      "completed": ["todiun"],
+      "completed": ["a3b6c9d2-5e8f-1a4b-7c0d-1e2f3a4b5c6d"],
       "todo": [],
       "inProgress": [],
       "twitchId": "505705"
@@ -4007,7 +4013,7 @@
       "githubUrl": null,
       "discordUrl": "https://discord.com/channels/1085716850370957462/1379282061071749221",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "1984929743"
     },
@@ -4162,7 +4168,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "489534"
     },
@@ -4175,7 +4181,7 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1043593072174440448",
       "completed": [],
       "todo": [],
-      "inProgress": ["miniviruce"],
+      "inProgress": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "twitchId": "506458"
     },
     {
@@ -4186,7 +4192,7 @@
       "description": "Archipelago randomizer for Oxygen Not Included (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1446597534847074416",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/ShadowKitty42/ONI-Archipelago/releases",
       "inProgress": [],
       "twitchId": "493815"
@@ -4224,7 +4230,7 @@
       "url": "https://archipelago.miraheze.org/wiki/Paper_Mario:_The_Thousand-Year_Door",
       "description": "Archipelago randomizer for Paper Mario: The Thousand Year Door (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1388344505446432789",
-      "completed": ["lifestomper"],
+      "completed": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "todo": [],
       "githubUrl": "https://github.com/jamesbrq/ArchipelagoTTYD/releases",
       "inProgress": [],
@@ -4265,7 +4271,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "1081998272"
     },
@@ -4354,7 +4360,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "2209"
     },
@@ -4366,7 +4372,7 @@
       "description": "Archipelago randomizer for Pikmin 2 (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1062964930174779452",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/chpas0/Pikmin2Archipelago",
       "inProgress": [],
       "twitchId": "1193937911"
@@ -4495,8 +4501,8 @@
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Black_and_White",
       "description": "Archipelago randomizer for Pokémon Black and White (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1414928022854696991",
-      "completed": ["matwands"],
-      "todo": ["minipomme"],
+      "completed": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/BlastSlimey/PokemonBWAP/releases",
       "inProgress": [],
       "twitchId": "27602"
@@ -4521,8 +4527,8 @@
       "url": "https://archipelago.gg/games/Pokémon%20Emerald/info/en",
       "description": "Archipelago randomizer for Pokémon Emerald (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1192236871468711966",
-      "completed": ["sid"],
-      "todo": ["minipomme"],
+      "completed": ["e6f1a4b7-2c5d-8e0a-1b3c-4d5e6f7a8b9c"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "10609"
     },
@@ -4534,7 +4540,7 @@
       "description": "Archipelago randomizer for Pokémon FireRed and LeafGreen (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1365127226533871718",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/vyneras/Archipelago/releases",
       "inProgress": [],
       "twitchId": "13332"
@@ -4547,7 +4553,7 @@
       "description": "Archipelago randomizer for Pokémon Mystery Dungeon Explorers of Sky (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1408865961385267260",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases",
       "inProgress": [],
       "twitchId": "22693"
@@ -4573,7 +4579,7 @@
       "description": "Archipelago randomizer for Pokémon Platinum (DS)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1414786317014929418",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/ljtpetersen/platinum_archipelago?tab=readme-ov-file",
       "inProgress": [],
       "twitchId": "19745"
@@ -4651,7 +4657,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "19731"
     },
@@ -4806,7 +4812,7 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1146024297324879872",
       "githubUrl": "https://github.com/Panda291/Archipelago/releases",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "352915626"
     },
@@ -4819,7 +4825,7 @@
       "githubUrl": "https://github.com/evilwb/APRac2/releases",
       "discordUrl": "https://discord.com/channels/731205301247803413/1325015730218860554",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "1025617064"
     },
@@ -4832,7 +4838,7 @@
       "githubUrl": "https://github.com/Taoshix/Archipelago-RaC3/releases",
       "discordUrl": "https://discord.com/channels/731205301247803413/1357102103054651622",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "4540"
     },
@@ -4844,7 +4850,7 @@
       "description": "Archipelago randomizer for Rayman 2: The Great Escape (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1151502935667257386",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Aeltumn/Rayman2AP/releases",
       "inProgress": [],
       "twitchId": "870321370"
@@ -4974,7 +4980,7 @@
       "description": "Archipelago randomizer for Risk of Rain (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
       "completed": [],
-      "todo": ["falclone"],
+      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
       "inProgress": [],
       "twitchId": "263489"
@@ -4986,7 +4992,7 @@
       "url": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
       "description": "Archipelago randomizer for Risk of Rain 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/884926818480705586",
-      "completed": ["miniviruce"],
+      "completed": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "todo": [],
       "inProgress": [],
       "twitchId": "509110"
@@ -4997,7 +5003,7 @@
       "platform": "PC",
       "description": "Archipelago randomizer for Risk of Rain Returns (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1172336306890747984",
-      "completed": ["miniviruce"],
+      "completed": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "todo": [],
       "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
       "inProgress": [],
@@ -5011,7 +5017,7 @@
       "description": "Archipelago randomizer for Rogue Legacy (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/929585237695029268",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "259945"
     },
@@ -5100,7 +5106,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["moonmoon"],
+      "todo": ["b1d4e7a0-3c5f-6b8d-9e1a-2f3a4b5c6d7e"],
       "inProgress": [],
       "twitchId": "1584836809"
     },
@@ -5202,7 +5208,7 @@
       "description": "Archipelago randomizer for Shadow the Hedgehog (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1142558464242094200",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/choatix/Archipelago/releases",
       "inProgress": [],
       "twitchId": "17794"
@@ -5380,7 +5386,7 @@
       "description": "Archipelago randomizer for Slay the Spire (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/884926940182609920",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/cjmang/StS-AP-World/releases",
       "inProgress": [],
       "twitchId": "496902"
@@ -5394,7 +5400,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "1435206302"
     },
@@ -5432,7 +5438,7 @@
       "description": "Archipelago randomizer for Sly 2: Band of Thieves (PS2)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1359447263981600788",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/NikolajDanger/APSly2/releases",
       "inProgress": [],
       "twitchId": "556097834"
@@ -5573,7 +5579,7 @@
       "description": "Archipelago randomizer for Sonic Heroes (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1234592520403423352",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases",
       "inProgress": [],
       "twitchId": "8734"
@@ -5648,7 +5654,7 @@
       "description": "Archipelago randomizer for Spelunky 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1142626744629735555",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases",
       "inProgress": [],
       "twitchId": "499859"
@@ -5713,7 +5719,7 @@
       "description": "Archipelago randomizer for Spyro 2 (PSX)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1281660590431015046",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Uroogla/S2AP/releases",
       "inProgress": [],
       "twitchId": "862272355"
@@ -5726,7 +5732,7 @@
       "description": "Archipelago randomizer for Spyro 3 (PSX)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1018847303722872843",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Uroogla/S3AP/releases",
       "inProgress": [],
       "twitchId": "1598"
@@ -5740,7 +5746,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "1608308954"
     },
@@ -5753,7 +5759,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "11218"
     },
@@ -5765,7 +5771,7 @@
       "description": "Archipelago randomizer for Stacklands (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1151149079238299719",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/JammyGeeza/Stacklands-Randomizer/releases",
       "inProgress": [],
       "twitchId": "2132650309"
@@ -5816,7 +5822,7 @@
       "description": "Archipelago randomizer for StarCraft II (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/980554570075873300",
       "completed": [],
-      "todo": ["falclone"],
+      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "inProgress": [],
       "twitchId": "490422"
     },
@@ -5952,7 +5958,7 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1091478379963883651",
       "url": "https://archipelago.miraheze.org/wiki/Super_Mario_RPG_Legend_of_the_Seven_Stars",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases",
       "inProgress": [],
       "twitchId": "242859128"
@@ -5964,7 +5970,7 @@
       "description": "Archipelago randomizer for Super Mario Sunshine (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1383204057514250300",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Joshark/archipelago-sms/releases",
       "inProgress": [],
       "twitchId": "6086",
@@ -5977,7 +5983,7 @@
       "description": "Archipelago randomizer for Super Mario Sunshine Arcade 2 (GC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1399897298301096048",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Jorbori/SMSA2AP/releases",
       "inProgress": [],
       "twitchId": "6086",
@@ -6027,7 +6033,7 @@
       "description": "Archipelago randomizer for Super Metroid (SNES)",
       "discordUrl": "https://discord.com/channels/731205301247803413/909599727341928538",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "7595"
     },
@@ -6063,7 +6069,7 @@
       "url": "https://archipelago.miraheze.org/wiki/Super_Smash_Bros._Melee",
       "discordUrl": "https://discord.com/channels/731205301247803413/1179050965802942474",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "16282"
     },
@@ -6113,7 +6119,7 @@
       "description": "Archipelago randomizer for TCG Card Shop Simulator (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1302063649812250665",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases",
       "inProgress": [],
       "twitchId": "1230742965",
@@ -6126,7 +6132,7 @@
       "url": "https://archipelago.gg/games/Terraria/info/en",
       "description": "Archipelago randomizer for Terraria (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148330488482767008",
-      "completed": ["lifestomper"],
+      "completed": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "todo": [],
       "inProgress": [],
       "twitchId": "31376"
@@ -6454,7 +6460,7 @@
       "description": "Archipelago randomizer for The Messenger (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090822939697500243",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "inProgress": [],
       "twitchId": "4185"
     },
@@ -6630,7 +6636,7 @@
       "platform": "PC",
       "description": "Archipelago randomizer for Totally Accurate Battle Simulator (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1348142956682547230",
-      "completed": ["minipomme"],
+      "completed": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "todo": [],
       "githubUrl": "https://github.com/duckboycool/TABS-Archipelago/releases",
       "inProgress": [],
@@ -6697,7 +6703,7 @@
       "url": "https://archipelago.miraheze.org/wiki/Trackmania",
       "discordUrl": "https://discord.com/channels/731205301247803413/1368696493904625785",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/SerialBoxes/ArchipelagoTrackmania/releases",
       "inProgress": [],
       "twitchId": "687129551"
@@ -6747,7 +6753,7 @@
       "description": "Archipelago randomizer for Ty the Tasmanian Tiger (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1111533202184613991",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/xMcacutt/Archipelago-TyTheTasmanianTiger/releases",
       "inProgress": [],
       "twitchId": "12086",
@@ -6915,7 +6921,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["matwands"],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "inProgress": [],
       "twitchId": "1833694612"
     },
@@ -6953,7 +6959,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "inProgress": [],
       "twitchId": "498417"
     },
@@ -7041,7 +7047,7 @@
       "url": "https://archipelago.gg/games/Wargroove/info/en",
       "description": "Archipelago randomizer for Wargroove (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1090824439710625822",
-      "completed": ["minipomme"],
+      "completed": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "todo": [],
       "inProgress": [],
       "twitchId": "496046"
@@ -7052,7 +7058,7 @@
       "platform": "PC",
       "description": "Archipelago randomizer for Wargroove 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1159482310652076082",
-      "completed": ["minipomme"],
+      "completed": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "todo": [],
       "githubUrl": "https://github.com/FlySniper/Archipelago/releases?q=Wargroove+2&expanded=true",
       "inProgress": [],
@@ -7079,7 +7085,7 @@
       "description": "Archipelago randomizer for Wario Land 4 (GBA)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1079899101732290620",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/lilDavid/Archipelago-Wario-Land-4/releases",
       "inProgress": [],
       "twitchId": "3940",
@@ -7143,7 +7149,7 @@
       "description": "Archipelago randomizer for West of Loathing (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1273856413327822950",
       "completed": [],
-      "todo": ["lifestomper"],
+      "todo": ["a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"],
       "githubUrl": "https://github.com/Lucasvdm/WOLAP/releases",
       "inProgress": [],
       "twitchId": "495932",
@@ -7208,7 +7214,7 @@
       "description": "Archipelago randomizer for XCOM 2: War of the Chosen (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1037751568700805141",
       "completed": [],
-      "todo": ["minipomme"],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases",
       "inProgress": [],
       "twitchId": "489767",

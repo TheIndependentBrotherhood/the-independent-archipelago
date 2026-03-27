@@ -88,12 +88,20 @@
             >
           </div>
           <div class="selection-mode-center">
-            <input
-              type="text"
-              id="pseudoInputInline"
-              placeholder="Enter your pseudo..."
-              class="pseudo-input-inline"
-            />
+            <div class="pseudo-input-group">
+              <input
+                type="text"
+                id="pseudoInputInline"
+                placeholder="Enter your pseudo (or existing user)..."
+                class="pseudo-input-inline"
+                list="userSuggestions"
+                autocomplete="off"
+              />
+              <datalist id="userSuggestions"></datalist>
+              <div id="existingGamesInfo" class="existing-games-info hidden">
+                <small>Loaded <span id="existingGameCount">0</span> existing games</small>
+              </div>
+            </div>
           </div>
           <div class="selection-mode-right">
             <button

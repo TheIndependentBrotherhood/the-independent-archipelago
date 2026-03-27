@@ -62,6 +62,7 @@ let selectedPlatformFilters = new Set();
 // Selection mode for todo list
 let selectedGamesForTodoList = new Set();
 let isSelectionMode = false;
+let selectedUserId = null; // Track the ID of selected user for export (to get exact pseudo)
 
 async function loadGames() {
   try {
@@ -1172,6 +1173,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   loadGames();
+  initializeUserSelector();
 });
 
 // Close modals when clicking outside
@@ -1204,6 +1206,14 @@ function toggleSelectionMode() {
     selectedGamesForTodoList.clear();
     updateGameCardsForSelectionMode();
     updateSelectedCountDisplay();
+
+    // Reset the pseudo input and info
+    const pseudoInput = document.getElementById("pseudoInputInline");
+    const existingGamesInfo = document.getElementById("existingGamesInfo");
+
+    if (pseudoInput) pseudoInput.value = "";
+    if (existingGamesInfo) existingGamesInfo.classList.add("hidden");
+    selectedUserId = null;
   }
 }
 
@@ -1288,9 +1298,20 @@ function deselectAllGamesInGrid() {
 }
 
 function exportSelectionAsJson() {
-  const pseudo = document.getElementById("pseudoInputInline").value.trim();
+  // If a user was selected, use their ID; otherwise generate UUID for new user
+  let userId = null;
+  let pseudoForFilename = document
+    .getElementById("pseudoInputInline")
+    .value.trim();
 
-  if (!pseudo) {
+  if (selectedUserId && usersMap[selectedUserId]) {
+    userId = selectedUserId; // Use existing user ID
+    pseudoForFilename = usersMap[selectedUserId].pseudo;
+  } else {
+    userId = generateUUIDv4(); // Generate UUID for new user
+  }
+
+  if (!pseudoForFilename) {
     alert("Please enter your pseudo");
     return;
   }
@@ -1301,7 +1322,7 @@ function exportSelectionAsJson() {
   }
 
   const todoListData = {
-    pseudo: pseudo,
+    id: userId, // Only the ID (existing or newly generated)
     gameIds: Array.from(selectedGamesForTodoList),
   };
 
@@ -1310,7 +1331,7 @@ function exportSelectionAsJson() {
   const url = URL.createObjectURL(dataBlob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = `${pseudo}_todo_list.json`;
+  link.download = `${pseudoForFilename}_todo_list.json`; // Nom de fichier lisible
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -1318,4 +1339,121 @@ function exportSelectionAsJson() {
 
   // Reset selection mode
   toggleSelectionMode();
+}
+
+/**
+ * Generate a UUID v4 (random)
+ */
+function generateUUIDv4() {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+    const r = (Math.random() * 16) | 0;
+    const v = c === "x" ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
+}
+
+/**
+ * Populate the datalist with users who have todo games
+ */
+function initializeUserSelector() {
+  const datalist = document.getElementById("userSuggestions");
+  if (!datalist) return;
+
+  // Get all unique users with at least one todo game
+  const usersWithTodos = new Set();
+  allGames.forEach((game) => {
+    game.todo.forEach((userId) => {
+      usersWithTodos.add(userId);
+    });
+  });
+
+  // Sort users by pseudo
+  const sortedUserIds = Array.from(usersWithTodos).sort((a, b) => {
+    return (usersMap[a]?.pseudo || "").localeCompare(usersMap[b]?.pseudo || "");
+  });
+
+  // Add users to datalist
+  datalist.innerHTML = "";
+  sortedUserIds.forEach((userId) => {
+    const user = usersMap[userId];
+    if (user) {
+      const option = document.createElement("option");
+      option.value = user.pseudo;
+      option.dataset.userId = userId;
+      datalist.appendChild(option);
+    }
+  });
+
+  // Add change + input event listener
+  const pseudoInput = document.getElementById("pseudoInputInline");
+  if (pseudoInput) {
+    pseudoInput.addEventListener("change", handleUserInputChange);
+    pseudoInput.addEventListener("input", handleUserInputChange);
+  }
+}
+
+/**
+ * Handle user input (both for existing users and new ones)
+ */
+function handleUserInputChange(e) {
+  const inputValue = e.target.value.trim();
+  const existingGamesInfo = document.getElementById("existingGamesInfo");
+
+  if (!inputValue) {
+    // Empty input - clear everything
+    deselectAllGamesInGrid();
+    existingGamesInfo.classList.add("hidden");
+    selectedUserId = null;
+    return;
+  }
+
+  // Check if input matches an existing user
+  const matchingUser = Object.values(usersMap).find(
+    (user) => user.pseudo === inputValue,
+  );
+
+  if (matchingUser) {
+    // User exists - load their todo games
+    const userTodoGames = [];
+    allGames.forEach((game) => {
+      if (game.todo.includes(matchingUser.id)) {
+        userTodoGames.push(game.id);
+      }
+    });
+
+    // Clear current selection and select user's todo games
+    selectedGamesForTodoList.clear();
+    userTodoGames.forEach((gameId) => {
+      selectedGamesForTodoList.add(gameId);
+    });
+
+    // Update visual representation
+    document.querySelectorAll(".game-card.selected").forEach((card) => {
+      card.classList.remove("selected");
+    });
+
+    userTodoGames.forEach((gameId) => {
+      const card = document.getElementById(`card-${gameId}`);
+      if (card) {
+        card.classList.add("selected");
+      }
+    });
+
+    // IMPORTANT: Store the ID for export (required for Python import script)
+    // This ensures we can retrieve the exact pseudo even if user modifies input
+    selectedUserId = matchingUser.id;
+
+    // Show existing games info
+    document.getElementById("existingGameCount").textContent =
+      userTodoGames.length;
+    existingGamesInfo.classList.remove("hidden");
+  } else {
+    // New user - clear games and hide info
+    deselectAllGamesInGrid();
+    existingGamesInfo.classList.add("hidden");
+    selectedUserId = null; // Not an existing user, use input value as-is
+  }
+
+  // Update the count display
+  updateSelectedCountDisplay();
 }
