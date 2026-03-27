@@ -65,8 +65,12 @@ let isSelectionMode = false;
 
 async function loadGames() {
   try {
+    // Cache buster: adds current date to force daily refresh for browsers without Service Worker
+    // Service Worker will handle more intelligent cache updates for supporting browsers
+    const cacheVersion = new Date().toISOString().split("T")[0]; // Format: YYYY-MM-DD
+
     // Load users first
-    const usersResponse = await fetch("data/users.json");
+    const usersResponse = await fetch(`data/users.json?v=${cacheVersion}`);
     const usersData = await usersResponse.json();
     usersMap = {};
     usersData.users.forEach((user) => {
@@ -74,7 +78,7 @@ async function loadGames() {
     });
 
     // Load games
-    const response = await fetch("data/games.json");
+    const response = await fetch(`data/games.json?v=${cacheVersion}`);
     const data = await response.json();
     allGames = data.games;
 
@@ -126,7 +130,7 @@ function initializeFilters(games) {
     "todoUserFilter",
     todoUsers,
     toggleTodoFilter,
-    clearTodoFilters
+    clearTodoFilters,
   );
 
   // Create filter buttons for inProgress
@@ -1074,8 +1078,58 @@ if (scrollTopBtn) {
   });
 }
 
+/**
+ * Register Service Worker for intelligent caching
+ */
+function registerServiceWorker() {
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register("service-worker.js")
+        .then((registration) => {
+          console.log("Service Worker registered successfully:", registration);
+
+          // Listen for cache updates
+          if (navigator.serviceWorker.controller) {
+            navigator.serviceWorker.controller.postMessage({
+              type: "CHECK_UPDATE",
+            });
+          }
+
+          // Check for updates periodically (every 1 hour)
+          setInterval(
+            () => {
+              registration.update();
+            },
+            60 * 60 * 1000,
+          );
+        })
+        .catch((error) => {
+          console.log("Service Worker registration failed:", error);
+        });
+
+      // Listen for messages from Service Worker
+      navigator.serviceWorker.addEventListener("message", (event) => {
+        if (event.data.type === "CACHE_UPDATED") {
+          // Reload data if it's a data file that was updated
+          if (
+            event.data.url.includes("data/games.json") ||
+            event.data.url.includes("data/users.json")
+          ) {
+            console.log("Data updated, reloading...");
+            loadGames();
+          }
+        }
+      });
+    });
+  }
+}
+
 // Load games when page loads
 document.addEventListener("DOMContentLoaded", () => {
+  // Register Service Worker first (for intelligent caching)
+  registerServiceWorker();
+
   initDarkMode();
 
   // Set up dark mode toggle button
