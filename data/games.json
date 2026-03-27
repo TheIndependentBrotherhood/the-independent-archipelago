@@ -1646,9 +1646,9 @@
       "url": "https://archipelago.gg/games/DOOM%201993/info/en",
       "description": "Archipelago randomizer for DOOM 1993 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1148329739996643348",
-      "completed": [],
+      "completed": ["a3b6c9d2-5e8f-1a4b-7c0d-1e2f3a4b5c6d"],
       "todo": [],
-      "inProgress": ["a3b6c9d2-5e8f-1a4b-7c0d-1e2f3a4b5c6d"],
+      "inProgress": [],
       "twitchId": "1432406535"
     },
     {
@@ -1863,10 +1863,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Enter_The_Gungeon",
       "description": "Archipelago randomizer for Enter the Gungeon (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1191767250257055785",
-      "completed": [],
+      "completed": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "todo": [],
       "githubUrl": "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases",
-      "inProgress": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
+      "inProgress": [],
       "twitchId": "488632"
     },
     {
