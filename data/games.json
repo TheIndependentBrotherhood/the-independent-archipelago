@@ -765,7 +765,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "inProgress": [],
       "twitchId": "2097043667"
     },
@@ -2724,7 +2724,7 @@
       "description": "Archipelago randomizer for Inscryption (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1356651394320437469",
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "inProgress": [],
       "twitchId": "1147745783"
     },
@@ -2976,7 +2976,7 @@
       "description": "Archipelago randomizer for KINGDOM HEARTS FINAL MIX (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1311061458662199357",
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "inProgress": [],
       "twitchId": "597712627"
     },
@@ -3794,7 +3794,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "inProgress": [],
       "twitchId": "27471"
     },
@@ -4669,7 +4669,7 @@
       "description": "Archipelago randomizer for Powerwash Simulator (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1158367507703410739",
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "githubUrl": "https://github.com/SWCreeperKing/PowerwashSimAP/releases",
       "inProgress": [],
       "twitchId": "519103"
@@ -5067,7 +5067,7 @@
       "description": "Archipelago randomizer for Satisfactory (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1454822629423841442",
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "githubUrl": "https://github.com/Jarno458/SatisfactoryArchipelagoMod/releases",
       "inProgress": [],
       "twitchId": "506456"
@@ -5106,7 +5106,10 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["b1d4e7a0-3c5f-6b8d-9e1a-2f3a4b5c6d7e"],
+      "todo": [
+        "b1d4e7a0-3c5f-6b8d-9e1a-2f3a4b5c6d7e",
+        "f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"
+      ],
       "inProgress": [],
       "twitchId": "1584836809"
     },
@@ -5311,7 +5314,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["f3e6d9c2-1b4a-5c7e-8f0a-1d2e3f4a5b6c"],
       "inProgress": [],
       "twitchId": "516502"
     },
