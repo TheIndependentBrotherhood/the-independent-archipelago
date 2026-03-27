@@ -1357,16 +1357,11 @@ function initializeUserSelector() {
   const selector = document.getElementById("userSelector");
   if (!selector) return;
 
-  // Get all unique users with at least one todo game
-  const usersWithTodos = new Set();
-  allGames.forEach((game) => {
-    game.todo.forEach((userId) => {
-      usersWithTodos.add(userId);
-    });
-  });
+  // Get all users from usersMap
+  const allUserIds = Object.keys(usersMap);
 
   // Sort users by pseudo
-  const sortedUserIds = Array.from(usersWithTodos).sort((a, b) => {
+  const sortedUserIds = allUserIds.sort((a, b) => {
     return (usersMap[a]?.pseudo || "").localeCompare(usersMap[b]?.pseudo || "");
   });
 
