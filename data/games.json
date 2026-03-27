@@ -3780,7 +3780,7 @@
       "description": "Archipelago randomizer for Minit (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1167463223528787998",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/qwint/APMinit/releases",
       "inProgress": [],
       "twitchId": "495610"
@@ -4271,7 +4271,10 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
+      "todo": [
+        "d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e",
+        "c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"
+      ],
       "inProgress": [],
       "twitchId": "1081998272"
     },
@@ -4294,7 +4297,7 @@
       "description": "Archipelago randomizer for Peggle Deluxe (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1470246861557334016",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/SerpentAI/Archipelago/releases?q=\"peggle+deluxe\"&expanded=true",
       "inProgress": [],
       "twitchId": "19973"
@@ -4424,7 +4427,7 @@
       "description": "Archipelago randomizer for Pizza Tower (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1079671816257277972",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/unsafetyskizzers/Archipelago/releases/latest/",
       "inProgress": [],
       "twitchId": "1774510513"
@@ -4463,7 +4466,7 @@
       "description": "Archipelago randomizer for Plateup! (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1159168584505901106",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/CazIsABoi/Archipelago/releases",
       "inProgress": [],
       "twitchId": "1115711128"
@@ -4747,7 +4750,7 @@
       "description": "Archipelago randomizer for R.E.P.O. (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1345146101094678639",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases",
       "inProgress": [],
       "twitchId": "1294658629"
@@ -5415,7 +5418,7 @@
       "description": "Archipelago randomizer for Slime Rancher (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1108426937409486909",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/SWCreeperKing/Slimipelago/releases",
       "inProgress": [],
       "twitchId": "491177"
@@ -6085,7 +6088,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "inProgress": [],
       "twitchId": "504059"
     },
@@ -6489,7 +6492,7 @@
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "inProgress": [],
       "twitchId": "1311010677"
     },
@@ -6603,7 +6606,7 @@
       "url": "https://archipelago.miraheze.org/wiki/TOEM:_A_Photo_Adventure",
       "discordUrl": "https://discord.com/channels/731205301247803413/1255989734497587241",
       "completed": [],
-      "todo": [],
+      "todo": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
       "githubUrl": "https://github.com/bbernardoni/Archipelago.TOEM/releases",
       "inProgress": [],
       "twitchId": "1746925300"
