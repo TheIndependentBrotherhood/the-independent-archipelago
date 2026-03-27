@@ -1207,10 +1207,9 @@ function toggleSelectionMode() {
     updateGameCardsForSelectionMode();
     updateSelectedCountDisplay();
 
-    // Reset the pseudo input and info
-    const pseudoInput = document.getElementById("pseudoInputInline");
-
-    if (pseudoInput) pseudoInput.value = "";
+    // Reset the user selector
+    const userSelector = document.getElementById("userSelector");
+    if (userSelector) userSelector.value = "";
     selectedUserId = null;
   }
 }
@@ -1296,21 +1295,15 @@ function deselectAllGamesInGrid() {
 }
 
 function exportSelectionAsJson() {
-  // If a user was selected, use their ID; otherwise generate UUID for new user
+  // If a user was selected, use their ID; otherwise can't export
   let userId = null;
-  let pseudoForFilename = document
-    .getElementById("pseudoInputInline")
-    .value.trim();
+  let pseudoForFilename = null;
 
   if (selectedUserId && usersMap[selectedUserId]) {
     userId = selectedUserId; // Use existing user ID
     pseudoForFilename = usersMap[selectedUserId].pseudo;
   } else {
-    userId = generateUUIDv4(); // Generate UUID for new user
-  }
-
-  if (!pseudoForFilename) {
-    alert("Please enter your pseudo");
+    alert("Please select a player from the dropdown");
     return;
   }
 
@@ -1320,7 +1313,7 @@ function exportSelectionAsJson() {
   }
 
   const todoListData = {
-    id: userId, // Only the ID (existing or newly generated)
+    id: userId,
     gameIds: Array.from(selectedGamesForTodoList),
   };
 
@@ -1329,7 +1322,7 @@ function exportSelectionAsJson() {
   const url = URL.createObjectURL(dataBlob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = `${pseudoForFilename}_todo_list.json`; // Nom de fichier lisible
+  link.download = `${pseudoForFilename}_todo_list.json`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
