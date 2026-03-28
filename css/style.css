@@ -674,7 +674,7 @@ header p {
   gap: 8px;
   justify-content: center;
   position: relative;
-  z-index: 2;
+  z-index: 6;
 }
 
 .btn-icon {
