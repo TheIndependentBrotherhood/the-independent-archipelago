@@ -904,7 +904,7 @@ footer {
 
 .selector-count {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--text-color);
   background-color: var(--primary-color);
   padding: 4px 8px;
   border-radius: 12px;
