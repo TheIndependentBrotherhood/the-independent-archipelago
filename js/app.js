@@ -1,56 +1,3 @@
-// Dark mode management
-function initDarkMode() {
-  // Check if user has a stored preference
-  const storedTheme = localStorage.getItem("theme");
-  const prefersDark = globalThis.matchMedia(
-    "(prefers-color-scheme: dark)",
-  ).matches;
-
-  // Set theme based on stored preference or system preference
-  if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
-    document.documentElement.classList.add("dark-mode");
-    updateDarkModeIcon();
-  }
-
-  // Listen for system theme changes
-  globalThis
-    .matchMedia("(prefers-color-scheme: dark)")
-    .addEventListener("change", (e) => {
-      if (!localStorage.getItem("theme")) {
-        if (e.matches) {
-          document.documentElement.classList.add("dark-mode");
-        } else {
-          document.documentElement.classList.remove("dark-mode");
-        }
-        updateDarkModeIcon();
-      }
-    });
-}
-
-function toggleDarkMode() {
-  document.documentElement.classList.toggle("dark-mode");
-  const isDarkMode = document.documentElement.classList.contains("dark-mode");
-  localStorage.setItem("theme", isDarkMode ? "dark" : "light");
-  updateDarkModeIcon();
-}
-
-function updateDarkModeIcon() {
-  const button = document.getElementById("darkModeToggle");
-  const isDarkMode = document.documentElement.classList.contains("dark-mode");
-  if (button) {
-    const icon = button.querySelector("i");
-    if (isDarkMode) {
-      icon.classList.remove("fa-moon");
-      icon.classList.add("fa-sun");
-      button.title = "Switch to light mode";
-    } else {
-      icon.classList.remove("fa-sun");
-      icon.classList.add("fa-moon");
-      button.title = "Switch to dark mode";
-    }
-  }
-}
-
 // Load games data and render
 let usersMap = {};
 let allGames = [];
@@ -707,40 +654,23 @@ function spinWheelForUser(userId, games) {
     const segmentCount = userTodoGames.length;
     const segmentAngle = (Math.PI * 2) / segmentCount;
 
-    const isDarkMode = document.documentElement.classList.contains("dark-mode");
+    // Colors for segments - using badge colors (dark mode)
+    const colors = [
+      "#3a3a1a", // todo-bg dark
+      "#1a2a3a", // inprogress-bg dark
+      "#1a3a1a", // completed-bg dark
+      "#3a1a1a", // error-like
+      "#2a1a3a", // purple-like
+      "#1a3a3a", // teal-like
+      "#3a2a1a", // orange-like
+      "#3a3a1a", // yellow-like
+      "#2a2a3a", // blue-like
+      "#3a2a2a", // brown-like
+      "#2a3a2a", // green-like
+      "#3a3a2a", // gold-like
+    ];
 
-    // Colors for segments - using badge colors (adjusted for dark mode)
-    const colors = isDarkMode
-      ? [
-          "#3a3a1a", // todo-bg dark
-          "#1a2a3a", // inprogress-bg dark
-          "#1a3a1a", // completed-bg dark
-          "#3a1a1a", // error-like
-          "#2a1a3a", // purple-like
-          "#1a3a3a", // teal-like
-          "#3a2a1a", // orange-like
-          "#3a3a1a", // yellow-like
-          "#2a2a3a", // blue-like
-          "#3a2a2a", // brown-like
-          "#2a3a2a", // green-like
-          "#3a3a2a", // gold-like
-        ]
-      : [
-          "#fff3cd", // Yellow
-          "#cfe2ff", // Blue
-          "#d4edda", // Green
-          "#f8d7da", // Red/Pink
-          "#e7d4f5", // Violet
-          "#d1ecf1", // Cyan
-          "#ffe4c4", // Bisque/Orange
-          "#f0e68c", // Khaki
-          "#ffcccc", // Light Pink
-          "#ccf0ff", // Light Blue
-          "#e0ffe0", // Light Green
-          "#fffacd", // Light Yellow
-        ];
-
-    const borderColor = isDarkMode ? "#666" : "#333";
+    const borderColor = "#666";
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -1075,7 +1005,7 @@ function updateLastUpdated() {
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 if (scrollTopBtn) {
   scrollTopBtn.addEventListener("click", () => {
-    globalThis.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
 
@@ -1084,44 +1014,58 @@ if (scrollTopBtn) {
  */
 function registerServiceWorker() {
   if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker
-        .register("service-worker.js")
-        .then((registration) => {
-          console.log("Service Worker registered successfully:", registration);
+    // Check if we're in private browsing mode where SW might be blocked
+    navigator.serviceWorker
+      .getRegistrations()
+      .then((registrations) => {
+        if (registrations.length === 0) {
+          navigator.serviceWorker
+            .register("service-worker.js")
+            .then((registration) => {
+              console.log(
+                "Service Worker registered successfully:",
+                registration,
+              );
 
-          // Listen for cache updates
-          if (navigator.serviceWorker.controller) {
-            navigator.serviceWorker.controller.postMessage({
-              type: "CHECK_UPDATE",
+              // Listen for cache updates
+              if (navigator.serviceWorker.controller) {
+                navigator.serviceWorker.controller.postMessage({
+                  type: "CHECK_UPDATE",
+                });
+              }
+
+              // Check for updates periodically (every 1 hour)
+              setInterval(
+                () => {
+                  registration.update();
+                },
+                60 * 60 * 1000,
+              );
+            })
+            .catch((error) => {
+              console.warn(
+                "Service Worker registration failed (this is normal in private browsing):",
+                error.message,
+              );
             });
-          }
-
-          // Check for updates periodically (every 1 hour)
-          setInterval(
-            () => {
-              registration.update();
-            },
-            60 * 60 * 1000,
-          );
-        })
-        .catch((error) => {
-          console.log("Service Worker registration failed:", error);
-        });
-
-      // Listen for messages from Service Worker
-      navigator.serviceWorker.addEventListener("message", (event) => {
-        if (event.data.type === "CACHE_UPDATED") {
-          // Reload data if it's a data file that was updated
-          if (
-            event.data.url.includes("data/games.json") ||
-            event.data.url.includes("data/users.json")
-          ) {
-            console.log("Data updated, reloading...");
-            loadGames();
-          }
         }
+      })
+      .catch((error) => {
+        console.warn("Service Worker detection failed:", error.message);
       });
+
+    // Listen for messages from Service Worker
+    navigator.serviceWorker.addEventListener("message", (event) => {
+      if (event.data.type === "CACHE_UPDATED") {
+        // Reload data if it's a data file that was updated
+        if (
+          event.data.url.includes("data/games.json") ||
+          event.data.url.includes("data/users.json")
+        ) {
+          console.log("Data updated, reloading...");
+          loadGames();
+        }
+      }
     });
   }
 }
@@ -1130,14 +1074,6 @@ function registerServiceWorker() {
 document.addEventListener("DOMContentLoaded", async () => {
   // Register Service Worker first (for intelligent caching)
   registerServiceWorker();
-
-  initDarkMode();
-
-  // Set up dark mode toggle button
-  const darkModeToggle = document.getElementById("darkModeToggle");
-  if (darkModeToggle) {
-    darkModeToggle.addEventListener("click", toggleDarkMode);
-  }
 
   // Set up selection mode button
   const selectionModeBtn = document.getElementById("selectionModeBtn");

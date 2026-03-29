@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Independent Archipelago</title>
+    <meta name="color-scheme" content="dark" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <!-- FontAwesome with fallback -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      onerror="this.onerror=null; this.href='https://kit.fontawesome.com/releases/v6.4.0/css/all.css'"
     />
+    <!-- Tom Select with fallback -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.bootstrap5.min.css"
+      onerror="console.warn('Tom Select CSS failed to load, using fallback styling')"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>

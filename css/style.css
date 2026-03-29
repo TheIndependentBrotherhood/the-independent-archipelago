@@ -1,38 +1,5 @@
 :root {
   --primary-color: #ba5300;
-  --secondary-color: #d4b728;
-  --accent-color: #e8a835;
-  --text-color: #1a1a1a;
-  --bg-color: #f5f5f5;
-  --card-bg: #ffffff;
-  --border-color: #e0e0e0;
-  --overlay-light: rgba(255, 255, 255, 0.75);
-  --overlay-light-more: rgba(255, 255, 255, 0.65);
-  --btn-bg: #f0f0f0;
-  --btn-bg-hover: #e8e8e8;
-  --text-muted: #999;
-  --text-error: #d32f2f;
-  --text-secondary: #666;
-  /* Badge colors */
-  --todo-bg: #fff3cd;
-  --todo-border: #ffc107;
-  --todo-text: #856404;
-  --inprogress-bg: #cfe2ff;
-  --inprogress-border: #0d6efd;
-  --inprogress-text: #084298;
-  --completed-bg: #d4edda;
-  --completed-border: #28a745;
-  --completed-text: #155724;
-  /* Filter colors */
-  --filter-bg: #f0f0f0;
-  --filter-bg-hover: #e8e8e8;
-  --filter-active-bg: #e8a835;
-  --filter-active-border: #ba5300;
-}
-
-/* Dark mode theme */
-:root.dark-mode {
-  --primary-color: #ba5300;
   --secondary-color: #ba5300;
   --accent-color: #e8a835;
   --text-color: #e0e0e0;
@@ -46,7 +13,7 @@
   --text-muted: #999;
   --text-error: #ff6b6b;
   --text-secondary: #aaa;
-  /* Badge colors for dark mode */
+  /* Badge colors */
   --todo-bg: #3a3a1a;
   --todo-border: #d4a023;
   --todo-text: #ffc107;
@@ -56,7 +23,7 @@
   --completed-bg: #1a3a1a;
   --completed-border: #4ade80;
   --completed-text: #6ee67e;
-  /* Filter colors for dark mode */
+  /* Filter colors */
   --filter-bg: #2a2a2a;
   --filter-bg-hover: #3a3a3a;
   --filter-active-bg: #e8a835;
@@ -209,10 +176,17 @@ header {
   padding: 0 20px;
   position: relative;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .header-logo-text {
-  display: contents;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
 }
 
 .header-logo {
@@ -301,21 +275,36 @@ header p {
   background-color: #1e1e1e;
   color: var(--text-color);
   transition: all 0.2s ease;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
 }
 
 .search-input::placeholder {
   color: #999;
+  opacity: 1;
 }
 
 .search-input:hover {
   border-color: #505050;
   box-shadow: 0 0 8px rgba(232, 168, 53, 0.1);
+  background-color: #232323;
 }
 
 .search-input:focus {
   outline: none;
   border-color: var(--accent-color);
   box-shadow: 0 0 12px rgba(232, 168, 53, 0.3);
+  background-color: #1e1e1e;
+}
+
+/* Ensure dark mode for form inputs */
+input[type="text"],
+input[type="search"],
+select {
+  background-color: #1e1e1e !important;
+  color: var(--text-color) !important;
+  border-color: #404040 !important;
 }
 
 .filter-section {
@@ -1373,7 +1362,6 @@ footer {
   opacity: 0;
   transition: opacity 0.2s ease;
   z-index: 5;
-  backdrop-filter: blur(2px);
 }
 
 .game-card.selection-mode-active:hover .game-card-selection-overlay {
