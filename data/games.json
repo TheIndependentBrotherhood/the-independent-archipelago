@@ -2386,9 +2386,9 @@
       "description": "Archipelago randomizer for Guild Wars 2 (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1247738360160587787",
       "completed": [],
-      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
+      "todo": [],
       "githubUrl": "https://github.com/Feldar99/Archipelago/releases",
-      "inProgress": [],
+      "inProgress": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "twitchId": "19357"
     },
     {
