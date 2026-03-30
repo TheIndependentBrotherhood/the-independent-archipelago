@@ -3767,7 +3767,7 @@
       "description": "Archipelago randomizer for Minishoot' Adventures (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1307687662798508113",
       "completed": [],
-      "todo": [],
+      "todo": ["d9a2c5f8-0e1b-4d6a-7c9e-1f2a3b4c5d6e"],
       "githubUrl": "https://github.com/TheNooodle/MinishootRandomizer/releases",
       "inProgress": [],
       "twitchId": "1796335055"
