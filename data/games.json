@@ -1546,8 +1546,8 @@
       "description": "Archipelago randomizer for DLC Quest (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1109178880838868992",
       "completed": [],
-      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
-      "inProgress": [],
+      "todo": [],
+      "inProgress": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "twitchId": "33096"
     },
     {
