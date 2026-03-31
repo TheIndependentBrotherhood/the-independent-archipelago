@@ -4983,9 +4983,9 @@
       "description": "Archipelago randomizer for Risk of Rain (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
       "completed": [],
-      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
+      "todo": [],
       "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
-      "inProgress": [],
+      "inProgress": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
       "twitchId": "263489"
     },
     {
