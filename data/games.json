@@ -3,7 +3,7 @@
     {
       "id": "2048",
       "name": "2048",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/2048",
       "description": "Archipelago randomizer for 2048",
       "githubUrl": "https://github.com/Ishigh1/Archipelago/blob/2048/worlds/2048/docs/setup_en.md",
@@ -17,7 +17,7 @@
     {
       "id": "8doors-arums-afterlife-adventure",
       "name": "8Doors: Arum's Afterlife Adventure",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/8Doors",
       "description": "Archipelago randomizer for 8Doors: Arum's Afterlife Adventure",
       "githubUrl": "https://github.com/Xtruh/Arum-s-Eight-Doors-Archipelago-Randomizer",
@@ -85,7 +85,7 @@
     {
       "id": "a-robot-named-fight",
       "name": "A Robot Named Fight!",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for A Robot Named Fight!",
       "githubUrl": "https://github.com/BetaSprite/ARNFArchipelago/blob/main/worlds/ARNF/docs/setup_en.md",
@@ -111,7 +111,7 @@
     {
       "id": "a-space-archipelago",
       "name": "A Space Archipelago",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/A_Space_Archipelago",
       "description": "Archipelago randomizer for A Space Archipelago",
       "githubUrl": null,
@@ -181,7 +181,7 @@
     {
       "id": "age-of-empires-iv",
       "name": "Age of Empires IV",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Age_of_Empires_IV",
       "description": "Archipelago randomizer for Age of Empires IV",
       "githubUrl": "https://github.com/skilliard/AOE4-Archipelago/blob/main/README.md",
@@ -195,7 +195,7 @@
     {
       "id": "age-of-mythology-retold",
       "name": "Age of Mythology: Retold",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Age_Of_Mythology_Retold",
       "description": "Archipelago randomizer for Age of Mythology: Retold",
       "githubUrl": "https://github.com/1-800-thewolf/AoM-Archipelago",
@@ -237,7 +237,7 @@
     {
       "id": "angband",
       "name": "Angband",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Angband",
       "description": "Archipelago randomizer for Angband",
       "githubUrl": "https://github.com/zane31415/APangband/blob/master/angband/docs/setup_en.md",
@@ -251,7 +251,7 @@
     {
       "id": "animal-crossing-wild-world",
       "name": "Animal Crossing: Wild World",
-      "platform": "",
+      "platform": "NDS",
       "url": null,
       "description": "Archipelago randomizer for Animal Crossing: Wild World",
       "githubUrl": "https://github.com/MikeFritzDevelops/ACWW-Archipelago/blob/main/acww/docs/setup_en.md",
@@ -279,7 +279,7 @@
     {
       "id": "anno-1800",
       "name": "Anno 1800",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Anno_1800",
       "description": "Archipelago randomizer for Anno 1800",
       "githubUrl": "https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v1.3.0/worlds/a1800/docs/en_Anno%201800.md",
@@ -321,7 +321,7 @@
     {
       "id": "antonblast",
       "name": "ANTONBLAST",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Antonblast",
       "description": "Archipelago randomizer for ANTONBLAST",
       "githubUrl": "https://github.com/ishaeromax/AP-Antonblast-Client/blob/main/README.md",
@@ -348,7 +348,7 @@
     {
       "id": "ap-rummy",
       "name": "AP Rummy",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/AP-Rummy",
       "description": "Archipelago randomizer for AP Rummy",
       "githubUrl": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/RUMMY/worlds/rummy/docs/setup_en.md",
@@ -402,7 +402,7 @@
     {
       "id": "ape-escape-2",
       "name": "Ape Escape 2",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Ape_Escape_2",
       "description": "Archipelago randomizer for Ape Escape 2",
       "githubUrl": "https://github.com/dannybonz/ae2_archipelago/blob/main/docs/setup.md",
@@ -483,7 +483,7 @@
     {
       "id": "archipelaballs",
       "name": "Archipelaballs",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Archipelaballs",
       "description": "Archipelago randomizer for Archipelaballs",
       "githubUrl": null,
@@ -538,7 +538,7 @@
     {
       "id": "ark-survival-evolved",
       "name": "Ark: Survival Evolved",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/ARK_Survival_Evolved",
       "description": "Archipelago randomizer for Ark: Survival Evolved",
       "githubUrl": "https://github.com/Jbaker16163/Ark-Survival-Archipelago/blob/main/docs/GETTING_STARTED.md",
@@ -552,7 +552,7 @@
     {
       "id": "arkham-horror-the-card-game",
       "name": "Arkham Horror The Card Game",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Arkham_Horror_The_Card_Game",
       "description": "Archipelago randomizer for Arkham Horror The Card Game",
       "githubUrl": "https://github.com/Totox00/ap-ahlcg/blob/master/README.md",
@@ -693,7 +693,7 @@
     {
       "id": "baldurs-gate-3-trials-of-tav",
       "name": "Baldur's Gate 3 - Trials of Tav",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Baldur%27s_Gate_3_-_ToT",
       "description": "Archipelago randomizer for Baldur's Gate 3 - Trials of Tav",
       "githubUrl": "https://github.com/Zoltun456/Archipelago-BG3-ToT?tab=readme-ov-file",
@@ -734,7 +734,7 @@
     {
       "id": "bat-to-the-heavens",
       "name": "Bat to the Heavens",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Bat_to_the_Heavens",
       "description": "Archipelago randomizer for Bat to the Heavens",
       "githubUrl": "https://github.com/NathanW001/BTTHArchipelago/blob/main/README.md",
@@ -748,7 +748,7 @@
     {
       "id": "bayonetta",
       "name": "Bayonetta",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Bayonetta",
       "description": "Archipelago randomizer for Bayonetta",
       "githubUrl": "https://github.com/Boi-027/BayonettaArchipelago/blob/main/README.md",
@@ -872,7 +872,7 @@
     {
       "id": "bloons-tower-defense-6",
       "name": "Bloons Tower Defense 6",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Bloons_TD6",
       "description": "Archipelago randomizer for Bloons Tower Defense 6",
       "githubUrl": "https://github.com/Matt41321/BloonsArchipelago?tab=readme-ov-file",
@@ -886,7 +886,7 @@
     {
       "id": "blue-fire",
       "name": "Blue Fire",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Blue_Fire",
       "description": "Archipelago randomizer for Blue Fire",
       "githubUrl": "https://github.com/Nebulea-dev/Archipelago-BlueFire/blob/main/worlds/bluefire/docs/setup_en.md",
@@ -1009,7 +1009,7 @@
     {
       "id": "borderlands-the-pre-sequel",
       "name": "Borderlands The Pre-Sequel",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Borderlands_The_Pre-Sequel",
       "description": "Archipelago randomizer for Borderlands The Pre-Sequel",
       "githubUrl": "https://github.com/Adaptor-Face/Bouncy-Loot-God/blob/main/README.md",
@@ -1053,7 +1053,7 @@
     {
       "id": "brutal-orchestra",
       "name": "Brutal Orchestra",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Brutal_Orchestra",
       "description": "Archipelago randomizer for Brutal Orchestra",
       "githubUrl": "https://github.com/DeadEyeDv/Brutal-Orchestra-Archipelago/blob/main/README.md",
@@ -1081,7 +1081,7 @@
     {
       "id": "bugs-bunny-lost-in-time",
       "name": "Bugs Bunny Lost in Time",
-      "platform": "",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Bugs_Bunny_Lost_in_Time",
       "description": "Archipelago randomizer for Bugs Bunny Lost in Time",
       "githubUrl": "https://github.com/SynthKat67/BugsBunnylitAPWorld/tree/main",
@@ -1095,7 +1095,7 @@
     {
       "id": "bugsnax",
       "name": "Bugsnax",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Bugsnax",
       "description": "Archipelago randomizer for Bugsnax",
       "githubUrl": "https://github.com/robofett28/bugsnax_ap_world",
@@ -1109,7 +1109,7 @@
     {
       "id": "build-a-jetpack",
       "name": "Build a Jetpack",
-      "platform": "",
+      "platform": "PICO-8",
       "url": "https://archipelago.miraheze.org/wiki/Build_a_Jetpack",
       "description": "Archipelago randomizer for Build a Jetpack",
       "githubUrl": "https://github.com/NyanMC/build-a-jetpack/blob/main/apworld/docs/setup_en.md",
@@ -1135,7 +1135,7 @@
     {
       "id": "burger-shop",
       "name": "Burger Shop",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Burger_Shop",
       "description": "Archipelago randomizer for Burger Shop",
       "githubUrl": "https://github.com/zsiegel701/Burger-Shop-Archipelago/blob/burger-shop/worlds/burger_shop/docs/setup_en.md",
@@ -1149,7 +1149,7 @@
     {
       "id": "burger-shop-2",
       "name": "Burger Shop 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Burger_Shop_2",
       "description": "Archipelago randomizer for Burger Shop 2",
       "githubUrl": "https://github.com/zsiegel701/Burger-Shop-Archipelago/blob/burger-shop/worlds/burger_shop/docs/setup_en.md",
@@ -1177,7 +1177,7 @@
     {
       "id": "call-of-duty-black-ops-3-zombies",
       "name": "Call of Duty: Black Ops 3 - Zombies",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Call of Duty: Black Ops 3 - Zombies",
       "githubUrl": "https://github.com/colin969/bo3_archipelago?tab=readme-ov-file",
@@ -1205,7 +1205,7 @@
     {
       "id": "cartograp",
       "name": "CartogrAP",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/CartogrAP",
       "description": "Archipelago randomizer for CartogrAP",
       "githubUrl": null,
@@ -1263,7 +1263,7 @@
     {
       "id": "castlevania-aria-of-sorrow",
       "name": "Castlevania: Aria of Sorrow",
-      "platform": "",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Castlevania_-_Aria_of_Sorrow",
       "description": "Archipelago randomizer for Castlevania: Aria of Sorrow",
       "githubUrl": null,
@@ -1331,7 +1331,7 @@
     {
       "id": "castlevania-portrait-of-ruin",
       "name": "Castlevania: Portrait of Ruin",
-      "platform": "",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Castlevania:_Portrait_of_Ruin",
       "description": "Archipelago randomizer for Castlevania: Portrait of Ruin",
       "githubUrl": "https://github.com/PinkSwitch/Archipelago/blob/portrait-of-ruin/worlds/cv_por/docs/setup_en.md",
@@ -1511,7 +1511,7 @@
     {
       "id": "chests-n-keys",
       "name": "Chests 'n' Keys",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Chests_%27n%27_Keys",
       "description": "Archipelago randomizer for Chests 'n' Keys",
       "githubUrl": null,
@@ -1525,7 +1525,7 @@
     {
       "id": "chibi-robo-plug-into-adventure",
       "name": "Chibi Robo! Plug into Adventure",
-      "platform": "",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Chibi_Robo",
       "description": "Archipelago randomizer for Chibi Robo! Plug into Adventure",
       "githubUrl": "https://github.com/EverydaySimpleDev/Archipelago/blob/chibi-robo/worlds/chibi_robo/docs/guide_en.md",
@@ -1579,7 +1579,7 @@
     {
       "id": "civilization-iv",
       "name": "Civilization IV",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Civilization_IV",
       "description": "Archipelago randomizer for Civilization IV",
       "githubUrl": "https://github.com/VincentBorchardt/Civ4-Archipelago-Mod/releases/tag/Alpha",
@@ -1677,7 +1677,7 @@
     {
       "id": "command-conquer-mental-omega",
       "name": "Command & Conquer: Mental Omega",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Command & Conquer: Mental Omega",
       "githubUrl": "https://github.com/Heinki/Mental-Omega-Randomizer/blob/main/Archipelago/SETUP.md",
@@ -1719,7 +1719,7 @@
     {
       "id": "content-warning",
       "name": "Content Warning",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Content_Warning",
       "description": "Archipelago randomizer for Content Warning",
       "githubUrl": "https://github.com/Jakeodude/cw-archipelago-mod/blob/main/THUNDERSTORE_README.md",
@@ -1733,7 +1733,7 @@
     {
       "id": "control-ultimate-edition",
       "name": "Control (Ultimate Edition)",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Control",
       "description": "Archipelago randomizer for Control (Ultimate Edition)",
       "githubUrl": "https://github.com/Alias-Cynestal/Archipelago/blob/main/worlds/control/docs/en_control.md",
@@ -1769,19 +1769,6 @@
       "todo": [],
       "githubUrl": "https://github.com/Cyb3RGER/cornkidz64_apworld/releases",
       "inProgress": [],
-      "twitchId": "2129977582"
-    },
-    {
-      "id": "cornkidz64",
-      "name": "CornKidz64",
-      "platform": "",
-      "url": null,
-      "description": "Archipelago randomizer for CornKidz64",
-      "githubUrl": "https://github.com/Cyb3RGER/cornkidz64_apworld/blob/main/docs/setup_en.md",
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
       "twitchId": "2129977582",
       "stability": "Stable"
     },
@@ -1802,7 +1789,7 @@
     {
       "id": "cowtastic-cafe",
       "name": "Cowtastic Cafe",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cowtastic_Cafe",
       "description": "Archipelago randomizer for Cowtastic Cafe",
       "githubUrl": "https://github.com/zane31415/APCowtasticCafe/blob/main/README.md",
@@ -1816,7 +1803,7 @@
     {
       "id": "crab-champions",
       "name": "Crab Champions",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Crab_Champions",
       "description": "Archipelago randomizer for Crab Champions",
       "githubUrl": "https://github.com/Str8UpWHITE64/CrabChampionsAP/blob/master/README.md",
@@ -1830,7 +1817,7 @@
     {
       "id": "crash-bandicoot-2-cortex-strikes-back",
       "name": "Crash Bandicoot 2: Cortex Strikes Back",
-      "platform": "",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Crash2",
       "description": "Archipelago randomizer for Crash Bandicoot 2: Cortex Strikes Back",
       "githubUrl": "https://github.com/Sim10XXX/C2AP/blob/master/README.md",
@@ -1844,7 +1831,7 @@
     {
       "id": "crash-bash",
       "name": "Crash Bash",
-      "platform": "",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Crash_Bash",
       "description": "Archipelago randomizer for Crash Bash",
       "githubUrl": "https://github.com/JustinMarshall98/Crash-Bash-PSX-Archipelago/blob/main/setup_en.md",
@@ -1858,7 +1845,7 @@
     {
       "id": "crash-team-racing",
       "name": "Crash Team Racing",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Crash_Team_Racing",
       "description": "Archipelago randomizer for Crash Team Racing",
       "githubUrl": "https://github.com/dowlle/ctr-native-ap/blob/main/README.md",
@@ -1912,7 +1899,7 @@
     {
       "id": "crosswords",
       "name": "Crosswords",
-      "platform": "",
+      "platform": "Web",
       "url": null,
       "description": "Archipelago randomizer for Crosswords",
       "githubUrl": "https://github.com/jm771/ap_crossword",
@@ -1982,7 +1969,7 @@
     {
       "id": "cursed-mario-64",
       "name": "Cursed Mario 64",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cursed_Mario_64",
       "description": "Archipelago randomizer for Cursed Mario 64",
       "githubUrl": "https://github.com/IncidiousJacob/Cursed-Mario-64/blob/archipelago/README.md",
@@ -1996,7 +1983,7 @@
     {
       "id": "cursed-words-the-word-game-that-isnt",
       "name": "Cursed Words: The Word Game That Isn't",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cursed_Words",
       "description": "Archipelago randomizer for Cursed Words: The Word Game That Isn't",
       "githubUrl": "https://github.com/JammyGeeza/CursedWords-Archipelago",
@@ -2024,7 +2011,7 @@
     {
       "id": "cyber-hook",
       "name": "Cyber Hook",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Cyber_Hook",
       "description": "Archipelago randomizer for Cyber Hook",
       "githubUrl": "https://github.com/Hyonk-Tea/CyberHookAP/blob/main/setup_en.md",
@@ -2203,7 +2190,7 @@
     {
       "id": "deathbulge-battle-of-the-bands",
       "name": "Deathbulge Battle of the Bands",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Deathbulge Battle of the Bands",
       "githubUrl": "https://github.com/neverhelios/DeathbulgeArchipelago/blob/main/README.md",
@@ -2334,7 +2321,7 @@
     {
       "id": "divinity-original-sin-2",
       "name": "Divinity: Original Sin 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Divinity_Original_Sin_2",
       "description": "Archipelago randomizer for Divinity: Original Sin 2",
       "githubUrl": "https://github.com/Intaiachi/ArchipelagoDOS2/blob/main/worlds/dos2/docs/steup_en.md",
@@ -2458,7 +2445,7 @@
     {
       "id": "donkey-kong-country-returns",
       "name": "Donkey Kong Country Returns",
-      "platform": "",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Donkey_Kong_Country_Returns",
       "description": "Archipelago randomizer for Donkey Kong Country Returns",
       "githubUrl": "https://github.com/CallmeZewo/DKCR_APWorld/blob/main/worlds/donkey_kong_country_returns/docs/guide_en.md",
@@ -2472,7 +2459,7 @@
     {
       "id": "donkey-kong-toluca-dkc3",
       "name": "Donkey Kong Toluca (DKC3)",
-      "platform": "",
+      "platform": "SNES",
       "url": "https://archipelago.miraheze.org/wiki/Donkey_Kong_Toluca",
       "description": "Archipelago randomizer for Donkey Kong Toluca (DKC3)",
       "githubUrl": "https://thelx5.github.io/dkc3/setup.html",
@@ -2500,7 +2487,7 @@
     {
       "id": "doom-404",
       "name": "Doom 404",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Doom 404",
       "githubUrl": null,
@@ -2508,7 +2495,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "15389",
+      "twitchId": "584",
       "stability": "Unstable"
     },
     {
@@ -2528,7 +2515,7 @@
     {
       "id": "door-to-door-door-salesman",
       "name": "Door to Door Door Salesman",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Door_to_Door_Door_Salesman",
       "description": "Archipelago randomizer for Door to Door Door Salesman",
       "githubUrl": "https://github.com/TheOmnipresence/DoorSalesmanAPWorld/blob/main/docs/setup_en.md",
@@ -2570,7 +2557,7 @@
     {
       "id": "dragon-ball-z-budokai-3",
       "name": "Dragon Ball Z: Budokai 3",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Dragon_Ball_Z_Budokai_3",
       "description": "Archipelago randomizer for Dragon Ball Z: Budokai 3",
       "githubUrl": "https://github.com/z3xox/Budokai3AP",
@@ -2584,7 +2571,7 @@
     {
       "id": "dragon-ball-z-budokai-tenkaichi-2",
       "name": "Dragon Ball Z: Budokai Tenkaichi 2",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Dragon_Ball_Z_Budokai_Tenkaichi_2",
       "description": "Archipelago randomizer for Dragon Ball Z: Budokai Tenkaichi 2",
       "githubUrl": "https://github.com/z3xox/Tenkaichi2AP",
@@ -2598,7 +2585,7 @@
     {
       "id": "dragon-quest-2",
       "name": "Dragon Quest 2",
-      "platform": "",
+      "platform": "NES",
       "url": "https://archipelago.miraheze.org/wiki/DQ2",
       "description": "Archipelago randomizer for Dragon Quest 2",
       "githubUrl": null,
@@ -2612,7 +2599,7 @@
     {
       "id": "dragon-quest-ix",
       "name": "Dragon Quest IX",
-      "platform": "",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Dragon_Quest_IX",
       "description": "Archipelago randomizer for Dragon Quest IX",
       "githubUrl": null,
@@ -2668,7 +2655,7 @@
     {
       "id": "drehmal-apotheosis-minecraft-map",
       "name": "Drehmal APOTHEOSIS (Minecraft Map)",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Drehmal APOTHEOSIS (Minecraft Map)",
       "githubUrl": "https://github.com/threecrowsinatrenchcrowt/DrehmalAPWorld/releases/tag/v0.2.1-beta",
@@ -2739,7 +2726,7 @@
     {
       "id": "dwarf-fortress",
       "name": "Dwarf Fortress",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Dwarf_Fortress",
       "description": "Archipelago randomizer for Dwarf Fortress",
       "githubUrl": "https://github.com/EthanTheBrave/Dwarfipelago/blob/master/worlds/dwarf_fortress/docs/setup_en.md",
@@ -2795,7 +2782,7 @@
     {
       "id": "elden-ring-greenfield",
       "name": "Elden Ring — Greenfield",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Elden_Ring",
       "description": "Archipelago randomizer for Elden Ring — Greenfield",
       "githubUrl": "https://github.com/4laric/er-archipelago/blob/main/release-v0.2/SETUP.md",
@@ -2851,7 +2838,7 @@
     {
       "id": "ender-magnolia-bloom-in-the-mist",
       "name": "Ender Magnolia: Bloom In The Mist",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Ender Magnolia: Bloom In The Mist",
       "githubUrl": "https://github.com/Trexounay/EnderMagnolia.Randomizer/releases",
@@ -2951,7 +2938,7 @@
     {
       "id": "factorio-platformer",
       "name": "Factorio Platformer",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Factorio:_Platformer",
       "description": "Archipelago randomizer for Factorio Platformer",
       "githubUrl": null,
@@ -3007,7 +2994,7 @@
     {
       "id": "fantastic-fist",
       "name": "Fantastic Fist",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Fantastic_Fist",
       "description": "Archipelago randomizer for Fantastic Fist",
       "githubUrl": "https://github.com/DannySchultzDev/Fantastic-Fist-Archipelago-Client/blob/main/README.md",
@@ -3033,7 +3020,7 @@
     {
       "id": "feeding-frenzy-2",
       "name": "Feeding Frenzy 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Feeding_Frenzy_2",
       "description": "Archipelago randomizer for Feeding Frenzy 2",
       "githubUrl": "https://github.com/barretg/feeding-frenzy-2-archipelago",
@@ -3203,7 +3190,7 @@
     {
       "id": "final-fantasy-vii",
       "name": "Final Fantasy VII",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_VII",
       "description": "Archipelago randomizer for Final Fantasy VII",
       "githubUrl": "https://github.com/blazerwazey/FF7pelago/blob/main/worlds/ff7/docs/multiworld_en.md",
@@ -3272,7 +3259,7 @@
     {
       "id": "final-fantasy-xiii-2",
       "name": "Final Fantasy XIII-2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_XIII-2",
       "description": "Archipelago randomizer for Final Fantasy XIII-2",
       "githubUrl": "https://github.com/MLSTRM/ArchipelagoFF132/blob/ff132/worlds/ff132/docs/guide_en.md",
@@ -3329,7 +3316,7 @@
     {
       "id": "forager",
       "name": "Forager",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Forager",
       "description": "Archipelago randomizer for Forager",
       "githubUrl": "https://github.com/olixx12/Foragipelago/blob/main/README.md",
@@ -3398,7 +3385,7 @@
     {
       "id": "funi-raccoon-game",
       "name": "Funi Raccoon Game",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Funi_Raccoon_Game",
       "description": "Archipelago randomizer for Funi Raccoon Game",
       "githubUrl": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md",
@@ -3426,7 +3413,7 @@
     {
       "id": "garrys-mod-apadventure",
       "name": "Garry's Mod (apAdventure)",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/GMod_-_apAdventure",
       "description": "Archipelago randomizer for Garry's Mod (apAdventure)",
       "githubUrl": "https://github.com/ChrisCj8/ap_adventure/blob/main/apworld/docs/setup_en.md",
@@ -3482,7 +3469,7 @@
     {
       "id": "gbapquest",
       "name": "GBAPQuest",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/GBAPQuest",
       "description": "Archipelago randomizer for GBAPQuest",
       "githubUrl": "https://github.com/Meliacci/Archipelago/blob/GBApquest/worlds/gbapquest/docs/setup_en.md",
@@ -3496,7 +3483,7 @@
     {
       "id": "gemcraft-frostborn-wrath",
       "name": "Gemcraft: Frostborn Wrath",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/GemCraft:_Frostborn_Wrath",
       "description": "Archipelago randomizer for Gemcraft: Frostborn Wrath",
       "githubUrl": "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/blob/main/README.md",
@@ -3510,7 +3497,7 @@
     {
       "id": "geometry-dash",
       "name": "Geometry Dash",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Geometry_Dash",
       "description": "Archipelago randomizer for Geometry Dash",
       "githubUrl": "https://github.com/matorblal-byte/APWorldForGDArch/blob/main/worlds/geometrydash/docs/setup_en.md",
@@ -3580,7 +3567,7 @@
     {
       "id": "goldeneye-007",
       "name": "GoldenEye 007",
-      "platform": "",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/GoldenEye_007",
       "description": "Archipelago randomizer for GoldenEye 007",
       "githubUrl": "https://github.com/NotFamilyJules/goldeneye_ap/blob/main/docs/setup_en.md",
@@ -3594,7 +3581,7 @@
     {
       "id": "grand-theft-auto-iii",
       "name": "Grand Theft Auto III",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Grand_Theft_Auto_III",
       "description": "Archipelago randomizer for Grand Theft Auto III",
       "githubUrl": "https://github.com/Leiqart/gta3-archipelago",
@@ -3608,7 +3595,7 @@
     {
       "id": "grand-theft-auto-san-andreas",
       "name": "Grand Theft Auto: San Andreas",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Grand_Theft_Auto:_San_Andreas",
       "description": "Archipelago randomizer for Grand Theft Auto: San Andreas",
       "githubUrl": "https://github.com/awakenbad/SanAndreasAP/blob/main/README.md",
@@ -3622,7 +3609,7 @@
     {
       "id": "grandia-hd-remaster",
       "name": "Grandia HD Remaster",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Grandia",
       "description": "Archipelago randomizer for Grandia HD Remaster",
       "githubUrl": "https://github.com/Wakamu/Grandiarchipelago",
@@ -3664,7 +3651,7 @@
     {
       "id": "grunn",
       "name": "Grunn",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Grunn",
       "description": "Archipelago randomizer for Grunn",
       "githubUrl": "https://github.com/Serial-Developer/Grunnchipelago/tree/master/apworld/grunn/docs",
@@ -3678,7 +3665,7 @@
     {
       "id": "gtfo",
       "name": "GTFO",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/GTFO",
       "description": "Archipelago randomizer for GTFO",
       "githubUrl": "https://thunderstore.io/c/gtfo/p/RoboRyGuy/BetaArchipelago/",
@@ -3752,7 +3739,7 @@
     {
       "id": "hades-2-rogue",
       "name": "Hades 2 (Rogue)",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hades2Rogue",
       "description": "Archipelago randomizer for Hades 2 (Rogue)",
       "githubUrl": "https://github.com/BrittisH39/Hades2Archipelago/blob/main/README.md",
@@ -3766,7 +3753,7 @@
     {
       "id": "halo-the-master-chief-collection",
       "name": "Halo The Master Chief Collection",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Halo_The_Master_Chief_Collection",
       "description": "Archipelago randomizer for Halo The Master Chief Collection",
       "githubUrl": "https://github.com/spencer2585/MCC-AP/blob/master/README.md",
@@ -3810,7 +3797,7 @@
     {
       "id": "harry-potter-and-the-chamber-of-secrets",
       "name": "Harry Potter and the Chamber of Secrets",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Harry Potter and the Chamber of Secrets",
       "githubUrl": "https://github.com/Kryen112/HP2PC_AP/blob/main/docs/PLAYER_SETUP.md",
@@ -3852,7 +3839,7 @@
     {
       "id": "hello-kitty-roller-rescue",
       "name": "Hello Kitty: Roller Rescue",
-      "platform": "",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Hello_Kitty:_Roller_Rescue",
       "description": "Archipelago randomizer for Hello Kitty: Roller Rescue",
       "githubUrl": "https://github.com/richarm4/Archipelago/blob/HKRR/worlds/hkrr/docs/setup_en.md",
@@ -3978,7 +3965,7 @@
     {
       "id": "hollow-knight-silksong-batsong",
       "name": "Hollow Knight: Silksong (Batsong)",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hollow_Knight:_Silksong",
       "description": "Archipelago randomizer for Hollow Knight: Silksong (Batsong)",
       "githubUrl": "https://github.com/Batatvideogames/silksong-archipelago-randomizer",
@@ -4020,7 +4007,7 @@
     {
       "id": "hot-lava",
       "name": "Hot Lava",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hot_Lava",
       "description": "Archipelago randomizer for Hot Lava",
       "githubUrl": "https://thunderstore.io/c/hot-lava/p/Bongo9911/HotLavaArchipelago/",
@@ -4088,7 +4075,7 @@
     {
       "id": "hyperdimension-neptunia-re-birth3-v-generation",
       "name": "Hyperdimension Neptunia Re;Birth3 V Generation",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hyperdimension_Neptunia_Re;Birth3_V_GENERATION",
       "description": "Archipelago randomizer for Hyperdimension Neptunia Re;Birth3 V Generation",
       "githubUrl": "https://github.com/BlackSoulKnight/Neptunia_ReBirth_3_Archipelago_Client",
@@ -4116,7 +4103,7 @@
     {
       "id": "hytale",
       "name": "Hytale",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Hytale",
       "description": "Archipelago randomizer for Hytale",
       "githubUrl": "https://github.com/LucasRenaudineau/hytelago",
@@ -4130,7 +4117,7 @@
     {
       "id": "i-am-your-beast",
       "name": "I am Your Beast",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/IAmYourBeast",
       "description": "Archipelago randomizer for I am Your Beast",
       "githubUrl": "https://github.com/petiboy7/IAYBArchipelago",
@@ -4172,7 +4159,7 @@
     {
       "id": "icewall",
       "name": "ICEwall",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/ICEwall",
       "description": "Archipelago randomizer for ICEwall",
       "githubUrl": "https://github.com/System-of-Root/ICE_ipelago/blob/master/README.md",
@@ -4186,7 +4173,7 @@
     {
       "id": "idle-loops",
       "name": "Idle Loops",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Idle_Loops",
       "description": "Archipelago randomizer for Idle Loops",
       "githubUrl": "https://github.com/IHaveNoFunnyName/Archipelago/blob/IdleLoops/worlds/idleloops/docs/setup_en.md",
@@ -4258,7 +4245,7 @@
     {
       "id": "isles-of-trials",
       "name": "Isles of Trials",
-      "platform": "",
+      "platform": "PICO-8",
       "url": "https://archipelago.miraheze.org/wiki/Isles_of_Trials",
       "description": "Archipelago randomizer for Isles of Trials",
       "githubUrl": "https://github.com/NyanMC/ap-islesoftrials/blob/main/apworld/docs/setup_en.md",
@@ -4286,7 +4273,7 @@
     {
       "id": "jak-3",
       "name": "Jak 3",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Jak_3",
       "description": "Archipelago randomizer for Jak 3",
       "githubUrl": "https://github.com/Blake645/Archipelago/blob/main/worlds/jak3/docs/setup_en.md",
@@ -4354,7 +4341,7 @@
     {
       "id": "johnny-upgrade",
       "name": "Johnny Upgrade",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Johnny_Upgrade",
       "description": "Archipelago randomizer for Johnny Upgrade",
       "githubUrl": "https://github.com/barretg/johnny-upgrade-ap/releases/tag/v1.2",
@@ -4450,7 +4437,7 @@
     {
       "id": "kerbal-space-program",
       "name": "Kerbal Space Program",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Kerbal_Space_Program_1",
       "description": "Archipelago randomizer for Kerbal Space Program",
       "githubUrl": "https://github.com/nickdavies/Archipelago/blob/ksp1/worlds/ksp1/docs/setup_en.md",
@@ -4505,7 +4492,7 @@
     {
       "id": "kingdom-hearts-358-2-days",
       "name": "Kingdom Hearts 358/2 Days",
-      "platform": "",
+      "platform": "NDS",
       "url": null,
       "description": "Archipelago randomizer for Kingdom Hearts 358/2 Days",
       "githubUrl": null,
@@ -4587,7 +4574,7 @@
     {
       "id": "kingdom-hearts-iii",
       "name": "Kingdom Hearts III",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Kingdom Hearts III",
       "githubUrl": "https://ap.aesais.net/games/kingdom-hearts-iii?lang=en",
@@ -4615,7 +4602,7 @@
     {
       "id": "kingdom-two-crowns",
       "name": "Kingdom Two Crowns",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Kingdom Two Crowns",
       "githubUrl": "https://github.com/Catalyss/Archipelago-Kingdom2Crown/tree/main/docs",
@@ -4669,7 +4656,7 @@
     {
       "id": "kirby-squeak-squad",
       "name": "Kirby Squeak Squad",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Kirby_Squeak_Squad",
       "description": "Archipelago randomizer for Kirby Squeak Squad",
       "githubUrl": "https://github.com/WindChill404/Kirby-Squeak-Squad-APWORLD",
@@ -4697,7 +4684,7 @@
     {
       "id": "kirby-the-amazing-mirror",
       "name": "Kirby & The Amazing Mirror",
-      "platform": "",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Kirby_%26_The_Amazing_Mirror",
       "description": "Archipelago randomizer for Kirby & The Amazing Mirror",
       "githubUrl": "https://github.com/hasherwi/Archipelago-kirbyam/blob/main/worlds/kirbyam/docs/setup_en.md",
@@ -4711,7 +4698,7 @@
     {
       "id": "la-mulana-2",
       "name": "La-Mulana 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/La-Mulana_2",
       "description": "Archipelago randomizer for La-Mulana 2",
       "githubUrl": "https://github.com/Crownmuri/Archipelago/blob/main/worlds/lamulana2/docs/setup_en.md",
@@ -4725,7 +4712,7 @@
     {
       "id": "laika-aged-through-blood",
       "name": "Laika: Aged Through Blood",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Laika:_Aged_Through_Blood",
       "description": "Archipelago randomizer for Laika: Aged Through Blood",
       "githubUrl": "https://github.com/ItsSeras/Laika-Aged-Through-Blood-Archipelago/blob/master/README.md",
@@ -4739,7 +4726,7 @@
     {
       "id": "lakelands",
       "name": "Lakelands",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Lakelands",
       "description": "Archipelago randomizer for Lakelands",
       "githubUrl": null,
@@ -4765,7 +4752,7 @@
     {
       "id": "layer8problem",
       "name": "Layer8Problem",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Layer8Problem",
       "description": "Archipelago randomizer for Layer8Problem",
       "githubUrl": "https://github.com/TheZockerBrain069/Layer8Problem-AP",
@@ -4836,7 +4823,7 @@
     {
       "id": "lego-harry-potter-5-7",
       "name": "LEGO Harry Potter 5-7",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Lego_Harry_Potter_5-7",
       "description": "Archipelago randomizer for LEGO Harry Potter 5-7",
       "githubUrl": "https://github.com/jradcode23/LHP2-APWorld/blob/main/worlds/lhp2/docs/setup_en.md",
@@ -4850,7 +4837,7 @@
     {
       "id": "lego-rock-raiders-manic-miners",
       "name": "LEGO Rock Raiders/Manic Miners",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Manic_Miners",
       "description": "Archipelago randomizer for LEGO Rock Raiders/Manic Miners",
       "githubUrl": "https://github.com/fogmike/Archipelago_ManicMiners/blob/main/worlds/manicminers/docs/setup_en.md",
@@ -4892,7 +4879,7 @@
     {
       "id": "lethal-crisis",
       "name": "Lethal Crisis",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Lethal Crisis",
       "githubUrl": "https://github.com/HyperGeek7/LethalCrisis-AP",
@@ -4906,7 +4893,7 @@
     {
       "id": "librarian-tidy-up-the-arcane-library",
       "name": "Librarian: Tidy Up the Arcane Library",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Librarian_Tidy_Up_the_Arcane_Library",
       "description": "Archipelago randomizer for Librarian: Tidy Up the Arcane Library",
       "githubUrl": "https://github.com/Str8UpWHITE64/Librarian-AP",
@@ -4920,7 +4907,7 @@
     {
       "id": "library-of-babel",
       "name": "Library of Babel",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Library_of_Babel",
       "description": "Archipelago randomizer for Library of Babel",
       "githubUrl": "https://github.com/YarRuin/LOBAP/",
@@ -5044,7 +5031,7 @@
     {
       "id": "look-outside",
       "name": "Look Outside",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Look_Outside",
       "description": "Archipelago randomizer for Look Outside",
       "githubUrl": "https://github.com/Turese/LOArchipelago/blob/main/worlds/look_outside/docs/setup_en.md",
@@ -5072,7 +5059,7 @@
     {
       "id": "lost-but-found",
       "name": "Lost But Found",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/LostButFound",
       "description": "Archipelago randomizer for Lost But Found",
       "githubUrl": "https://github.com/Michimarii/LostButFoundAP/blob/main/README.md",
@@ -5086,7 +5073,7 @@
     {
       "id": "lost-kingdoms-2",
       "name": "Lost Kingdoms 2",
-      "platform": "",
+      "platform": "GC",
       "url": null,
       "description": "Archipelago randomizer for Lost Kingdoms 2",
       "githubUrl": null,
@@ -5156,7 +5143,7 @@
     {
       "id": "made-in-abyss-bsfd",
       "name": "Made in Abyss BSFD",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/MadeInAbyssBSFD",
       "description": "Archipelago randomizer for Made in Abyss BSFD",
       "githubUrl": "https://github.com/OctoberWolf/MadeInAbyssBSFD-AP/blob/main/README.md",
@@ -5170,7 +5157,7 @@
     {
       "id": "madou-monogatari-hanamaru-dai-youchienji",
       "name": "Madou Monogatari Hanamaru Dai Youchienji",
-      "platform": "",
+      "platform": "SNES",
       "url": null,
       "description": "Archipelago randomizer for Madou Monogatari Hanamaru Dai Youchienji",
       "githubUrl": "https://github.com/Witchybun/Archipelago/blob/MadouMonogatariAP/worlds/madou/docs/setup_en.md",
@@ -5184,7 +5171,7 @@
     {
       "id": "marble-it-up-ultra",
       "name": "Marble It Up! Ultra",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Marble_It_Up!_Ultra",
       "description": "Archipelago randomizer for Marble It Up! Ultra",
       "githubUrl": "https://github.com/KitLemonfoot/ArchipelagoMIUU",
@@ -5198,7 +5185,7 @@
     {
       "id": "marbles-balance-challenge",
       "name": "Marbles! Balance Challenge",
-      "platform": "",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Marbles!_Balance_Challenge",
       "description": "Archipelago randomizer for Marbles! Balance Challenge",
       "githubUrl": "https://github.com/mariokirby1703/Lumas-Archipelago/blob/Marbles!-Balance-Challenge-AP/worlds/marbles_balance_challenge/docs/setup_en.md",
@@ -5271,7 +5258,7 @@
     {
       "id": "mario-luigi-dream-team",
       "name": "Mario & Luigi: Dream Team",
-      "platform": "",
+      "platform": "3DS",
       "url": "https://archipelago.miraheze.org/wiki/Mario_and_Luigi_Dream_Team",
       "description": "Archipelago randomizer for Mario & Luigi: Dream Team",
       "githubUrl": "https://github.com/MnL-Modding/Piillomizer",
@@ -5324,7 +5311,7 @@
     {
       "id": "mario-sports-mix",
       "name": "Mario Sports Mix",
-      "platform": "",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Mario_Sports_Mix",
       "description": "Archipelago randomizer for Mario Sports Mix",
       "githubUrl": "https://github.com/ElectroStarz/ArchipelagoMSM/blob/main/docs/setup_en.md",
@@ -5423,7 +5410,7 @@
     {
       "id": "mega-man-4",
       "name": "Mega Man 4",
-      "platform": "",
+      "platform": "NES",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_4",
       "description": "Archipelago randomizer for Mega Man 4",
       "githubUrl": "https://github.com/Silvris/Archipelago/blob/mm4/worlds/mm4/docs/setup_en.md",
@@ -5615,7 +5602,7 @@
     {
       "id": "metal-gear-solid-masala-garden-salad",
       "name": "Metal Gear Solid - Masala Garden Salad",
-      "platform": "",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Metal_Gear_Solid",
       "description": "Archipelago randomizer for Metal Gear Solid - Masala Garden Salad",
       "githubUrl": "https://github.com/TheRealSolidusSnake/Archipelago/blob/Metal-Gear-Solid/worlds/mgs/docs/setup_en.md",
@@ -5675,7 +5662,7 @@
     {
       "id": "metroid-samus-returns",
       "name": "Metroid: Samus Returns",
-      "platform": "",
+      "platform": "3DS",
       "url": "https://archipelago.miraheze.org/wiki/Metroid:_Samus_Returns",
       "description": "Archipelago randomizer for Metroid: Samus Returns",
       "githubUrl": "https://github.com/lilDavid/AP-SamusReturns/blob/main/src/msr/docs/setup_en.md",
@@ -5705,7 +5692,7 @@
     {
       "id": "mina-the-hollower",
       "name": "Mina the Hollower",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Mina_The_Hollower",
       "description": "Archipelago randomizer for Mina the Hollower",
       "githubUrl": "https://github.com/FyreDay/Archipelago-MinaTheHollower/blob/main/worlds/mina_the_hollower/docs/setup_en.md",
@@ -5792,7 +5779,7 @@
     {
       "id": "minecraft-vault-hunters-modpack",
       "name": "Minecraft: Vault Hunters (Modpack)",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Vault_Hunters",
       "description": "Archipelago randomizer for Minecraft: Vault Hunters (Modpack)",
       "githubUrl": "https://github.com/Studmuffin2227/VHAPMod/blob/main/README.txt",
@@ -5806,7 +5793,7 @@
     {
       "id": "mini-metro",
       "name": "Mini Metro",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Mini_Metro",
       "description": "Archipelago randomizer for Mini Metro",
       "githubUrl": "https://github.com/Slimm160/Mini-Metro-Archipelago",
@@ -5852,7 +5839,7 @@
     {
       "id": "mirrors-edge",
       "name": "Mirror's Edge",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Mirror%27s_Edge",
       "description": "Archipelago randomizer for Mirror's Edge",
       "githubUrl": "https://github.com/SerpentAI/Archipelago/blob/mirrors_edge/worlds/mirrors_edge/docs/setup_en.md",
@@ -5909,7 +5896,7 @@
     {
       "id": "monster-hunter-freedom-unite",
       "name": "Monster Hunter Freedom Unite",
-      "platform": "",
+      "platform": "PSP",
       "url": "https://archipelago.miraheze.org/wiki/Monster_Hunter_Freedom_Unite",
       "description": "Archipelago randomizer for Monster Hunter Freedom Unite",
       "githubUrl": "https://github.com/Silvris/Archipelago/blob/mhfu/worlds/mhfu/docs/setup_en.md",
@@ -5923,7 +5910,7 @@
     {
       "id": "monster-hunter-rise",
       "name": "Monster Hunter Rise",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Monster_Hunter_Rise",
       "description": "Archipelago randomizer for Monster Hunter Rise",
       "githubUrl": "https://github.com/HillbillyDroid/MHRise-APWorld/blob/main/ap_world/docs/setup_en.md",
@@ -5967,7 +5954,7 @@
     {
       "id": "mother-earthbound-beginnings",
       "name": "Mother (Earthbound Beginnings)",
-      "platform": "",
+      "platform": "NES",
       "url": null,
       "description": "Archipelago randomizer for Mother (Earthbound Beginnings)",
       "githubUrl": null,
@@ -5981,7 +5968,7 @@
     {
       "id": "mount-blade-ii-bannerlord",
       "name": "Mount & Blade II: Bannerlord",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Mount_And_Blade_Bannerlord",
       "description": "Archipelago randomizer for Mount & Blade II: Bannerlord",
       "githubUrl": "https://www.nexusmods.com/mountandblade2bannerlord/mods/11783?tab=description",
@@ -5995,7 +5982,7 @@
     {
       "id": "muck",
       "name": "Muck",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Muck",
       "description": "Archipelago randomizer for Muck",
       "githubUrl": "https://github.com/PGMProductions/Muck-for-Archipelago/blob/main/HOW%20TO%20USE.md",
@@ -6062,7 +6049,7 @@
     {
       "id": "neo-the-world-ends-with-you",
       "name": "NEO: The World Ends with You",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for NEO: The World Ends with You",
       "githubUrl": "https://github.com/Sjerver/NEO-Twewy-Archipelago-Mod",
@@ -6076,7 +6063,7 @@
     {
       "id": "neon-white",
       "name": "Neon White",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Neon White",
       "githubUrl": null,
@@ -6090,7 +6077,7 @@
     {
       "id": "new-super-mario-bros-wii",
       "name": "New Super Mario Bros Wii",
-      "platform": "",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/NSMBW",
       "description": "Archipelago randomizer for New Super Mario Bros Wii",
       "githubUrl": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md",
@@ -6104,7 +6091,7 @@
     {
       "id": "nicktoons-battle-for-volcano-island",
       "name": "Nicktoons: Battle for Volcano Island",
-      "platform": "",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Nicktoons:_Battle_for_Volcano_Island",
       "description": "Archipelago randomizer for Nicktoons: Battle for Volcano Island",
       "githubUrl": "https://github.com/dylpill999/Nicktoons-BFVI-GBA-AP",
@@ -6218,7 +6205,7 @@
     {
       "id": "northgard",
       "name": "Northgard",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Northgard",
       "description": "Archipelago randomizer for Northgard",
       "githubUrl": "https://github.com/ChakraaThePanda/Archipelago-Northgard/blob/main/worlds/northgard/docs/setup_en.md",
@@ -6245,7 +6232,7 @@
     {
       "id": "nuclear-throne",
       "name": "Nuclear Throne",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Nuclear_Throne",
       "description": "Archipelago randomizer for Nuclear Throne",
       "githubUrl": "https://github.com/GraphiteGraphic/NuclearThroneArchipelago/blob/main/worlds/nuclear_throne/docs/setup_en.md",
@@ -6275,7 +6262,7 @@
     {
       "id": "oh-so-hero",
       "name": "Oh So Hero",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Oh_So_Hero!",
       "description": "Archipelago randomizer for Oh So Hero",
       "githubUrl": "https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.1",
@@ -6289,7 +6276,7 @@
     {
       "id": "okami-hd",
       "name": "Okami HD",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/%C5%8Ckami_HD",
       "description": "Archipelago randomizer for Okami HD",
       "githubUrl": "https://github.com/Ragmoa/Archipelago/blob/main/worlds/okamihd/docs/setup_en.md",
@@ -6329,7 +6316,7 @@
     {
       "id": "one-must-fall-2097",
       "name": "One Must Fall: 2097",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/One_Must_Fall:_2097",
       "description": "Archipelago randomizer for One Must Fall: 2097",
       "githubUrl": "https://github.com/stubobis1/archipelago-openomf-apworld/blob/master/worlds/openomf/docs/setup_en.md",
@@ -6572,7 +6559,7 @@
     {
       "id": "paquerette-down-the-bunburrows",
       "name": "Paquerette Down the Bunburrows",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/P%C3%A2querette_Down_The_Bunburrows",
       "description": "Archipelago randomizer for Paquerette Down the Bunburrows",
       "githubUrl": "https://github.com/SergeAzel/Archipelago_PDTB/blob/main/worlds/paquerette_down_the_bunburrows/docs/setup_en.md",
@@ -6600,7 +6587,7 @@
     {
       "id": "password-game",
       "name": "Password Game",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/The_Password_Game",
       "description": "Archipelago randomizer for Password Game",
       "githubUrl": "https://github.com/ThePhar/ThePasswordGameArchipelago/releases/tag/1.0",
@@ -6628,7 +6615,7 @@
     {
       "id": "payday-2-criminal-dawn",
       "name": "PAYDAY 2: Criminal Dawn",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/PAYDAY_2:_Criminal_Dawn",
       "description": "Archipelago randomizer for PAYDAY 2: Criminal Dawn",
       "githubUrl": "https://github.com/CATEM1NAL/PD2-Criminal-Dawn/wiki/Installation",
@@ -6701,7 +6688,7 @@
     {
       "id": "perfect-dark",
       "name": "Perfect Dark",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Perfect_Dark",
       "description": "Archipelago randomizer for Perfect Dark",
       "githubUrl": "https://github.com/ajeloom/Perfect-Dark-PC-AP/releases/latest",
@@ -6789,7 +6776,7 @@
     {
       "id": "pikuniku",
       "name": "Pikuniku",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Pikuniku",
       "description": "Archipelago randomizer for Pikuniku",
       "githubUrl": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/blob/main/worlds/pikuniku/docs/setup_en.md",
@@ -6803,7 +6790,7 @@
     {
       "id": "pinball-fx",
       "name": "Pinball FX",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Pinball_FX",
       "description": "Archipelago randomizer for Pinball FX",
       "githubUrl": "https://github.com/SerpentAI/Archipelago/blob/pinball_fx/worlds/pinball_fx/docs/setup_en.md",
@@ -7011,7 +6998,7 @@
     {
       "id": "pok-mon-heartgold-soulsilver-singe",
       "name": "Pokémon HeartGold & SoulSilver (Singe)",
-      "platform": "",
+      "platform": "NDS",
       "url": null,
       "description": "Archipelago randomizer for Pokémon HeartGold & SoulSilver (Singe)",
       "githubUrl": "https://github.com/SingeKiller/Pok-HeartGold_Apworld/blob/main/README.en.md",
@@ -7055,7 +7042,7 @@
     {
       "id": "pok-mon-pinball-ruby-sapphire",
       "name": "Pokémon Pinball Ruby & Sapphire",
-      "platform": "",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Pinball_Ruby_%26_Sapphire",
       "description": "Archipelago randomizer for Pokémon Pinball Ruby & Sapphire",
       "githubUrl": "https://github.com/Silvris/Archipelago/blob/pokemon_pinball_rs/worlds/pokemon_pinball_rs/docs/setup_en.md",
@@ -7111,7 +7098,7 @@
     {
       "id": "pok-mon-snap",
       "name": "Pokémon Snap",
-      "platform": "",
+      "platform": "N64",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Snap",
       "description": "Archipelago randomizer for Pokémon Snap",
       "githubUrl": "https://github.com/nielrenned/PokemonSnap_Archipelago/blob/main/apworld/pokemon_snap/docs/setup_en.md",
@@ -7138,10 +7125,10 @@
     },
     {
       "id": "pok-mon-trading-card-game-gameboy",
-      "name": "Pokémon Trading Card Game (GameBoy)",
-      "platform": "",
+      "name": "Pokémon Trading Card Game",
+      "platform": "GB",
       "url": null,
-      "description": "Archipelago randomizer for Pokémon Trading Card Game (GameBoy)",
+      "description": "Archipelago randomizer for Pokémon Trading Card Game",
       "githubUrl": null,
       "discordUrl": null,
       "completed": [],
@@ -7153,7 +7140,7 @@
     {
       "id": "pok-mon-trozei-link",
       "name": "Pokémon Trozei / Link",
-      "platform": "",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Trozei",
       "description": "Archipelago randomizer for Pokémon Trozei / Link",
       "githubUrl": "https://github.com/WCutePy/ArchipelagoAlmia/blob/pokemon_link_trozei/worlds/pokemon_trozei/docs/setup_en.md",
@@ -7269,7 +7256,7 @@
     {
       "id": "q-up",
       "name": "Q-Up",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Q-UP",
       "description": "Archipelago randomizer for Q-Up",
       "githubUrl": "https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/setup_en.md",
@@ -7475,7 +7462,7 @@
     {
       "id": "resident-evil-4-remake",
       "name": "Resident Evil 4 Remake",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Resident Evil 4 Remake",
       "githubUrl": "https://github.com/LiterallyMetaphorical/RE4R-AP-Wizard",
@@ -7531,7 +7518,7 @@
     {
       "id": "rhythm-tengoku",
       "name": "Rhythm Tengoku",
-      "platform": "",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/Rhythm_Tengoku",
       "description": "Archipelago randomizer for Rhythm Tengoku",
       "githubUrl": "https://thelx5.github.io/tengoku/setup.html",
@@ -7632,7 +7619,7 @@
     {
       "id": "riven",
       "name": "Riven",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Riven",
       "description": "Archipelago randomizer for Riven",
       "githubUrl": "https://github.com/SerpentAI/Archipelago/blob/riven/worlds/riven/docs/setup_en.md",
@@ -7646,7 +7633,7 @@
     {
       "id": "road-trip-adventure",
       "name": "Road Trip Adventure",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Road_Trip_Adventure",
       "description": "Archipelago randomizer for Road Trip Adventure",
       "githubUrl": "https://github.com/Phenra/RoadTripAdventure-AP/blob/main/docs/setup_en.md",
@@ -7676,7 +7663,7 @@
     {
       "id": "rogue-legacy-2",
       "name": "Rogue Legacy 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Rogue_Legacy_2",
       "description": "Archipelago randomizer for Rogue Legacy 2",
       "githubUrl": "https://github.com/zaphim12/RL2Archipelago",
@@ -7690,7 +7677,7 @@
     {
       "id": "rune-factory-4-special",
       "name": "Rune Factory 4 Special",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Rune_Factory_4",
       "description": "Archipelago randomizer for Rune Factory 4 Special",
       "githubUrl": "https://github.com/Happyhappyism/Archipelago/releases/tag/rune4_v0.1.0",
@@ -7704,7 +7691,7 @@
     {
       "id": "running-with-rifles",
       "name": "Running with Rifles",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Running_with_Rifles",
       "description": "Archipelago randomizer for Running with Rifles",
       "githubUrl": "https://github.com/mjousse72/archipelago_rwr",
@@ -7732,7 +7719,7 @@
     {
       "id": "rwby-grimm-eclipse",
       "name": "RWBY: Grimm Eclipse",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/RWBY_Grimm_Eclipse",
       "description": "Archipelago randomizer for RWBY: Grimm Eclipse",
       "githubUrl": "https://github.com/nepcore/RwbyAP/blob/main/apworld/docs/setup_en.md",
@@ -7773,7 +7760,7 @@
     {
       "id": "santa-needs-you",
       "name": "Santa Needs YOU!",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Santa",
       "description": "Archipelago randomizer for Santa Needs YOU!",
       "githubUrl": null,
@@ -7814,7 +7801,7 @@
     {
       "id": "sayonara-wild-hearts",
       "name": "Sayonara Wild Hearts",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Sayonara Wild Hearts",
       "githubUrl": "https://github.com/Chainsawkitten/SayonaraWildHeartsAP/blob/main/README.md",
@@ -7872,7 +7859,7 @@
     {
       "id": "scooby-doo-unmasked",
       "name": "Scooby-Doo! Unmasked",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Scooby-Doo!_Unmasked",
       "description": "Archipelago randomizer for Scooby-Doo! Unmasked",
       "githubUrl": "https://github.com/Its-Retro/Archipelago/blob/SDU-AP/worlds/scooby_doo_unmasked/docs/setup_en.md",
@@ -7886,7 +7873,7 @@
     {
       "id": "scorpion-swamp",
       "name": "Scorpion Swamp",
-      "platform": "",
+      "platform": "Gamebook",
       "url": "https://archipelago.miraheze.org/wiki/Scorpion_Swamp",
       "description": "Archipelago randomizer for Scorpion Swamp",
       "githubUrl": "https://github.com/LegendofFantasy/Archipelago/blob/main/worlds/scorpion_swamp/docs/setup_en.md",
@@ -7900,7 +7887,7 @@
     {
       "id": "scritchy-scratchy",
       "name": "Scritchy Scratchy",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Scritchy_Scratchy",
       "description": "Archipelago randomizer for Scritchy Scratchy",
       "githubUrl": "https://github.com/ksteve35/ScritchyScratchyAP/blob/main/README.md",
@@ -7996,7 +7983,7 @@
     {
       "id": "severed-steel",
       "name": "Severed Steel",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Severed_Steel",
       "description": "Archipelago randomizer for Severed Steel",
       "githubUrl": "https://github.com/SerpentAI/Archipelago/blob/severed_steel/worlds/severed_steel/docs/setup_en.md",
@@ -8010,7 +7997,7 @@
     {
       "id": "shadow-man-remastered",
       "name": "Shadow Man Remastered",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Shadow Man Remastered",
       "githubUrl": "https://github.com/bropacman/shadow-man-remastered-ap-world/blob/main/guide_en.md",
@@ -8094,7 +8081,7 @@
     {
       "id": "shellipelago",
       "name": "Shellipelago",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Shellipelago",
       "description": "Archipelago randomizer for Shellipelago",
       "githubUrl": "https://github.com/ethentianknight/shellipelago/releases",
@@ -8231,7 +8218,7 @@
     {
       "id": "skul-the-hero-slayer",
       "name": "Skul: The Hero Slayer",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Skul:_The_Hero_Slayer",
       "description": "Archipelago randomizer for Skul: The Hero Slayer",
       "githubUrl": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Skul/blob/main/worlds/skul/docs/setup_en.md",
@@ -8293,7 +8280,7 @@
     {
       "id": "slime-rancher-2",
       "name": "Slime Rancher 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Slime_Rancher_2",
       "description": "Archipelago randomizer for Slime Rancher 2",
       "githubUrl": "https://github.com/Rhelys/SlimeRancher2-AP",
@@ -8402,7 +8389,7 @@
     {
       "id": "sneak-king",
       "name": "Sneak King",
-      "platform": "",
+      "platform": "360",
       "url": "https://archipelago.miraheze.org/wiki/Sneak_King",
       "description": "Archipelago randomizer for Sneak King",
       "githubUrl": "https://github.com/jamesbrq/SneakKingAP/blob/main/docs/setup_en.md",
@@ -8568,7 +8555,7 @@
     {
       "id": "soulblazer",
       "name": "SoulBlazer",
-      "platform": "",
+      "platform": "SNES",
       "url": null,
       "description": "Archipelago randomizer for SoulBlazer",
       "githubUrl": "https://github.com/Tranquilite0/Archipelago-SoulBlazer/blob/soulblazer/worlds/soulblazer/docs/setup_en.md",
@@ -8582,7 +8569,7 @@
     {
       "id": "space-engineers",
       "name": "Space Engineers",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Space Engineers",
       "githubUrl": null,
@@ -8596,7 +8583,7 @@
     {
       "id": "spark-the-electric-jester-3",
       "name": "Spark the Electric Jester 3",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Spark_the_Electric_Jester_3",
       "description": "Archipelago randomizer for Spark the Electric Jester 3",
       "githubUrl": "https://github.com/TwinklePillar/Spark3-Archipelago",
@@ -8681,7 +8668,7 @@
     {
       "id": "splasher",
       "name": "Splasher",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Splasher",
       "description": "Archipelago randomizer for Splasher",
       "githubUrl": "https://github.com/Frisk202020/Archipelago/blob/main/worlds/splasher/docs/setup_en.md",
@@ -8817,7 +8804,7 @@
     {
       "id": "star-trek-armada",
       "name": "Star Trek: Armada",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Star_Trek:_Armada",
       "description": "Archipelago randomizer for Star Trek: Armada",
       "githubUrl": "https://github.com/reedwhaley/star-trek-armada-apworld/blob/main/apworld/star_trek_armada/docs/setup_en.md",
@@ -8883,7 +8870,7 @@
     {
       "id": "sternly-worded-adventures",
       "name": "Sternly Worded Adventures",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Sternly_Worded_Adventures",
       "description": "Archipelago randomizer for Sternly Worded Adventures",
       "githubUrl": "https://github.com/ChaoskillerSR/Sternly-Worded-Peninsula",
@@ -8911,7 +8898,7 @@
     {
       "id": "stray",
       "name": "Stray",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Stray",
       "description": "Archipelago randomizer for Stray",
       "githubUrl": "https://github.com/Nichologeam/StrayAP",
@@ -8939,7 +8926,7 @@
     {
       "id": "streets-of-rogue",
       "name": "Streets of Rogue",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Streets_of_Rogue",
       "description": "Archipelago randomizer for Streets of Rogue",
       "githubUrl": "https://github.com/Jmarcs27/StreetsOfRogueArchipelago/blob/main/setup_en.md",
@@ -8965,7 +8952,7 @@
     {
       "id": "suikapelago",
       "name": "Suikapelago",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Suikapelago",
       "description": "Archipelago randomizer for Suikapelago",
       "githubUrl": null,
@@ -8979,7 +8966,7 @@
     {
       "id": "super-adventure-island-ii",
       "name": "Super Adventure Island II",
-      "platform": "",
+      "platform": "SNES",
       "url": null,
       "description": "Archipelago randomizer for Super Adventure Island II",
       "githubUrl": null,
@@ -9049,7 +9036,7 @@
     {
       "id": "super-mario-64-spicy-mycena-64",
       "name": "Super Mario 64 - Spicy Mycena 64",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Super_Mario_64",
       "description": "Archipelago randomizer for Super Mario 64 - Spicy Mycena 64",
       "githubUrl": "https://github.com/Alchav/Archipelago/blob/spicy-mycena-64/worlds/sm64ex_spicy/docs/setup_en.md",
@@ -9149,7 +9136,7 @@
     {
       "id": "super-mario-world-spicy-mycena-waffles",
       "name": "Super Mario World: Spicy Mycena Waffles",
-      "platform": "",
+      "platform": "SNES",
       "url": "https://archipelago.miraheze.org/wiki/SMW:_Spicy_Mycena_Waffles",
       "description": "Archipelago randomizer for Super Mario World: Spicy Mycena Waffles",
       "githubUrl": "https://thelx5.github.io/smw/setup.html",
@@ -9249,7 +9236,7 @@
     {
       "id": "supermarket-simulator",
       "name": "Supermarket Simulator",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Supermarket_Simulator",
       "description": "Archipelago randomizer for Supermarket Simulator",
       "githubUrl": "https://github.com/Lemix028/SupermarketSimulator-Archipelago/blob/main/apworld/supermarket_simulator/docs/setup_en.md",
@@ -9279,7 +9266,7 @@
     {
       "id": "sven-co-op",
       "name": "Sven Co-op",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Half-Life_(Sven_Co-op)",
       "description": "Archipelago randomizer for Sven Co-op",
       "githubUrl": "https://github.com/barretg/hl1-sven-ap/blob/main/apworld/half_life_sven/docs/setup_en.md",
@@ -9293,7 +9280,7 @@
     {
       "id": "sweet-defeat",
       "name": "Sweet Defeat",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Sweet_Defeat",
       "description": "Archipelago randomizer for Sweet Defeat",
       "githubUrl": "https://interestedsc2.itch.io/sweet-defeat",
@@ -9334,7 +9321,7 @@
     {
       "id": "taz-wanted",
       "name": "Taz: Wanted",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Taz_Wanted",
       "description": "Archipelago randomizer for Taz: Wanted",
       "githubUrl": "https://github.com/imklubb/Archipelago-Taz-Wanted",
@@ -9364,7 +9351,7 @@
     {
       "id": "teardown",
       "name": "Teardown",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Teardown",
       "description": "Archipelago randomizer for Teardown",
       "githubUrl": null,
@@ -9378,7 +9365,7 @@
     {
       "id": "terra-nil",
       "name": "Terra Nil",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/TerraNil",
       "description": "Archipelago randomizer for Terra Nil",
       "githubUrl": "https://github.com/nepcore/TerraNilAP/blob/main/apworld/docs/setup_en.md",
@@ -9447,7 +9434,7 @@
     {
       "id": "the-farmer-was-replaced",
       "name": "The Farmer Was Replaced",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/The_Farmer_Was_Replaced",
       "description": "Archipelago randomizer for The Farmer Was Replaced",
       "githubUrl": "https://github.com/seadoggie001/Archipelago/blob/theFarmerWasReplaced/worlds/tfwr/docs/setup_en.md",
@@ -9531,7 +9518,7 @@
     {
       "id": "the-legend-of-spyro-dawn-of-the-dragons",
       "name": "The Legend of Spyro: Dawn of The Dragons",
-      "platform": "",
+      "platform": "PS2",
       "url": null,
       "description": "Archipelago randomizer for The Legend of Spyro: Dawn of The Dragons",
       "githubUrl": "https://github.com/IcyPenguin28/DotDAP",
@@ -9585,7 +9572,7 @@
     {
       "id": "the-legend-of-zelda-a-link-to-the-past-owr",
       "name": "The Legend of Zelda: A Link to the Past OWR",
-      "platform": "",
+      "platform": "SNES",
       "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past",
       "description": "Archipelago randomizer for The Legend of Zelda: A Link to the Past OWR",
       "githubUrl": "https://github.com/aurabot24/Archipelago-ALttPR",
@@ -9791,7 +9778,7 @@
     {
       "id": "the-legend-of-zelda-wind-waker-hd",
       "name": "The Legend of Zelda: Wind Waker HD",
-      "platform": "",
+      "platform": "Wii U",
       "url": "https://archipelago.miraheze.org/wiki/The_Wind_Waker_HD",
       "description": "Archipelago randomizer for The Legend of Zelda: Wind Waker HD",
       "githubUrl": "https://github.com/Teotia444/twwhd-apworld/blob/main/docs/setup_en.md",
@@ -9805,7 +9792,7 @@
     {
       "id": "the-legend-zelda-ocarina-of-time-updated-not-ship",
       "name": "The Legend Zelda: Ocarina of Time (Updated, not Ship)",
-      "platform": "",
+      "platform": "N64",
       "url": null,
       "description": "Archipelago randomizer for The Legend Zelda: Ocarina of Time (Updated, not Ship)",
       "githubUrl": "https://github.com/TreZc0/OoTR-APWorld/blob/main/docs/setup_en.md",
@@ -9833,7 +9820,7 @@
     {
       "id": "the-murder-of-sonic-the-hedgehog",
       "name": "The Murder of Sonic the Hedgehog",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/The_Murder_of_Sonic_the_Hedgehog",
       "description": "Archipelago randomizer for The Murder of Sonic the Hedgehog",
       "githubUrl": "https://github.com/TwinklePillar/MurderOfSonicAP",
@@ -9959,7 +9946,7 @@
     {
       "id": "three-goblin-wobblin",
       "name": "Three Goblin Wobblin'",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Three_Goblin_Wobblin%27",
       "description": "Archipelago randomizer for Three Goblin Wobblin'",
       "githubUrl": "https://github.com/melenehh/Three-Goblin-Archipelago/tree/main",
@@ -9973,7 +9960,7 @@
     {
       "id": "time-is-broken-again",
       "name": "Time is broken again",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Time_is_broken_again",
       "description": "Archipelago randomizer for Time is broken again",
       "githubUrl": null,
@@ -10029,7 +10016,7 @@
     {
       "id": "tomba",
       "name": "Tomba!",
-      "platform": "",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Tomba!",
       "description": "Archipelago randomizer for Tomba!",
       "githubUrl": "https://github.com/T4g1/ArchipelagoTomba/blob/main/worlds/tomba/docs/setup_en.md",
@@ -10057,7 +10044,7 @@
     {
       "id": "tony-hawks-american-wasteland",
       "name": "Tony Hawk's American Wasteland",
-      "platform": "",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Tony_Hawk%27s_American_Wasteland",
       "description": "Archipelago randomizer for Tony Hawk's American Wasteland",
       "githubUrl": "https://github.com/TheLivingShadow97/THAWAPClient/blob/main/README.md",
@@ -10071,7 +10058,7 @@
     {
       "id": "tony-hawks-pro-skater-1-2",
       "name": "Tony Hawk's Pro Skater 1 + 2",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Tony_Hawk%27s_Pro_Skater_1_%2B_2",
       "description": "Archipelago randomizer for Tony Hawk's Pro Skater 1 + 2",
       "githubUrl": "https://github.com/SerpentAI/Archipelago/blob/thps12/worlds/tony_hawks_pro_skater_1_2/docs/setup_en.md",
@@ -10085,7 +10072,7 @@
     {
       "id": "total-war-warhammer-iii",
       "name": "Total War: Warhammer III",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Total_War_Warhammer_3",
       "description": "Archipelago randomizer for Total War: Warhammer III",
       "githubUrl": "https://github.com/jordansds/Archipelago_TWW3_Alt/blob/main/README.md",
@@ -10099,7 +10086,7 @@
     {
       "id": "total-war-warhammer-iii-alternative",
       "name": "Total War: Warhammer III Alternative",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Total War: Warhammer III Alternative",
       "githubUrl": "https://github.com/jordansds/Archipelago_TWW3_Alt/blob/main/README.md",
@@ -10129,7 +10116,7 @@
     {
       "id": "touhou-10-mountain-of-faith",
       "name": "Touhou 10 - Mountain of Faith",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Touhou_Fuujinroku_~_Mountain_of_Faith",
       "description": "Archipelago randomizer for Touhou 10 - Mountain of Faith",
       "githubUrl": "https://github.com/Nepley/mof-apworld",
@@ -10197,7 +10184,7 @@
     {
       "id": "touhou-koumakyou-the-embodiment-of-scarlet-devil",
       "name": "Touhou Koumakyou: The Embodiment of Scarlet Devil",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Touhou_Koumakyou_~_the_Embodiment_of_Scarlet_Devil",
       "description": "Archipelago randomizer for Touhou Koumakyou: The Embodiment of Scarlet Devil",
       "githubUrl": "https://github.com/Nepley/eosd-apworld/blob/main/README.md",
@@ -10211,7 +10198,7 @@
     {
       "id": "touhou-youyoumu-perfect-cherry-blossom",
       "name": "Touhou Youyoumu ~ Perfect Cherry Blossom",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Touhou_Youyoumu_~_Perfect_Cherry_Blossom",
       "description": "Archipelago randomizer for Touhou Youyoumu ~ Perfect Cherry Blossom",
       "githubUrl": "https://github.com/Nepley/pcb-apworld/blob/main/README.md",
@@ -10380,7 +10367,7 @@
     {
       "id": "ultimate-custom-night",
       "name": "Ultimate Custom Night",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Ultimate_Custom_Night",
       "description": "Archipelago randomizer for Ultimate Custom Night",
       "githubUrl": null,
@@ -10408,7 +10395,7 @@
     {
       "id": "unbeatable",
       "name": "UNBEATABLE",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/UNBEATABLE_Arcade",
       "description": "Archipelago randomizer for UNBEATABLE",
       "githubUrl": "https://github.com/AllPoland/unbeatAP/blob/main/README.md",
@@ -10436,7 +10423,7 @@
     {
       "id": "uncanny-cat-golf",
       "name": "Uncanny Cat Golf",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Uncanny_Cat_Golf",
       "description": "Archipelago randomizer for Uncanny Cat Golf",
       "githubUrl": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/blob/main/worlds/ucg/docs/setup_en.md",
@@ -10492,7 +10479,7 @@
     {
       "id": "v-rising",
       "name": "V Rising",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/V_Rising",
       "description": "Archipelago randomizer for V Rising",
       "githubUrl": "https://github.com/dghalfor/Archipelago.VRising",
@@ -10550,7 +10537,7 @@
     {
       "id": "vardrain",
       "name": "vardrain--",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Vardrain--",
       "description": "Archipelago randomizer for vardrain--",
       "githubUrl": null,
@@ -10622,7 +10609,7 @@
     {
       "id": "vision-soft-reset",
       "name": "Vision Soft Reset",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Vision_Soft_Reset",
       "description": "Archipelago randomizer for Vision Soft Reset",
       "githubUrl": "https://github.com/kumquat-ir/vsrap",
@@ -10636,7 +10623,7 @@
     {
       "id": "voices-of-the-void",
       "name": "Voices of the Void",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Voices_of_the_Void",
       "description": "Archipelago randomizer for Voices of the Void",
       "githubUrl": "https://github.com/Nathan-R-Og/Archipelago/blob/votv/worlds/votv/docs/setup_en.md",
@@ -10731,7 +10718,7 @@
     {
       "id": "warcraft-3",
       "name": "Warcraft 3",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Warcraft_3",
       "description": "Archipelago randomizer for Warcraft 3",
       "githubUrl": null,
@@ -10745,7 +10732,7 @@
     {
       "id": "warframe",
       "name": "Warframe",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Warframe",
       "githubUrl": null,
@@ -10803,7 +10790,7 @@
     {
       "id": "wario-land-3",
       "name": "Wario Land 3",
-      "platform": "",
+      "platform": "GBC",
       "url": "https://archipelago.miraheze.org/wiki/Wario_Land_3",
       "description": "Archipelago randomizer for Wario Land 3",
       "githubUrl": "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/blob/main/docs/Setup.md",
@@ -10859,7 +10846,7 @@
     {
       "id": "warioware-inc-mega-microgame",
       "name": "WarioWare, Inc. - Mega Microgame$!",
-      "platform": "",
+      "platform": "GBA",
       "url": "https://archipelago.miraheze.org/wiki/WarioWare%2C_Inc._-_Mega_Microgame%24!",
       "description": "Archipelago randomizer for WarioWare, Inc. - Mega Microgame$!",
       "githubUrl": "https://thelx5.github.io/wario_ware_inc/setup.html",
@@ -10887,7 +10874,7 @@
     {
       "id": "we-love-katamari-reroll",
       "name": "We Love Katamari Reroll",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/We_Love_Katamari_Reroll",
       "description": "Archipelago randomizer for We Love Katamari Reroll",
       "githubUrl": "https://github.com/sapphisylph/We-Love-Archipelago-Reroll/blob/main/README.md",
@@ -10959,7 +10946,7 @@
     {
       "id": "witchspring-r",
       "name": "Witchspring R",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Witchspring_R",
       "description": "Archipelago randomizer for Witchspring R",
       "githubUrl": "https://github.com/LeiAfkpuz/WitchSpring-R-Archipelago/blob/main/docs/setup_en.md",
@@ -10973,7 +10960,7 @@
     {
       "id": "word-search",
       "name": "Word Search",
-      "platform": "",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/WordSearch",
       "description": "Archipelago randomizer for Word Search",
       "githubUrl": "https://github.com/ProfDeCube/Archipelago/blob/wordipelago-1.0.1/worlds/wordipelago/docs/guide_en.md",
@@ -11014,7 +11001,7 @@
     {
       "id": "wynncraft-minecraft-server",
       "name": "Wynncraft (Minecraft Server)",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Wynncraft",
       "description": "Archipelago randomizer for Wynncraft (Minecraft Server)",
       "githubUrl": "https://github.com/EpicPuppy613/Wynnpelago",
@@ -11072,7 +11059,7 @@
     {
       "id": "yakuza-like-a-dragon-gaiden-the-man-who-erased-his-name",
       "name": "Yakuza | Like a Dragon Gaiden: The Man Who Erased His Name",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Yakuza_Gaiden",
       "description": "Archipelago randomizer for Yakuza | Like a Dragon Gaiden: The Man Who Erased His Name",
       "githubUrl": "https://github.com/zorasknight/YakLaDGaiRando",
@@ -11140,7 +11127,7 @@
     {
       "id": "yarimono",
       "name": "Yarimono",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Yarimono",
       "description": "Archipelago randomizer for Yarimono",
       "githubUrl": "https://github.com/msent0/Yarimono-Archipelago",
@@ -11182,7 +11169,7 @@
     {
       "id": "yohane-the-parhelion-blaze-in-the-deepblue",
       "name": "YOHANE THE PARHELION -BLAZE in the DEEPBLUE-",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/YOHANE_THE_PARHELION_-BLAZE_in_the_DEEPBLUE-",
       "description": "Archipelago randomizer for YOHANE THE PARHELION -BLAZE in the DEEPBLUE-",
       "githubUrl": "https://github.com/SilicDev/Archipelago/blob/yohane-deepblue/worlds/yohane_deepblue/docs/setup_en.md",
@@ -11224,7 +11211,7 @@
     {
       "id": "you-have-to-win-the-game",
       "name": "You Have to Win the Game",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/You_Have_to_Win_the_Game",
       "description": "Archipelago randomizer for You Have to Win the Game",
       "githubUrl": "https://github.com/blitzashspear/ap-yhtwtg/blob/main/yhtwtg/docs/setup_en.md",
@@ -11252,7 +11239,7 @@
     {
       "id": "ys-origin",
       "name": "Ys Origin",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Ys_Origin",
       "description": "Archipelago randomizer for Ys Origin",
       "githubUrl": "https://github.com/4rtefakt/ys-origin-archipelago",
@@ -11266,7 +11253,7 @@
     {
       "id": "ys-viii-lacrimosa-of-dana",
       "name": "YS VIII: Lacrimosa of Dana",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Ys_8",
       "description": "Archipelago randomizer for YS VIII: Lacrimosa of Dana",
       "githubUrl": "https://github.com/junglechief87/Ys-8-AP-World/blob/master/worlds/ys_8/Docs/setup_en.md",
@@ -11320,7 +11307,7 @@
     {
       "id": "yu-gi-oh-legacy-of-the-duelist-link-evolution",
       "name": "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/YGO_LotD-LE",
       "description": "Archipelago randomizer for Yu-Gi-Oh! Legacy of the Duelist: Link Evolution",
       "githubUrl": "https://github.com/HillbillyDroid/YGO-LotD-LE-APWorld/blob/master/ap_world/docs/setup_en.md",
@@ -11360,7 +11347,7 @@
     {
       "id": "zeldas-adventure-gdx",
       "name": "Zelda's Adventure GDX",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Zelda%27s_Adventure_GDX",
       "description": "Archipelago randomizer for Zelda's Adventure GDX",
       "githubUrl": "https://github.com/nebbii/za-gdx/blob/main/README.md",
@@ -11386,7 +11373,7 @@
     {
       "id": "zoominoes",
       "name": "Zoominoes",
-      "platform": "",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Zoominoes",
       "githubUrl": "https://github.com/chickentuna/Archipelago-Zoominoes/blob/zoominoes/worlds/zoominoes/docs/setup_en.md",
@@ -11414,7 +11401,7 @@
     {
       "id": "zuma-deluxe",
       "name": "Zuma Deluxe",
-      "platform": "",
+      "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Zuma_Deluxe",
       "description": "Archipelago randomizer for Zuma Deluxe",
       "githubUrl": "https://github.com/Movido51/Archipelago/blob/ZumaDeluxe/worlds/zuma_deluxe/docs/setup_en.md",
