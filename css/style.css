@@ -1384,6 +1384,29 @@ footer {
   animation: scaleIn 0.3s ease;
 }
 
+/* Stability badge */
+.stability-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  z-index: 10;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  cursor: help;
+}
+.stability-badge.stable {
+  background: #4ade80;
+}
+.stability-badge.unstable {
+  background: #facc15;
+}
+.stability-badge.broken {
+  background: #f87171;
+}
+
 @keyframes scaleIn {
   from {
     transform: scale(0.5);

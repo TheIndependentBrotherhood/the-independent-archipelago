@@ -427,11 +427,19 @@ function createGameCard(game) {
     : "";
   const twitchClass = twitchId ? "has-twitch-image" : "";
 
+  // Stability badge
+  const stabilityClass = game.stability ? game.stability.toLowerCase() : null;
+  const stabilityLabel = game.stability || null;
+  const stabilityBadge = stabilityClass
+    ? `<div class="stability-badge ${stabilityClass}" title="${stabilityLabel}"></div>`
+    : "";
+
   // Generate unique ID for this card to handle image loading
   const cardId = `card-${game.id}`;
 
   return `
     <div class="game-card ${twitchClass}" id="${cardId}" ${backgroundStyle}>
+      ${stabilityBadge}
       <div class="game-card-selection-overlay">
         <i class="fas fa-check selection-check-icon"></i>
       </div>
