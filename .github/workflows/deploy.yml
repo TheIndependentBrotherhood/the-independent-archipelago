@@ -39,11 +39,12 @@ jobs:
 
       - name: Deploy to GitHub Pages (retry once on failure)
         id: deploy_retry
-        if: steps.deploy.outcome == 'failure'
+        if: ${{ steps.deploy.outcome == 'failure' }}
+        continue-on-error: true
         uses: actions/deploy-pages@v5
 
-      - name: Fail if deployment did not complete
-        if: steps.deploy.outputs.page_url == '' && steps.deploy_retry.outputs.page_url == ''
+      - name: Fail when both deploy attempts fail
+        if: ${{ steps.deploy.outcome == 'failure' && steps.deploy_retry.outcome != 'success' }}
         run: |
-          echo "Deployment failed after retry." >&2
+          echo "Both deploy attempts failed." >&2
           exit 1
