@@ -5,6 +5,7 @@ let selectedTodoFilters = new Set();
 let selectedInProgressFilters = new Set();
 let selectedCompletedFilters = new Set();
 let selectedPlatformFilters = new Set();
+let selectedStabilityFilters = new Set();
 
 // Selection mode for todo list
 let selectedGamesForTodoList = new Set();
@@ -61,6 +62,9 @@ function initializeFilters(games) {
     clearPlatformFilters,
   );
 
+  // Create filter buttons for stability
+  createStabilityFilterGroup();
+
   // Get all unique users in todo, inProgress and completed
   const todoUsers = new Set();
   const inProgressUsers = new Set();
@@ -98,6 +102,48 @@ function initializeFilters(games) {
     toggleCompletedFilter,
     clearCompletedFilters,
   );
+}
+
+function createStabilityFilterGroup() {
+  const container = document.getElementById("stabilityFilter");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const values = [
+    { key: "stable", label: "Stable" },
+    { key: "unstable", label: "Unstable" },
+    { key: "broken", label: "Broken" },
+    { key: "unknown", label: "Unknown" },
+  ];
+
+  values.forEach(({ key, label }) => {
+    const btn = document.createElement("button");
+    btn.className = "filter-btn";
+    btn.dataset.stability = key;
+    btn.innerHTML = `<span class="stability-dot ${key === "unknown" ? "" : key}"></span>${label}`;
+    btn.addEventListener("click", () => toggleStabilityFilter(key, btn));
+    container.appendChild(btn);
+  });
+}
+
+function toggleStabilityFilter(value, btn) {
+  if (selectedStabilityFilters.has(value)) {
+    selectedStabilityFilters.delete(value);
+    btn.classList.remove("active");
+  } else {
+    selectedStabilityFilters.add(value);
+    btn.classList.add("active");
+  }
+  applyFilters();
+}
+
+function clearStabilityFilters() {
+  selectedStabilityFilters.clear();
+  document
+    .querySelectorAll("#stabilityFilter .filter-btn.active")
+    .forEach((btn) => btn.classList.remove("active"));
+  applyFilters();
 }
 
 function createFilterGroup(
@@ -276,6 +322,17 @@ function applyFilters() {
       }
 
       return hasMatch;
+    });
+  }
+
+  // Apply stability filter
+  if (selectedStabilityFilters.size > 0) {
+    filtered = filtered.filter((game) => {
+      const s = (game.stability || "").toLowerCase();
+      return (
+        selectedStabilityFilters.has(s) ||
+        (selectedStabilityFilters.has("unknown") && !game.stability)
+      );
     });
   }
 
