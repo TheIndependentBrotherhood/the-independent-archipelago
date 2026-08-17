@@ -5120,7 +5120,8 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "5262"
+      "twitchId": "5262",
+      "url": "https://archipelago.miraheze.org/wiki/Lufia_II_Ancient_Cave"
     },
     {
       "id": "luigis-mansion",
@@ -5156,7 +5157,7 @@
       "id": "made-in-abyss-bsfd",
       "name": "Made in Abyss BSFD",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/MadeInAbyssBSFD",
       "description": "Archipelago randomizer for Made in Abyss BSFD",
       "githubUrl": "https://github.com/OctoberWolf/MadeInAbyssBSFD-AP/blob/main/README.md",
       "discordUrl": null,
@@ -5271,7 +5272,7 @@
       "id": "mario-luigi-dream-team",
       "name": "Mario & Luigi: Dream Team",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Mario_and_Luigi_Dream_Team",
       "description": "Archipelago randomizer for Mario & Luigi: Dream Team",
       "githubUrl": "https://github.com/MnL-Modding/Piillomizer",
       "discordUrl": null,
@@ -5442,7 +5443,8 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "1388250717"
+      "twitchId": "1388250717",
+      "url": "https://archipelago.miraheze.org/wiki/Mega_Man_Battle_Network_3"
     },
     {
       "id": "mega-man-battle-network-6",
@@ -5704,7 +5706,7 @@
       "id": "mina-the-hollower",
       "name": "Mina the Hollower",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Mina_The_Hollower",
       "description": "Archipelago randomizer for Mina the Hollower",
       "githubUrl": "https://github.com/FyreDay/Archipelago-MinaTheHollower/blob/main/worlds/mina_the_hollower/docs/setup_en.md",
       "discordUrl": null,
@@ -5791,7 +5793,7 @@
       "id": "minecraft-vault-hunters-modpack",
       "name": "Minecraft: Vault Hunters (Modpack)",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Vault_Hunters",
       "description": "Archipelago randomizer for Minecraft: Vault Hunters (Modpack)",
       "githubUrl": "https://github.com/Studmuffin2227/VHAPMod/blob/main/README.txt",
       "discordUrl": null,
@@ -6274,7 +6276,7 @@
       "id": "oh-so-hero",
       "name": "Oh So Hero",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Oh_So_Hero!",
       "description": "Archipelago randomizer for Oh So Hero",
       "githubUrl": "https://github.com/L-technology-mods/Archipelago-Oh-So-Heroe/releases/tag/v1.0.1",
       "discordUrl": null,
@@ -6571,7 +6573,7 @@
       "id": "paquerette-down-the-bunburrows",
       "name": "Paquerette Down the Bunburrows",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/P%C3%A2querette_Down_The_Bunburrows",
       "description": "Archipelago randomizer for Paquerette Down the Bunburrows",
       "githubUrl": "https://github.com/SergeAzel/Archipelago_PDTB/blob/main/worlds/paquerette_down_the_bunburrows/docs/setup_en.md",
       "discordUrl": null,
@@ -7152,7 +7154,7 @@
       "id": "pok-mon-trozei-link",
       "name": "Pokémon Trozei / Link",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Trozei",
       "description": "Archipelago randomizer for Pokémon Trozei / Link",
       "githubUrl": "https://github.com/WCutePy/ArchipelagoAlmia/blob/pokemon_link_trozei/worlds/pokemon_trozei/docs/setup_en.md",
       "discordUrl": null,
@@ -7268,7 +7270,7 @@
       "id": "q-up",
       "name": "Q-Up",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Q-UP",
       "description": "Archipelago randomizer for Q-Up",
       "githubUrl": "https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/setup_en.md",
       "discordUrl": null,
@@ -7731,7 +7733,7 @@
       "id": "rwby-grimm-eclipse",
       "name": "RWBY: Grimm Eclipse",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/RWBY_Grimm_Eclipse",
       "description": "Archipelago randomizer for RWBY: Grimm Eclipse",
       "githubUrl": "https://github.com/nepcore/RwbyAP/blob/main/apworld/docs/setup_en.md",
       "discordUrl": null,
@@ -7772,7 +7774,7 @@
       "id": "santa-needs-you",
       "name": "Santa Needs YOU!",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Santa",
       "description": "Archipelago randomizer for Santa Needs YOU!",
       "githubUrl": null,
       "discordUrl": "https://discord.com/channels/731205301247803413/1180267075856503006/1180267075856503006",
@@ -8469,7 +8471,7 @@
       "id": "sonic-colors-ds",
       "name": "Sonic Colors",
       "platform": "NDS",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Sonic_Colours_(DS)",
       "description": "Archipelago randomizer for Sonic Colors (DS)",
       "githubUrl": "https://github.com/SilicDev/Archipelago/blob/sonic-colours-ds/worlds/sonic_colours_ds/docs/setup_en.md",
       "discordUrl": null,
@@ -8851,7 +8853,8 @@
         "7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"
       ],
       "inProgress": [],
-      "twitchId": "490422"
+      "twitchId": "490422",
+      "url": "https://archipelago.miraheze.org/wiki/Starcraft_2"
     },
     {
       "id": "stardew-valley",
@@ -9066,7 +9069,8 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "13243"
+      "twitchId": "13243",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Mario_Land_2"
     },
     {
       "id": "super-mario-rpg",
@@ -9139,13 +9143,14 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "2635"
+      "twitchId": "2635",
+      "url": "https://archipelago.miraheze.org/wiki/Yoshi%27s_Island"
     },
     {
       "id": "super-mario-world-spicy-mycena-waffles",
       "name": "Super Mario World: Spicy Mycena Waffles",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/SMW:_Spicy_Mycena_Waffles",
       "description": "Archipelago randomizer for Super Mario World: Spicy Mycena Waffles",
       "githubUrl": "https://thelx5.github.io/smw/setup.html",
       "discordUrl": null,
@@ -9194,7 +9199,8 @@
       "inProgress": [],
       "twitchId": "7595",
       "stability": "Unstable",
-      "githubUrl": "https://github.com/lordlou/Archipelago/blob/main/worlds/sm/docs/multiworld_en.md"
+      "githubUrl": "https://github.com/lordlou/Archipelago/blob/main/worlds/sm/docs/multiworld_en.md",
+      "url": "https://archipelago.miraheze.org/wiki/Super_Metroid"
     },
     {
       "id": "super-smash-bros-brawl-the-subspace-emissary",
@@ -9230,7 +9236,7 @@
       "id": "super-smash-bros-n64",
       "name": "Super Smash Bros.",
       "platform": "N64",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Super_Smash_Bros._64",
       "description": "Archipelago randomizer for Super Smash Bros. (N64)",
       "githubUrl": "https://github.com/IncidiousJacob/Smashipelago",
       "discordUrl": null,
@@ -9274,7 +9280,7 @@
       "id": "sven-co-op",
       "name": "Sven Co-op",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Half-Life_(Sven_Co-op)",
       "description": "Archipelago randomizer for Sven Co-op",
       "githubUrl": "https://github.com/barretg/hl1-sven-ap/blob/main/apworld/half_life_sven/docs/setup_en.md",
       "discordUrl": null,
@@ -9329,7 +9335,7 @@
       "id": "taz-wanted",
       "name": "Taz: Wanted",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Taz_Wanted",
       "description": "Archipelago randomizer for Taz: Wanted",
       "githubUrl": "https://github.com/imklubb/Archipelago-Taz-Wanted",
       "discordUrl": null,
@@ -9580,7 +9586,7 @@
       "id": "the-legend-of-zelda-a-link-to-the-past-owr",
       "name": "The Legend of Zelda: A Link to the Past OWR",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past",
       "description": "Archipelago randomizer for The Legend of Zelda: A Link to the Past OWR",
       "githubUrl": "https://github.com/aurabot24/Archipelago-ALttPR",
       "discordUrl": null,
@@ -9615,7 +9621,8 @@
       "inProgress": [],
       "twitchId": "8144",
       "stability": "Stable",
-      "githubUrl": "https://github.com/threeandthreee/Archipelago/blob/ladx/beta-4/worlds/ladx_beta/docs/setup_en.md"
+      "githubUrl": "https://github.com/threeandthreee/Archipelago/blob/ladx/beta-4/worlds/ladx_beta/docs/setup_en.md",
+      "url": "https://archipelago.miraheze.org/wiki/Link%27s_Awakening_DX"
     },
     {
       "id": "the-legend-of-zelda-majoras-mask",
@@ -9640,7 +9647,8 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "11557"
+      "twitchId": "11557",
+      "url": "https://archipelago.miraheze.org/wiki/Ocarina_of_Time"
     },
     {
       "id": "the-legend-of-zelda-ocarina-of-time-but-its-just-master-quest-water-temple",
@@ -9667,7 +9675,8 @@
       "githubUrl": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/guide_en.md",
       "inProgress": [],
       "twitchId": "11557",
-      "stability": "Stable"
+      "stability": "Stable",
+      "url": "https://archipelago.miraheze.org/wiki/Ship_of_Harkinian"
     },
     {
       "id": "the-legend-of-zelda-oracle-of-ages",
@@ -9762,7 +9771,8 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "16967"
+      "twitchId": "16967",
+      "url": "https://archipelago.miraheze.org/wiki/The_Wind_Waker"
     },
     {
       "id": "the-legend-of-zelda-twilight-princess",
@@ -9782,7 +9792,7 @@
       "id": "the-legend-of-zelda-wind-waker-hd",
       "name": "The Legend of Zelda: Wind Waker HD",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/The_Wind_Waker_HD",
       "description": "Archipelago randomizer for The Legend of Zelda: Wind Waker HD",
       "githubUrl": "https://github.com/Teotia444/twwhd-apworld/blob/main/docs/setup_en.md",
       "discordUrl": null,
@@ -10041,7 +10051,8 @@
       "githubUrl": "https://github.com/Arenes214/APWorld-Tombola/blob/master/docs/en_AP%20Tombola.md",
       "inProgress": [],
       "twitchId": null,
-      "stability": "Unstable"
+      "stability": "Unstable",
+      "url": "https://archipelago.miraheze.org/wiki/AP_Tombola"
     },
     {
       "id": "tony-hawks-american-wasteland",
@@ -10075,7 +10086,7 @@
       "id": "total-war-warhammer-iii",
       "name": "Total War: Warhammer III",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Total_War_Warhammer_3",
       "description": "Archipelago randomizer for Total War: Warhammer III",
       "githubUrl": "https://github.com/jordansds/Archipelago_TWW3_Alt/blob/main/README.md",
       "discordUrl": null,
@@ -10187,7 +10198,7 @@
       "id": "touhou-koumakyou-the-embodiment-of-scarlet-devil",
       "name": "Touhou Koumakyou: The Embodiment of Scarlet Devil",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Touhou_Koumakyou_~_the_Embodiment_of_Scarlet_Devil",
       "description": "Archipelago randomizer for Touhou Koumakyou: The Embodiment of Scarlet Devil",
       "githubUrl": "https://github.com/Nepley/eosd-apworld/blob/main/README.md",
       "discordUrl": null,
@@ -10398,7 +10409,7 @@
       "id": "unbeatable",
       "name": "UNBEATABLE",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/UNBEATABLE_Arcade",
       "description": "Archipelago randomizer for UNBEATABLE",
       "githubUrl": "https://github.com/AllPoland/unbeatAP/blob/main/README.md",
       "discordUrl": null,
@@ -10595,11 +10606,11 @@
       "stability": "Unstable"
     },
     {
-      "id": "viscera-cleanup-details",
-      "name": "Viscera Cleanup Details",
-      "platform": "",
-      "url": null,
-      "description": "Archipelago randomizer for Viscera Cleanup Details",
+      "id": "viscera-cleanup-detail",
+      "name": "Viscera Cleanup Detail",
+      "platform": "PC",
+      "url": "https://archipelago.miraheze.org/wiki/Viscera_Cleanup_Detail",
+      "description": "Archipelago randomizer for Viscera Cleanup Detail",
       "githubUrl": "https://github.com/Kryen112/Viscera-Cleanup-Detail-AP/releases/download/1.0.1/PLAYER_SETUP.md",
       "discordUrl": null,
       "completed": [],
@@ -10829,7 +10840,8 @@
       "todo": [],
       "githubUrl": "https://github.com/randomcodegen/Archipelago/releases",
       "inProgress": [],
-      "twitchId": "17608"
+      "twitchId": "17608",
+      "url": "https://archipelago.miraheze.org/wiki/Wario_Land"
     },
     {
       "id": "wario-world",
@@ -11061,7 +11073,7 @@
       "id": "yakuza-like-a-dragon-gaiden-the-man-who-erased-his-name",
       "name": "Yakuza | Like a Dragon Gaiden: The Man Who Erased His Name",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Yakuza_Gaiden",
       "description": "Archipelago randomizer for Yakuza | Like a Dragon Gaiden: The Man Who Erased His Name",
       "githubUrl": "https://github.com/zorasknight/YakLaDGaiRando",
       "discordUrl": null,
@@ -11255,7 +11267,7 @@
       "id": "ys-viii-lacrimosa-of-dana",
       "name": "YS VIII: Lacrimosa of Dana",
       "platform": "",
-      "url": null,
+      "url": "https://archipelago.miraheze.org/wiki/Ys_8",
       "description": "Archipelago randomizer for YS VIII: Lacrimosa of Dana",
       "githubUrl": "https://github.com/junglechief87/Ys-8-AP-World/blob/master/worlds/ys_8/Docs/setup_en.md",
       "discordUrl": null,
@@ -11328,7 +11340,8 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "31349"
+      "twitchId": "31349",
+      "url": "https://archipelago.miraheze.org/wiki/Yu-Gi-Oh!_2006"
     },
     {
       "id": "yu-gi-oh-world-championship-2008",
