@@ -6481,20 +6481,6 @@
       "stability": "Stable"
     },
     {
-      "id": "password-game",
-      "name": "Password Game",
-      "platform": "Web",
-      "url": "https://archipelago.miraheze.org/wiki/The_Password_Game",
-      "description": "Archipelago randomizer for Password Game",
-      "githubUrl": "https://github.com/ThePhar/ThePasswordGameArchipelago/releases/tag/1.0",
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "784590674",
-      "stability": "Broken"
-    },
-    {
       "id": "path-of-exile",
       "name": "Path of Exile",
       "platform": "PC",
