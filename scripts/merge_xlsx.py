@@ -13,7 +13,6 @@ Features:
     - Detects updates: new stability info, new setup guide URLs
     - Interactive UI: Accept / Skip / Map to existing game
     - Adds stability field (Stable / Unstable / Broken)
-    - Adds setupGuideUrl field for non-Github/Discord/Wiki links
     - Reports unknown link types for manual review
 """
 
@@ -33,6 +32,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR)
 GAMES_JSON_PATH = os.path.join(ROOT_DIR, "data", "games.json")
 XLSX_DEFAULT_DIR = os.path.join(ROOT_DIR, "data", "Google Sheet")
+# Persistent manual name→id mappings (saved when user uses 'Map to existing')
+MAPPINGS_PATH = os.path.join(ROOT_DIR, "data", "xlsx_name_mappings.json")
 
 # ---------------------------------------------------------------------------
 # Auto-install openpyxl if missing
@@ -59,12 +60,71 @@ def slugify(name: str) -> str:
 
 
 def normalize(name: str) -> str:
-    """Normalize a game name for fuzzy matching."""
+    """Standard normalization: lowercase, remove punctuation, collapse spaces."""
     if not name:
         return ""
     n = name.lower()
     n = re.sub(r"[^a-z0-9 ]", " ", n)
     return re.sub(r"\s+", " ", n).strip()
+
+
+def strip_parenthetical_suffix(name: str) -> str:
+    """Remove ONE trailing parenthetical: 'Foo (Bar)' → 'Foo'"""
+    return re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()
+
+
+def load_mappings() -> dict:
+    """Load xlsx_name_mappings.json (xlsxName → gameId). Creates file if absent."""
+    if os.path.isfile(MAPPINGS_PATH):
+        with open(MAPPINGS_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_mappings(mappings: dict) -> None:
+    """Persist xlsx_name_mappings.json."""
+    with open(MAPPINGS_PATH, "w", encoding="utf-8") as f:
+        json.dump(mappings, f, indent=2, ensure_ascii=False)
+
+
+def find_match_for_xlsx(xlsx_name: str, norm_to_json: dict,
+                        id_to_json: dict, mappings: dict):
+    """
+    Try to find a matching JSON game for an XLSX game name.
+
+    Priority:
+      0. Persistent manual mapping (xlsx_name_mappings.json) — highest confidence
+      1. Exact normalized match
+      2. Strip trailing parenthetical — ONLY if the stripped base name is not
+         shared by multiple JSON games (avoids 'DKC (Mirrored)' → 'DKC' when
+         both 'DKC' and 'DKC (Mirror Hack)' exist in JSON)
+    """
+    # 0. Manual mapping
+    if xlsx_name in mappings:
+        game_id = mappings[xlsx_name]
+        if game_id in id_to_json:
+            return id_to_json[game_id]
+
+    # 1. Exact normalized
+    n = normalize(xlsx_name)
+    if n in norm_to_json:
+        return norm_to_json[n]
+
+    # 2. Strip parenthetical — only if unambiguous
+    stripped = strip_parenthetical_suffix(xlsx_name)
+    if stripped != xlsx_name:
+        n2 = normalize(stripped)
+        if n2 in norm_to_json:
+            # Safety check: are there OTHER JSON games whose normalized name
+            # starts with n2? If so, the match is ambiguous → skip.
+            ambiguous = any(
+                k != n2 and k.startswith(n2 + " ")
+                for k in norm_to_json
+            )
+            if not ambiguous:
+                return norm_to_json[n2]
+
+    return None
 
 
 def classify_link(url: str) -> str:
@@ -184,18 +244,20 @@ def parse_xlsx(xlsx_path: str) -> tuple[list, list]:
 # Diff generation
 # ---------------------------------------------------------------------------
 
-def build_diff(xlsx_games: list, json_games: list) -> dict:
+def build_diff(xlsx_games: list, json_games: list, mappings: dict) -> dict:
     """
     Compare XLSX games with JSON games.
     Returns a dict with:
         new_games: games in XLSX with no JSON match
         updates:   games in both with stability or URL changes
         matched:   games matched with no changes
+
+    URL update rule:
+      - Only propose a githubUrl change if the game has NO githubUrl yet.
+      - discordUrl and url fields: propose if different.
     """
     norm_to_json = {normalize(g["name"]): g for g in json_games}
     id_to_json = {g["id"]: g for g in json_games}
-
-    # Build a list of all JSON game names for autocomplete
     all_json_names = [{"id": g["id"], "name": g["name"]} for g in json_games]
 
     new_games = []
@@ -203,17 +265,7 @@ def build_diff(xlsx_games: list, json_games: list) -> dict:
     matched = []
 
     for xg in xlsx_games:
-        norm_xlsx = normalize(xg["xlsxName"])
-
-        # --- Try to find a matching JSON game ---
-        json_game = norm_to_json.get(norm_xlsx)
-
-        # Fallback: partial match
-        if json_game is None:
-            for norm_json, jg in norm_to_json.items():
-                if norm_xlsx in norm_json or norm_json in norm_xlsx:
-                    json_game = jg
-                    break
+        json_game = find_match_for_xlsx(xg["xlsxName"], norm_to_json, id_to_json, mappings)
 
         if json_game is None:
             new_games.append({
@@ -226,21 +278,26 @@ def build_diff(xlsx_games: list, json_games: list) -> dict:
         # --- Detect changes ---
         changes = {}
 
-        # Stability
+        # Stability: always propose if different
         if xg["stability"] and json_game.get("stability") != xg["stability"]:
             changes["stability"] = {
                 "old": json_game.get("stability"),
                 "new": xg["stability"],
             }
 
-        # Setup guide URL
+        # URL fields
         field = xg["guideField"]
         url = xg["guideUrl"]
-        if field and url and json_game.get(field) != url:
-            changes[field] = {
-                "old": json_game.get(field),
-                "new": url,
-            }
+        if field and url:
+            current = json_game.get(field)
+            if field == "githubUrl":
+                # Only propose if the game has no githubUrl yet (avoids
+                # overwriting release links with doc links on every run)
+                if not current:
+                    changes[field] = {"old": None, "new": url}
+            else:
+                if current != url:
+                    changes[field] = {"old": current, "new": url}
 
         entry = {
             **xg,
@@ -266,15 +323,18 @@ def build_diff(xlsx_games: list, json_games: list) -> dict:
 # Apply accepted changes to games.json
 # ---------------------------------------------------------------------------
 
-def apply_changes(games_data: dict, decisions: list) -> dict:
+def apply_changes(games_data: dict, decisions: list, mappings: dict) -> tuple[dict, dict]:
     """
     Apply accepted/mapped decisions to games_data.
+    Also updates the mappings dict with new manual associations.
 
     decisions: list of dicts:
         action: "accept" | "skip" | "map"
         type:   "new" | "update"
         data:   the diff entry
         mapToId: (only for action="map") existing game ID
+
+    Returns (updated_games_data, updated_mappings).
     """
     id_to_game = {g["id"]: g for g in games_data["games"]}
     new_games = []
@@ -329,12 +389,16 @@ def apply_changes(games_data: dict, decisions: list) -> dict:
             url = data.get("guideUrl")
             if field and url and not game.get(field):
                 game[field] = url
+            # Persist this manual association for future runs
+            xlsx_name = data.get("xlsxName")
+            if xlsx_name:
+                mappings[xlsx_name] = map_id
 
     # Insert new games and re-sort
     games_data["games"].extend(new_games)
     games_data["games"].sort(key=lambda g: normalize(g["name"]))
 
-    return games_data
+    return games_data, mappings
 
 
 # ---------------------------------------------------------------------------
@@ -749,14 +813,23 @@ function filterAutocomplete(key, query) {
   list.innerHTML = matches.map((g, i) =>
     `<div data-id="${escapeHtml(g.id)}" data-name="${escapeHtml(g.name)}"
           class="${i === 0 ? 'selected' : ''}"
-          onmousedown="selectAcItem('${key}', '${escapeHtml(g.id)}', '${escapeHtml(g.name).replace(/'/g, "\\'")}')"
+          onmousedown="selectAcItem('${key}', this)"
      >${escapeHtml(g.name)}</div>`
   ).join('');
   list.style.display = 'block';
 }
 
-function selectAcItem(key, id, name) {
+function selectAcItem(key, elOrId, nameArg) {
   const input = document.getElementById(`mapinput_${key}`);
+  let id, name;
+  if (typeof elOrId === 'string') {
+    // Called from keyboard handler with (key, id, name)
+    id = elOrId; name = nameArg;
+  } else {
+    // Called from onmousedown with (key, this)
+    id = elOrId.dataset.id;
+    name = elOrId.dataset.name;
+  }
   input.value = name;
   input.dataset.selectedId = id;
   document.getElementById(`aclist_${key}`).style.display = 'none';
@@ -903,10 +976,14 @@ class Handler(BaseHTTPRequestHandler):
                 with open(self.games_json_path, "r", encoding="utf-8") as f:
                     games_data = json.load(f)
 
-                updated = apply_changes(games_data, decisions)
+                mappings = load_mappings()
+                updated, updated_mappings = apply_changes(games_data, decisions, mappings)
 
                 with open(self.games_json_path, "w", encoding="utf-8") as f:
                     json.dump(updated, f, indent=2, ensure_ascii=False)
+
+                # Persist manual name→id mappings for future runs
+                save_mappings(updated_mappings)
 
                 applied = len([d for d in decisions if d["action"] in ("accept", "map")])
                 self.send_response(200)
@@ -956,8 +1033,13 @@ def main():
     json_games = games_data["games"]
     print(f"       {len(json_games)} games in JSON")
 
+    print("[MAPS] Loading name mappings...")
+    mappings = load_mappings()
+    if mappings:
+        print(f"       {len(mappings)} manual mapping(s) loaded from xlsx_name_mappings.json")
+
     print("[DIFF] Generating diff...")
-    diff = build_diff(xlsx_games, json_games)
+    diff = build_diff(xlsx_games, json_games, mappings)
     diff["unknown_links"] = unknown_links
 
     print(f"       {len(diff['new_games'])} new games")
