@@ -1527,6 +1527,19 @@ footer {
 }
 
 /* Newest badge */
+@keyframes newestColorCycle {
+  0%   { color: #FF2A00; filter: drop-shadow(0 0 4px rgba(255, 42, 0, 0.8)); }
+  25%  { color: #FF8C00; filter: drop-shadow(0 0 6px rgba(255, 140, 0, 0.9)); }
+  50%  { color: #FFD700; filter: drop-shadow(0 0 8px rgba(255, 215, 0, 1));   }
+  75%  { color: #FF8C00; filter: drop-shadow(0 0 6px rgba(255, 140, 0, 0.9)); }
+  100% { color: #FF2A00; filter: drop-shadow(0 0 4px rgba(255, 42, 0, 0.8)); }
+}
+
+@keyframes newestPulse {
+  0%, 100% { transform: scale(1);    }
+  50%       { transform: scale(1.25); }
+}
+
 .newest-badge {
   position: absolute;
   top: 8px;
@@ -1539,6 +1552,8 @@ footer {
   z-index: 10;
   color: #FF2A00;
   font-size: 0.6rem;
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.7));
   cursor: help;
+  animation:
+    newestColorCycle 2s ease-in-out infinite,
+    newestPulse      2s ease-in-out infinite;
 }
