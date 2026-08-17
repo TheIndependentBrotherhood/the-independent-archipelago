@@ -798,20 +798,6 @@
       "stability": "Stable"
     },
     {
-      "id": "black-ops-3-zombies",
-      "name": "Black Ops 3 - Zombies",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/Black_Ops_3_-_Zombies",
-      "description": "Archipelago randomizer for Black Ops 3 - Zombies",
-      "githubUrl": "https://github.com/colin969/bo3_archipelago?tab=readme-ov-file",
-      "discordUrl": "https://discord.com/channels/1085716850370957462/1205200487175950386",
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "489401",
-      "stability": "Unstable"
-    },
-    {
       "id": "blasphemous",
       "name": "Blasphemous",
       "platform": "PC",
