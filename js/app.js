@@ -1239,6 +1239,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     exitBtn.addEventListener("click", toggleSelectionMode);
   }
 
+  // Show a loading overlay on the games grid, then sort, then restore
+  function triggerSortWithLoading(btn) {
+    const container = document.getElementById("gamesContainer");
+    if (btn) btn.disabled = true;
+    if (container) container.classList.add("sort-loading");
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        applyFilters();
+        if (container) container.classList.remove("sort-loading");
+        if (btn) btn.disabled = false;
+      });
+    });
+  }
+
   // Set up sort buttons
   const sortByBtn = document.getElementById("sortByBtn");
   const sortDirBtn = document.getElementById("sortDirBtn");
@@ -1247,7 +1261,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     sortByBtn.addEventListener("click", () => {
       sortBy = sortBy === "alpha" ? "date" : "alpha";
       updateSortButtons();
-      applyFilters();
+      triggerSortWithLoading(sortByBtn);
     });
   }
 
@@ -1255,7 +1269,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     sortDirBtn.addEventListener("click", () => {
       sortDirection = sortDirection === "asc" ? "desc" : "asc";
       updateSortButtons();
-      applyFilters();
+      triggerSortWithLoading(sortDirBtn);
     });
   }
 
