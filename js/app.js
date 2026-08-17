@@ -414,6 +414,9 @@ function renderGames(games) {
   resultsCount.textContent = `${games.length} game${games.length !== 1 ? "s" : ""} found`;
   container.innerHTML = games.map((game) => createGameCard(game)).join("");
 
+  // Update alphabet/date navigation for the current sorted games
+  initializeAlphabetNav(games);
+
   // Validate Twitch images after rendering
   validateTwitchImages(".game-card.has-twitch-image");
 
@@ -438,48 +441,78 @@ function initializeAlphabetNav(games) {
   const alphabetContainer = document.getElementById("alphabetLetters");
   alphabetContainer.innerHTML = "";
 
-  // Create buttons for each letter
-  const letters = [
-    "#",
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
-    "G",
-    "H",
-    "I",
-    "J",
-    "K",
-    "L",
-    "M",
-    "N",
-    "O",
-    "P",
-    "Q",
-    "R",
-    "S",
-    "T",
-    "U",
-    "V",
-    "W",
-    "X",
-    "Y",
-    "Z",
-  ];
+  if (sortBy === "date") {
+    // Collect unique dates from the current game list, preserving sort order
+    const seenDates = new Set();
+    const dates = [];
+    for (const game of games) {
+      const d = game.addedAt || "";
+      if (d && !seenDates.has(d)) {
+        seenDates.add(d);
+        dates.push(d);
+      }
+    }
 
-  letters.forEach((letter) => {
-    const btn = document.createElement("button");
-    btn.className = "alphabet-btn";
-    btn.textContent = letter;
-    btn.addEventListener("click", () => scrollToLetter(letter, games));
-    alphabetContainer.appendChild(btn);
-  });
+    dates.forEach((date) => {
+      const btn = document.createElement("button");
+      btn.className = "alphabet-btn date-nav-btn";
+      btn.textContent = date;
+      btn.title = date;
+      btn.addEventListener("click", () => scrollToDate(date));
+      alphabetContainer.appendChild(btn);
+    });
+  } else {
+    // Create buttons for each letter
+    const letters = [
+      "#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z",
+    ];
+
+    letters.forEach((letter) => {
+      const btn = document.createElement("button");
+      btn.className = "alphabet-btn";
+      btn.textContent = letter;
+      btn.addEventListener("click", () => scrollToLetter(letter));
+      alphabetContainer.appendChild(btn);
+    });
+  }
+}
+
+// Scroll to first game with the given added date
+function scrollToDate(date) {
+  const targetCard = document.querySelector(`.game-card[data-added-at="${date}"]`);
+  if (targetCard) {
+    targetCard.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 // Scroll to first game starting with letter
-function scrollToLetter(letter, games) {
+function scrollToLetter(letter) {
   // Get all visible game cards in the DOM
   const visibleCards = Array.from(document.querySelectorAll(".game-card"));
 
@@ -560,7 +593,7 @@ function createGameCard(game) {
   const cardId = `card-${game.id}`;
 
   return `
-    <div class="game-card ${twitchClass}" id="${cardId}" ${backgroundStyle}>
+    <div class="game-card ${twitchClass}" id="${cardId}" data-added-at="${game.addedAt || ''}" ${backgroundStyle}>
       ${stabilityBadge}
       ${newestBadge}
       <div class="game-card-selection-overlay">
