@@ -2305,10 +2305,10 @@
       "description": "Archipelago randomizer for DLC Quest (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1109178880838868992",
       "completed": [],
-      "todo": [],
-      "inProgress": [
+      "todo": [
         "7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"
       ],
+      "inProgress": [],
       "twitchId": "33096",
       "url": "https://archipelago.miraheze.org/wiki/DLCQuest",
       "stability": "Stable"
@@ -4723,11 +4723,9 @@
       "description": "Archipelago randomizer for Left 4 Dead 2",
       "githubUrl": "https://github.com/yufiievershade/Left-4-Dead-2-Archipelago",
       "discordUrl": null,
+      "todo": ["e6f1a4b7-2c5d-8e0a-1b3c-4d5e6f7a8b9c"],
+      "inProgress": [],
       "completed": [],
-      "todo": [],
-      "inProgress": [
-        "e6f1a4b7-2c5d-8e0a-1b3c-4d5e6f7a8b9c"
-      ],
       "twitchId": "24193",
       "stability": "Unstable"
     },
@@ -6645,11 +6643,9 @@
       "description": "Archipelago randomizer for Pikmin",
       "githubUrl": "https://github.com/TheLynk/Archipelago/blob/PikminV2/worlds/pikmin/docs/setup_en.md",
       "discordUrl": null,
-      "completed": [],
       "todo": [],
-      "inProgress": [
-        "a9b2c8d1-4e5f-6a7b-8c9d-0e1f2a3b4c5d"
-      ],
+      "inProgress": [],
+      "completed": [],
       "twitchId": "2209",
       "stability": "Unstable"
     },
@@ -7476,12 +7472,10 @@
       "url": "https://archipelago.miraheze.org/wiki/Risk_of_Rain",
       "description": "Archipelago randomizer for Risk of Rain (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
-      "completed": [],
-      "todo": [],
       "githubUrl": "https://github.com/studkid/Archipelago/blob/main/worlds/ror1/docs/setup_RoR1_en.md",
-      "inProgress": [
-        "7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"
-      ],
+      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
+      "inProgress": [],
+      "completed": [],
       "twitchId": "263489",
       "stability": "Unstable"
     },
