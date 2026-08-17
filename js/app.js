@@ -553,7 +553,7 @@ function createGameCard(game) {
 
   // Newest badge
   const newestBadge = isNewGame(game)
-    ? `<div class="newest-badge" title="Added less than a month ago"><i class="fas fa-star"></i></div>`
+    ? `<div class="newest-badge" title="Added less than a month ago"><i class="fas fa-fire"></i></div>`
     : "";
 
   // Generate unique ID for this card to handle image loading
