@@ -345,15 +345,17 @@ function applyFilters() {
 
 function sortGames(games) {
   return [...games].sort((a, b) => {
-    let cmp;
     if (sortBy === "date") {
       const da = a.addedAt || "0000-00-00";
       const db = b.addedAt || "0000-00-00";
-      cmp = da.localeCompare(db);
-      if (cmp === 0) cmp = a.name.localeCompare(b.name);
-    } else {
-      cmp = a.name.localeCompare(b.name);
+      const dateCmp = da.localeCompare(db);
+      if (dateCmp !== 0) {
+        return sortDirection === "asc" ? dateCmp : -dateCmp;
+      }
+      return a.name.localeCompare(b.name);
     }
+
+    const cmp = a.name.localeCompare(b.name);
     return sortDirection === "asc" ? cmp : -cmp;
   });
 }
@@ -463,7 +465,7 @@ function initializeAlphabetNav(games) {
     });
   } else {
     // Create buttons for each letter
-    const letters = [
+    const baseLetters = [
       "#",
       "A",
       "B",
@@ -492,6 +494,8 @@ function initializeAlphabetNav(games) {
       "Y",
       "Z",
     ];
+    const letters =
+      sortDirection === "asc" ? baseLetters : [...baseLetters].reverse();
 
     letters.forEach((letter) => {
       const btn = document.createElement("button");
