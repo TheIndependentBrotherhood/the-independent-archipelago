@@ -22,6 +22,7 @@ import re
 import sys
 import threading
 import webbrowser
+from datetime import date
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse
 
@@ -368,6 +369,7 @@ def apply_changes(games_data: dict, decisions: list, mappings: dict) -> tuple[di
                 "todo": [],
                 "inProgress": [],
                 "twitchId": None,
+                "addedAt": date.today().isoformat(),
             }
             if data.get("stability"):
                 new_game["stability"] = data["stability"]
