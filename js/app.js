@@ -7,6 +7,10 @@ let selectedCompletedFilters = new Set();
 let selectedPlatformFilters = new Set();
 let selectedStabilityFilters = new Set();
 
+// Sort state
+let sortBy = "alpha"; // "alpha" | "date"
+let sortDirection = "asc"; // "asc" | "desc"
+
 // Selection mode for todo list
 let selectedGamesForTodoList = new Set();
 let isSelectionMode = false;
@@ -37,7 +41,7 @@ async function loadGames() {
     // Initialize alphabet navigation
     initializeAlphabetNav(data.games);
 
-    renderGames(data.games);
+    renderGames(sortGames(data.games));
     updateLastUpdated();
   } catch (error) {
     console.error("Error loading games:", error);
@@ -336,7 +340,63 @@ function applyFilters() {
     });
   }
 
-  renderGames(filtered);
+  renderGames(sortGames(filtered));
+}
+
+function sortGames(games) {
+  return [...games].sort((a, b) => {
+    let cmp;
+    if (sortBy === "date") {
+      const da = a.addedAt || "0000-00-00";
+      const db = b.addedAt || "0000-00-00";
+      cmp = da.localeCompare(db);
+      if (cmp === 0) cmp = a.name.localeCompare(b.name);
+    } else {
+      cmp = a.name.localeCompare(b.name);
+    }
+    return sortDirection === "asc" ? cmp : -cmp;
+  });
+}
+
+function isNewGame(game) {
+  if (!game.addedAt) return false;
+  // Parse as local time to avoid UTC offset issues with date-only strings
+  const [year, month, day] = game.addedAt.split("-").map(Number);
+  const added = new Date(year, month - 1, day);
+  const now = new Date();
+  const oneMonthAgo = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
+  return added >= oneMonthAgo;
+}
+
+function updateSortButtons() {
+  const sortByBtn = document.getElementById("sortByBtn");
+  const sortDirBtn = document.getElementById("sortDirBtn");
+
+  if (sortByBtn) {
+    if (sortBy === "alpha") {
+      sortByBtn.innerHTML = '<i class="fas fa-font"></i>';
+      sortByBtn.title = "Sort alphabetically (click to sort by date)";
+      sortByBtn.classList.remove("active");
+    } else {
+      sortByBtn.innerHTML = '<i class="fas fa-calendar-alt"></i>';
+      sortByBtn.title = "Sort by added date (click to sort alphabetically)";
+      sortByBtn.classList.add("active");
+    }
+  }
+
+  if (sortDirBtn) {
+    if (sortDirection === "asc") {
+      sortDirBtn.innerHTML = sortBy === "alpha"
+        ? '<i class="fas fa-arrow-up-a-z"></i>'
+        : '<i class="fas fa-arrow-up-1-9"></i>';
+      sortDirBtn.title = "Ascending order (click for descending)";
+    } else {
+      sortDirBtn.innerHTML = sortBy === "alpha"
+        ? '<i class="fas fa-arrow-down-z-a"></i>'
+        : '<i class="fas fa-arrow-down-9-1"></i>';
+      sortDirBtn.title = "Descending order (click for ascending)";
+    }
+  }
 }
 
 // Render games to the DOM
@@ -491,12 +551,18 @@ function createGameCard(game) {
     ? `<div class="stability-badge ${stabilityClass}" title="${stabilityLabel}"></div>`
     : "";
 
+  // Newest badge
+  const newestBadge = isNewGame(game)
+    ? `<div class="newest-badge" title="Added less than a month ago"><i class="fas fa-fire"></i></div>`
+    : "";
+
   // Generate unique ID for this card to handle image loading
   const cardId = `card-${game.id}`;
 
   return `
     <div class="game-card ${twitchClass}" id="${cardId}" ${backgroundStyle}>
       ${stabilityBadge}
+      ${newestBadge}
       <div class="game-card-selection-overlay">
         <i class="fas fa-check selection-check-icon"></i>
       </div>
@@ -1052,7 +1118,7 @@ document.getElementById("searchInput").addEventListener("input", (e) => {
     });
   }
 
-  renderGames(filtered);
+  renderGames(sortGames(filtered));
 });
 
 // Update last updated timestamp
@@ -1173,7 +1239,28 @@ document.addEventListener("DOMContentLoaded", async () => {
     exitBtn.addEventListener("click", toggleSelectionMode);
   }
 
+  // Set up sort buttons
+  const sortByBtn = document.getElementById("sortByBtn");
+  const sortDirBtn = document.getElementById("sortDirBtn");
+
+  if (sortByBtn) {
+    sortByBtn.addEventListener("click", () => {
+      sortBy = sortBy === "alpha" ? "date" : "alpha";
+      updateSortButtons();
+      applyFilters();
+    });
+  }
+
+  if (sortDirBtn) {
+    sortDirBtn.addEventListener("click", () => {
+      sortDirection = sortDirection === "asc" ? "desc" : "asc";
+      updateSortButtons();
+      applyFilters();
+    });
+  }
+
   await loadGames();
+  updateSortButtons();
   initializeUserSelector();
 });
 
