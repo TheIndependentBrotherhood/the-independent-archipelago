@@ -10259,20 +10259,6 @@
       "stability": "Unstable"
     },
     {
-      "id": "unbeatable-arcade",
-      "name": "UNBEATABLE Arcade",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/UNBEATABLE_Arcade",
-      "description": "Archipelago randomizer for UNBEATABLE Arcade",
-      "githubUrl": "https://github.com/AllPoland/unbeatAP/blob/main/README.md",
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "1652175477",
-      "stability": "Unstable"
-    },
-    {
       "id": "uncanny-cat-golf",
       "name": "Uncanny Cat Golf",
       "platform": "PC",
