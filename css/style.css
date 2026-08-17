@@ -28,6 +28,8 @@
   --filter-bg-hover: #3a3a3a;
   --filter-active-bg: #e8a835;
   --filter-active-border: #fbfc99;
+  /* Sort button active state */
+  --btn-bg-active: #2a1f0a;
 }
 
 * {
@@ -416,6 +418,7 @@ select {
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   margin-bottom: 40px;
+  position: relative;
 }
 
 .game-card {
@@ -1481,4 +1484,116 @@ footer {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+/* Results bar right group (stability filter + sort controls) */
+.results-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Sort controls */
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.sort-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--btn-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.sort-btn:hover {
+  background: var(--btn-bg-hover);
+  color: var(--text-color);
+}
+
+.sort-btn.active {
+  background: var(--btn-bg-active);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.sort-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Sort loading overlay on the games grid */
+.games-grid.sort-loading {
+  position: relative;
+  pointer-events: none;
+}
+
+.games-grid.sort-loading::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 18, 18, 0.55);
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.games-grid.sort-loading::before {
+  content: "\f110";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  color: var(--accent-color);
+  animation: sortSpinnerRotate 0.75s linear infinite;
+}
+
+@keyframes sortSpinnerRotate {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Newest badge */
+@keyframes newestColorCycle {
+  0%   { color: #FF2A00; filter: drop-shadow(0 0 4px rgba(255, 42, 0, 0.8)); }
+  25%  { color: #FF8C00; filter: drop-shadow(0 0 6px rgba(255, 140, 0, 0.9)); }
+  50%  { color: #FFD700; filter: drop-shadow(0 0 8px rgba(255, 215, 0, 1));   }
+  75%  { color: #FF8C00; filter: drop-shadow(0 0 6px rgba(255, 140, 0, 0.9)); }
+  100% { color: #FF2A00; filter: drop-shadow(0 0 4px rgba(255, 42, 0, 0.8)); }
+}
+
+@keyframes newestPulse {
+  0%, 100% { transform: scale(1);    }
+  50%       { transform: scale(1.25); }
+}
+
+.newest-badge {
+  position: absolute;
+  top: 8px;
+  right: 26px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  color: #FF2A00;
+  font-size: 0.6rem;
+  cursor: help;
+  animation:
+    newestColorCycle 2s ease-in-out infinite,
+    newestPulse      2s ease-in-out infinite;
 }
