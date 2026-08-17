@@ -141,7 +141,7 @@ def apply_decisions(games_data: dict, decisions: list) -> dict:
         game = id_to_game.get(game_id)
         if not game:
             continue
-        if action == "accept":
+        if action == "accept" or action == "accepted":
             game["twitchId"] = dec.get("twitchId")
         elif action == "manual":
             val = dec.get("twitchId", "").strip()
@@ -295,7 +295,9 @@ function renderGames() {
     const candidatesHtml = g.candidates.length
       ? g.candidates.map((c, ci) => {
           const sel = d.selectedCandidate === ci ? 'selected' : '';
-          return `<span class="candidate ${sel}" onclick="selectCandidate('${key}',${ci},'${escapeHtml(c.id)}','${escapeHtml(c.name)}')">
+          return `<span class="candidate ${sel}"
+            data-ci="${ci}" data-id="${escapeHtml(c.id)}" data-name="${escapeHtml(c.name)}"
+            onclick="selectCandidate('${key}', this)">
             ${twitchImg(c.id)}
             <strong>${escapeHtml(c.name)}</strong>
             <span class="cid">${escapeHtml(c.id)}</span>
@@ -325,13 +327,16 @@ function renderGames() {
   }).join('');
 }
 
-function selectCandidate(key, ci, id, name) {
+function selectCandidate(key, el) {
+  const ci = parseInt(el.dataset.ci);
+  const id = el.dataset.id;
+  const name = el.dataset.name;
   if (!decisions[key]) decisions[key] = { action: 'pending' };
   decisions[key].selectedCandidate = ci;
   decisions[key].twitchId = id;
   // Refresh just the candidates highlight
   const card = document.getElementById(`card_${key}`);
-  card.querySelectorAll('.candidate').forEach((el, i) => el.classList.toggle('selected', i === ci));
+  card.querySelectorAll('.candidate').forEach((e, i) => e.classList.toggle('selected', i === ci));
   // Update accept button label
   const acceptBtn = card.querySelector('.btn.accept');
   if (acceptBtn) acceptBtn.textContent = `\u2713 Accept (${id})`;
@@ -475,10 +480,13 @@ class Handler(BaseHTTPRequestHandler):
             body = self.rfile.read(length)
             try:
                 decisions = json.loads(body)
-                updated = apply_decisions(self.games_data, decisions)
+                # Re-read from disk to get latest state
+                with open(self.games_json_path, "r", encoding="utf-8") as f:
+                    games_data = json.load(f)
+                updated = apply_decisions(games_data, decisions)
                 with open(self.games_json_path, "w", encoding="utf-8") as f:
                     json.dump(updated, f, indent=2, ensure_ascii=False)
-                applied = len(decisions)
+                applied = len([d for d in decisions if d.get("action") in ("accept", "accepted", "manual")])
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
                 self.end_headers()
