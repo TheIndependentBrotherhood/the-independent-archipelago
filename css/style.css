@@ -28,6 +28,8 @@
   --filter-bg-hover: #3a3a3a;
   --filter-active-bg: #e8a835;
   --filter-active-border: #fbfc99;
+  /* Sort button active state */
+  --btn-bg-active: #2a1f0a;
 }
 
 * {
@@ -1519,7 +1521,7 @@ footer {
 }
 
 .sort-btn.active {
-  background: #2a1f0a;
+  background: var(--btn-bg-active);
   border-color: var(--accent-color);
   color: var(--accent-color);
 }

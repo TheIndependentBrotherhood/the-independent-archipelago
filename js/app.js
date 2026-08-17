@@ -360,7 +360,9 @@ function sortGames(games) {
 
 function isNewGame(game) {
   if (!game.addedAt) return false;
-  const added = new Date(game.addedAt);
+  // Parse as local time to avoid UTC offset issues with date-only strings
+  const [year, month, day] = game.addedAt.split("-").map(Number);
+  const added = new Date(year, month - 1, day);
   const now = new Date();
   const oneMonthAgo = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
   return added >= oneMonthAgo;
