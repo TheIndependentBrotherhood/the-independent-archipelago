@@ -301,7 +301,7 @@
     },
     {
       "id": "animal-crossing-gamecube",
-      "name": "Animal Crossing (GameCube)",
+      "name": "Animal Crossing",
       "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Animal_Crossing",
       "description": "Archipelago randomizer for Animal Crossing (GameCube)",
@@ -661,7 +661,7 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1393754231214837861",
       "completed": [],
       "todo": [],
-      "githubUrl": "https://github.com/DeltaSilver/Armored-Core-6-Archipelago/blob/main/README.md",
+      "githubUrl": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/tree/main/docs",
       "inProgress": [],
       "twitchId": "15267",
       "stability": "Unstable",
@@ -679,21 +679,6 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "13867",
-      "addedAt": "2026-11-08",
-      "stability": "Unstable"
-    },
-    {
-      "id": "armored-core-psx",
-      "name": "Armored Core (PSX)",
-      "platform": "PlayStation 1",
-      "url": "https://archipelago.miraheze.org/wiki/Armored_Core",
-      "description": "Archipelago randomizer for Armored Core (PSX)",
-      "githubUrl": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/tree/main/docs",
-      "discordUrl": null,
-      "completed": [],
-      "todo": [],
-      "inProgress": [],
-      "twitchId": "15267",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -943,7 +928,7 @@
     {
       "id": "bitty-buddies",
       "name": "Bitty Buddies",
-      "platform": "PC, Web",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Bitty_Buddies",
       "description": "Archipelago randomizer for Bitty Buddies",
       "githubUrl": "https://github.com/bmorledge-hampton19/bitty_buddies_apworld",
@@ -1925,7 +1910,7 @@
     },
     {
       "id": "chrono-trigger-rando-dalton-imperial-snes",
-      "name": "Chrono Trigger Rando-Dalton Imperial (SNES)",
+      "name": "Chrono Trigger Rando-Dalton Imperial",
       "platform": "SNES",
       "url": "https://archipelago.miraheze.org/wiki/Chrono_Trigger_Rando-Dalton_Imperial",
       "description": "Archipelago randomizer for Chrono Trigger Rando-Dalton Imperial (SNES)",
@@ -2046,7 +2031,7 @@
     {
       "id": "codename-kids-next-door-operation-videogame",
       "name": "Codename: Kids Next Door, Operation: VIDEOGAME",
-      "platform": "Nintendo GameCube",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Codename:_Kids_Next_Door_(GC)",
       "description": "Archipelago randomizer for Codename: Kids Next Door, Operation: VIDEOGAME",
       "githubUrl": "https://github.com/themasterzuku-debug/knd_apworld/blob/knd-ap-v2-release/Setup_Guide.md",
@@ -3290,7 +3275,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "1948518851",
+      "twitchId": "459841",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -3795,7 +3780,7 @@
     },
     {
       "id": "final-fantasy-1-psp",
-      "name": "Final Fantasy 1 (PSP)",
+      "name": "Final Fantasy 1",
       "platform": "PlayStation Portable",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_1_PSP",
       "description": "Archipelago randomizer for Final Fantasy 1 (PSP)",
@@ -3811,7 +3796,7 @@
     {
       "id": "final-fantasy-crystal-chronicles",
       "name": "Final Fantasy: Crystal Chronicles",
-      "platform": "Nintendo GameCube",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_Crystal_Chronicles",
       "description": "Archipelago randomizer for Final Fantasy: Crystal Chronicles",
       "githubUrl": "https://github.com/EverydaySimpleDev/Archipelago/blob/ffcc/worlds/ffcc/docs/guide_en.md",
@@ -5862,8 +5847,8 @@
     },
     {
       "id": "lego-star-wars-iii-wii",
-      "name": "LEGO Star Wars III (Wii)",
-      "platform": "Nintendo Wii",
+      "name": "LEGO Star Wars III",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Lego_Star_Wars_III:_The_Clone_Wars",
       "description": "Archipelago randomizer for LEGO Star Wars III (Wii)",
       "githubUrl": "https://github.com/Newtboy/Newtboy-LSW3-Archipelago/blob/main/README.md",
@@ -6277,7 +6262,7 @@
     {
       "id": "mario-golf-toadstool-tour",
       "name": "Mario Golf: Toadstool Tour",
-      "platform": "Nintendo GameCube",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Mario_Golf:_Toadstool_Tour",
       "description": "Archipelago randomizer for Mario Golf: Toadstool Tour",
       "githubUrl": "https://github.com/JackalopeSJ/MGTT-Archipelago/releases",
@@ -6428,8 +6413,8 @@
     },
     {
       "id": "mario-tennis-gbc",
-      "name": "Mario Tennis (GBC)",
-      "platform": "Game Boy Color",
+      "name": "Mario Tennis",
+      "platform": "GBC",
       "url": "https://archipelago.miraheze.org/wiki/Mario_Tennis_GBC",
       "description": "Archipelago randomizer for Mario Tennis (GBC)",
       "githubUrl": "https://github.com/gerbiljames/mario-tennis-gbc-disasm/blob/archipelago/apworld/mario_tennis_gbc/docs/setup_en.md",
@@ -8603,7 +8588,7 @@
     {
       "id": "pok-mon-xd-gale-of-darkness",
       "name": "Pokémon XD: Gale of Darkness",
-      "platform": "Nintendo GameCube",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/Pokemon_XD_Gale_of_Darkness",
       "description": "Archipelago randomizer for Pokémon XD: Gale of Darkness",
       "githubUrl": "https://github.com/GiovanavoiG/PokemonXD_Archipelago/blob/main/docs/setup_en.md",
@@ -11621,7 +11606,7 @@
     {
       "id": "the-legend-of-heroes-trails-beyond-the-horizon",
       "name": "The Legend of Heroes: Trails Beyond the Horizon",
-      "platform": "PC, PS4, PS5, Switch, Switch 2",
+      "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for The Legend of Heroes: Trails Beyond the Horizon",
       "githubUrl": "https://github.com/brimaster2000/Trails-Beyond-the-Horizon-Archipelago/blob/trails-beyond-the-horizon/worlds/beyondthehorizon/docs/setup_en.md",
@@ -11725,7 +11710,7 @@
     {
       "id": "the-legend-of-zelda-four-swords-adventure",
       "name": "The Legend of Zelda: Four Swords Adventure",
-      "platform": "Nintendo GameCube",
+      "platform": "GC",
       "url": "https://archipelago.miraheze.org/wiki/The_Legend_of_Zelda:_Four_Swords_Adventures",
       "description": "Archipelago randomizer for The Legend of Zelda: Four Swords Adventure",
       "githubUrl": "https://github.com/Drogebot/Archipelago-zfsa/blob/zfsa/worlds/zelda_fsa/docs/setup_en.md",
@@ -12220,7 +12205,7 @@
     {
       "id": "timesplitters-future-perfect",
       "name": "TimeSplitters: Future Perfect",
-      "platform": "GC, PS2, Xbox",
+      "platform": "GC/PS2/Xbox",
       "url": null,
       "description": "Archipelago randomizer for TimeSplitters: Future Perfect",
       "githubUrl": null,
