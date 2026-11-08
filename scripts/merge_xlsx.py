@@ -11,6 +11,7 @@ Usage:
 Features:
     - Detects new games (in XLSX, not in JSON)
     - Detects updates: new stability info, new setup guide URLs
+    - Ignores generic tutorial index URLs for existing games
     - Interactive UI: Accept / Skip / Map to existing game
     - Adds stability field (Stable / Unstable / Broken)
     - Reports unknown link types for manual review
@@ -126,6 +127,15 @@ def find_match_for_xlsx(xlsx_name: str, norm_to_json: dict,
                 return norm_to_json[n2]
 
     return None
+
+
+def is_generic_tutorial_url(url: str) -> bool:
+    """Identify the generic Archipelago tutorial index, not specific guides."""
+    return re.fullmatch(
+        r"(?ai:http://archipelago\.gg(?::80)?|"
+        r"https://archipelago\.gg(?::443)?)/tutorial/?",
+        url,
+    ) is not None
 
 
 def classify_link(url: str) -> str:
@@ -254,6 +264,7 @@ def build_diff(xlsx_games: list, json_games: list, mappings: dict) -> dict:
         matched:   games matched with no changes
 
     URL update rule:
+      - Ignore the generic Archipelago tutorial index for existing games.
       - Only propose a githubUrl change if the game has NO githubUrl yet.
       - discordUrl and url fields: propose if different.
     """
@@ -289,7 +300,7 @@ def build_diff(xlsx_games: list, json_games: list, mappings: dict) -> dict:
         # URL fields
         field = xg["guideField"]
         url = xg["guideUrl"]
-        if field and url:
+        if field and url and not is_generic_tutorial_url(url):
             current = json_game.get(field)
             if field == "githubUrl":
                 # Only propose if the game has no githubUrl yet (avoids
@@ -328,6 +339,7 @@ def apply_changes(games_data: dict, decisions: list, mappings: dict) -> tuple[di
     """
     Apply accepted/mapped decisions to games_data.
     Also updates the mappings dict with new manual associations.
+    The generic tutorial index is not added when mapping an existing game.
 
     decisions: list of dicts:
         action: "accept" | "skip" | "map"
@@ -389,7 +401,12 @@ def apply_changes(games_data: dict, decisions: list, mappings: dict) -> tuple[di
                 game["stability"] = data["stability"]
             field = data.get("guideField")
             url = data.get("guideUrl")
-            if field and url and not game.get(field):
+            if (
+                field
+                and url
+                and not game.get(field)
+                and not is_generic_tutorial_url(url)
+            ):
                 game[field] = url
             # Persist this manual association for future runs
             xlsx_name = data.get("xlsxName")

@@ -475,7 +475,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "10708",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -664,6 +664,21 @@
       "url": null,
       "description": "Archipelago randomizer for Armored Core 3",
       "githubUrl": "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/blob/master/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "armored-core-psx",
+      "name": "Armored Core (PSX)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Armored Core (PSX)",
+      "githubUrl": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/tree/main/docs",
       "discordUrl": null,
       "completed": [],
       "todo": [],
@@ -1305,7 +1320,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": null,
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -2923,7 +2938,7 @@
       "inProgress": [],
       "twitchId": "4162",
       "url": "https://archipelago.miraheze.org/wiki/Donkey_Kong_Country_3",
-      "stability": "Stable",
+      "stability": "Broken",
       "addedAt": "2026-03-25"
     },
     {
@@ -2953,7 +2968,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "28570",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -5152,7 +5167,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": null,
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -5182,7 +5197,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "8867",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -5415,7 +5430,7 @@
       "platform": "NDS",
       "url": null,
       "description": "Archipelago randomizer for Kingdom Hearts 358/2 Days",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/LanaHIki/KHMelonMixAP/releases/tag/0.1",
       "discordUrl": "https://discord.com/channels/731205301247803413/1087405565069766756/1088418720906498088",
       "completed": [],
       "todo": [],
@@ -6103,7 +6118,7 @@
       "platform": "GC",
       "url": null,
       "description": "Archipelago randomizer for Lost Kingdoms 2",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/cokeman5/LK2Archipelago",
       "discordUrl": "https://discord.com/channels/731205301247803413/1470124765640654849/1497937135724921027",
       "completed": [],
       "todo": [],
@@ -6230,7 +6245,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "21304",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -6534,7 +6549,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "1565051033",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -6639,7 +6654,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "8711",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -7103,7 +7118,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "1275666892",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -7295,7 +7310,7 @@
       "platform": "PC",
       "url": null,
       "description": "Archipelago randomizer for Neon White",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/setup_en.md",
       "discordUrl": "https://discord.com/channels/731205301247803413/1195422552202432603/1505704870668406916",
       "completed": [],
       "todo": [],
@@ -8173,7 +8188,7 @@
       "githubUrl": "https://github.com/TheOmnipresence/PixelDrawAPWorld/blob/main/docs/setup_en.md",
       "inProgress": [],
       "twitchId": null,
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -9073,7 +9088,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "460501",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -9118,7 +9133,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "16468",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -9277,7 +9292,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "516914",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -9539,7 +9554,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "1898452902",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -9628,7 +9643,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "506415",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -10026,7 +10041,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "1378799411",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -10067,7 +10082,7 @@
       "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Sly_3:_Honor_Among_Thieves",
       "description": "Archipelago randomizer for Sly 3: Honor Among Thieves",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/NikolajDanger/APSly3/blob/main/README.md",
       "discordUrl": null,
       "completed": [],
       "todo": [],
@@ -10529,7 +10544,7 @@
       ],
       "inProgress": [],
       "twitchId": "11218",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -12334,7 +12349,7 @@
       "githubUrl": "https://github.com/furret78/Archipelago/releases",
       "inProgress": [],
       "twitchId": "1841801492",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-26"
     },
     {
@@ -12394,7 +12409,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "6676",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -12562,7 +12577,7 @@
       "inProgress": [],
       "twitchId": "498215",
       "url": "https://archipelago.miraheze.org/wiki/UFO_50",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -12998,7 +13013,7 @@
       "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Warcraft_3",
       "description": "Archipelago randomizer for Warcraft 3",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/MatthewMarinets/war3-ap-maps/blob/main/apworld/docs/setup_en.md",
       "discordUrl": null,
       "completed": [],
       "todo": [],
@@ -13082,7 +13097,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "14803",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -13206,7 +13221,7 @@
       "inProgress": [],
       "twitchId": "495932",
       "url": "https://archipelago.miraheze.org/wiki/West_of_Loathing",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-03-25"
     },
     {
@@ -13326,7 +13341,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "27471",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {
@@ -13388,7 +13403,7 @@
       "todo": [],
       "inProgress": [],
       "twitchId": "1617903053",
-      "stability": "Unstable",
+      "stability": "Stable",
       "addedAt": "2026-08-17"
     },
     {

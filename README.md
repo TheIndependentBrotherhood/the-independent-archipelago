@@ -67,6 +67,16 @@ python -m http.server 8000
 
 Then visit http://localhost:8000
 
+### Review XLSX imports
+
+Run [`scripts/merge_xlsx.bat`](scripts/merge_xlsx.bat) to review the latest XLSX
+in `data/Google Sheet`, or pass a path to a different XLSX file.
+
+For existing games, including manually mapped entries, the generic
+`https://archipelago.gg/tutorial/` index is ignored even if the URL is missing.
+Specific guides and other changes, such as stability updates, remain available
+for review. The generic index can still be added when creating a new game.
+
 ## Contributing
 
 Want to add a game? Edit `data/games.json` and submit a pull request!
