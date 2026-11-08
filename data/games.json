@@ -16,6 +16,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "7-days-to-die",
+      "name": "7 Days to Die",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for 7 Days to Die",
+      "githubUrl": "https://github.com/OrcThrowman/7-Days-to-Die-AP",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "8doors-arums-afterlife-adventure",
       "name": "8Doors: Arum's Afterlife Adventure",
       "platform": "PC",
@@ -239,6 +254,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "alabaster-dawn",
+      "name": "Alabaster Dawn",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Alabaster Dawn",
+      "githubUrl": "https://github.com/Satisha10/AlabasterDawnAPClient",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
+    },
+    {
       "id": "an-untitled-story",
       "name": "An Untitled Story",
       "platform": "PC",
@@ -267,6 +297,21 @@
       "twitchId": "18531",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "animal-crossing-gamecube",
+      "name": "Animal Crossing (GameCube)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Animal Crossing (GameCube)",
+      "githubUrl": "https://github.com/randomouscrap98/AP_ACGC_PC/blob/master/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
     },
     {
       "id": "animal-crossing-wild-world",
@@ -613,6 +658,36 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "armored-core-3",
+      "name": "Armored Core 3",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Armored Core 3",
+      "githubUrl": "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/blob/master/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "arzette-the-jewel-of-faramore",
+      "name": "Arzette: The Jewel of Faramore",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Arzette: The Jewel of Faramore",
+      "githubUrl": "https://github.com/nicolasberube/Arzette_Randomizer/blob/main/arzette/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "astalon-tears-of-the-earth",
       "name": "Astalon: Tears of the Earth",
       "platform": "PC",
@@ -840,6 +915,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "bitty-buddies",
+      "name": "Bitty Buddies",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Bitty Buddies",
+      "githubUrl": "https://github.com/bmorledge-hampton19/bitty_buddies_apworld",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "bk-simulator",
       "name": "BK Simulator",
       "platform": "PC",
@@ -883,6 +973,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "blender",
+      "name": "Blender",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Blender",
+      "githubUrl": "https://github.com/GBFound/BlenderArchipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "blockupelago",
       "name": "Blockupelago",
       "platform": "PC",
@@ -896,6 +1001,21 @@
       "twitchId": null,
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "bloodstained-ritual-of-the-night",
+      "name": "Bloodstained: Ritual of the Night",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Bloodstained: Ritual of the Night",
+      "githubUrl": "https://github.com/vgfreak95/BloodstainedAP/blob/bloodstained/worlds/bloodstained_rotn/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "bloons-tower-defense-6",
@@ -928,6 +1048,21 @@
       "twitchId": "517495",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "blue-prince",
+      "name": "Blue Prince",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Blue Prince",
+      "githubUrl": "https://github.com/Yascob99/BluePrinceArchipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "blue-sphere",
@@ -1099,6 +1234,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "bubble-bobble",
+      "name": "Bubble Bobble",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Bubble Bobble",
+      "githubUrl": "https://github.com/sensokaeru/bubblebobbleAP",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "buckshot-roulette",
       "name": "Buckshot Roulette",
       "platform": "PC",
@@ -1218,6 +1368,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "c-c-reloaded",
+      "name": "C&C Reloaded",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for C&C Reloaded",
+      "githubUrl": "https://github.com/Heinki/Reloaded-Randomizer",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "call-of-duty-black-ops-3-zombies",
       "name": "Call of Duty: Black Ops 3 - Zombies",
       "platform": "PC",
@@ -1246,6 +1411,21 @@
       "twitchId": "399623",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "carnival-games-minigolf",
+      "name": "Carnival Games MiniGolf",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Carnival Games MiniGolf",
+      "githubUrl": "https://github.com/mariokirby1703/Lumas-Archipelago/blob/carnival_games_minigolf_v0.1.0/worlds/carnival_games_minigolf/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "cartograp",
@@ -1383,6 +1563,36 @@
       "twitchId": "5927",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "castlevania-lords-of-shadow",
+      "name": "Castlevania: Lords of Shadow",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Castlevania: Lords of Shadow",
+      "githubUrl": "https://github.com/Haywire32/LoS-Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "castlevania-order-of-ecclesia",
+      "name": "Castlevania: Order of Ecclesia",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Castlevania: Order of Ecclesia",
+      "githubUrl": "https://github.com/PinkSwitch/Archipelago/blob/order-of-ecclesia/worlds/cv_ooe/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
     },
     {
       "id": "castlevania-portrait-of-ruin",
@@ -1551,6 +1761,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "chants-of-sennaar",
+      "name": "Chants of Sennaar",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Chants of Sennaar",
+      "githubUrl": "https://github.com/syn-aesthesis/ChantsOfSennaarAP",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "checksfinder",
       "name": "ChecksFinder",
       "platform": "PC",
@@ -1610,6 +1835,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "children-of-morta",
+      "name": "Children of Morta",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Children of Morta",
+      "githubUrl": "https://github.com/BocikPG/Children-Of-Morta-Archipelago-Randomizer-Mod",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "choo-choo-charles",
       "name": "Choo-Choo Charles",
       "platform": "PC",
@@ -1652,6 +1892,21 @@
       "twitchId": "8489",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "chrono-trigger-rando-dalton-imperial-snes",
+      "name": "Chrono Trigger Rando-Dalton Imperial (SNES)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Chrono Trigger Rando-Dalton Imperial (SNES)",
+      "githubUrl": "https://ctrando.miraheze.org/wiki/Multiworld",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "civilization-iv",
@@ -1759,6 +2014,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "codename-kids-next-door-operation-videogame",
+      "name": "Codename: Kids Next Door, Operation: VIDEOGAME",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Codename: Kids Next Door, Operation: VIDEOGAME",
+      "githubUrl": "https://github.com/themasterzuku-debug/knd_apworld/blob/knd-ap-v2-release/Setup_Guide.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "command-conquer-mental-omega",
       "name": "Command & Conquer: Mental Omega",
       "platform": "PC",
@@ -1851,6 +2121,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "cooking-mama-3",
+      "name": "Cooking Mama 3",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Cooking Mama 3",
+      "githubUrl": "https://github.com/Laxbby/ArchipelagoCM3/blob/main/worlds/cookingmama3/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "corn-kidz-64",
       "name": "Corn Kidz 64",
       "platform": "PC",
@@ -1926,6 +2211,36 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "crash-bandicoot-3-warped",
+      "name": "Crash Bandicoot 3: Warped",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Crash Bandicoot 3: Warped",
+      "githubUrl": "https://github.com/LimeDreaming/C3AP/blob/pre-alpha/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "crash-bandicoot-n-sane-trilogy",
+      "name": "Crash Bandicoot N. Sane Trilogy",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Crash Bandicoot N. Sane Trilogy",
+      "githubUrl": "https://github.com/randomcodegen/CrashNST-AP/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "crash-bash",
       "name": "Crash Bash",
       "platform": "PSX",
@@ -1954,6 +2269,21 @@
       "twitchId": "5682",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Create",
+      "githubUrl": "https://github.com/mariokirby1703/Lumas-Archipelago/blob/Create-AP/worlds/create/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
     },
     {
       "id": "crosscode",
@@ -2046,6 +2376,21 @@
       "twitchId": "2045",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "cult-of-the-lamb",
+      "name": "Cult of the Lamb",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Cult of the Lamb",
+      "githubUrl": "https://github.com/IanCichy/CultOfTheLamb_Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "cuphead",
@@ -2430,6 +2775,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "die-in-the-dungeon",
+      "name": "Die in the Dungeon",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Die in the Dungeon",
+      "githubUrl": "https://github.com/Skytttle/DITD-Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "digimon-world",
       "name": "Digimon World",
       "platform": "PSX",
@@ -2612,6 +2972,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "donut-county",
+      "name": "Donut County",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Donut County",
+      "githubUrl": "https://github.com/1e1001/DonutCountyAP/blob/main/donutcounty/docs/en_setup.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "doom-1993",
       "name": "DOOM 1993",
       "platform": "PC",
@@ -2641,6 +3016,21 @@
       "twitchId": "584",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "doom-eternal",
+      "name": "DOOM Eternal",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for DOOM Eternal",
+      "githubUrl": "https://github.com/snowzzrra/DoomEternal-AP-Mod/blob/main/docs/INSTALL.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "doom-ii",
@@ -2687,6 +3077,21 @@
       "twitchId": "961363628",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "dota-2",
+      "name": "DOTA 2",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for DOTA 2",
+      "githubUrl": "https://github.com/Oscar-Lenkaitis/Archipelago-DOTA2/blob/main/worlds/dota_2/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "dracomino",
@@ -2747,6 +3152,21 @@
       "twitchId": "327576750",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "dragon-quest-iii-hd-2d-remake",
+      "name": "Dragon Quest III HD-2D Remake",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Dragon Quest III HD-2D Remake",
+      "githubUrl": "https://github.com/ZigzagAwaka/DQ3AP/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
     },
     {
       "id": "dragon-quest-ix",
@@ -2824,6 +3244,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "duck-game",
+      "name": "Duck Game",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Duck Game",
+      "githubUrl": "https://github.com/Marsavue/DuckGameArchipelago/blob/master/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
+    },
+    {
       "id": "duck-life-4",
       "name": "Duck Life 4",
       "platform": "PC",
@@ -2869,6 +3304,36 @@
       "twitchId": "381933311",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "dungeon-defenders",
+      "name": "Dungeon Defenders",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Dungeon Defenders",
+      "githubUrl": "https://github.com/Haywire32/DD1-AP",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "dusk",
+      "name": "DUSK",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for DUSK",
+      "githubUrl": "https://github.com/FlapjackRetro/dusk-rando/blob/master/docs/setup.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "dwarf-fortress",
@@ -2931,19 +3396,34 @@
       "addedAt": "2026-03-25"
     },
     {
-      "id": "elden-ring-greenfield",
-      "name": "Elden Ring — Greenfield",
-      "platform": "PC",
-      "url": "https://archipelago.miraheze.org/wiki/Elden_Ring",
-      "description": "Archipelago randomizer for Elden Ring — Greenfield",
-      "githubUrl": "https://github.com/4laric/er-archipelago/blob/main/release-v0.2/SETUP.md",
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Elden Ring",
+      "githubUrl": "https://github.com/fswap/Archipelago/blob/er/worlds/eldenring/docs/en_setup_guide.md",
       "discordUrl": null,
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": "512953",
-      "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "elden-ring-nightreign",
+      "name": "Elden Ring Nightreign",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Elden Ring Nightreign",
+      "githubUrl": "https://github.com/jacksonstubblefield/nightreign-ap/blob/main/worlds/nightreign/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "elder-scrolls-online",
@@ -2974,6 +3454,21 @@
       "twitchId": null,
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "empire-earth",
+      "name": "Empire Earth",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Empire Earth",
+      "githubUrl": "https://github.com/povka/EmpireEarth_Archipelago/tree/master",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "ender-lilies-quietus-of-the-knights",
@@ -3021,6 +3516,21 @@
       "twitchId": "488632",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "equilinox",
+      "name": "Equilinox",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Equilinox",
+      "githubUrl": "https://github.com/AAces17/EquilinoxAPClient/blob/master/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "etrian-odyssey-ds",
@@ -3158,6 +3668,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "fall-guys",
+      "name": "Fall Guys",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Fall Guys",
+      "githubUrl": "https://github.com/ninpalk/FallGuysAP/releases/tag/0.0.1",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "fantastic-fist",
       "name": "Fantastic Fist",
       "platform": "PC",
@@ -3230,6 +3755,36 @@
       "stability": "Stable",
       "githubUrl": "https://github.com/Bartz24/ArchipelagoLR/releases/tag/0.4.0",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "final-fantasy-1-psp",
+      "name": "Final Fantasy 1 (PSP)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Final Fantasy 1 (PSP)",
+      "githubUrl": "https://github.com/1-800-thewolf/FF1PSP-Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "final-fantasy-crystal-chronicles",
+      "name": "Final Fantasy: Crystal Chronicles",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Final Fantasy: Crystal Chronicles",
+      "githubUrl": "https://github.com/EverydaySimpleDev/Archipelago/blob/ffcc/worlds/ffcc/docs/guide_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "final-fantasy-iv-free-enterprise",
@@ -3552,6 +4107,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "ftl-faster-than-light",
+      "name": "FTL: Faster Than Light",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for FTL: Faster Than Light",
+      "githubUrl": "https://github.com/TheLiloji/FTLArchipelago/blob/main/docs/wiki/Setup-Windows.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "funi-raccoon-game",
       "name": "Funi Raccoon Game",
       "platform": "PC",
@@ -3730,6 +4300,21 @@
       "twitchId": "591633350",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "gnosia",
+      "name": "Gnosia",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Gnosia",
+      "githubUrl": "https://github.com/Mat8071/Gnosia-AP-Client",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "golden-sun-the-lost-age",
@@ -3946,6 +4531,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "half-life-trilogy",
+      "name": "Half-Life Trilogy",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Half-Life Trilogy",
+      "githubUrl": "https://github.com/barretg/hl1-anniversary-ap/blob/main/apworld/half_life/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "halo-the-master-chief-collection",
       "name": "Halo The Master Chief Collection",
       "platform": "PC",
@@ -4100,6 +4700,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "heroes-of-the-storm",
+      "name": "Heroes of the Storm",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Heroes of the Storm",
+      "githubUrl": "https://github.com/POD-io/HotS-ArchipelagoWorld/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
+    },
+    {
       "id": "hexcells-infinite",
       "name": "Hexcells Infinite",
       "platform": "PC",
@@ -4222,6 +4837,36 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "homura-hime",
+      "name": "Homura-Hime",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Homura-Hime",
+      "githubUrl": "https://github.com/Kevanderson97/homura-hime-archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "horse-magnifier-the-full-horse",
+      "name": "Horse Magnifier: The Full Horse",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Horse Magnifier: The Full Horse",
+      "githubUrl": "https://github.com/DannySchultzDev/Archipelago-Horse-Magnifier-Client",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
+    },
+    {
       "id": "hot-lava",
       "name": "Hot Lava",
       "platform": "PC",
@@ -4235,6 +4880,21 @@
       "twitchId": "498346",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "hungry-pumkin",
+      "name": "Hungry Pumkin",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Hungry Pumkin",
+      "githubUrl": "https://github.com/NotFamilyJules/hungry_pumkin_ap/blob/main/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "hunie-cam-studio",
@@ -4616,6 +5276,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "jump-king-quest",
+      "name": "Jump King Quest",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Jump King Quest",
+      "githubUrl": "https://github.com/Daaxren/jkq-archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "jurassic-park",
       "name": "Jurassic Park",
       "platform": "PC",
@@ -4902,6 +5577,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "kirby-planet-robobot",
+      "name": "Kirby Planet Robobot",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Kirby Planet Robobot",
+      "githubUrl": "https://github.com/WindChill404/Kirby-Planet-Robobot-Archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "kirbys-dream-land-3",
       "name": "Kirby's Dream Land 3",
       "platform": "SNES",
@@ -4944,6 +5634,21 @@
       "twitchId": "8466",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "kirby-super-star-ultra",
+      "name": "Kirby Super Star Ultra",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Kirby Super Star Ultra",
+      "githubUrl": "https://github.com/GhostCappy/Archipelago/blob/main/worlds/kssu/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "kirby-the-amazing-mirror",
@@ -5057,7 +5762,9 @@
       "description": "Archipelago randomizer for Left 4 Dead 2",
       "githubUrl": "https://github.com/yufiievershade/Left-4-Dead-2-Archipelago",
       "discordUrl": null,
-      "todo": ["e6f1a4b7-2c5d-8e0a-1b3c-4d5e6f7a8b9c"],
+      "todo": [
+        "e6f1a4b7-2c5d-8e0a-1b3c-4d5e6f7a8b9c"
+      ],
       "inProgress": [],
       "completed": [],
       "twitchId": "24193",
@@ -5112,6 +5819,21 @@
       "twitchId": "9147",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "lego-star-wars-iii-wii",
+      "name": "LEGO Star Wars III (Wii)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for LEGO Star Wars III (Wii)",
+      "githubUrl": "https://github.com/Newtboy/Newtboy-LSW3-Archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "lego-star-wars-the-complete-saga",
@@ -5316,6 +6038,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "loddlenaut",
+      "name": "Loddlenaut",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Loddlenaut",
+      "githubUrl": "https://github.com/SWCreeperKing/Loddlepelago/blob/master/Readme.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "look-outside",
       "name": "Look Outside",
       "platform": "PC",
@@ -5497,6 +6234,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "mario-golf-toadstool-tour",
+      "name": "Mario Golf: Toadstool Tour",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Mario Golf: Toadstool Tour",
+      "githubUrl": "https://github.com/JackalopeSJ/MGTT-Archipelago/releases",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "mario-is-missing",
       "name": "Mario is Missing!",
       "platform": "SNES",
@@ -5634,6 +6386,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "mario-tennis-gbc",
+      "name": "Mario Tennis (GBC)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Mario Tennis (GBC)",
+      "githubUrl": "https://github.com/gerbiljames/mario-tennis-gbc-disasm/blob/archipelago/apworld/mario_tennis_gbc/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "medievil-(1998)",
       "name": "MediEvil (1998)",
       "platform": "PSX",
@@ -5725,6 +6492,21 @@
       "twitchId": "7457",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "mega-man-7",
+      "name": "Mega Man 7",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Mega Man 7",
+      "githubUrl": "https://github.com/SanchoBob8/Archipelago-MM7/blob/main/worlds/mm7/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "mega-man-battle-network-3-blue",
@@ -5861,6 +6643,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "mega-man-zx",
+      "name": "Mega Man ZX",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Mega Man ZX",
+      "githubUrl": "https://github.com/Nekusen/Archipelago-MegaManZX/blob/main/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "melatonin",
       "name": "Melatonin",
       "platform": "PC",
@@ -5933,6 +6730,21 @@
       "twitchId": "14805",
       "stability": "Stable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "metal-hellsinger",
+      "name": "Metal Hellsinger",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Metal Hellsinger",
+      "githubUrl": "https://github.com/DanielSchaack/ArchipelagoMetalHellsinger/blob/main/worlds/metal_hellsinger/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "metrocubevania",
@@ -6063,6 +6875,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "minecraft-aem",
+      "name": "Minecraft [AEM]",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Minecraft [AEM]",
+      "githubUrl": "https://github.com/KuroLynx/AEM-Archipelago-Minecraft/blob/master/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "minecraft-dig",
       "name": "Minecraft Dig",
       "platform": "PC",
@@ -6173,6 +7000,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "mio-memories-in-orbit",
+      "name": "MIO: Memories in Orbit",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for MIO: Memories in Orbit",
+      "githubUrl": "https://github.com/ShackledMars261/mio-archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "mirrors-edge",
       "name": "Mirror's Edge",
       "platform": "PC",
@@ -6193,7 +7035,7 @@
       "platform": "PC",
       "url": "https://archipelago.miraheze.org/wiki/Modded_Minecraft",
       "description": "Archipelago randomizer for Modded Minecraft",
-      "githubUrl": null,
+      "githubUrl": "https://github.com/Stuff691734/ModdedMCArchipelago/blob/main/worlds/moddedminecraft/docs/setup_en.md",
       "discordUrl": null,
       "completed": [],
       "todo": [
@@ -6201,7 +7043,7 @@
       ],
       "inProgress": [],
       "twitchId": "27471",
-      "stability": "Stable",
+      "stability": "Unstable",
       "addedAt": "2026-03-25"
     },
     {
@@ -6295,6 +7137,36 @@
       "twitchId": "505788",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "moonlighter",
+      "name": "Moonlighter",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Moonlighter",
+      "githubUrl": "https://thunderstore.io/c/moonlighter/p/FeluciaPS/MoonlighterAPMod/",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "mortal-kombat-shaolin-monks",
+      "name": "Mortal Kombat: Shaolin Monks",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Mortal Kombat: Shaolin Monks",
+      "githubUrl": "https://github.com/orizach01/Archipelago-MKSM/blob/main/worlds/mksm/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "mother-earthbound-beginnings",
@@ -6431,6 +7303,21 @@
       "twitchId": "251199992",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "new-super-mario-bros-ds",
+      "name": "New Super Mario Bros DS",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for New Super Mario Bros DS",
+      "githubUrl": "https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "new-super-mario-bros-wii",
@@ -6585,6 +7472,36 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "nova-lands",
+      "name": "Nova Lands",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Nova Lands",
+      "githubUrl": null,
+      "discordUrl": "https://discord.com/channels/731205301247803413/1341453886598287493/1544062655617179799",
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "nubbys-number-factory",
+      "name": "Nubby's Number Factory",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Nubby's Number Factory",
+      "githubUrl": "https://github.com/SsL2727/nubbys-number-factory-apworld/releases/latest",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "nuclear-throne",
       "name": "Nuclear Throne",
       "platform": "PC",
@@ -6691,6 +7608,21 @@
       "twitchId": "13617",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "one-step-from-eden",
+      "name": "One Step From Eden",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for One Step From Eden",
+      "githubUrl": "https://github.com/Surreptitious1/OSFE-Archipelago-Client-Mod/releases/tag/v0.1.0",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "openrct2",
@@ -6876,6 +7808,21 @@
       "twitchId": "493815",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "pac-man-world-2-re-pac",
+      "name": "PAC-MAN WORLD 2 Re-PAC",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for PAC-MAN WORLD 2 Re-PAC",
+      "githubUrl": "https://github.com/DThaiPome/PMW2RP-Archipelago-Central/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Stable"
     },
     {
       "id": "panel-de-pon/tetris-attack",
@@ -7185,6 +8132,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "pipistrello-and-the-cursed-yoyo",
+      "name": "Pipistrello and the Cursed Yoyo",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Pipistrello and the Cursed Yoyo",
+      "githubUrl": "https://github.com/CertifiedPyro/PipistrelloArchipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "piranesi-restoration-project",
       "name": "Piranesi Restoration Project",
       "platform": "PC",
@@ -7247,6 +8209,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "planet-zoo",
+      "name": "Planet Zoo",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Planet Zoo",
+      "githubUrl": "https://github.com/tinkieZo/ArchipelagoPZ/blob/main/worlds/planetzoo/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "plants-vs-zombies-replanted/goty",
       "name": "Plants vs Zombies: Replanted/GOTY",
       "platform": "PC",
@@ -7307,6 +8284,21 @@
       "twitchId": "1322855150",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "pok-mon-battle-revolution",
+      "name": "Pokémon Battle Revolution",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Pokémon Battle Revolution",
+      "githubUrl": "https://github.com/Axcel-Snowpix/PokemonRevoAP/blob/main/worlds/pokemon_revo/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "pokémon-black-and-white",
@@ -7391,6 +8383,21 @@
       "twitchId": "23857",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "pok-mon-heartgold-soulsilver-trueblue",
+      "name": "Pokémon HeartGold & SoulSilver (TrueBlue)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Pokémon HeartGold & SoulSilver (TrueBlue)",
+      "githubUrl": "https://github.com/ljtpetersen/hgss_archipelago/blob/master/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "pokémon-mystery-dungeon-explorers-of-sky",
@@ -7546,6 +8553,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "pok-mon-xd-gale-of-darkness",
+      "name": "Pokémon XD: Gale of Darkness",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Pokémon XD: Gale of Darkness",
+      "githubUrl": "https://github.com/GiovanavoiG/PokemonXD_Archipelago/blob/main/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "poképark-wii-pikachus-adventure",
       "name": "PokéPark Wii: Pikachu's Adventure",
       "platform": "Wii",
@@ -7574,6 +8596,21 @@
       "twitchId": null,
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "pools",
+      "name": "POOLS",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for POOLS",
+      "githubUrl": "https://github.com/SerpentAI/Archipelago/blob/pools/worlds/pools/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "portal-2",
@@ -7608,6 +8645,21 @@
       "twitchId": "519103",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "prisma-road",
+      "name": "Prisma Road",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Prisma Road",
+      "githubUrl": "https://github.com/MoraAntonio/Prisma-Road-APWorld/releases/latest",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "prodigal",
@@ -7655,6 +8707,36 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "puyo-puyo-tetris",
+      "name": "Puyo Puyo Tetris",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Puyo Puyo Tetris",
+      "githubUrl": "https://github.com/dragonchem/Puyo-Puyo-Tetris-Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "puzzle-bobble-4",
+      "name": "Puzzle Bobble 4",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Puzzle Bobble 4",
+      "githubUrl": "https://github.com/HishLeo/PuzzleBobble4forArchipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "q-up",
       "name": "Q-Up",
       "platform": "PC",
@@ -7685,6 +8767,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "quest-64-recomp",
+      "name": "Quest 64 (Recomp)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Quest 64 (Recomp)",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "rabbit-and-steel",
       "name": "Rabbit and Steel",
       "platform": "PC",
@@ -7713,6 +8810,21 @@
       "twitchId": "491266",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "raccoin",
+      "name": "Raccoin",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Raccoin",
+      "githubUrl": "https://github.com/SoaringWyvern/RaccoinArchipeligo/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "raft",
@@ -7811,6 +8923,51 @@
       "twitchId": "870321370",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "re-run",
+      "name": "RE:RUN",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for RE:RUN",
+      "githubUrl": "https://github.com/MuratDev41/rerun-ap",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "recettear-an-item-shops-tale",
+      "name": "Recettear: An Item Shop's Tale",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Recettear: An Item Shop's Tale",
+      "githubUrl": "https://github.com/AurelicButter/Recettear-Archipelago/blob/master/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "red-faction-guerrilla-re-mars-tered",
+      "name": "Red Faction Guerrilla Re-Mars-tered",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Red Faction Guerrilla Re-Mars-tered",
+      "githubUrl": "https://github.com/Haywire32/RFG-AP",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "refunct",
@@ -7935,6 +9092,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "rhythm-doctor",
+      "name": "Rhythm Doctor",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Rhythm Doctor",
+      "githubUrl": "https://github.com/nonperforming/RhythmDoctor.Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "rhythm-tengoku",
       "name": "Rhythm Tengoku",
       "platform": "GBA",
@@ -8002,7 +9174,9 @@
       "description": "Archipelago randomizer for Risk of Rain (PC)",
       "discordUrl": "https://discord.com/channels/731205301247803413/1193665646467231764",
       "githubUrl": "https://github.com/studkid/Archipelago/blob/main/worlds/ror1/docs/setup_RoR1_en.md",
-      "todo": ["7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"],
+      "todo": [
+        "7c4a3f1e-2b5c-4d9a-8f6e-1a2b3c4d5e6f"
+      ],
       "inProgress": [],
       "completed": [],
       "twitchId": "263489",
@@ -8033,8 +9207,12 @@
       "discordUrl": "https://discord.com/channels/731205301247803413/1172336306890747984",
       "githubUrl": "https://github.com/studkid/RoR_Archipelago/releases",
       "todo": [],
-      "inProgress": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
-      "completed": ["c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"],
+      "inProgress": [
+        "c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"
+      ],
+      "completed": [
+        "c5f8e1a4-7b2d-4e6f-9a0c-1b2c3d4e5f6a"
+      ],
       "twitchId": "1023625360",
       "url": "https://archipelago.miraheze.org/wiki/Risk_of_Rain",
       "stability": "Unstable",
@@ -8163,6 +9341,36 @@
       "twitchId": "461173",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "s-t-a-l-k-e-r-2-heart-of-chornobyl",
+      "name": "S.T.A.L.K.E.R 2 Heart of Chornobyl",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for S.T.A.L.K.E.R 2 Heart of Chornobyl",
+      "githubUrl": "https://github.com/Hitmanty/S.T.A.L.K.E.R-2-Archipelago/blob/main/Tutorial",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "saints-row-2",
+      "name": "Saints Row 2",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Saints Row 2",
+      "githubUrl": "https://github.com/hoXyy/SaintsRow2Archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "salt-and-sanctuary",
@@ -8350,6 +9558,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "scrokkpelago",
+      "name": "Scrokkpelago",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Scrokkpelago",
+      "githubUrl": "https://github.com/monkeymanboy/Scrokkpelago.apworld",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "secret-of-evermore",
       "name": "Secret of Evermore",
       "platform": "SNES",
@@ -8424,6 +9647,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "seum-speedrunners-from-hell",
+      "name": "SEUM: Speedrunners from Hell",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for SEUM: Speedrunners from Hell",
+      "githubUrl": "https://github.com/azukaar/SEUM-archipelago/blob/master/seum/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "severed-soul",
       "name": "Severed Soul",
       "platform": "PC",
@@ -8452,6 +9690,21 @@
       "twitchId": "1172476700",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "shadow-generations",
+      "name": "Shadow Generations",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Shadow Generations",
+      "githubUrl": null,
+      "discordUrl": "https://discord.com/channels/731205301247803413/1300834656156913705/1537904298162126939",
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "shadow-man-remastered",
@@ -8694,6 +9947,21 @@
       "twitchId": "515386",
       "stability": "Stable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "slay-the-princess-the-pristine-cut",
+      "name": "Slay the Princess — The Pristine Cut",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Slay the Princess — The Pristine Cut",
+      "githubUrl": "https://github.com/Overlord-Draconic-Fire/SlayThePrincessArchipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "slay-the-spire",
@@ -8942,6 +10210,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "sonic-dreams-collection",
+      "name": "Sonic Dreams Collection",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Sonic Dreams Collection",
+      "githubUrl": "https://github.com/KitLemonfoot/ArchipelagoSDC/blob/main/apworld/sdc/docs/sdc_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "sonic-frontiers",
       "name": "Sonic Frontiers",
       "platform": "PC",
@@ -9031,6 +10314,21 @@
       "twitchId": "12830",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "soul-of-dreamer",
+      "name": "Soul of Dreamer",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Soul of Dreamer",
+      "githubUrl": null,
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "soulblazer",
@@ -9373,6 +10671,51 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "starship-titanic",
+      "name": "Starship Titanic",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Starship Titanic",
+      "githubUrl": "https://github.com/rescheer/Starship-Titanic-AP/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "steamworld-dig-2",
+      "name": "SteamWorld Dig 2",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for SteamWorld Dig 2",
+      "githubUrl": "https://github.com/ClTYOFEVlL/SWD2-Archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "stella",
+      "name": "Stella",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Stella",
+      "githubUrl": "https://github.com/giovannialayan/oigArchipelago/blob/main/worlds/stella/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "sternly-worded-adventures",
       "name": "Sternly Worded Adventures",
       "platform": "PC",
@@ -9524,6 +10867,21 @@
       "addedAt": "2026-03-26"
     },
     {
+      "id": "super-hexagon",
+      "name": "Super Hexagon",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Super Hexagon",
+      "githubUrl": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Hexagon/blob/main/worlds/super_hexagon/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "super-junkoid",
       "name": "Super Junkoid",
       "platform": "SNES",
@@ -9567,6 +10925,36 @@
       "twitchId": "2692",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "super-mario-galaxy",
+      "name": "Super Mario Galaxy",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Super Mario Galaxy",
+      "githubUrl": "https://github.com/Joethepic/Archipelago/blob/galaxy/worlds/smgalaxy/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "super-mario-land",
+      "name": "Super Mario Land",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Super Mario Land",
+      "githubUrl": "https://github.com/MarioGamer9871/Super-Mario-Land-Archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "super-mario-land-2-6-golden-coins",
@@ -9771,6 +11159,36 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "superhot",
+      "name": "SUPERHOT",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for SUPERHOT",
+      "githubUrl": "https://github.com/My-Key-Morris/SUPERHOT_Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "superhot-mind-control-delete",
+      "name": "SUPERHOT: Mind Control Delete",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for SUPERHOT: Mind Control Delete",
+      "githubUrl": "https://github.com/Temperz87/SUPERHOT_MCD_Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "supermarket-simulator",
       "name": "Supermarket Simulator",
       "platform": "PC",
@@ -9895,6 +11313,36 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "team-fortress-2-mann-vs-machine",
+      "name": "Team Fortress 2 (Mann vs Machine)",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Team Fortress 2 (Mann vs Machine)",
+      "githubUrl": "https://github.com/m-this/tf2-archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "teamfight-tactics",
+      "name": "Teamfight Tactics",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Teamfight Tactics",
+      "githubUrl": "https://github.com/Alpaka623/tft-archipelago/blob/master/worlds/tft_archipelago/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "teardown",
       "name": "Teardown",
       "platform": "PC",
@@ -9988,6 +11436,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "the-escapists-2",
+      "name": "The Escapists 2",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for The Escapists 2",
+      "githubUrl": "https://github.com/BigCelery842906/TheEscAPists2",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "the-farmer-was-replaced",
       "name": "The Farmer Was Replaced",
       "platform": "PC",
@@ -10001,6 +11464,21 @@
       "twitchId": "1128650841",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "the-forests-end",
+      "name": "The Forest's End",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for The Forest's End",
+      "githubUrl": "https://github.com/MarioManTAW/APTFE/blob/master/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "the-forged-curse",
@@ -10048,6 +11526,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "the-henry-stickmin-collection",
+      "name": "The Henry Stickmin Collection",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for The Henry Stickmin Collection",
+      "githubUrl": "https://github.com/funjeff/HenryStickminArchipelagoIntegration/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "the-legend-of-dragoon",
       "name": "The Legend of Dragoon",
       "platform": "PSX",
@@ -10061,6 +11554,21 @@
       "twitchId": "12101",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "the-legend-of-heroes-trails-beyond-the-horizon",
+      "name": "The Legend of Heroes: Trails Beyond the Horizon",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for The Legend of Heroes: Trails Beyond the Horizon",
+      "githubUrl": "https://github.com/brimaster2000/Trails-Beyond-the-Horizon-Archipelago/blob/trails-beyond-the-horizon/worlds/beyondthehorizon/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "the-legend-of-heroes-trails-in-the-sky-the-3rd",
@@ -10150,6 +11658,21 @@
       "twitchId": "9435",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "the-legend-of-zelda-four-swords-adventure",
+      "name": "The Legend of Zelda: Four Swords Adventure",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for The Legend of Zelda: Four Swords Adventure",
+      "githubUrl": "https://github.com/Drogebot/Archipelago-zfsa/blob/zfsa/worlds/zelda_fsa/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "the-legend-of-zelda-ii-the-adventure-of-link",
@@ -10390,6 +11913,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "the-magical-quest-starring-mickey-mouse",
+      "name": "The Magical Quest starring Mickey Mouse",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for The Magical Quest starring Mickey Mouse",
+      "githubUrl": "https://github.com/Abimo25/MagicalQuestAP/blob/main/worlds/magical_quest/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "the-messenger",
       "name": "The Messenger",
       "platform": "PC",
@@ -10572,6 +12110,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "time-rifters",
+      "name": "Time Rifters",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Time Rifters",
+      "githubUrl": "https://github.com/johnny1754/TimeRifters-Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "timespinner",
       "name": "Timespinner",
       "platform": "PC",
@@ -10584,6 +12137,36 @@
       "twitchId": "461206",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "timesplitters-2",
+      "name": "Timesplitters 2",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Timesplitters 2",
+      "githubUrl": "https://github.com/captpurpleheart/ts2-archipelago/blob/main/timesplitters_2/docs/en_Setup.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
+      "id": "timesplitters-future-perfect",
+      "name": "TimeSplitters: Future Perfect",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for TimeSplitters: Future Perfect",
+      "githubUrl": null,
+      "discordUrl": "https://discord.com/channels/731205301247803413/1557532504385130587/1557532504385130587",
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "toejam-and-earl",
@@ -10815,6 +12398,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "toy-story-racer",
+      "name": "Toy Story Racer",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Toy Story Racer",
+      "githubUrl": "https://github.com/Vzencio/Toy-Story-Racer-Archipelago/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "trackmania-random-campaign",
       "name": "Trackmania Random Campaign",
       "platform": "PC",
@@ -10859,6 +12457,21 @@
       "twitchId": "516058",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "turok-2",
+      "name": "Turok 2",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Turok 2",
+      "githubUrl": "https://github.com/chikakoo/Turok-2-AP-World/blob/main/worlds/turok2/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "twisty-cube",
@@ -11169,6 +12782,21 @@
       "addedAt": "2026-08-17"
     },
     {
+      "id": "vertical-drop-heroes-hd",
+      "name": "Vertical Drop Heroes HD",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Vertical Drop Heroes HD",
+      "githubUrl": "https://github.com/zane31415/APVerticalDropHeroesHD/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "very-very-valet",
       "name": "Very Very Valet",
       "platform": "PC",
@@ -11289,6 +12917,21 @@
       "url": "https://archipelago.miraheze.org/wiki/Void_Stranger",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "voidloop",
+      "name": "Voidloop",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Voidloop",
+      "githubUrl": "https://github.com/Lunoxis-1/Voidloop-Archipelago-v0/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "voltorb-flip-(hgss)",
@@ -11535,6 +13178,21 @@
       "addedAt": "2026-03-25"
     },
     {
+      "id": "well-dweller",
+      "name": "Well Dweller",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Well Dweller",
+      "githubUrl": "https://github.com/OSoffocles/Well-Dweller-APWorld/blob/main/README.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
+    },
+    {
       "id": "west-of-loathing",
       "name": "West of Loathing",
       "platform": "PC",
@@ -11550,6 +13208,21 @@
       "url": "https://archipelago.miraheze.org/wiki/West_of_Loathing",
       "stability": "Unstable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "white-knuckle",
+      "name": "White Knuckle",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for White Knuckle",
+      "githubUrl": "https://github.com/Makshime/White-Knuckle-Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "widget-inc",
@@ -11595,6 +13268,21 @@
       "twitchId": "603915494",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
+    },
+    {
+      "id": "wizard-of-legende",
+      "name": "Wizard of Legende",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Wizard of Legende",
+      "githubUrl": "https://github.com/Skelrin/WoLArchipelago/blob/main/wizardoflegend/docs/setup_en.md",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "word-search",
@@ -11852,6 +13540,21 @@
       "url": "https://archipelago.miraheze.org/wiki/Yooka-Laylee",
       "stability": "Stable",
       "addedAt": "2026-03-25"
+    },
+    {
+      "id": "yooka-replaylee",
+      "name": "Yooka-Replaylee",
+      "platform": "",
+      "url": null,
+      "description": "Archipelago randomizer for Yooka-Replaylee",
+      "githubUrl": "https://github.com/ninpalk/ReplayleeAPMod/releases/tag/Archipelago",
+      "discordUrl": null,
+      "completed": [],
+      "todo": [],
+      "inProgress": [],
+      "twitchId": null,
+      "addedAt": "2026-11-08",
+      "stability": "Unstable"
     },
     {
       "id": "you-have-to-win-the-game",
