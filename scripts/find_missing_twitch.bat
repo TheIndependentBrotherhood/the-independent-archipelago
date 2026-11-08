@@ -2,6 +2,7 @@
 :: Archipelago — Missing Twitch ID Finder
 :: Finds all games without a twitchId, queries the Twitch API for suggestions,
 :: and opens a review interface to validate or set them manually.
+:: Games marked as Archipelago-only are excluded from future searches.
 
 cd /d "%~dp0.."
 

@@ -77,6 +77,17 @@ For existing games, including manually mapped entries, the generic
 Specific guides and other changes, such as stability updates, remain available
 for review. The generic index can still be added when creating a new game.
 
+### Review missing Twitch IDs
+
+Run [`scripts/find_missing_twitch.bat`](scripts/find_missing_twitch.bat) to review
+games without a Twitch ID. Choose **Archipelago-only**, then **Apply & Save**,
+for games that do not have their own Twitch category.
+
+This saves `"archipelagoOnly": true` on the game. Future runs skip its Twitch ID
+search without deleting the game or changing its other data. **Skip** remains
+temporary. Bulk accept/skip actions preserve Archipelago-only choices.
+Remove the flag or set it to `false` to include the game in future searches again.
+
 ## Contributing
 
 Want to add a game? Edit `data/games.json` and submit a pull request!

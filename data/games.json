@@ -26,7 +26,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "271304",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -146,7 +146,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "actraiser",
@@ -264,7 +265,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "921554808",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -309,7 +310,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "11849",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -416,7 +417,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "ap-rummy",
@@ -431,7 +433,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "apbingo",
@@ -446,7 +449,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "ape-escape",
@@ -506,7 +510,8 @@
       "twitchId": null,
       "stability": "Stable",
       "githubUrl": "https://github.com/Meliacci/Archipelago/blob/GBApquest/worlds/gbapquest/docs/setup_en.md",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "apsudoku",
@@ -550,7 +555,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "archipelaballs",
@@ -565,7 +571,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "archipelacode",
@@ -580,7 +587,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "archipeladoku",
@@ -595,7 +603,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "archipidle",
@@ -610,7 +619,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "ark-survival-evolved",
@@ -668,7 +678,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "13867",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -683,7 +693,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "15267",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -698,7 +708,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1713466619",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -745,7 +755,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "axiom-verge",
@@ -1000,7 +1011,8 @@
       "inProgress": [],
       "twitchId": null,
       "addedAt": "2026-11-08",
-      "stability": "Unstable"
+      "stability": "Unstable",
+      "archipelagoOnly": true
     },
     {
       "id": "blockupelago",
@@ -1015,7 +1027,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "bloodstained-ritual-of-the-night",
@@ -1028,7 +1041,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "489642",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1075,7 +1088,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "2013539540",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1259,7 +1272,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1316679285",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1393,7 +1406,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1900",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1438,7 +1451,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "20804",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1455,7 +1468,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "cash-cleaner-simulator",
@@ -1590,7 +1604,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "21493",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1605,7 +1619,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "18852",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -1786,7 +1800,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "790563148",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -1802,7 +1816,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "checksmate",
@@ -1860,7 +1875,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "488437",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2039,7 +2054,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "16176",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2054,7 +2069,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "16580",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
     },
@@ -2146,7 +2161,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "23849",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2236,7 +2251,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "11854",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2251,7 +2266,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "6756",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2296,7 +2311,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "29018",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -2403,7 +2418,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "516173984",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2435,7 +2450,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "2692",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
     },
@@ -2691,7 +2706,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "deep-rock-galactic",
@@ -2800,7 +2816,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "711101774",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -2997,7 +3013,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "461435",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3043,7 +3059,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "506442",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3076,7 +3092,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "doronko-wanko",
@@ -3104,7 +3121,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "29595",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3179,7 +3196,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "467499896",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -3269,7 +3286,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1948518851",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -3331,7 +3348,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "29232",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3346,7 +3363,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "493813",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3421,7 +3438,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "512953",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3436,7 +3453,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "982348888",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3468,7 +3485,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "empire-earth",
@@ -3481,7 +3499,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "18165",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3543,7 +3561,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "510405",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3633,7 +3651,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "130942",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
     },
@@ -3693,7 +3711,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "512980",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3782,7 +3800,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "7689",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -3797,7 +3815,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "14373",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -4132,7 +4150,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "33882",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -4239,7 +4257,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "gemcraft-frostborn-wrath",
@@ -4327,7 +4346,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "516846",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -4556,7 +4575,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "2755",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -4725,7 +4744,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "32959",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -4862,7 +4881,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "784366491",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -4877,7 +4896,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "664170846",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -5168,7 +5187,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "ittle-dew-2+",
@@ -5301,7 +5321,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1945019091",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -5392,7 +5412,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "keywe",
@@ -5602,7 +5623,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "491736",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -5661,7 +5682,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1146782253",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -5846,7 +5867,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "27036",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6063,7 +6084,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "963008843",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6140,7 +6161,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "lufia-ii-rise-of-the-sinistrals",
@@ -6199,7 +6221,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "437540136",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
     },
@@ -6259,7 +6281,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1458",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6411,7 +6433,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "5564",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6519,7 +6541,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "6761",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6668,7 +6690,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "10186",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6757,7 +6779,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "517999",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -6900,7 +6922,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "27471",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7025,7 +7047,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1792500382",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7164,7 +7186,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "497711",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7179,7 +7201,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "7001",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7257,7 +7279,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "mystical-ninja-starring-goemon",
@@ -7330,7 +7353,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "7534",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7454,7 +7477,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "nonopelagram",
@@ -7469,7 +7493,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "northgard",
@@ -7497,7 +7522,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "517856",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7512,7 +7537,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "62659189",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7635,7 +7660,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "509642",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -7835,7 +7860,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "349256937",
       "addedAt": "2026-11-08",
       "stability": "Stable"
     },
@@ -8157,7 +8182,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "144677612",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8174,7 +8199,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "pixeldraw",
@@ -8189,7 +8215,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "pizza-tower",
@@ -8234,7 +8261,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "512341",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8311,7 +8338,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "17540",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8410,7 +8437,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "23857",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8578,7 +8605,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "11912",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8610,7 +8637,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "pools",
@@ -8623,7 +8651,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "808406262",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8674,7 +8702,8 @@
       "inProgress": [],
       "twitchId": null,
       "addedAt": "2026-11-08",
-      "stability": "Unstable"
+      "stability": "Unstable",
+      "archipelagoOnly": true
     },
     {
       "id": "prodigal",
@@ -8732,7 +8761,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "370539",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8747,7 +8776,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1157",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8785,7 +8814,7 @@
       "id": "quest-64-recomp",
       "name": "Quest 64 (Recomp)",
       "platform": "",
-      "url": null,
+      "url": "https://github.com/FuzzynessUK/Quest64-Recomp/releases",
       "description": "Archipelago randomizer for Quest 64 (Recomp)",
       "githubUrl": null,
       "discordUrl": null,
@@ -8794,7 +8823,8 @@
       "inProgress": [],
       "twitchId": null,
       "addedAt": "2026-11-08",
-      "stability": "Unstable"
+      "stability": "Unstable",
+      "archipelagoOnly": true
     },
     {
       "id": "rabbit-and-steel",
@@ -8837,7 +8867,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "181478555",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8950,7 +8980,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "166061192",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8965,7 +8995,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "28947",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -8980,7 +9010,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "2025657130",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -9117,7 +9147,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "504502",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -9368,7 +9398,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "29106",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -9383,7 +9413,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "18906",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -9430,7 +9460,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Broken",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "satisfactory",
@@ -9491,7 +9522,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "schedule-i",
@@ -9585,7 +9617,8 @@
       "inProgress": [],
       "twitchId": null,
       "addedAt": "2026-11-08",
-      "stability": "Unstable"
+      "stability": "Unstable",
+      "archipelagoOnly": true
     },
     {
       "id": "secret-of-evermore",
@@ -9672,7 +9705,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "492583",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -9717,7 +9750,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1775804061",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -9826,7 +9859,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Stable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "shining-in-the-darkness",
@@ -9974,7 +10008,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "351715590",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10057,7 +10091,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "sly-2-band-of-thieves",
@@ -10235,7 +10270,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1093015451",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10334,7 +10369,7 @@
       "id": "soul-of-dreamer",
       "name": "Soul of Dreamer",
       "platform": "",
-      "url": null,
+      "url": "https://yua-nizu.itch.io/soul-of-dreamer",
       "description": "Archipelago randomizer for Soul of Dreamer",
       "githubUrl": null,
       "discordUrl": null,
@@ -10696,7 +10731,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "4158",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10711,7 +10746,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "496043",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10726,7 +10761,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "386669622",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10834,7 +10869,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "super-adventure-island-ii",
@@ -10892,7 +10928,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "67942",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10952,7 +10988,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1248698972",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -10967,7 +11003,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "18146",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11184,7 +11220,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "313566",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11199,7 +11235,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "500612",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11263,7 +11299,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "system-shock-2",
@@ -11293,7 +11330,8 @@
       "twitchId": null,
       "inProgress": [],
       "stability": "Stable",
-      "addedAt": "2026-03-26"
+      "addedAt": "2026-03-26",
+      "archipelagoOnly": true
     },
     {
       "id": "taz-wanted",
@@ -11338,7 +11376,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "16676",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11353,7 +11391,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "513143",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11461,7 +11499,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "496044",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11493,7 +11531,8 @@
       "inProgress": [],
       "twitchId": null,
       "addedAt": "2026-11-08",
-      "stability": "Unstable"
+      "stability": "Unstable",
+      "archipelagoOnly": true
     },
     {
       "id": "the-forged-curse",
@@ -11508,7 +11547,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "the-grinch",
@@ -11551,7 +11591,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "454471502",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11581,7 +11621,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "743568219",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11685,7 +11725,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "7200",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -11938,7 +11978,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1760",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12122,7 +12162,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "time-rifters",
@@ -12135,7 +12176,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "459044",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12164,7 +12205,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "15820",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12179,7 +12220,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "7420",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12243,7 +12284,8 @@
       "twitchId": null,
       "stability": "Unstable",
       "url": "https://archipelago.miraheze.org/wiki/AP_Tombola",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "tony-hawks-american-wasteland",
@@ -12423,7 +12465,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "8821",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12484,7 +12526,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1870998019",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12591,7 +12633,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1282326171",
       "stability": "Unstable",
       "addedAt": "2026-03-26"
     },
@@ -12794,7 +12836,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-08-17"
+      "addedAt": "2026-08-17",
+      "archipelagoOnly": true
     },
     {
       "id": "vertical-drop-heroes-hd",
@@ -12807,7 +12850,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "488578",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12944,7 +12987,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "2141954093",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -12976,7 +13019,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-26"
+      "addedAt": "2026-03-26",
+      "archipelagoOnly": true
     },
     {
       "id": "vrchat",
@@ -13160,7 +13204,8 @@
       "twitchId": null,
       "url": "https://archipelago.miraheze.org/wiki/Watery_Words",
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "we-love-katamari-reroll",
@@ -13203,7 +13248,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "601612659",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -13235,7 +13280,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "1535286692",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -13267,7 +13312,8 @@
       "inProgress": [],
       "twitchId": null,
       "stability": "Unstable",
-      "addedAt": "2026-03-26"
+      "addedAt": "2026-03-26",
+      "archipelagoOnly": true
     },
     {
       "id": "witchspring-r",
@@ -13285,17 +13331,17 @@
       "addedAt": "2026-08-17"
     },
     {
-      "id": "wizard-of-legende",
-      "name": "Wizard of Legende",
+      "id": "wizard-of-legend",
+      "name": "Wizard of Legend",
       "platform": "",
       "url": null,
-      "description": "Archipelago randomizer for Wizard of Legende",
+      "description": "Archipelago randomizer for Wizard of Legend",
       "githubUrl": "https://github.com/Skelrin/WoLArchipelago/blob/main/wizardoflegend/docs/setup_en.md",
       "discordUrl": null,
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "493399",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -13327,7 +13373,8 @@
       "twitchId": null,
       "url": "https://archipelago.miraheze.org/wiki/Wordipelago",
       "stability": "Stable",
-      "addedAt": "2026-03-25"
+      "addedAt": "2026-03-25",
+      "archipelagoOnly": true
     },
     {
       "id": "wynncraft-minecraft-server",
@@ -13567,7 +13614,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "2047927150",
       "addedAt": "2026-11-08",
       "stability": "Unstable"
     },
@@ -13729,7 +13776,7 @@
       "completed": [],
       "todo": [],
       "inProgress": [],
-      "twitchId": null,
+      "twitchId": "13016",
       "stability": "Unstable",
       "addedAt": "2026-08-17"
     },

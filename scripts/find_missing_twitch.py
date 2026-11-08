@@ -3,6 +3,7 @@
 Interactive Twitch ID finder for games missing a twitchId.
 Queries the Twitch Helix API, shows suggestions in a local web interface,
 and lets you accept, reject, or manually set each value before saving.
+Archipelago-only games can be marked to skip future Twitch ID searches.
 
 Usage:
     python scripts/find_missing_twitch.py
@@ -107,8 +108,11 @@ def search_twitch_game(name: str, token: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def find_missing(games: list) -> list:
-    """Returns games that have no twitchId (null or missing)."""
-    return [g for g in games if not g.get("twitchId")]
+    """Return games missing a Twitch ID, excluding Archipelago-only games."""
+    return [
+        g for g in games
+        if not g.get("twitchId") and g.get("archipelagoOnly") is not True
+    ]
 
 
 def enrich_with_suggestions(missing: list, token: str | None) -> list:
@@ -143,9 +147,15 @@ def apply_decisions(games_data: dict, decisions: list) -> dict:
             continue
         if action == "accept" or action == "accepted":
             game["twitchId"] = dec.get("twitchId")
+            if game["twitchId"]:
+                game.pop("archipelagoOnly", None)
         elif action == "manual":
             val = dec.get("twitchId", "").strip()
             game["twitchId"] = val if val else None
+            if game["twitchId"]:
+                game.pop("archipelagoOnly", None)
+        elif action == "archipelagoOnly":
+            game["archipelagoOnly"] = True
         # "skip" → leave as null
     return games_data
 
@@ -193,12 +203,14 @@ HTML = """<!DOCTYPE html>
   .btn.accept:hover { background: #1f4a1f; }
   .btn.skip { background: #2a2a2a; border-color: var(--border); color: var(--muted); }
   .btn.manual { background: #1a2a3a; border-color: var(--blue); color: var(--blue); }
+  .btn.archipelago-only { border-color: var(--primary); color: var(--primary); }
   .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
   .game-entry { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 10px; }
   .game-entry.accepted { border-color: var(--green); opacity: 0.7; }
   .game-entry.skipped  { border-color: var(--border); opacity: 0.4; }
   .game-entry.manual   { border-color: var(--blue); opacity: 0.7; }
+  .game-entry.archipelago-only { border-color: var(--primary); opacity: 0.7; }
   .game-name { font-weight: bold; font-size: 1rem; margin-bottom: 6px; }
 
   .candidates { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
@@ -233,7 +245,7 @@ HTML = """<!DOCTYPE html>
 </head>
 <body>
 <h1>🎮 Archipelago — Missing Twitch IDs</h1>
-<p class="subtitle">Games with no <code>twitchId</code>. Suggestions are fetched from the Twitch API. Accept, skip, or set manually.</p>
+<p class="subtitle">Games with no <code>twitchId</code>. Accept, skip, set manually, or mark as Archipelago-only to skip future searches without removing the game. Apply &amp; Save to persist your choices.</p>
 
 <div class="stats" id="statsPanel"></div>
 
@@ -290,7 +302,16 @@ function renderGames() {
   list.innerHTML = GAMES.map((g, i) => {
     const key = `g_${i}`;
     const d = decisions[key] || { action: 'pending' };
-    const cardClass = d.action === 'accepted' ? 'accepted' : d.action === 'skipped' ? 'skipped' : d.action === 'manual' ? 'manual' : '';
+    const cardClass =
+      d.action === 'accepted'
+        ? 'accepted'
+        : d.action === 'skipped'
+          ? 'skipped'
+          : d.action === 'manual'
+            ? 'manual'
+            : d.action === 'archipelagoOnly'
+              ? 'archipelago-only'
+              : '';
 
     const candidatesHtml = g.candidates.length
       ? g.candidates.map((c, ci) => {
@@ -304,7 +325,7 @@ function renderGames() {
             <span class="match">${c.match}</span>
           </span>`;
         }).join('')
-      : '<span class="no-match">No Twitch match found — use manual input.</span>';
+      : '<span class="no-match">No Twitch match found — use manual input or mark as Archipelago-only.</span>';
 
     return `
     <div class="game-entry ${cardClass}" id="card_${key}">
@@ -316,7 +337,9 @@ function renderGames() {
         </button>
         <button class="btn skip" onclick="decide('${key}','${g.id}','skipped',null)">&#10007; Skip</button>
         <button class="btn manual" onclick="toggleManual('${key}')">&#9998; Manual</button>
-        <span class="status-label" id="status_${key}">${d.action !== 'pending' ? d.action : ''}</span>
+        <button class="btn archipelago-only" onclick="decide('${key}','${g.id}','archipelagoOnly',null)"
+          title="Keep this game and skip Twitch ID searches on future runs.">Archipelago-only</button>
+        <span class="status-label" id="status_${key}">${d.action === 'archipelagoOnly' ? 'Archipelago-only' : d.action !== 'pending' ? d.action : ''}</span>
       </div>
       <div class="manual-row" id="manual_${key}" style="display:none">
         <input type="text" id="manualInput_${key}" placeholder="Twitch ID...">
@@ -359,9 +382,15 @@ function decide(key, gameId, action, twitchId) {
   decisions[key].gameId = gameId;
   decisions[key].twitchId = twitchId;
   const card = document.getElementById(`card_${key}`);
-  card.className = `game-entry ${action === 'accepted' ? 'accepted' : action === 'skipped' ? 'skipped' : 'manual'}`;
+  card.className = `game-entry ${action === 'accepted' ? 'accepted' : action === 'skipped' ? 'skipped' : action === 'archipelagoOnly' ? 'archipelago-only' : 'manual'}`;
   const status = document.getElementById(`status_${key}`);
-  if (status) status.textContent = twitchId ? `${action} → ${twitchId}` : action;
+  if (status)
+    status.textContent =
+      action === 'archipelagoOnly'
+        ? 'Archipelago-only (skipped on future runs)'
+        : twitchId
+          ? `${action} → ${twitchId}`
+          : action;
   renderStats();
 }
 
@@ -380,6 +409,7 @@ function confirmManual(key, gameId) {
 function acceptAll() {
   GAMES.forEach((g, i) => {
     const key = `g_${i}`;
+    if (decisions[key] && decisions[key].action === 'archipelagoOnly') return;
     const twitchId = (decisions[key] && decisions[key].twitchId) || (g.best ? g.best.id : null);
     if (twitchId) decide(key, g.id, 'accepted', twitchId);
     else decide(key, g.id, 'skipped', null);
@@ -389,7 +419,11 @@ function acceptAll() {
 }
 
 function skipAll() {
-  GAMES.forEach((g, i) => decide(`g_${i}`, g.id, 'skipped', null));
+  GAMES.forEach((g, i) => {
+    const key = `g_${i}`;
+    if (decisions[key] && decisions[key].action === 'archipelagoOnly') return;
+    decide(key, g.id, 'skipped', null);
+  });
   renderGames();
   renderStats();
 }
@@ -397,20 +431,29 @@ function skipAll() {
 function renderStats() {
   const accepted = Object.values(decisions).filter(d => d.action === 'accepted' || d.action === 'manual').length;
   const skipped  = Object.values(decisions).filter(d => d.action === 'skipped').length;
-  const pending  = GAMES.length - accepted - skipped;
+  const archipelagoOnly = Object.values(decisions).filter(
+    (d) => d.action === 'archipelagoOnly',
+  ).length;
+  const pending  = GAMES.length - accepted - skipped - archipelagoOnly;
   document.getElementById('statsPanel').innerHTML = `
     <div class="stat"><div class="n">${GAMES.length}</div><div class="l">Missing</div></div>
     <div class="stat"><div class="n" style="color:var(--green)">${accepted}</div><div class="l">Accepted</div></div>
     <div class="stat"><div class="n" style="color:var(--muted)">${skipped}</div><div class="l">Skipped</div></div>
+    <div class="stat"><div class="n">${archipelagoOnly}</div><div class="l">Archipelago-only</div></div>
     <div class="stat"><div class="n" style="color:var(--yellow)">${pending}</div><div class="l">Pending</div></div>`;
   document.getElementById('saveSummary').innerHTML =
-    `<span>${accepted}</span> Twitch IDs will be set. <span>${skipped}</span> skipped. <span>${pending}</span> still pending.`;
+    `<span>${accepted}</span> Twitch IDs will be set. <span>${archipelagoOnly}</span> Archipelago-only games will be skipped on future runs. <span>${skipped}</span> skipped. <span>${pending}</span> still pending.`;
 }
 
 async function saveChanges() {
   const payload = Object.values(decisions)
-    .filter(d => d.action === 'accepted' || d.action === 'manual')
-    .map(d => ({ action: d.action, gameId: d.gameId, twitchId: d.twitchId }));
+    .filter(
+      (d) =>
+        d.action === 'accepted' ||
+        d.action === 'manual' ||
+        d.action === 'archipelagoOnly',
+    )
+    .map((d) => ({ action: d.action, gameId: d.gameId, twitchId: d.twitchId }));
 
   if (!payload.length) { showToast('No decisions to save.', 'error'); return; }
 
@@ -424,7 +467,7 @@ async function saveChanges() {
       body: JSON.stringify(payload),
     });
     const data = await res.json();
-    if (data.ok) showToast(`Done! ${data.applied} Twitch IDs saved.`, 'success');
+    if (data.ok) showToast(`Done! ${data.applied} changes saved.`, 'success');
     else showToast('Error: ' + data.error, 'error');
   } catch (e) {
     showToast('Network error: ' + e.message, 'error');
@@ -486,7 +529,10 @@ class Handler(BaseHTTPRequestHandler):
                 updated = apply_decisions(games_data, decisions)
                 with open(self.games_json_path, "w", encoding="utf-8") as f:
                     json.dump(updated, f, indent=2, ensure_ascii=False)
-                applied = len([d for d in decisions if d.get("action") in ("accept", "accepted", "manual")])
+                applied = len([
+                    d for d in decisions
+                    if d.get("action") in ("accept", "accepted", "manual", "archipelagoOnly")
+                ])
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
                 self.end_headers()
