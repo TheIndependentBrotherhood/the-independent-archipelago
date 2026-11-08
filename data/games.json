@@ -9600,7 +9600,7 @@
     {
       "id": "scrokkpelago",
       "name": "Scrokkpelago",
-      "platform": "PC ( web )",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Scrokkpelago",
       "description": "Archipelago randomizer for Scrokkpelago",
       "githubUrl": "https://github.com/monkeymanboy/Scrokkpelago.apworld",
