@@ -670,7 +670,7 @@
     {
       "id": "armored-core-3",
       "name": "Armored Core 3",
-      "platform": "PlayStation 2",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Armored_Core_3",
       "description": "Archipelago randomizer for Armored Core 3",
       "githubUrl": "https://github.com/Aleksandylmao/Armored-Core-3-PCSX2-Archipelago/blob/master/docs/setup_en.md",
@@ -1428,7 +1428,7 @@
     {
       "id": "carnival-games-minigolf",
       "name": "Carnival Games MiniGolf",
-      "platform": "Nintendo Wii",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Carnival_Games_MiniGolf",
       "description": "Archipelago randomizer for Carnival Games MiniGolf",
       "githubUrl": "https://github.com/mariokirby1703/Lumas-Archipelago/blob/carnival_games_minigolf_v0.1.0/worlds/carnival_games_minigolf/docs/setup_en.md",
@@ -1596,7 +1596,7 @@
     {
       "id": "castlevania-order-of-ecclesia",
       "name": "Castlevania: Order of Ecclesia",
-      "platform": "Nintendo DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Castlevania:_Order_of_Ecclesia",
       "description": "Archipelago randomizer for Castlevania: Order of Ecclesia",
       "githubUrl": "https://github.com/PinkSwitch/Archipelago/blob/order-of-ecclesia/worlds/cv_ooe/docs/setup_en.md",
@@ -2138,7 +2138,7 @@
     {
       "id": "cooking-mama-3",
       "name": "Cooking Mama 3",
-      "platform": "Nintendo DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Cooking_Mama_3",
       "description": "Archipelago randomizer for Cooking Mama 3",
       "githubUrl": "https://github.com/Laxbby/ArchipelagoCM3/blob/main/worlds/cookingmama3/docs/setup_en.md",
@@ -2288,7 +2288,7 @@
     {
       "id": "create",
       "name": "Create",
-      "platform": "Nintendo Wii",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Create",
       "description": "Archipelago randomizer for Create",
       "githubUrl": "https://github.com/mariokirby1703/Lumas-Archipelago/blob/Create-AP/worlds/create/docs/setup_en.md",
@@ -3781,7 +3781,7 @@
     {
       "id": "final-fantasy-1-psp",
       "name": "Final Fantasy 1",
-      "platform": "PlayStation Portable",
+      "platform": "PSP",
       "url": "https://archipelago.miraheze.org/wiki/Final_Fantasy_1_PSP",
       "description": "Archipelago randomizer for Final Fantasy 1 (PSP)",
       "githubUrl": "https://github.com/1-800-thewolf/FF1PSP-Archipelago",
@@ -4907,7 +4907,7 @@
     {
       "id": "hungry-pumkin",
       "name": "Hungry Pumkin",
-      "platform": "PC ( web )",
+      "platform": "Web",
       "url": "https://archipelago.miraheze.org/wiki/Hungry_Pumkin",
       "description": "Archipelago randomizer for Hungry Pumkin",
       "githubUrl": "https://github.com/NotFamilyJules/hungry_pumkin_ap/blob/main/docs/setup_en.md",
@@ -5604,7 +5604,7 @@
     {
       "id": "kirby-planet-robobot",
       "name": "Kirby Planet Robobot",
-      "platform": "Nintendo 3DS",
+      "platform": "3DS",
       "url": "https://archipelago.miraheze.org/wiki/Kirby:_Planet_Robobot",
       "description": "Archipelago randomizer for Kirby Planet Robobot",
       "githubUrl": "https://github.com/WindChill404/Kirby-Planet-Robobot-Archipelago/blob/main/README.md",
@@ -5663,7 +5663,7 @@
     {
       "id": "kirby-super-star-ultra",
       "name": "Kirby Super Star Ultra",
-      "platform": "Nintendo DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Kirby_Super_Star_Ultra",
       "description": "Archipelago randomizer for Kirby Super Star Ultra",
       "githubUrl": "https://github.com/GhostCappy/Archipelago/blob/main/worlds/kssu/docs/setup_en.md",
@@ -6671,7 +6671,7 @@
     {
       "id": "mega-man-zx",
       "name": "Mega Man ZX",
-      "platform": "Nintendo DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Mega_Man_ZX",
       "description": "Archipelago randomizer for Mega Man ZX",
       "githubUrl": "https://github.com/Nekusen/Archipelago-MegaManZX/blob/main/docs/setup_en.md",
@@ -7182,7 +7182,7 @@
     {
       "id": "mortal-kombat-shaolin-monks",
       "name": "Mortal Kombat: Shaolin Monks",
-      "platform": "PlayStation 2",
+      "platform": "PS2",
       "url": "https://archipelago.miraheze.org/wiki/Mortal_Kombat:_Shaolin_Monks",
       "description": "Archipelago randomizer for Mortal Kombat: Shaolin Monks",
       "githubUrl": "https://github.com/orizach01/Archipelago-MKSM/blob/main/worlds/mksm/docs/setup_en.md",
@@ -7334,7 +7334,7 @@
     {
       "id": "new-super-mario-bros-ds",
       "name": "New Super Mario Bros DS",
-      "platform": "Nintendo DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/New_Super_Mario_Bros._DS",
       "description": "Archipelago randomizer for New Super Mario Bros DS",
       "githubUrl": "https://github.com/Lemix028/Archipelago-NewSuperMarioBrosDS/blob/nsmbds/worlds/nsmbds/docs/setup_en.md",
@@ -8321,7 +8321,7 @@
     {
       "id": "pok-mon-battle-revolution",
       "name": "Pokémon Battle Revolution",
-      "platform": "Nintendo Wii",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Pok%C3%A9mon_Battle_Revolution",
       "description": "Archipelago randomizer for Pokémon Battle Revolution",
       "githubUrl": "https://github.com/Axcel-Snowpix/PokemonRevoAP/blob/main/worlds/pokemon_revo/docs/setup_en.md",
@@ -8420,7 +8420,7 @@
     {
       "id": "pok-mon-heartgold-soulsilver-trueblue",
       "name": "Pokémon HeartGold & SoulSilver (TrueBlue)",
-      "platform": "Nintendo DS",
+      "platform": "NDS",
       "url": "https://archipelago.miraheze.org/wiki/Pokemon_HeartGold_and_SoulSilver",
       "description": "Archipelago randomizer for Pokémon HeartGold & SoulSilver (TrueBlue)",
       "githubUrl": "https://github.com/ljtpetersen/hgss_archipelago/blob/master/docs/setup_en.md",
@@ -8759,7 +8759,7 @@
     {
       "id": "puzzle-bobble-4",
       "name": "Puzzle Bobble 4",
-      "platform": "PlayStation 1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Puzzle_Bobble_4",
       "description": "Archipelago randomizer for Puzzle Bobble 4",
       "githubUrl": "https://github.com/HishLeo/PuzzleBobble4forArchipelago",
@@ -10973,7 +10973,7 @@
     {
       "id": "super-mario-galaxy",
       "name": "Super Mario Galaxy",
-      "platform": "Nintendo Wii",
+      "platform": "Wii",
       "url": "https://archipelago.miraheze.org/wiki/Super_Mario_Galaxy",
       "description": "Archipelago randomizer for Super Mario Galaxy",
       "githubUrl": "https://github.com/Joethepic/Archipelago/blob/galaxy/worlds/smgalaxy/docs/setup_en.md",
@@ -10988,7 +10988,7 @@
     {
       "id": "super-mario-land",
       "name": "Super Mario Land",
-      "platform": "Game Boy",
+      "platform": "GB",
       "url": "https://archipelago.miraheze.org/wiki/Super_Mario_Land",
       "description": "Archipelago randomizer for Super Mario Land",
       "githubUrl": "https://github.com/MarioGamer9871/Super-Mario-Land-Archipelago/blob/main/README.md",
@@ -12205,11 +12205,11 @@
     {
       "id": "timesplitters-future-perfect",
       "name": "TimeSplitters: Future Perfect",
-      "platform": "GC/PS2/Xbox",
+      "platform": "GC",
       "url": null,
       "description": "Archipelago randomizer for TimeSplitters: Future Perfect",
-      "githubUrl": null,
-      "discordUrl": "https://discord.com/channels/731205301247803413/1557532504385130587/1557532504385130587",
+      "githubUrl": "https://github.com/captpurpleheart/tsfp-archipelago/releases",
+      "discordUrl": null,
       "completed": [],
       "todo": [],
       "inProgress": [],
@@ -12450,7 +12450,7 @@
     {
       "id": "toy-story-racer",
       "name": "Toy Story Racer",
-      "platform": "PlayStation 1",
+      "platform": "PSX",
       "url": "https://archipelago.miraheze.org/wiki/Toy_Story_Racer",
       "description": "Archipelago randomizer for Toy Story Racer",
       "githubUrl": "https://github.com/Vzencio/Toy-Story-Racer-Archipelago/blob/main/README.md",
